@@ -1,0 +1,1072 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.5"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>Viking Skull Lamp: Software/src/menu.cpp File Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="custom.css" rel="stylesheet" type="text/css"/>
+<link href="custom-alternative.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/dani007200964/Viking-Skull-Lamp" class="github-corner" title="View source on GitHub" target="_blank">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Viking Skull Lamp
+   &#160;<span id="projectnumber">V1.0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generated by Doxygen 1.9.5 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('menu_8cpp.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">menu.cpp File Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &quot;<a class="el" href="menu_8hpp_source.html">menu.hpp</a>&quot;</code><br />
+</div>
+<p><a href="menu_8cpp_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a2b016118a0e096dd41f9217dc9cff74b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a2b016118a0e096dd41f9217dc9cff74b">brightnessSelectFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:a2b016118a0e096dd41f9217dc9cff74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c76b51924f5f8f4ef70cae6d07eb90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a05c76b51924f5f8f4ef70cae6d07eb90">brightnessSelectDrawFunction</a> (<a class="el" href="classssd1306.html">ssd1306</a> *oled)</td></tr>
+<tr class="separator:a05c76b51924f5f8f4ef70cae6d07eb90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0e8c5d7972d85144e7f0121104c75a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#ae0e8c5d7972d85144e7f0121104c75a1">rainbowMenuSelectFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:ae0e8c5d7972d85144e7f0121104c75a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c110f4f0e90ee77f942f14ee7ffb81b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a6c110f4f0e90ee77f942f14ee7ffb81b">candleMenuSelectFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:a6c110f4f0e90ee77f942f14ee7ffb81b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a910a5811ac94710f8ddf95ba54708324"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a910a5811ac94710f8ddf95ba54708324">pulseMenuSelectFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:a910a5811ac94710f8ddf95ba54708324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af63afc520dcef97967678aa6dbc973b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#af63afc520dcef97967678aa6dbc973b9">musicMenuSelectFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:af63afc520dcef97967678aa6dbc973b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1970379f59b8760eecae1c62b524dc48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a1970379f59b8760eecae1c62b524dc48">komodoMenuSelectFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:a1970379f59b8760eecae1c62b524dc48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac022544e45c7f043d12d0951547249a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#ac022544e45c7f043d12d0951547249a1">colorMenuSelectFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:ac022544e45c7f043d12d0951547249a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43e28b685319d16ec59e9d329fa5877e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a43e28b685319d16ec59e9d329fa5877e">colorSelectFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:a43e28b685319d16ec59e9d329fa5877e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6c25806baf4bb6f997ffd124d95d7a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#aa6c25806baf4bb6f997ffd124d95d7a9">colorSelectDrawFunction</a> (<a class="el" href="classssd1306.html">ssd1306</a> *oled)</td></tr>
+<tr class="separator:aa6c25806baf4bb6f997ffd124d95d7a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b11962e0299f94228c9156915a69ee5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a7b11962e0299f94228c9156915a69ee5">buzzerMenuSelectedFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:a7b11962e0299f94228c9156915a69ee5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c3d956aca28de46741cd6e5db5ffaee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a3c3d956aca28de46741cd6e5db5ffaee">clapMenuSelectedFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:a3c3d956aca28de46741cd6e5db5ffaee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a90a3a2ffabdf0a5b3a4a3cf00a9f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a77a90a3a2ffabdf0a5b3a4a3cf00a9f0">fogEnableMenuSelectedFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:a77a90a3a2ffabdf0a5b3a4a3cf00a9f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e1e416e4818382df8d39d0125d210f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a9e1e416e4818382df8d39d0125d210f5">fogTimerSelectFunction</a> (enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a> state)</td></tr>
+<tr class="separator:a9e1e416e4818382df8d39d0125d210f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88d2dece762e3b85d4aa7b2182ce26e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a88d2dece762e3b85d4aa7b2182ce26e9">fogTimerSelectDrawFunction</a> (<a class="el" href="classssd1306.html">ssd1306</a> *oled)</td></tr>
+<tr class="separator:a88d2dece762e3b85d4aa7b2182ce26e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f54e3748544f98b538cfbc35d963bb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a7f54e3748544f98b538cfbc35d963bb8">menuInit</a> ()</td></tr>
+<tr class="separator:a7f54e3748544f98b538cfbc35d963bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a07306f2d260b56eb6d0960f8dc01db22"><td class="memItemLeft" align="right" valign="top">const char fogTimer15minText[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a07306f2d260b56eb6d0960f8dc01db22">PROGMEM</a> = &quot;15 min&quot;</td></tr>
+<tr class="separator:a07306f2d260b56eb6d0960f8dc01db22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3603109fde2e852b743883c2a02a9afa"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a3603109fde2e852b743883c2a02a9afa">lightMode</a> = <a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88a6948d0f1f45226c4cd9639c670612cd5">LIGHT_MODE_RAINBOW</a></td></tr>
+<tr class="separator:a3603109fde2e852b743883c2a02a9afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d5012ae75e8efcdb99ba658e2679abf"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a7d5012ae75e8efcdb99ba658e2679abf">selectedColor</a> = 0</td></tr>
+<tr class="separator:a7d5012ae75e8efcdb99ba658e2679abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455b70be6bb270ed8a4a3134c1860cb0"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a455b70be6bb270ed8a4a3134c1860cb0">lightBrightness</a> = 30</td></tr>
+<tr class="separator:a455b70be6bb270ed8a4a3134c1860cb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa49b232bf9d3276c713685e5edfd2942"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#aa49b232bf9d3276c713685e5edfd2942">buzzerEnabled</a> = true</td></tr>
+<tr class="separator:aa49b232bf9d3276c713685e5edfd2942"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab560be3cfc29da3af80d0746acd010f0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#ab560be3cfc29da3af80d0746acd010f0">clapSwitchEnabled</a> = true</td></tr>
+<tr class="separator:ab560be3cfc29da3af80d0746acd010f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d6cd92aafcf5861ceecd2d0c3c92a2f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a4d6cd92aafcf5861ceecd2d0c3c92a2f">fogMachineEnabled</a> = true</td></tr>
+<tr class="separator:a4d6cd92aafcf5861ceecd2d0c3c92a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1ed90b4442d1f717a133fabd0f9d714"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#af1ed90b4442d1f717a133fabd0f9d714">fogTimer</a> = 0</td></tr>
+<tr class="separator:af1ed90b4442d1f717a133fabd0f9d714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b3f40683d6491aa5035e4b4cb5e8c1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a8b3f40683d6491aa5035e4b4cb5e8c1b">mainMenuItem</a> (mainMenuItemText)</td></tr>
+<tr class="separator:a8b3f40683d6491aa5035e4b4cb5e8c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7adce8af16098f97ac832550e4108789"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a7adce8af16098f97ac832550e4108789">lightMenuItem</a> (lightMenuItemText)</td></tr>
+<tr class="separator:a7adce8af16098f97ac832550e4108789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0a5c8c5fba1cb2f06db2b1afead55e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#ace0a5c8c5fba1cb2f06db2b1afead55e">brightnessMenuItem</a> (brightnessMenuItemText)</td></tr>
+<tr class="separator:ace0a5c8c5fba1cb2f06db2b1afead55e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeec87416792555d6ff01174156dced5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#aaeec87416792555d6ff01174156dced5">brightnessSelectItem</a> (brightnessSelectItemText)</td></tr>
+<tr class="separator:aaeec87416792555d6ff01174156dced5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c11e72ca5aafef278498afd830e2705"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a3c11e72ca5aafef278498afd830e2705">buzzerMenuItem</a> (buzzerMenuItemText)</td></tr>
+<tr class="separator:a3c11e72ca5aafef278498afd830e2705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa352aab7ad88ff4f13b44ad68e2822e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#aa352aab7ad88ff4f13b44ad68e2822e0">clapMenuItem</a> (clapMenuItemText)</td></tr>
+<tr class="separator:aa352aab7ad88ff4f13b44ad68e2822e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae69c51974b37fa81d0980366b23cfd26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#ae69c51974b37fa81d0980366b23cfd26">fogEnableMenuItem</a> (fogEnableMenuItemText)</td></tr>
+<tr class="separator:ae69c51974b37fa81d0980366b23cfd26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ee4cc17b2d50a678832763c0fdf115b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a3ee4cc17b2d50a678832763c0fdf115b">fogTimerMenuItem</a> (fogTimerMenuItemText)</td></tr>
+<tr class="separator:a3ee4cc17b2d50a678832763c0fdf115b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ee8b0d37244bc474229e03cb7dd8f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#af3ee8b0d37244bc474229e03cb7dd8f1">fogTimerSelectMenuItem</a> (fogTimerSelectMenuItemText)</td></tr>
+<tr class="separator:af3ee8b0d37244bc474229e03cb7dd8f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65466730a581da09b311b6460749f36d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a65466730a581da09b311b6460749f36d">lightModeMenuItem</a> (lightModeMenuItemText)</td></tr>
+<tr class="separator:a65466730a581da09b311b6460749f36d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ecda5566ecccef51b411a2e9cdd6792"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a6ecda5566ecccef51b411a2e9cdd6792">rainbowModeMenuItem</a> (rainbowModeMenuItemText)</td></tr>
+<tr class="separator:a6ecda5566ecccef51b411a2e9cdd6792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada286d2d999065931d23b8fc435276b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#ada286d2d999065931d23b8fc435276b3">candleModeMenuItem</a> (candleModeMenuItemText)</td></tr>
+<tr class="separator:ada286d2d999065931d23b8fc435276b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bcba406eb941a3a7697fa35137e793b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a1bcba406eb941a3a7697fa35137e793b">pulseModeMenuItem</a> (pulseModeMenuItemText)</td></tr>
+<tr class="separator:a1bcba406eb941a3a7697fa35137e793b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab633b86f4d1cb5894adcbc73fed19040"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#ab633b86f4d1cb5894adcbc73fed19040">musicModeMenuItem</a> (musicModeMenuItemText)</td></tr>
+<tr class="separator:ab633b86f4d1cb5894adcbc73fed19040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6249f672864dc537b532e6e1588b18fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a6249f672864dc537b532e6e1588b18fc">komodoModeMenuItem</a> (komodoModeMenuItemText)</td></tr>
+<tr class="separator:a6249f672864dc537b532e6e1588b18fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a843f8e60760bb8d759b78d6becf9407e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a843f8e60760bb8d759b78d6becf9407e">colorModeMenuItem</a> (colorModeMenuItemText)</td></tr>
+<tr class="separator:a843f8e60760bb8d759b78d6becf9407e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5da20c86f05257165a98cad09077a065"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu_item.html">menuItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="menu_8cpp.html#a5da20c86f05257165a98cad09077a065">colorSelectMenuItem</a> (colorSelectMenuItemText)</td></tr>
+<tr class="separator:a5da20c86f05257165a98cad09077a065"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a05c76b51924f5f8f4ef70cae6d07eb90" name="a05c76b51924f5f8f4ef70cae6d07eb90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05c76b51924f5f8f4ef70cae6d07eb90">&#9670;&#160;</a></span>brightnessSelectDrawFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void brightnessSelectDrawFunction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classssd1306.html">ssd1306</a> *&#160;</td>
+          <td class="paramname"><em>oled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00251">251</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a05c76b51924f5f8f4ef70cae6d07eb90_icgraph.svg" width="431" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a2b016118a0e096dd41f9217dc9cff74b" name="a2b016118a0e096dd41f9217dc9cff74b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b016118a0e096dd41f9217dc9cff74b">&#9670;&#160;</a></span>brightnessSelectFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void brightnessSelectFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00227">227</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a2b016118a0e096dd41f9217dc9cff74b_icgraph.svg" width="402" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7b11962e0299f94228c9156915a69ee5" name="a7b11962e0299f94228c9156915a69ee5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b11962e0299f94228c9156915a69ee5">&#9670;&#160;</a></span>buzzerMenuSelectedFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void buzzerMenuSelectedFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00426">426</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a7b11962e0299f94228c9156915a69ee5_icgraph.svg" width="427" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a6c110f4f0e90ee77f942f14ee7ffb81b" name="a6c110f4f0e90ee77f942f14ee7ffb81b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c110f4f0e90ee77f942f14ee7ffb81b">&#9670;&#160;</a></span>candleMenuSelectFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void candleMenuSelectFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00294">294</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a6c110f4f0e90ee77f942f14ee7ffb81b_icgraph.svg" width="411" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a3c3d956aca28de46741cd6e5db5ffaee" name="a3c3d956aca28de46741cd6e5db5ffaee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c3d956aca28de46741cd6e5db5ffaee">&#9670;&#160;</a></span>clapMenuSelectedFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void clapMenuSelectedFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00448">448</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a3c3d956aca28de46741cd6e5db5ffaee_icgraph.svg" width="411" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ac022544e45c7f043d12d0951547249a1" name="ac022544e45c7f043d12d0951547249a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac022544e45c7f043d12d0951547249a1">&#9670;&#160;</a></span>colorMenuSelectFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void colorMenuSelectFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00362">362</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_ac022544e45c7f043d12d0951547249a1_icgraph.svg" width="402" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="aa6c25806baf4bb6f997ffd124d95d7a9" name="aa6c25806baf4bb6f997ffd124d95d7a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6c25806baf4bb6f997ffd124d95d7a9">&#9670;&#160;</a></span>colorSelectDrawFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void colorSelectDrawFunction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classssd1306.html">ssd1306</a> *&#160;</td>
+          <td class="paramname"><em>oled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00403">403</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_aa6c25806baf4bb6f997ffd124d95d7a9_icgraph.svg" width="399" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a43e28b685319d16ec59e9d329fa5877e" name="a43e28b685319d16ec59e9d329fa5877e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43e28b685319d16ec59e9d329fa5877e">&#9670;&#160;</a></span>colorSelectFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void colorSelectFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00379">379</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a43e28b685319d16ec59e9d329fa5877e_icgraph.svg" width="370" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a77a90a3a2ffabdf0a5b3a4a3cf00a9f0" name="a77a90a3a2ffabdf0a5b3a4a3cf00a9f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77a90a3a2ffabdf0a5b3a4a3cf00a9f0">&#9670;&#160;</a></span>fogEnableMenuSelectedFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fogEnableMenuSelectedFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00470">470</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a77a90a3a2ffabdf0a5b3a4a3cf00a9f0_icgraph.svg" width="444" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a88d2dece762e3b85d4aa7b2182ce26e9" name="a88d2dece762e3b85d4aa7b2182ce26e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88d2dece762e3b85d4aa7b2182ce26e9">&#9670;&#160;</a></span>fogTimerSelectDrawFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fogTimerSelectDrawFunction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classssd1306.html">ssd1306</a> *&#160;</td>
+          <td class="paramname"><em>oled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00530">530</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a88d2dece762e3b85d4aa7b2182ce26e9_icgraph.svg" width="419" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a9e1e416e4818382df8d39d0125d210f5" name="a9e1e416e4818382df8d39d0125d210f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e1e416e4818382df8d39d0125d210f5">&#9670;&#160;</a></span>fogTimerSelectFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fogTimerSelectFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00493">493</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a9e1e416e4818382df8d39d0125d210f5_icgraph.svg" width="391" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a1970379f59b8760eecae1c62b524dc48" name="a1970379f59b8760eecae1c62b524dc48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1970379f59b8760eecae1c62b524dc48">&#9670;&#160;</a></span>komodoMenuSelectFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void komodoMenuSelectFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00345">345</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a1970379f59b8760eecae1c62b524dc48_icgraph.svg" width="419" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a7f54e3748544f98b538cfbc35d963bb8" name="a7f54e3748544f98b538cfbc35d963bb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f54e3748544f98b538cfbc35d963bb8">&#9670;&#160;</a></span>menuInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void menuInit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00612">612</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a7f54e3748544f98b538cfbc35d963bb8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a7f54e3748544f98b538cfbc35d963bb8_icgraph.svg" width="184" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="af63afc520dcef97967678aa6dbc973b9" name="af63afc520dcef97967678aa6dbc973b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af63afc520dcef97967678aa6dbc973b9">&#9670;&#160;</a></span>musicMenuSelectFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void musicMenuSelectFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00328">328</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_af63afc520dcef97967678aa6dbc973b9_icgraph.svg" width="408" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="a910a5811ac94710f8ddf95ba54708324" name="a910a5811ac94710f8ddf95ba54708324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a910a5811ac94710f8ddf95ba54708324">&#9670;&#160;</a></span>pulseMenuSelectFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void pulseMenuSelectFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00311">311</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_a910a5811ac94710f8ddf95ba54708324_icgraph.svg" width="404" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<a id="ae0e8c5d7972d85144e7f0121104c75a1" name="ae0e8c5d7972d85144e7f0121104c75a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0e8c5d7972d85144e7f0121104c75a1">&#9670;&#160;</a></span>rainbowMenuSelectFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rainbowMenuSelectFunction </td>
+          <td>(</td>
+          <td class="paramtype">enum <a class="el" href="classmenu_item.html#a9b5bb2cb86a8518639652f243118b73a">menuItem::encoderState_t</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00277">277</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="menu_8cpp_ae0e8c5d7972d85144e7f0121104c75a1_icgraph.svg" width="418" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ace0a5c8c5fba1cb2f06db2b1afead55e" name="ace0a5c8c5fba1cb2f06db2b1afead55e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace0a5c8c5fba1cb2f06db2b1afead55e">&#9670;&#160;</a></span>brightnessMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> brightnessMenuItem(brightnessMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">brightnessMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaeec87416792555d6ff01174156dced5" name="aaeec87416792555d6ff01174156dced5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaeec87416792555d6ff01174156dced5">&#9670;&#160;</a></span>brightnessSelectItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> brightnessSelectItem(brightnessSelectItemText) </td>
+          <td>(</td>
+          <td class="paramtype">brightnessSelectItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa49b232bf9d3276c713685e5edfd2942" name="aa49b232bf9d3276c713685e5edfd2942"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa49b232bf9d3276c713685e5edfd2942">&#9670;&#160;</a></span>buzzerEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool buzzerEnabled = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00722">722</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a3c11e72ca5aafef278498afd830e2705" name="a3c11e72ca5aafef278498afd830e2705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c11e72ca5aafef278498afd830e2705">&#9670;&#160;</a></span>buzzerMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> buzzerMenuItem(buzzerMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">buzzerMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ada286d2d999065931d23b8fc435276b3" name="ada286d2d999065931d23b8fc435276b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada286d2d999065931d23b8fc435276b3">&#9670;&#160;</a></span>candleModeMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> candleModeMenuItem(candleModeMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">candleModeMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa352aab7ad88ff4f13b44ad68e2822e0" name="aa352aab7ad88ff4f13b44ad68e2822e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa352aab7ad88ff4f13b44ad68e2822e0">&#9670;&#160;</a></span>clapMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> clapMenuItem(clapMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">clapMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab560be3cfc29da3af80d0746acd010f0" name="ab560be3cfc29da3af80d0746acd010f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab560be3cfc29da3af80d0746acd010f0">&#9670;&#160;</a></span>clapSwitchEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool clapSwitchEnabled = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00724">724</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a843f8e60760bb8d759b78d6becf9407e" name="a843f8e60760bb8d759b78d6becf9407e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a843f8e60760bb8d759b78d6becf9407e">&#9670;&#160;</a></span>colorModeMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> colorModeMenuItem(colorModeMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">colorModeMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5da20c86f05257165a98cad09077a065" name="a5da20c86f05257165a98cad09077a065"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5da20c86f05257165a98cad09077a065">&#9670;&#160;</a></span>colorSelectMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> colorSelectMenuItem(colorSelectMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">colorSelectMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae69c51974b37fa81d0980366b23cfd26" name="ae69c51974b37fa81d0980366b23cfd26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae69c51974b37fa81d0980366b23cfd26">&#9670;&#160;</a></span>fogEnableMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> fogEnableMenuItem(fogEnableMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">fogEnableMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4d6cd92aafcf5861ceecd2d0c3c92a2f" name="a4d6cd92aafcf5861ceecd2d0c3c92a2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d6cd92aafcf5861ceecd2d0c3c92a2f">&#9670;&#160;</a></span>fogMachineEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool fogMachineEnabled = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00726">726</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+
+</div>
+</div>
+<a id="af1ed90b4442d1f717a133fabd0f9d714" name="af1ed90b4442d1f717a133fabd0f9d714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1ed90b4442d1f717a133fabd0f9d714">&#9670;&#160;</a></span>fogTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t fogTimer = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00728">728</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a3ee4cc17b2d50a678832763c0fdf115b" name="a3ee4cc17b2d50a678832763c0fdf115b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ee4cc17b2d50a678832763c0fdf115b">&#9670;&#160;</a></span>fogTimerMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> fogTimerMenuItem(fogTimerMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">fogTimerMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af3ee8b0d37244bc474229e03cb7dd8f1" name="af3ee8b0d37244bc474229e03cb7dd8f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3ee8b0d37244bc474229e03cb7dd8f1">&#9670;&#160;</a></span>fogTimerSelectMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> fogTimerSelectMenuItem(fogTimerSelectMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">fogTimerSelectMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6249f672864dc537b532e6e1588b18fc" name="a6249f672864dc537b532e6e1588b18fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6249f672864dc537b532e6e1588b18fc">&#9670;&#160;</a></span>komodoModeMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> komodoModeMenuItem(komodoModeMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">komodoModeMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a455b70be6bb270ed8a4a3134c1860cb0" name="a455b70be6bb270ed8a4a3134c1860cb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455b70be6bb270ed8a4a3134c1860cb0">&#9670;&#160;</a></span>lightBrightness</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t lightBrightness = 30</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00720">720</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7adce8af16098f97ac832550e4108789" name="a7adce8af16098f97ac832550e4108789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7adce8af16098f97ac832550e4108789">&#9670;&#160;</a></span>lightMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> lightMenuItem(lightMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">lightMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3603109fde2e852b743883c2a02a9afa" name="a3603109fde2e852b743883c2a02a9afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3603109fde2e852b743883c2a02a9afa">&#9670;&#160;</a></span>lightMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a> lightMode = <a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88a6948d0f1f45226c4cd9639c670612cd5">LIGHT_MODE_RAINBOW</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00717">717</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a65466730a581da09b311b6460749f36d" name="a65466730a581da09b311b6460749f36d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65466730a581da09b311b6460749f36d">&#9670;&#160;</a></span>lightModeMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> lightModeMenuItem(lightModeMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">lightModeMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8b3f40683d6491aa5035e4b4cb5e8c1b" name="a8b3f40683d6491aa5035e4b4cb5e8c1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b3f40683d6491aa5035e4b4cb5e8c1b">&#9670;&#160;</a></span>mainMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> mainMenuItem(mainMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">mainMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab633b86f4d1cb5894adcbc73fed19040" name="ab633b86f4d1cb5894adcbc73fed19040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab633b86f4d1cb5894adcbc73fed19040">&#9670;&#160;</a></span>musicModeMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> musicModeMenuItem(musicModeMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">musicModeMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a07306f2d260b56eb6d0960f8dc01db22" name="a07306f2d260b56eb6d0960f8dc01db22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07306f2d260b56eb6d0960f8dc01db22">&#9670;&#160;</a></span>PROGMEM</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char colorSelectMenuItemText [] PROGMEM = &quot;15 min&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00518">518</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a1bcba406eb941a3a7697fa35137e793b" name="a1bcba406eb941a3a7697fa35137e793b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bcba406eb941a3a7697fa35137e793b">&#9670;&#160;</a></span>pulseModeMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> pulseModeMenuItem(pulseModeMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">pulseModeMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6ecda5566ecccef51b411a2e9cdd6792" name="a6ecda5566ecccef51b411a2e9cdd6792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ecda5566ecccef51b411a2e9cdd6792">&#9670;&#160;</a></span>rainbowModeMenuItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classmenu_item.html">menuItem</a> rainbowModeMenuItem(rainbowModeMenuItemText) </td>
+          <td>(</td>
+          <td class="paramtype">rainbowModeMenuItemText&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d5012ae75e8efcdb99ba658e2679abf" name="a7d5012ae75e8efcdb99ba658e2679abf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d5012ae75e8efcdb99ba658e2679abf">&#9670;&#160;</a></span>selectedColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t selectedColor = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="menu_8cpp_source.html#l00719">719</a> of file <a class="el" href="menu_8cpp_source.html">menu.cpp</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_4e9c05acfa2c3671b8618fcb95d57d96.html">Software</a></li><li class="navelem"><a class="el" href="dir_34b56258a8177ac57eef2f2294fc5caa.html">src</a></li><li class="navelem"><a class="el" href="menu_8cpp.html">menu.cpp</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+  </ul>
+</div>
+</body>
+</html>

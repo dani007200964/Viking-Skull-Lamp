@@ -1,0 +1,33 @@
+<map id="setup" name="setup">
+<area shape="rect" id="node1" title=" " alt="" coords="5,563,60,588"/>
+<area shape="rect" id="node2" href="$classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" title=" " alt="" coords="125,56,236,81"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae2676edb74235f0d21ef201ba600636a" title=" " alt="" coords="136,217,225,243"/>
+<area shape="rect" id="node9" href="$fog_machine_8cpp.html#a9c7fca1e7e26243088ff945475d8ae57" title=" " alt="" coords="128,484,233,509"/>
+<area shape="rect" id="node10" href="$light_control_8cpp.html#a37bc85e65dd8a10e2bc2c2df2c1ca05f" title=" " alt="" coords="149,533,212,559"/>
+<area shape="rect" id="node11" href="$classconfiguration_manager.html#a629bdf8057c5fd994baf023dbb36d87c" title=" " alt="" coords="108,583,253,623"/>
+<area shape="rect" id="node12" href="$menu_8cpp.html#a7f54e3748544f98b538cfbc35d963bb8" title=" " alt="" coords="145,648,216,673"/>
+<area shape="rect" id="node28" href="$motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89" title=" " alt="" coords="145,1044,217,1069"/>
+<area shape="rect" id="node31" href="$classconfiguration_manager.html#a98840390e246bd6606af1345d54458ec" title=" " alt="" coords="108,1094,253,1134"/>
+<area shape="rect" id="node3" href="$classssd1306.html#ac35fc8ed03a40242a1762ef4139746f5" title=" " alt="" coords="354,5,461,31"/>
+<area shape="rect" id="node4" href="$classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" title=" " alt="" coords="561,1044,699,1069"/>
+<area shape="rect" id="node6" href="$classmenu.html#aa570579eea43a7810230472ee28b873a" title=" " alt="" coords="361,131,453,156"/>
+<area shape="rect" id="node7" href="$buzzer_control_8cpp.html#a0d69ac845e7ec3529999488f019097af" title=" " alt="" coords="336,180,479,205"/>
+<area shape="rect" id="node8" href="$classmenu.html#a87a6a695240e84646f5f92a6f764b7e9" title=" " alt="" coords="369,253,445,279"/>
+<area shape="rect" id="node13" href="$menu_8cpp.html#a05c76b51924f5f8f4ef70cae6d07eb90" title=" " alt="" coords="308,303,507,328"/>
+<area shape="rect" id="node14" href="$menu_8cpp.html#a2b016118a0e096dd41f9217dc9cff74b" title=" " alt="" coords="323,352,492,377"/>
+<area shape="rect" id="node15" href="$menu_8cpp.html#a7b11962e0299f94228c9156915a69ee5" title=" " alt="" coords="310,401,505,427"/>
+<area shape="rect" id="node16" href="$menu_8cpp.html#a6c110f4f0e90ee77f942f14ee7ffb81b" title=" " alt="" coords="318,451,497,476"/>
+<area shape="rect" id="node17" href="$menu_8cpp.html#a3c3d956aca28de46741cd6e5db5ffaee" title=" " alt="" coords="318,500,497,525"/>
+<area shape="rect" id="node18" href="$menu_8cpp.html#ac022544e45c7f043d12d0951547249a1" title=" " alt="" coords="323,549,492,575"/>
+<area shape="rect" id="node19" href="$menu_8cpp.html#aa6c25806baf4bb6f997ffd124d95d7a9" title=" " alt="" coords="324,599,491,624"/>
+<area shape="rect" id="node20" href="$menu_8cpp.html#a43e28b685319d16ec59e9d329fa5877e" title=" " alt="" coords="339,648,476,673"/>
+<area shape="rect" id="node21" href="$menu_8cpp.html#a77a90a3a2ffabdf0a5b3a4a3cf00a9f0" title=" " alt="" coords="301,697,513,723"/>
+<area shape="rect" id="node22" href="$menu_8cpp.html#a88d2dece762e3b85d4aa7b2182ce26e9" title=" " alt="" coords="314,747,501,772"/>
+<area shape="rect" id="node23" href="$menu_8cpp.html#a9e1e416e4818382df8d39d0125d210f5" title=" " alt="" coords="328,796,487,821"/>
+<area shape="rect" id="node24" href="$menu_8cpp.html#a1970379f59b8760eecae1c62b524dc48" title=" " alt="" coords="314,845,501,871"/>
+<area shape="rect" id="node25" href="$menu_8cpp.html#af63afc520dcef97967678aa6dbc973b9" title=" " alt="" coords="319,895,495,920"/>
+<area shape="rect" id="node26" href="$menu_8cpp.html#a910a5811ac94710f8ddf95ba54708324" title=" " alt="" coords="321,944,493,969"/>
+<area shape="rect" id="node27" href="$menu_8cpp.html#ae0e8c5d7972d85144e7f0121104c75a1" title=" " alt="" coords="315,993,500,1019"/>
+<area shape="rect" id="node29" href="$motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" title=" " alt="" coords="366,1095,449,1120"/>
+<area shape="rect" id="node30" href="$classssd1306.html#a5062186eb98a5bb66a009d232b143172" title=" " alt="" coords="562,1120,698,1145"/>
+</map>
