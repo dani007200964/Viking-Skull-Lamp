@@ -48,7 +48,11 @@ var NAVTREE =
         [ "Step 5 - Locking Endstop Mounts", "md_docs_markdown_pages_assembly.html#step_5_locking_endstop_mounts", null ],
         [ "Step 6 - Moving Platform Knobs", "md_docs_markdown_pages_assembly.html#step_6_moving_platform_knobs", null ],
         [ "Step 7 - Insert Encoder", "md_docs_markdown_pages_assembly.html#step_7_insert_encoder", null ],
-        [ "Step 8 - Lock Encoder", "md_docs_markdown_pages_assembly.html#step_8_lock_encoder", null ]
+        [ "Step 8 - Lock Encoder", "md_docs_markdown_pages_assembly.html#step_8_lock_encoder", null ],
+        [ "Step 9 - Slide In The Moving Platform", "md_docs_markdown_pages_assembly.html#step_9_slide_in_moving_platform", null ],
+        [ "Step 10 - Lock Endstop Mount Screws", "md_docs_markdown_pages_assembly.html#step_10_lock_endstop_mount_screws", null ],
+        [ "Step 11 - Motor Shaft M3 Thread Cutting", "md_docs_markdown_pages_assembly.html#step_11_motor_shaft_thread_cutting", null ],
+        [ "Step 12 - Eccentric Shaft Assembly", "md_docs_markdown_pages_assembly.html#step_12_eccentric_shaft_assembly", null ]
       ] ]
     ] ],
     [ "Galery", "md_docs_markdown_pages_galery.html", [

@@ -261,3 +261,38 @@ Insert the encoder into the moving platform.
 * __M7 x 0.75mm__ [nut](https://www.hestore.hu/prod_10043306.html?lang=en) - 1pcs
 
 Lock the encoder shaft with a nut. It has to be tighten.
+
+@subsection step_9_slide_in_moving_platform Step 9 - Slide In The Moving Platform
+
+![Slide In The Moving Platform](asm_stp009_slide_in_moving_platform.JPG)
+
+Slide in the moving platform to the base. The four bearings has to slide in to the
+sockets on the moving platform.
+
+@subsection step_10_lock_endstop_mount_screws Step 10 - Lock Endstop Mount Screws
+
+![Lock Encoder](asm_stp010_lock_endstop_mount_screws.JPG)
+
+Lock the four endstop mount screws.
+
+@note The moving platform has to move freely forward and backward, without any side wobble.
+
+@subsection step_11_motor_shaft_thread_cutting Step 11 - Motor Shaft M3 Thread Cutting
+
+![Motor Shaft M3 Thread Cutting](asm_stp011_motor_shaft_thread_cutting.JPG)
+
+@pre Required parts:
+* __eccetric_shaft_1pcs.stl__ - 1pcs
+
+Insert the encoder into the moving platform.
+
+@subsection step_12_eccentric_shaft_assembly Step 12 - Eccentric Shaft Assembly
+
+![Eccentric Shaft Assembly](asm_stp012_eccentric_shaft_assembly.JPG)
+
+@pre Required parts:
+* __eccetric_shaft_1pcs.stl__ - 1pcs
+* __M3 x 12mm Flat Head__ - 1pcs
+* __7mm OD, 3.6mm ID 8mm Height__ [Spacer](https://www.hestore.hu/prod_10024539.html) - 1pcs
+
+Assemble the eccentric shaft as seen on the picture above.
