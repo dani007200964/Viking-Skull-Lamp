@@ -249,7 +249,7 @@ to slide freely.
 ![Insert Encoder](asm_stp007_insert_encoder.JPG)
 
 @pre Required parts:
-* __Encoder with__ @ref encoder_cable "cable assembly" - 1pcs
+* __Encoder With__ @ref encoder_cable "Cable Assembly" - 1pcs
 
 Insert the encoder into the moving platform.
 
@@ -296,3 +296,145 @@ Insert the encoder into the moving platform.
 * __7mm OD, 3.6mm ID 8mm Height__ [Spacer](https://www.hestore.hu/prod_10024539.html) - 1pcs
 
 Assemble the eccentric shaft as seen on the picture above.
+
+@subsection step_13_insert_motor_screws Step 13 - Insert Motor Screws
+
+![Insert Motor Screws](asm_stp013_insert_motor_screws.JPG)
+
+@pre Required parts:
+* __motor_mount_1pcs.stl__ - 1pcs
+* __M1.6 x 5mm Flat Head__ [Screw](https://www.tme.com/us/en-us/details/b1.6x5_bn661/bolts/bossard/5512816/) - 2pcs
+
+Insert the two screws into the motor mount.
+
+@subsection step_14_lock_motor_screws Step 14 - Lock The Motor Screws
+
+![Tighten Motor Screws](asm_stp014_lock_motor_screws.JPG)
+
+@pre Required parts:
+* __Motor With__ @ref motor_cable "Cable Assembly" - 1pcs
+
+Tighten the two screws of the motor.
+
+@subsection step_15_insert_motor_mount_nuts Step 15 - Insert Motor Mount Nuts
+
+![Insert Motor Mount Nuts](asm_stp015_insert_motor_mount_nuts.JPG)
+
+@pre Required parts:
+* __M3 locknut__ - 2pcs
+
+Insert the nuts to the slots on the motor mount.
+
+@subsection step_16_press_the_eccentric_shaft Step 16 - Press The Eccentric Shaft To The Motor
+
+![Press The Eccentric Shaft](asm_stp016_press_the_eccentric_shaft.JPG)
+
+@pre Required parts:
+* @ref step_12_eccentric_shaft_assembly "Eccentric Shaft Assembly" - 1pcs
+
+Press the eccentric shaft to the motor shaft.
+
+@subsection step_17_insert_the_motor_mount Step 17 - Insert The Motor Mount
+
+![Insert The Motor Mount](asm_stp017_insert_the_motor_mount.JPG)
+
+@pre Required parts:
+* __M3 x 10mm Flat Head__ - 2pcs
+
+Insert the motor mount to the base. From the bottom insert two M3 x 10mm flat head crews.
+Tighten the two screws, but __not so hard__, the motor mount has to slide back and forward freely.
+
+\htmlonly
+
+<iframe
+    width="640"
+    height="480"
+    src="asm_stp017_demonstration.mp4"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
+\endhtmlonly
+
+@subsection step_18_insert_power_jack Step 18 - Insert Power Jack
+
+![Insert Power Jack](asm_stp018_insert_power_jack.JPG)
+
+@pre Required parts:
+* @ref power_connector_cable "Power Cable Assembly" - 1pcs
+
+Insert the power jack to the slot on the back side.
+
+@subsection step_19_lock_power_jack Step 19 - Lock Power Jack
+
+![Lock Power Jack](asm_stp019_lock_power_jack.JPG)
+
+Lock the power jack with it's nut. A tweezer can be helpful for this operation.
+
+@subsection step_20_insert_endstops Step 20 - Insert Endstops
+
+![Insert Endstops](asm_stp020_insert_endstops.JPG)
+
+@pre Required parts:
+* __M2.3 x 10mm Regular__ [Screws](https://www.tme.com/us/en-us/details/b2.3x10_bn330/bolts/bossard/1123106/) - 4pcs
+* __Front Endstop__ @ref front_endstop_cable "Cable Assembly" - 1pcs
+* __Back Endstop__ @ref back_endstop_cable "Cable Assembly" - 1pcs
+
+Fix the endstops with the screws. The screw has to cut thread to the plastic,
+it require some force.
+
+@note Check the orientation of the endstops!
+
+@subsection step_21_insert_pcb_screws Step 21 - Insert PCB Screws
+
+![Insert Endstops](asm_stp021_insert_pcb_screws.JPG)
+
+@pre Required parts:
+* __M3 x 30mm Flat Head Screw__ - 1pcs
+* __M3 x 16mm Flat Head Screw__ - 3pcs
+
+\emoji :orange_circle: M3 X 16mm screws.
+
+\emoji :purple_circle: M3 X 30mm screw.
+
+@subsection step_22_insert_arduino Step 22 - Insert Arduino
+
+![Insert Arduino](asm_stp022_insert_arduino.JPG)
+
+@pre Required parts:
+* __Arduino Uno__ [R3](https://store.arduino.cc/products/arduino-uno-rev3) - 1pcs
+
+Insert an Arduino UNO __R3__ to the base.
+
+@subsection step_23_insert_pcb_spacers Step 23 - Insert Threaded PCB Spacers
+
+![Insert Threaded PCB Spacers](asm_stp023_insert_pcb_spacers.JPG)
+
+@pre Required parts:
+* __M3 x 12mm__ [Spacer](https://www.tme.com/us/en-us/details/dr185rdm3x12/plastic-standoffs/dremec/185rdx12/) __With 6mm OD__ - 3pcs
+
+Insert the spacers and tighten them.
+
+@subsection step_24_insert_printed_pcb_spacer Step 24 - Insert Printed PCB Spacer
+
+![Insert Printed PCB Spacer](asm_stp024_insert_printed_pcb_spacer.JPG)
+
+@pre Required parts:
+* __pcb_spacer_corner_1pcs.stl__ - 1pcs
+
+Insert the spacer.
+
+@note Check the orientation!
+
+@subsection step_25_insert_viking_pcb Step 25 - Insert Techno Viking PCB
+
+![Insert Techno Viking PCB](asm_stp025_insert_viking_pcb.JPG)
+
+@pre Required parts:
+* __Techno Viking PCB__ - 1pcs
+
+Insert the PCB to the Arduino UNO.
+
+@note Gently push the Techno Viking Board to the Arduino UNO.

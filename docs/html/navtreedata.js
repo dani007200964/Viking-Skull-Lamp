@@ -52,7 +52,20 @@ var NAVTREE =
         [ "Step 9 - Slide In The Moving Platform", "md_docs_markdown_pages_assembly.html#step_9_slide_in_moving_platform", null ],
         [ "Step 10 - Lock Endstop Mount Screws", "md_docs_markdown_pages_assembly.html#step_10_lock_endstop_mount_screws", null ],
         [ "Step 11 - Motor Shaft M3 Thread Cutting", "md_docs_markdown_pages_assembly.html#step_11_motor_shaft_thread_cutting", null ],
-        [ "Step 12 - Eccentric Shaft Assembly", "md_docs_markdown_pages_assembly.html#step_12_eccentric_shaft_assembly", null ]
+        [ "Step 12 - Eccentric Shaft Assembly", "md_docs_markdown_pages_assembly.html#step_12_eccentric_shaft_assembly", null ],
+        [ "Step 13 - Insert Motor Screws", "md_docs_markdown_pages_assembly.html#step_13_insert_motor_screws", null ],
+        [ "Step 14 - Lock The Motor Screws", "md_docs_markdown_pages_assembly.html#step_14_lock_motor_screws", null ],
+        [ "Step 15 - Insert Motor Mount Nuts", "md_docs_markdown_pages_assembly.html#step_15_insert_motor_mount_nuts", null ],
+        [ "Step 16 - Press The Eccentric Shaft To The Motor", "md_docs_markdown_pages_assembly.html#step_16_press_the_eccentric_shaft", null ],
+        [ "Step 17 - Insert The Motor Mount", "md_docs_markdown_pages_assembly.html#step_17_insert_the_motor_mount", null ],
+        [ "Step 18 - Insert Power Jack", "md_docs_markdown_pages_assembly.html#step_18_insert_power_jack", null ],
+        [ "Step 19 - Lock Power Jack", "md_docs_markdown_pages_assembly.html#step_19_lock_power_jack", null ],
+        [ "Step 20 - Insert Endstops", "md_docs_markdown_pages_assembly.html#step_20_insert_endstops", null ],
+        [ "Step 21 - Insert PCB Screws", "md_docs_markdown_pages_assembly.html#step_21_insert_pcb_screws", null ],
+        [ "Step 22 - Insert Arduino", "md_docs_markdown_pages_assembly.html#step_22_insert_arduino", null ],
+        [ "Step 23 - Insert Threaded PCB Spacers", "md_docs_markdown_pages_assembly.html#step_23_insert_pcb_spacers", null ],
+        [ "Step 24 - Insert Printed PCB Spacer", "md_docs_markdown_pages_assembly.html#step_24_insert_printed_pcb_spacer", null ],
+        [ "Step 25 - Insert Techno Viking PCB", "md_docs_markdown_pages_assembly.html#step_25_insert_viking_pcb", null ]
       ] ]
     ] ],
     [ "Galery", "md_docs_markdown_pages_galery.html", [
