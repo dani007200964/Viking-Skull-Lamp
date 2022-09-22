@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['viking_20skull_20lamp_0',['Viking Skull Lamp',['../index.html',1,'']]]
+  ['print_20guide_0',['Print Guide',['../md_docs_markdown_pages_print_guide.html',1,'']]]
 ];

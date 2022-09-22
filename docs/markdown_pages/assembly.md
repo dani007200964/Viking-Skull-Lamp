@@ -284,7 +284,7 @@ Lock the four endstop mount screws.
 @pre Required parts:
 * __eccetric_shaft_1pcs.stl__ - 1pcs
 
-Insert the encoder into the moving platform.
+Cut an M3 thread to the hole on the side.
 
 @subsection step_12_eccentric_shaft_assembly Step 12 - Eccentric Shaft Assembly
 
@@ -321,7 +321,7 @@ Tighten the two screws of the motor.
 ![Insert Motor Mount Nuts](asm_stp015_insert_motor_mount_nuts.JPG)
 
 @pre Required parts:
-* __M3 locknut__ - 2pcs
+* __M3 Locknut__ - 2pcs
 
 Insert the nuts to the slots on the motor mount.
 
@@ -438,3 +438,363 @@ Insert the spacer.
 Insert the PCB to the Arduino UNO.
 
 @note Gently push the Techno Viking Board to the Arduino UNO.
+
+@subsection step_26_insert_plastic_washer_pcb Step 26 - Insert Plastic Washer
+
+![Insert Plastic Washer](asm_stp026_insert_plastic_washer_pcb.JPG)
+
+@pre Required parts:
+* __M3 x 0.5mm Plastic Washer__ - 1pcs
+
+Insert the plastic washer to the screw.
+
+@subsection step_27_lock_pcb Step 27 - Lock The PCB
+
+![Lock The PCB](asm_stp027_lock_pcb.JPG)
+
+@pre Required parts:
+* __M3 Locknut__ - 1pcs
+
+Lock the screw with a nut.
+
+@subsection step_28_insert_other_pcb_washers Step 28 - Insert Plastic Washer
+
+![Insert Plastic Washer](asm_stp028_insert_other_pcb_washers.JPG)
+
+@pre Required parts:
+* __M3 x 0.5mm Plastic Washer__ - 3pcs
+
+Insert the remaining plastic PCB washers.
+
+@subsection step_29_lock_pcb_screws Step 29 - Lock PCB Screws
+
+![Lock PCB Screws](asm_stp029_lock_pcb_screws.JPG)
+
+@pre Required parts:
+* __M3 x 5mm Regular Screw__ - 3pcs
+
+Lock the PCB with the screws.
+
+@subsection step_30_glue_display_holder Step 30 - Glue Display Holder
+
+![Lock PCB Screws](asm_stp030_glue_display_holder.JPG)
+
+@pre Required parts:
+* __display_holder_base_with_art_1pcs.stl__ - 1pcs
+* __display_holder_front_with_art_1pcs.stl__ - 1pcs
+* __Super Glue__
+
+Glue the front to the base part of the display holder.
+
+@note Check the orientation before gluing!
+
+@subsection step_31_glue_magnet_holder Step 31 - Glue Magnet Holder
+
+![Glue Magnet Holder](asm_stp031_glue_magnet_holder.JPG)
+
+@pre Required parts:
+* __front_panel_magnet_holder_1pcs.stl__ - 1pcs
+* __10mm x 3mm__ [Neodymium Magnet](https://www.tme.com/us/en-us/details/gn55.2-nd-10-3/magnets/elesa-ganter/gn-55-2-nd-10-3/) - 1pcs
+* __Super Glue__
+
+Glue the magnet into the magnet holder.
+
+@subsection step_32_insert_front_nuts Step 32 - Insert Front Nuts
+
+![Lock PCB Screws](asm_stp032_insert_front_nuts.JPG)
+
+@pre Required parts:
+* __box_front_with_art_1pcs.stl__ - 1pcs
+* __M3 Locknut__ - 2pcs
+
+Insert the nuts, to the slots on the front panel.
+
+@subsection step_33_display_holder_thread Step 33 - Display Holder Thread Cut
+
+![Display Holder Thread Cut](asm_stp033_display_holder_thread.JPG)
+
+@pre Required parts:
+* @ref step_30_glue_display_holder "Display Holder Assembly" - 1pcs
+* __M3 Thread Cutter__
+
+Cut an M3 thread both sides of the display holder.
+
+@note Be gentle when cutting the thread. If you cut too fast, the plastic can melt or the cutter can break.
+
+@subsection step_34_insert_display_holder_screws Step 34 - Insert Display Holder Screws
+
+![Insert Display Holder Screws](asm_stp034_insert_display_holder_screws.JPG)
+
+@pre Required parts:
+* __M3 x 8mm Imbus Head Screw__  - 1pcs
+* __M3 x 16mm Imbus Head Screw__ - 1pcs
+* @ref step_33_display_holder_thread "Display Holder Assembly" - 1pcs
+* @ref step_32_insert_front_nuts "Front Assembly" - 1pcs
+
+__1.__ Insert the display holder to the front panel.
+
+__2.__ Insert the screws from inside of the display holder.
+
+\emoji :orange_circle: M3 x 16mm screw
+
+\emoji :purple_circle: M3 x 8mm screw
+
+@note Check the orientation of the slot on the front panel and the slot on the display.
+
+@subsection step_35_insert_display_holder_nuts Step 35 - Insert Display Holder Nuts
+
+![Insert Display Holder Nuts](asm_stp035_insert_display_holder_nuts.JPG)
+
+@pre Required parts:
+* __M3 Locknut__ - 2pcs
+
+Tighten the screws with an __Allen Key__ from the inside.
+
+@note They have to be tight but __not overtight__! The display holder has to
+rotate freely.
+
+\htmlonly
+
+<iframe
+    width="640"
+    height="480"
+    src="asm_stp035_demonstration.mp4"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
+\endhtmlonly
+
+@subsection step_36_insert_display_holder_magnet Step 36 - Insert Display Holder Magnet
+
+![Insert Display Holder Magnet](asm_stp036_insert_display_holder_magnet.JPG)
+
+@pre Required parts:
+* __10mm x 3mm__ [Neodymium Magnet](https://www.tme.com/us/en-us/details/gn55.2-nd-10-3/magnets/elesa-ganter/gn-55-2-nd-10-3/) - 1pcs
+
+Insert the magnet in the slot on the display holder.
+
+@note __Do NOT glue the magnet!__ It will be glued in the next steps.
+
+@subsection step_37_insert_display_holder_knobs Step 37 - Insert Display Holder Knobs
+
+![Insert Display Holder Knobs](asm_stp037_insert_display_holder_knobs.JPG)
+
+@pre Required parts:
+* __short_screw_spacer_1pcs.stl__ - 1pcs
+* __long_screw_spacer_1pcs.stl__  - 1pcs
+* __M3 x 8mm Imbus Head Screw__   - 2pcs
+
+Fix the knobs to the display holder.
+
+\emoji :orange_circle: Short spacer
+
+\emoji :purple_circle: Long spacer
+
+@subsection step_38_test_magnets Step 38 - Test Magnets
+
+![Test Magnets](asm_stp038_test_magnets.JPG)
+
+@pre Required parts:
+* __Super Glue__
+
+Insert the magnet holder to the slot on the front panel.
+
+@note If the polarity of the magnets are correct, you should see that, the display holder closes itself.
+The magnet on the front panel, should __push up__ the magnet inside the display holder.
+
+\htmlonly
+
+<iframe
+    width="640"
+    height="480"
+    src="asm_stp038_demonstration.mp4"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
+\endhtmlonly
+
+If the magnet polarity wrong, just flip the magnet inside the display holder and try it again.
+
+After you have tested the display holder and it's working fine, you can glue the magnet holder
+into the front panel, and the magnet inside the display holder.
+
+@subsection step_39_peel_off_display_cover Step 39 - Peel Off Display Cover
+
+![Peel Off Display Cover](asm_stp039_peel_off_display_cover.JPG)
+
+Peel off the protecting foil from the oled display.
+
+@subsection step_40_insert_display Step 40 - Insert Display
+
+![Insert Display](asm_stp040_insert_display.JPG)
+
+Insert the oled display into the display holder.
+
+@note Check the orientation of the display cable.
+
+@subsection step_41_insert_display_clamps Step 41 - Insert Display Clamps
+
+![Insert Display Clamps](asm_stp041_insert_display_clamps.JPG)
+
+@pre Required parts:
+* __display_clamp_2pcs.stl__ - 2pcs
+
+Insert the clamps into the display holder.
+
+@subsection step_42_rotate_shaft_back Step 42 - Rotate Shaft Back
+
+![Rotate Shaft Back](asm_stp042_rotate_shaft_back.JPG)
+
+Slowly rotate the eccentric shaft to the back position.
+
+@subsection step_43_insert_front Step 43 - Insert Front
+
+![Insert Front](asm_stp043_insert_front.JPG)
+
+Gently slide the front to the base.
+
+@note The tolerances are tight, but it should slide in with a bit force. If it
+doesn't, clean up the parts with an exacto knife.
+
+![Result](asm_stp043_result.JPG)
+
+It should look like this.
+
+@subsection step_44_lock_front Step 44 - Lock Front
+
+![Lock Front](asm_stp044_lock_front.JPG)
+
+@pre Required parts:
+* __M3 x 12mm Flat Head Screw__ - 2pcs
+
+Tighten the screws on the bottom to lock the front panel.
+
+@subsection step_45_rotate_shaft_front Step 45 - Rotate Shaft Front
+
+![Rotate Shaft Front](asm_stp045_rotate_shaft_front.JPG)
+
+Slowly rotate the eccentric shaft to the front position.
+
+@subsection step_46_push_motor_mount_front Step 46 - Push Motor Mount Front
+
+![Push Motor Mount Front](asm_stp046_push_motor_mount_front.JPG)
+
+Gently push the motor mount to the front. We have to find absolute front position.
+
+\htmlonly
+
+<iframe
+    width="640"
+    height="480"
+    src="asm_stp046_demonstration.mp4"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
+\endhtmlonly
+
+@subsection step_47_lock_motor_mount Step 47 - Lock Motor Mount
+
+![Lock Motor Mount](asm_stp047_lock_motor_mount.JPG)
+
+Tighten the screws from the motor mount __while the motor mount is pushed to the front position__
+
+If you power the motor with a bench supply( no more than __5V__, and __300mA__ ),
+and crank up the voltage slowly, you should see that the mechanism opens and closes.
+
+\htmlonly
+
+<iframe
+    width="640"
+    height="480"
+    src="asm_stp047_test.mp4"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
+\endhtmlonly
+
+@note Sorry for the color mismatch, the video captured from an early prototype.
+The expected behaviour is the same.
+
+* If the mechanism stuck at opening, that means the motor mount is set the wrong
+position, it has to be adjusted. You have to push it a bit to the back.
+* If the mechanism opens and closes, but the display doesn't open fully, that
+means the motor mount is set the wrong position, it has to be adjusted. You have
+to push it a bit to the front.
+
+@subsection step_48_adjust_back_estop_knob Step 48 - Adjust Back Endstop Knob
+
+![Adjust Back Endstop Knob](asm_stp048_adjust_back_estop_knob.JPG)
+
+1. Slowly rotate the eccentric shaft to the back position.
+2. Adjust the back endstop knob position. It has to just click when the mechanism
+arrives to the back position.
+3. Tighten the screw to fix the knob.
+
+@subsection step_49_adjust_font_estop_knob Step 49 - Adjust Front Endstop Knob
+
+![Adjust Front Endstop Knob](asm_stp049_adjust_front_estop_knob.JPG)
+
+1. Slowly rotate the eccentric shaft to the front position.
+2. Adjust the front endstop knob position. It has to just click when the mechanism
+arrives to the front position.
+3. Tighten the screw to fix the knob.
+
+@subsection step_50_connect_wires Step 50 - Connect Wires
+
+![Connect Wires](asm_stp050_connect_wires.JPG)
+
+![Pinout](asm_stp050_pinout.png)
+
+\emoji :orange_circle: Back endstop
+
+\emoji :purple_circle: Front endstop
+
+\emoji :large_blue_circle: Encoder
+
+\emoji :green_circle: Motor
+
+\emoji :yellow_circle: Input power \emoji :warning: __Check the polarity!__
+
+\emoji :red_circle: Oled display.
+
+@note If the oled display cable won't fit easily, it is recommended to unscrew the
+Techno Viking PCB to access the oled display cable connector. After the display
+cable connected the PCB put back to it's place.
+
+@subsection step_51_oled_cable_tie Step 51 - Oled Cable Tie
+
+![Oled Cable Tie](asm_stp051_oled_cable_tie.JPG)
+
+Secure the display cable with a cable tie.
+
+@note Make shore that the cable have enough room to move back and forward after
+it has been tied.
+
+![Base Cables](asm_stp051_result.JPG)
+
+The wiring should look like this.
+
+@subsection step_52_encoder_knob Step 52 - Encoder Knob
+
+![Encoder Knob](asm_stp052_encoder_knob.JPG)
+
+@pre Required parts:
+* __encoder_knob_with_art_1pcs.stl__ - 2pcs
+
+Insert the encoder knob to the encoder shaft.
+
+@note The encoder knob model is designed to fit multiple length encoder shafts.
+Maybe it can be pushed further than it should. In this case, insert some cotton
+swabs into the hole in the knob until it's internal length is perfect. 

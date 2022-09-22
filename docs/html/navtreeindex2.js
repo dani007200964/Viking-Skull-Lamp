@@ -1,0 +1,19 @@
+var NAVTREEINDEX2 =
+{
+"music_visualizer_8hpp.html#a555edaf5c00a9f5661e5f19fde4ed062":[4,0,1,0,8,1],
+"music_visualizer_8hpp.html#a58f60c43b211e0824e4aee794a3e8bfd":[4,0,1,0,8,3],
+"music_visualizer_8hpp.html#a693c80418bb0ed6685c69d1b4731ee02":[4,0,1,0,8,6],
+"music_visualizer_8hpp.html#a7b4e5308296cc662d94db447c0c66f1e":[4,0,1,0,8,7],
+"music_visualizer_8hpp_source.html":[4,0,1,0,8],
+"oled_8cpp.html":[4,0,1,1,8],
+"oled_8cpp_source.html":[4,0,1,1,8],
+"oled_8hpp.html":[4,0,1,0,9],
+"oled_8hpp.html#a4e9409448a0df95c1686670e09b457b7":[4,0,1,0,9,1],
+"oled_8hpp.html#a8fd15128709c77082f0f3a2aa00d53d7":[4,0,1,0,9,3],
+"oled_8hpp.html#ae5a2aa8865dd03537b97fd1c9037371b":[4,0,1,0,9,2],
+"oled_8hpp_source.html":[4,0,1,0,9],
+"pages.html":[],
+"structconfiguration_manager_1_1configuration_data__t.html":[3,0,0,0],
+"structconfiguration_manager_1_1configuration_data__t.html#ac03f7517691eadf306b2a036a093ccde":[3,0,0,0,0],
+"structconfiguration_manager_1_1configuration_data__t.html#aea97f027798ff1a2c43d7fa86c974f04":[3,0,0,0,1]
+};

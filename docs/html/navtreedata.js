@@ -25,10 +25,10 @@
 var NAVTREE =
 [
   [ "Viking Skull Lamp", "index.html", [
-    [ "Donation", "index.html#donation", null ],
-    [ "Contributing", "index.html#contributing", null ],
-    [ "License & copyright", "index.html#license", null ],
     [ "Assembly Instructions", "md_docs_markdown_pages_assembly.html", [
+      [ "Donation", "index.html#autotoc_md2", null ],
+      [ "Contributing", "index.html#autotoc_md3", null ],
+      [ "license License & copyright", "index.html#autotoc_md4", null ],
       [ "Cable Preparation", "md_docs_markdown_pages_assembly.html#cable_preparation", [
         [ "Power Connector Cable", "md_docs_markdown_pages_assembly.html#power_connector_cable", null ],
         [ "Humidifier Cable", "md_docs_markdown_pages_assembly.html#humidifier_cable", null ],
@@ -65,13 +65,41 @@ var NAVTREE =
         [ "Step 22 - Insert Arduino", "md_docs_markdown_pages_assembly.html#step_22_insert_arduino", null ],
         [ "Step 23 - Insert Threaded PCB Spacers", "md_docs_markdown_pages_assembly.html#step_23_insert_pcb_spacers", null ],
         [ "Step 24 - Insert Printed PCB Spacer", "md_docs_markdown_pages_assembly.html#step_24_insert_printed_pcb_spacer", null ],
-        [ "Step 25 - Insert Techno Viking PCB", "md_docs_markdown_pages_assembly.html#step_25_insert_viking_pcb", null ]
+        [ "Step 25 - Insert Techno Viking PCB", "md_docs_markdown_pages_assembly.html#step_25_insert_viking_pcb", null ],
+        [ "Step 26 - Insert Plastic Washer", "md_docs_markdown_pages_assembly.html#step_26_insert_plastic_washer_pcb", null ],
+        [ "Step 27 - Lock The PCB", "md_docs_markdown_pages_assembly.html#step_27_lock_pcb", null ],
+        [ "Step 28 - Insert Plastic Washer", "md_docs_markdown_pages_assembly.html#step_28_insert_other_pcb_washers", null ],
+        [ "Step 29 - Lock PCB Screws", "md_docs_markdown_pages_assembly.html#step_29_lock_pcb_screws", null ],
+        [ "Step 30 - Glue Display Holder", "md_docs_markdown_pages_assembly.html#step_30_glue_display_holder", null ],
+        [ "Step 31 - Glue Magnet Holder", "md_docs_markdown_pages_assembly.html#step_31_glue_magnet_holder", null ],
+        [ "Step 32 - Insert Front Nuts", "md_docs_markdown_pages_assembly.html#step_32_insert_front_nuts", null ],
+        [ "Step 33 - Display Holder Thread Cut", "md_docs_markdown_pages_assembly.html#step_33_display_holder_thread", null ],
+        [ "Step 34 - Insert Display Holder Screws", "md_docs_markdown_pages_assembly.html#step_34_insert_display_holder_screws", null ],
+        [ "Step 35 - Insert Display Holder Nuts", "md_docs_markdown_pages_assembly.html#step_35_insert_display_holder_nuts", null ],
+        [ "Step 36 - Insert Display Holder Magnet", "md_docs_markdown_pages_assembly.html#step_36_insert_display_holder_magnet", null ],
+        [ "Step 37 - Insert Display Holder Knobs", "md_docs_markdown_pages_assembly.html#step_37_insert_display_holder_knobs", null ],
+        [ "Step 38 - Test Magnets", "md_docs_markdown_pages_assembly.html#step_38_test_magnets", null ],
+        [ "Step 39 - Peel Off Display Cover", "md_docs_markdown_pages_assembly.html#step_39_peel_off_display_cover", null ],
+        [ "Step 40 - Insert Display", "md_docs_markdown_pages_assembly.html#step_40_insert_display", null ],
+        [ "Step 41 - Insert Display Clamps", "md_docs_markdown_pages_assembly.html#step_41_insert_display_clamps", null ],
+        [ "Step 42 - Rotate Shaft Back", "md_docs_markdown_pages_assembly.html#step_42_rotate_shaft_back", null ],
+        [ "Step 43 - Insert Front", "md_docs_markdown_pages_assembly.html#step_43_insert_front", null ],
+        [ "Step 44 - Lock Front", "md_docs_markdown_pages_assembly.html#step_44_lock_front", null ],
+        [ "Step 45 - Rotate Shaft Front", "md_docs_markdown_pages_assembly.html#step_45_rotate_shaft_front", null ],
+        [ "Step 46 - Push Motor Mount Front", "md_docs_markdown_pages_assembly.html#step_46_push_motor_mount_front", null ],
+        [ "Step 47 - Lock Motor Mount", "md_docs_markdown_pages_assembly.html#step_47_lock_motor_mount", null ],
+        [ "Step 48 - Adjust Back Endstop Knob", "md_docs_markdown_pages_assembly.html#step_48_adjust_back_estop_knob", null ],
+        [ "Step 49 - Adjust Front Endstop Knob", "md_docs_markdown_pages_assembly.html#step_49_adjust_font_estop_knob", null ],
+        [ "Step 50 - Connect Wires", "md_docs_markdown_pages_assembly.html#step_50_connect_wires", null ],
+        [ "Step 51 - Oled Cable Tie", "md_docs_markdown_pages_assembly.html#step_51_oled_cable_tie", null ],
+        [ "Step 52 - Encoder Knob", "md_docs_markdown_pages_assembly.html#step_52_encoder_knob", null ]
       ] ]
     ] ],
     [ "Galery", "md_docs_markdown_pages_galery.html", [
       [ "Music mode", "md_docs_markdown_pages_galery.html#autotoc_md0", null ],
       [ "Humidifier", "md_docs_markdown_pages_galery.html#autotoc_md1", null ]
     ] ],
+    [ "Print Guide", "md_docs_markdown_pages_print_guide.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -100,7 +128,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"light_control_8cpp.html#a917dd43e7776a36541f1689c14266d8c"
+"light_control_8cpp.html#a917dd43e7776a36541f1689c14266d8c",
+"music_visualizer_8hpp.html#a555edaf5c00a9f5661e5f19fde4ed062"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
