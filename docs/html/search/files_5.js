@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['lightcontrol_2ecpp_0',['lightControl.cpp',['../light_control_8cpp.html',1,'']]],
-  ['lightcontrol_2ehpp_1',['lightControl.hpp',['../light_control_8hpp.html',1,'']]]
+  ['issue_5fguide_2emd_0',['issue_guide.md',['../issue__guide_8md.html',1,'']]]
 ];

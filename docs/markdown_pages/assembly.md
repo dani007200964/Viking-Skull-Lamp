@@ -797,4 +797,227 @@ Insert the encoder knob to the encoder shaft.
 
 @note The encoder knob model is designed to fit multiple length encoder shafts.
 Maybe it can be pushed further than it should. In this case, insert some cotton
-swabs into the hole in the knob until it's internal length is perfect. 
+swabs into the hole in the knob until it's internal length is perfect.
+
+@subsection step_53_upload_software Step 53 - Upload Software
+
+Now it's time to upload the software to the board. After it finished you can check the
+functionality of the mechanism by double pressing the encoder button. Also the display
+should work. Maybe some adjustment on the endstop knobs are required.
+__Do not continue until the mechanism and the display does not work correctly!__
+
+@subsection step_54_led_holder_nuts Step 54 - Insert LED Holder Nuts
+
+![Insert LED Holder Nuts](asm_stp054_led_holder_nuts.JPG)
+
+@pre Required parts:
+* __led_holder_1pcs.stl__ - 1pcs
+* __M3 Locknut__          - 5pcs
+* __M3  Regular Nut__     - 4pcs
+
+Insert the nuts into their slots.
+
+\emoji :orange_circle: Regular nut
+
+\emoji :purple_circle: Locknut
+
+@note On the photo I have used locknuts everywhere. It was a mistake.
+
+@subsection step_55_insert_led_ring_mount Step 55 - Insert LED Ring Mount
+
+![Insert LED Ring Mount](asm_stp055_insert_led_ring_mount.JPG)
+
+@pre Required parts:
+* __led_ring_mount_1pcs.stl__ - 1pcs
+
+Insert the LED ring mount to the LED holder.
+
+@subsection step_56_insert_cotton_swab Step 56 - Insert Cotton Swab
+
+![Cotton Swab From Ear Stick](asm_stp056_cotton_swab_ear_stick.JPG)
+
+![3mm Long Cotton Swab Rod](asm_stp056_cotton_swab_rod.JPG)
+
+@pre Required parts:
+* __azomizer_socket_1pcs_PETG.stl__ - 1pcs
+* __Cotton Swab__                   - 1pcs
+
+@note Some humidifier modules come with a cotton swab rod, some don't.
+If your does not contain it, you can use an ear cleaning stick, and use
+the cotton swab from it. If your module come with a cotton swab rod,
+you have to cut exactly __3mm__ long peace of it with an exacto knife.
+
+Insert the cotton swab to the center slot on the atomizer socket.
+
+@subsection step_57_insert_atomizer Step 57 - Insert Atomizer
+
+![Insert Atomizer](asm_stp057_insert_atomizer.JPG)
+
+@pre Required parts:
+* __20mm Ceramic Humidifier Transducer With Silicone Housing__ - 1pcs
+
+Insert the atomizer to the socket on the atomizer socket.
+
+@note Check the wire orientation. It has to slide into the slot on the atomizer socket.
+
+@warning Do __NOT__ use any glue or sealant. It could clog the return path and the humidifier
+wont work. Trust me I have tried it...
+
+@subsection step_58_fix_atomizer_socket Step 58 - Fix Atomizer Socket
+
+![Fix Atomizer Socket](asm_stp058_fix_atomizer_socket.JPG)
+
+@pre Required parts:
+* __M3 x 20mm Flat Head Screw__ - 5pcs
+* __M3 Locknut__                - 4pcs
+
+\emoji :purple_circle: Tighten the screws using a __star pattern__. If it's too loose, it will leak.
+
+\emoji :orange_circle: Insert the nuts to the slots.
+
+@note Check the wire during the process. It can stuck between the two surfaces.
+
+@subsection step_59_humidifier_pcb_holes Step 59 - Humidifier PCB Holes
+
+@pre Required parts:
+* __3.2mm Drill Bit__
+
+I have bought a few humidifier module and the hole positions were different for each.
+If your modules hole positions are different, lock the board to one hole and drill
+another one. To fix the humidifier PCB, at least two screws are required.
+
+@subsection step_60_humidifier_pcb_screws Step 60 - Insert Humidifier PCB Screws
+
+![Insert Humidifier PCB Screws](asm_stp060_humidifier_pcb_screws.JPG)
+
+@pre Required parts:
+* __M3 x 8mm Imbus Head Screw__ - 2pcs
+* __M3 x 0.5mm Plastic Spacer__ - 8pcs
+
+1. Insert the two screws from the top.
+2. Insert 4 - 4 plastic spacer to the screw from the bottom.
+
+@subsection step_61_fix_humidifier_pcb Step 61 - Fix Humidifier PCB
+
+![Fix Humidifier PCB](asm_stp061_fix_humidifier_pcb.JPG)
+
+@pre Required parts:
+* __M3 Regular Nut__ - 2pcs
+
+\emoji :orange_circle: Tighten the screws.
+
+\emoji :purple_circle: Connect the humidifier disc cable to the PCB.
+
+@subsection step_62_humidifier_test Step 62 - Humidifier Test
+
+1. You have to make shore that the humidifier does not leak.
+
+![Fill The Tank](asm_stp062_humidifier_test.JPG)
+
+Fill the tank ( marked purple ) with a bit of water. Do not overfill it! It usually
+takes a few minutes to soak the cotton swab, please wait at least 5 minutes. If the
+cotton swab soaks all the water pleas add a bit again.
+
+If you connect the USB port of the humidifier PCB to a phone charger you should see
+some fog \emoji :ghost:
+
+\htmlonly
+
+<iframe
+    width="640"
+    height="480"
+    src="asm_stp062_humidifier_test_video.mp4"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
+\endhtmlonly
+
+2. Leave some water in the tank and put some dry paper towels between the tank and the table.
+Let it on the table for a day at least. If it does not leak after a day it probably good.
+
+@subsection step_63_insert_led_strip Step 63 - Insert LED Strip
+
+![Insert LED Strip](asm_stp063_insert_led_strip.JPG)
+
+@pre Required parts:
+* __LED Strip__ @ref led_strip_cable "Cable Assembly" - 1pcs
+
+1. Insert the LED strip into the slots on the LED holder. It does not require any glue!
+2. Feed through the cable on the hole at the corner.
+
+@subsection step_64_skull_inserts Step 64 - Skull Inserts
+
+![Skull Inserts](asm_stp064_skull_inserts.JPG)
+
+@pre Required parts:
+* __skull_1pcs.stl__ - 1pcs
+* __M3 inserts__ - 2pcs
+
+Press the two inserts to the plastic with a soldering iron. I used  the with 200°C
+and it worked perfectly.
+
+@note Let it cool for 2-3 minutes.
+
+@subsection step_65_fix_skull Step 65 - Fix Skull
+
+![Fix Skull](asm_stp065_fix_skull.JPG)
+
+@pre Required parts:
+* __M3 x 10mm D-Head Screw__ - 2pcs
+
+Tighten the two screws to fix the skull to the top.
+
+![Top Part Finished](asm_stp065_result.JPG)
+
+It should look like this.
+
+@subsection step_66_insert_the_led_ring Step 66 - Insert LED Disc
+
+![Insert LED Disc](asm_stp066_insert_the_led_ring.JPG)
+
+@pre Required parts:
+* __LED Disc__ @ref led_disc_cable "Cable Assembly" - 1pcs
+
+Insert the LED disc to the slot.
+
+@subsection step_67_connect_top_cables Step 67 - Connect Top Cables
+
+![Connect Top Cables](asm_stp067_connect_top_cables.JPG)
+
+Connect the top section's cables to the Techno Viking PCB.
+
+\emoji :orange_circle: LED disc
+
+\emoji :purple_circle: Humidifier
+
+\emoji :large_blue_circle: LED strip
+
+@subsection step_68_insert_led_holder Step 68 - Insert LED Holder
+
+![Insert LED Holder](asm_stp068_insert_led_holder.JPG)
+
+Insert the LED holder to the base.
+
+@note Check the orientation.
+
+@subsection step_69_insert_top Step 69 - Insert Top
+
+![Insert Top](asm_stp069_insert_top.JPG)
+
+@pre Required parts:
+* __M3 x 20mm Flat Head Screw__ - 4pcs
+
+1. Insert the top part.
+2. Tighten the 4 screws on the sides( 2 on the back 1 - 1 on the front sides ).
+
+@subsection step_70_fix_top Step 70 - Fix Top
+
+![Fix Top](asm_stp070_lock_top.JPG)
+
+@pre Required parts:
+* __M3 x 20mm Flat Head Screw__ - 4pcs
+
+![](finish_logo.png)

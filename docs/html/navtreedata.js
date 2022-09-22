@@ -26,9 +26,6 @@ var NAVTREE =
 [
   [ "Viking Skull Lamp", "index.html", [
     [ "Assembly Instructions", "md_docs_markdown_pages_assembly.html", [
-      [ "Donation", "index.html#autotoc_md2", null ],
-      [ "Contributing", "index.html#autotoc_md3", null ],
-      [ "license License & copyright", "index.html#autotoc_md4", null ],
       [ "Cable Preparation", "md_docs_markdown_pages_assembly.html#cable_preparation", [
         [ "Power Connector Cable", "md_docs_markdown_pages_assembly.html#power_connector_cable", null ],
         [ "Humidifier Cable", "md_docs_markdown_pages_assembly.html#humidifier_cable", null ],
@@ -92,14 +89,33 @@ var NAVTREE =
         [ "Step 49 - Adjust Front Endstop Knob", "md_docs_markdown_pages_assembly.html#step_49_adjust_font_estop_knob", null ],
         [ "Step 50 - Connect Wires", "md_docs_markdown_pages_assembly.html#step_50_connect_wires", null ],
         [ "Step 51 - Oled Cable Tie", "md_docs_markdown_pages_assembly.html#step_51_oled_cable_tie", null ],
-        [ "Step 52 - Encoder Knob", "md_docs_markdown_pages_assembly.html#step_52_encoder_knob", null ]
+        [ "Step 52 - Encoder Knob", "md_docs_markdown_pages_assembly.html#step_52_encoder_knob", null ],
+        [ "Step 53 - Upload Software", "md_docs_markdown_pages_assembly.html#step_53_upload_software", null ],
+        [ "Step 54 - Insert LED Holder Nuts", "md_docs_markdown_pages_assembly.html#step_54_led_holder_nuts", null ],
+        [ "Step 55 - Insert LED Ring Mount", "md_docs_markdown_pages_assembly.html#step_55_insert_led_ring_mount", null ],
+        [ "Step 56 - Insert Cotton Swab", "md_docs_markdown_pages_assembly.html#step_56_insert_cotton_swab", null ],
+        [ "Step 57 - Insert Atomizer", "md_docs_markdown_pages_assembly.html#step_57_insert_atomizer", null ],
+        [ "Step 58 - Fix Atomizer Socket", "md_docs_markdown_pages_assembly.html#step_58_fix_atomizer_socket", null ],
+        [ "Step 59 - Humidifier PCB Holes", "md_docs_markdown_pages_assembly.html#step_59_humidifier_pcb_holes", null ],
+        [ "Step 60 - Insert Humidifier PCB Screws", "md_docs_markdown_pages_assembly.html#step_60_humidifier_pcb_screws", null ],
+        [ "Step 61 - Fix Humidifier PCB", "md_docs_markdown_pages_assembly.html#step_61_fix_humidifier_pcb", null ],
+        [ "Step 62 - Humidifier Test", "md_docs_markdown_pages_assembly.html#step_62_humidifier_test", null ],
+        [ "Step 63 - Insert LED Strip", "md_docs_markdown_pages_assembly.html#step_63_insert_led_strip", null ],
+        [ "Step 64 - Skull Inserts", "md_docs_markdown_pages_assembly.html#step_64_skull_inserts", null ],
+        [ "Step 65 - Fix Skull", "md_docs_markdown_pages_assembly.html#step_65_fix_skull", null ],
+        [ "Step 66 - Insert LED Disc", "md_docs_markdown_pages_assembly.html#step_66_insert_the_led_ring", null ],
+        [ "Step 67 - Connect Top Cables", "md_docs_markdown_pages_assembly.html#step_67_connect_top_cables", null ],
+        [ "Step 68 - Insert LED Holder", "md_docs_markdown_pages_assembly.html#step_68_insert_led_holder", null ],
+        [ "Step 69 - Insert Top", "md_docs_markdown_pages_assembly.html#step_69_insert_top", null ],
+        [ "Step 70 - Fix Top", "md_docs_markdown_pages_assembly.html#step_70_fix_top", null ]
       ] ]
     ] ],
-    [ "Galery", "md_docs_markdown_pages_galery.html", [
-      [ "Music mode", "md_docs_markdown_pages_galery.html#autotoc_md0", null ],
-      [ "Humidifier", "md_docs_markdown_pages_galery.html#autotoc_md1", null ]
-    ] ],
+    [ "Gallery", "md_docs_markdown_pages_gallery.html", null ],
+    [ "Issue Guide", "md_docs_markdown_pages_issue_guide.html", null ],
+    [ "PCB Assembly", "md_docs_markdown_pages_pcb_assembly.html", null ],
     [ "Print Guide", "md_docs_markdown_pages_print_guide.html", null ],
+    [ "Software Guide", "md_docs_markdown_pages_software_guide.html", null ],
+    [ "Required Tools", "md_docs_markdown_pages_tools.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -128,8 +144,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"light_control_8cpp.html#a917dd43e7776a36541f1689c14266d8c",
-"music_visualizer_8hpp.html#a555edaf5c00a9f5661e5f19fde4ed062"
+"light_control_8cpp.html#aae84786ae5e87c03661732015708670b",
+"motor_control_8hpp.html#a978983329d511d8ab27545d8badfbd89"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

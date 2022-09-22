@@ -1334,7 +1334,7 @@ HTML_HEADER            = docs/Style/doxygen-custom/header.html
 # that doxygen normally uses.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_FOOTER            =
+HTML_FOOTER            = docs/Style/doxygen-custom/footer.html
 
 # The HTML_STYLESHEET tag can be used to specify a user-defined cascading style
 # sheet that is used by each HTML page. It can be used to fine-tune the look of
@@ -1398,7 +1398,19 @@ HTML_EXTRA_FILES       = docs/Style/doxygen-awesome-darkmode-toggle.js \
                          docs/images/galery/video_001.mp4 \
                          docs/images/galery/video_002.mp4 \
                          docs/images/galery/video_003.mp4 \
-                         docs/images/galery/video_004.mp4
+                         docs/images/galery/video_004.mp4 \
+                         docs/images/arduino_logo.png \
+                         docs/images/platformio_logo.png \
+                         docs/images/asm_stp017_demonstration.mp4 \
+                         docs/images/asm_stp035_demonstration.mp4 \
+                         docs/images/asm_stp038_demonstration.mp4 \
+                         docs/images/asm_stp046_demonstration.mp4 \
+                         docs/images/asm_stp047_test.mp4 \
+                         docs/images/asm_stp062_humidifier_test_video.mp4 \
+                         docs/documents/assembly.glb \
+                         docs/documents/poster.webp \
+                         docs/documents/snippet.txt \
+                         docs/documents/spruit_sunrise_1k_HDR.hdr
 
 # The HTML_COLORSTYLE tag can be used to specify if the generated HTML output
 # should be rendered with a dark or light theme. Default setting AUTO_LIGHT

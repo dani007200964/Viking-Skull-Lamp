@@ -1,4 +1,4 @@
-19807368443019749
+19835578934367977
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -50616,6 +50616,13 @@ DO_219AD
 0
 2
 2
+Diode_local
+Toshiba M-FLAT
+
+
+0
+2
+2
 Display
 AG12864E
 STN/FSTN LCD 128x64 dot https://www.digchip.com/datasheets/parts/datasheet/1121/AG-12864E-pdf.php
@@ -55499,6 +55506,13 @@ Inductor_THT
 L_Toroid_Vertical_L67.6mm_W36.1mm_P31.80mm_Vishay_TJ9
 L_Toroid, Vertical series, Radial, pin pitch=31.80mm, , length*width=67.6*36.1mm^2, Vishay, TJ9, http://www.vishay.com/docs/34079/tj.pdf
 L_Toroid Vertical series Radial pin pitch 31.80mm  length 67.6mm width 36.1mm Vishay TJ9
+0
+2
+2
+Inductor_local
+BOURNS SRN-5040
+
+
 0
 2
 2
@@ -84497,12 +84511,68 @@ varistor SIOV
 2
 2
 connector_local
+12402054M611A
+
+
+0
+18
+15
+connector_local
+CMS-151135-078S
+
+
+0
+2
+2
+connector_local
 IDC_2x5_1.27mm_SMD
 
 
 0
 10
 10
+connector_local
+Keyestone_1043
+
+
+0
+2
+2
+connector_local
+M.2 - E - key
+
+
+0
+67
+67
+connector_local
+M.2 Keyestone 2199230-2
+
+
+0
+69
+69
+connector_local
+Standoff M2.5 H=2.5mm  WE-9774025151
+
+
+0
+1
+1
+ic_local
+ESP32-WROVER
+
+
+0
+47
+47
+ic_local
+LFCSP-WD-10
+
+
+0
+11
+11
 ic_local
 QFN_16_x3mm_1.5x1.5mm_EP
 
@@ -84510,6 +84580,41 @@ QFN_16_x3mm_1.5x1.5mm_EP
 0
 21
 17
+ic_local
+QFN_56_7x7mm_EP3.1x3.1mm
+
+
+0
+57
+57
+ic_local
+TSSP960
+
+
+0
+4
+4
+ic_local
+WLP-9 1.347x1.437mm
+
+
+0
+9
+9
+ic_local
+WSON-10-1EP_2x2mm_P0.4mm_EP0.9x1.5mm
+
+
+0
+11
+11
+microphone_local
+CUSA-R80-18-2400-TH
+
+
+0
+2
+2
 microphone_local
 Mic 6mm
 
@@ -84524,3 +84629,17 @@ Arduino_R3_Extended
 0
 32
 32
+sensor_local
+TT7-10KC8-3
+
+
+0
+2
+2
+switch_local
+JS202011JCQN
+
+
+0
+6
+6
