@@ -98,6 +98,37 @@ This is just a connector for the display cable with two pull-up resistors for th
 
 The circuit is exactly the same as the buzzer driver. It's job is to drive the motor.
 
+@subsection humidifier_switch Humidifier Switch
+
+The circuit is exactly the same as the buzzer driver. It's job is to turn on or off the humidifier module.
+
+@subsection led_interface LED Interface
+
+This contains two connectors for the two LED strips and some power filtering. It also has some series resistance, that required
+to use WS2812 and WS2813 chips properly.
+
+@subsection encoder_interface Encoder Interface
+
+The encoder is basically three switch, they has to be debounced. This section does this.
+
+@section pcb_test PCB Test
+
+1. After you have assembled the PCB it is necessary to test it, before connecting it to the Arduino.
+This is the smoke test. The best method is to have a bench power supply, and power the board up with
+5V at 100mA current limit. The power LED should turn on, and the current consumption should be less
+than 50mA( for just the bare PCB ).
+2. If the smoke test succeeds it's time to connect the PCB to the Arduino UNO and upload the firmware
+to it. If you can program the Arduino without a problem that is a good sign.
+3. Lastly you have to connect all the peripherals to the board and try them before the final assembly.
+For this step you need all the @ref cable_preparation "peripherals and cables to be prepared". Every
+connector is labeled on the PCB, so you can find the right one for each peripheral easily.
+4. If everything works, you can jump to the @ref assembly_instructions "final assembly".
+
+@note If the smoke test fails, and the current consumption is high, you probably assembled one or more components wrong.
+To identify the problem, there are some practices. For example if something blows up, it has to be replaced without
+a question. Also if a component gets hot for a touch it is probably dead, I recommend replacement. Also check the
+IC-s and silicon based components orientation. If they are soldered in a wrong orientation they usually die at power up.
+
 @section cable_preparation Cable Preparation
 
 @subsection power_connector_cable Power Connector Cable

@@ -1408,9 +1408,8 @@ HTML_EXTRA_FILES       = docs/Style/doxygen-awesome-darkmode-toggle.js \
                          docs/images/asm_stp047_test.mp4 \
                          docs/images/asm_stp062_humidifier_test_video.mp4 \
                          docs/documents/assembly.glb \
-                         docs/documents/poster.webp \
-                         docs/documents/snippet.txt \
-                         docs/documents/spruit_sunrise_1k_HDR.hdr
+                         docs/documents/spruit_sunrise_1k_HDR.hdr \
+                         docs/images/poster_assembly.png
 
 # The HTML_COLORSTYLE tag can be used to specify if the generated HTML output
 # should be rendered with a dark or light theme. Default setting AUTO_LIGHT

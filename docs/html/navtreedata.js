@@ -109,8 +109,12 @@ var NAVTREE =
         [ "Endstops", "md_docs_markdown_pages_pcb_assembly.html#endstops", null ],
         [ "Buzzer Driver", "md_docs_markdown_pages_pcb_assembly.html#buzzer_driver", null ],
         [ "Display Interface", "md_docs_markdown_pages_pcb_assembly.html#display_interface", null ],
-        [ "DC-Motor Driver", "md_docs_markdown_pages_pcb_assembly.html#dc_motor_driver", null ]
+        [ "DC-Motor Driver", "md_docs_markdown_pages_pcb_assembly.html#dc_motor_driver", null ],
+        [ "Humidifier Switch", "md_docs_markdown_pages_pcb_assembly.html#humidifier_switch", null ],
+        [ "LED Interface", "md_docs_markdown_pages_pcb_assembly.html#led_interface", null ],
+        [ "Encoder Interface", "md_docs_markdown_pages_pcb_assembly.html#encoder_interface", null ]
       ] ],
+      [ "PCB Test", "md_docs_markdown_pages_pcb_assembly.html#pcb_test", null ],
       [ "Cable Preparation", "md_docs_markdown_pages_pcb_assembly.html#cable_preparation", [
         [ "Power Connector Cable", "md_docs_markdown_pages_pcb_assembly.html#power_connector_cable", null ],
         [ "Humidifier Cable", "md_docs_markdown_pages_pcb_assembly.html#humidifier_cable", null ],
@@ -155,7 +159,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "light_control_8cpp.html#aae84786ae5e87c03661732015708670b",
-"motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86"
+"motor_control_8cpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

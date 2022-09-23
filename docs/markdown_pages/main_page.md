@@ -30,10 +30,16 @@ Here you can see what can this ting actually do:
     </div>
 </model-viewer>
 
+<script>
+    document.getElementById('glb').src=
+</script>
+
 
 \endhtmlonly
 
 Also there are some nice photos about the lighting in the @ref gallery "gallery".
+
+![](hardcore_logo.png)
 
 I want to clarify at the beginning that this is not a beginner level project. It's more like a hardcore one.
 If you love to create stuff and you are brave enough to start this journey, this documentation will guide you

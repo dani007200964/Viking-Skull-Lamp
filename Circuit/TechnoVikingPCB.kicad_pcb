@@ -1013,7 +1013,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3f7ea723-dba9-4dc0-bf29-c9e6ac75f873)
     )
-    (fp_text value "Microphone_Condenser" (at 0 3.8 -90 unlocked) (layer "F.Fab") hide
+    (fp_text value "CMEJ-0627-42-P" (at 0 3.8 -90 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d063ba46-22f6-4e50-9d5e-95f13fbaf268)
     )
@@ -1688,7 +1688,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4573cdb2-5c60-46cc-97ae-5e7e61e194ce)
     )
-    (fp_text value "BSS315PH6327XTSA1" (at 0 2.4 90) (layer "F.Fab") hide
+    (fp_text value "BSH105,215" (at 0 2.4 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3792a0c9-14a6-42c2-b665-b0a17b0b27dd)
     )
@@ -1961,7 +1961,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f91af1cb-673b-4f58-9ce4-78eab48817b0)
     )
-    (fp_text value "NSR0320MW2T1G" (at 0.1 1.9) (layer "F.Fab") hide
+    (fp_text value "PMEG4010BEA,115" (at 0.1 1.9) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 83411946-7735-493f-b056-9a48ecffa7d0)
     )
@@ -2472,7 +2472,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 841ec99c-52ab-4379-87b0-268d72b87bca)
     )
-    (fp_text value "NSR0320MW2T1G" (at 0.1 1.9 90) (layer "F.Fab") hide
+    (fp_text value "PMEG4010BEA,115" (at 0.1 1.9 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0239433e-ba26-4f61-b8d0-fdf3690fd8e2)
     )
@@ -3728,7 +3728,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9c448bcd-e08d-4e6c-bfa1-71ec68ad2c77)
     )
-    (fp_text value "BSS315PH6327XTSA1" (at 2.9848 -0.3116 90) (layer "F.Fab") hide
+    (fp_text value "BSH105,215" (at 2.9848 -0.3116 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cdcc2b2d-cdd9-4259-a591-94cbac0a11ea)
     )
@@ -4108,7 +4108,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 30e27046-1a3d-449f-964c-2b7a46c69051)
     )
-    (fp_text value "NSR0320MW2T1G" (at 0.1 1.9 90) (layer "F.Fab") hide
+    (fp_text value "PMEG4010BEA,115" (at 0.1 1.9 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 99fac62b-a8e3-44e8-b017-f725696aa8c5)
     )
@@ -5962,7 +5962,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2ef34a49-c220-4343-9aa2-0b7cf4811069)
     )
-    (fp_text value "BSS315PH6327XTSA1" (at 0 2.4 90) (layer "F.Fab") hide
+    (fp_text value "BSH105,215" (at 0 2.4 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fcdc90b6-f0c6-49a3-bb5d-50e77aa94bed)
     )
