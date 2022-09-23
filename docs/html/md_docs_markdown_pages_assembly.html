@@ -125,108 +125,8 @@ $(document).ready(function(){initNavTree('md_docs_markdown_pages_assembly.html',
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p ><a class="anchor" id="assembly_instructions"></a> </p>
-<h1><a class="anchor" id="cable_preparation"></a>
-Cable Preparation</h1>
-<h2><a class="anchor" id="power_connector_cable"></a>
-Power Connector Cable</h2>
-<div class="image">
-<img src="power_conn_cable.JPG" alt=""/>
-<div class="caption">
-Power Connector Cable</div></div>
-    <p >Cable length from the connector to the end sleeves is approximately <b>110mm</b>, the cable is <b>0.22mm2 ( 24 AWG )</b>, and the ends have cable end sleeves. The connector, that I used can be found <a href="https://www.hestore.hu/prod_10038660.html?lang=en">here</a>.</p>
-<dl class="section warning"><dt>Warning</dt><dd>Always check the polarity with a multimeter, before connecting to the PCB! Best practice is to mark the cable with a label printer or some kind of sticker.</dd></dl>
-<h2><a class="anchor" id="humidifier_cable"></a>
-Humidifier Cable</h2>
-<div class="image">
-<img src="humidifier_cable.JPG" alt=""/>
-<div class="caption">
-Humidifier Cable</div></div>
-    <p >Cable length from the humidifier to the end connector is approximately <b>140mm</b>, the cable is <b>0.22mm2 ( 24 AWG )</b>, and the end have a PHR-2 JST connector. The connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/phr-2/raster-signal-connectors-2-00mm/jst/">here</a>. Crimping tool for the connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/fut.pa-09/crimping-tools-for-terminals/engineer/pa-09/">here</a>.</p>
-<div class="image">
-<img src="humidifier_back.JPG" alt=""/>
-<div class="caption">
-Humidifier Back</div></div>
-    <p >The polarity is marked at the back side of the humidifier board. Also a little solder bridge has to be made to turn on the humidifier without button press. Humidifier module, that I used can be found <a href="https://www.hestore.hu/prod_10041539.html?lang=en">here</a>.</p>
-<dl class="section warning"><dt>Warning</dt><dd>Always check the polarity with a multimeter, before connecting to the PCB! Best practice is to mark the cable with a label printer or some kind of sticker.</dd></dl>
-<h2><a class="anchor" id="led_disc_cable"></a>
-LED Disc Cable</h2>
-<p ><img src="led_disc_cable.JPG" alt="LED Disc Cable" class="inline"/></p>
-<div class="image">
-<img src="led_disc_connector.JPG" alt=""/>
-<div class="caption">
-LED Disc Connector</div></div>
-    <p >Cable length from the LED disc to the end connector is approximately <b>160mm</b>, the cable is <b>0.22mm2 ( 24 AWG )</b>, and the end have a PHR-3 JST connector. The connector, that I used can be found <a href="https://www.tme.eu/hu/details/phr-3/jelcsatlakozok-raszter-2-00mm/jst/">here</a>. Crimping tool for the connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/fut.pa-09/crimping-tools-for-terminals/engineer/pa-09/">here</a>.</p>
-<dl class="section note"><dt>Note</dt><dd>The cable has to be soldered to the bottom of the LED disc. The bottom side has SMD solder terminals where the cable has to be soldered. They are labeled, so it's easy to identify the wires. There is an input and an output connector, the input one has to be used.</dd></dl>
-<p>LED disc, that I used can be found <a href="https://www.hestore.hu/prod_10037905.html?lang=en">here</a>.</p>
-<h2><a class="anchor" id="led_strip_cable"></a>
-LED Strip Cable</h2>
-<div class="image">
-<img src="led_strip_cable.JPG" alt=""/>
-<div class="caption">
-LED Strip Cable</div></div>
-    <div class="image">
-<img src="led_strip_connector.JPG" alt=""/>
-<div class="caption">
-LED Strip Connector</div></div>
-    <p >Cable length from the LED strip to the end connector is approximately <b>130mm</b>, the cable is <b>0.22mm2 ( 24 AWG )</b>, and the end have a PHR-3 JST connector. The connector, that I used can be found <a href="https://www.tme.eu/hu/details/phr-3/jelcsatlakozok-raszter-2-00mm/jst/">here</a>. Crimping tool for the connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/fut.pa-09/crimping-tools-for-terminals/engineer/pa-09/">here</a>.</p>
-<dl class="section note"><dt>Note</dt><dd>The LED strip has to be cut to length with 27 LEDs. The wires has to be soldered. If the strip made with WS2813 LEDs, the BI ( Backup Input ) pin has to soldered to ground. Also a <b>470uF 10V capacitor</b> has to soldered to the input across <b>VCC</b> and <b>GND</b> on the strip to stabilize the power rail. The width of the capacitor has to be equal or less than the LED strip( whisch is 10mm ).</dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd>The polarity of the capacitor has to be correct, otherwise it will blow up.</dd></dl>
-<p>LED strip, that I used can be found <a href="https://www.tme.com/us/en-us/details/hcbaa60wg/light-sources-led-ribbon/worldsemi/hc-f5v-60l-60led-w-ws2813-ip65/">here</a>.</p>
-<h2><a class="anchor" id="oled_display_cable"></a>
-Oled Display Cable</h2>
-<div class="image">
-<img src="oled_cable.JPG" alt=""/>
-<div class="caption">
-Oled Display Cable</div></div>
-    <div class="image">
-<img src="oled_connector.JPG" alt=""/>
-<div class="caption">
-Oled Display Connector</div></div>
-    <p >Cable length from the Oled display to the end connector is approximately <b>210mm</b>, the cable is <b>0.22mm2 ( 24 AWG )</b>, and the end have a PHR-4 JST connector. The connector, that I used can be found <a href="https://www.tme.eu/hu/details/phr-4/jelcsatlakozok-raszter-2-00mm/jst/">here</a>. The display side of the cable also has a connector, it can be found <a href="https://www.tme.com/us/en-us/details/nsr-04/pin-headers/ninigi/">here</a>. Crimping tool for the connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/fut.pa-09/crimping-tools-for-terminals/engineer/pa-09/">here</a>.</p>
-<p >Oled display module, that I used can be found <a href="https://www.hestore.hu/prod_10040388.html?lang=en">here</a>.</p>
-<h2><a class="anchor" id="encoder_cable"></a>
-Encoder Cable</h2>
-<div class="image">
-<img src="encoder_cable.JPG" alt=""/>
-<div class="caption">
-Encoder Cable</div></div>
-    <div class="image">
-<img src="encoder_connector.JPG" alt=""/>
-<div class="caption">
-Encoder Connector</div></div>
-    <p >Cable length from the encoder to the end connector is approximately <b>200mm</b>, the cable is <b>0.22mm2 ( 24 AWG )</b>, and the end have a PHR-5 JST connector. The connector, that I used can be found <a href="https://www.tme.eu/hu/details/phr-5/jelcsatlakozok-raszter-2-00mm/jst/">here</a>. Crimping tool for the connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/fut.pa-09/crimping-tools-for-terminals/engineer/pa-09/">here</a>.</p>
-<dl class="section note"><dt>Note</dt><dd>On the encoder side, the wires has to be soldered to the pins on the encoder module. Use heat-shrink tubes to isolate the wires from each other.</dd></dl>
-<h2><a class="anchor" id="front_endstop_cable"></a>
-Front Endstop Cable</h2>
-<div class="image">
-<img src="front_endstop.JPG" alt=""/>
-<div class="caption">
-Front Endstop Cable</div></div>
-    <p >Cable length from the front endstop to the end connector is approximately <b>155mm</b>, the cable is <b>0.22mm2 ( 24 AWG )</b>, and the end have a PHR-2 JST connector. The connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/phr-2/raster-signal-connectors-2-00mm/jst/">here</a>. Crimping tool for the connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/fut.pa-09/crimping-tools-for-terminals/engineer/pa-09/">here</a>.</p>
-<dl class="section note"><dt>Note</dt><dd>Because it is a mechanical switch, the polarity on the connector doesn't matter.</dd></dl>
-<p>Endstop switch, that I used can be found <a href="https://www.tme.eu/hu/details/ss-5gl2t/mikrokapcsolok-snap-action/omron-ocb/">here</a>.</p>
-<h2><a class="anchor" id="back_endstop_cable"></a>
-Back Endstop Cable</h2>
-<div class="image">
-<img src="back_endstop.JPG" alt=""/>
-<div class="caption">
-Back Endstop Cable</div></div>
-    <p >Cable length from the back endstop to the end connector is approximately <b>155mm</b>, the cable is <b>0.22mm2 ( 24 AWG )</b>, and the end have a PHR-2 JST connector. The connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/phr-2/raster-signal-connectors-2-00mm/jst/">here</a>. Crimping tool for the connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/fut.pa-09/crimping-tools-for-terminals/engineer/pa-09/">here</a>.</p>
-<dl class="section note"><dt>Note</dt><dd>Because it is a mechanical switch, the polarity on the connector doesn't matter.</dd></dl>
-<p>Endstop switch, that I used can be found <a href="https://www.tme.eu/hu/details/ss-5gl2t/mikrokapcsolok-snap-action/omron-ocb/">here</a>.</p>
-<h2><a class="anchor" id="motor_cable"></a>
-Back Motor Cable</h2>
-<div class="image">
-<img src="motor_cable.JPG" alt=""/>
-<div class="caption">
-Motor Cable</div></div>
-    <p >Cable length from the motor to the end connector is approximately <b>105mm</b>, the cable is <b>0.22mm2 ( 24 AWG )</b>, and the end have a PHR-2 JST connector. The connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/phr-2/raster-signal-connectors-2-00mm/jst/">here</a>. Crimping tool for the connector, that I used can be found <a href="https://www.tme.com/us/en-us/details/fut.pa-09/crimping-tools-for-terminals/engineer/pa-09/">here</a>.</p>
-<dl class="section note"><dt>Note</dt><dd>Because the mechanical construction of the open mechanism, the polarity on the connector doesn't matter.</dd></dl>
-<p>DC motor, that I used can be found <a href="https://www.hestore.hu/prod_10042774.html?lang=en">here</a>.</p>
-<h1><a class="anchor" id="mechanical_assembly"></a>
-Mechanical Assembly</h1>
-<h2><a class="anchor" id="step_1_rubber_feet"></a>
-Step 1 - Rubber Feet</h2>
+<h1><a class="anchor" id="step_1_rubber_feet"></a>
+Step 1 - Rubber Feet</h1>
 <div class="image">
 <img src="asm_stp001_rubber_feet.JPG" alt=""/>
 <div class="caption">
@@ -237,8 +137,8 @@ Rubber Feet</div></div>
 </ul>
 </dd></dl>
 <p>The four rubber feet has to glued to the bottom of the box. Rubber feet, that I used can be found <a href="https://www.hestore.hu/prod_10030980.html?lang=en">here</a>.</p>
-<h2><a class="anchor" id="step_2_endstop_mount_prepare"></a>
-Step 2 - Endstop Mount Prepare</h2>
+<h1><a class="anchor" id="step_2_endstop_mount_prepare"></a>
+Step 2 - Endstop Mount Prepare</h1>
 <div class="image">
 <img src="asm_stp002_endstop_mount_prepare.JPG" alt=""/>
 <div class="caption">
@@ -250,8 +150,8 @@ Endstop Mount Prepare</div></div>
 </ul>
 </dd></dl>
 <p>Four M3 locknuts has to be pressed to the endstop mounts.</p>
-<h2><a class="anchor" id="step_3_endstop_mount_screws"></a>
-Step 3 - Endstop Mount Screws</h2>
+<h1><a class="anchor" id="step_3_endstop_mount_screws"></a>
+Step 3 - Endstop Mount Screws</h1>
 <div class="image">
 <img src="asm_stp003_endstop_mount_screws.JPG" alt=""/>
 <div class="caption">
@@ -261,8 +161,8 @@ Endstop Mount Screws</div></div>
 </ul>
 </dd></dl>
 <p>Four M3 x 18mm Flat Head Screw has to be inserted to the endstop mount holes.</p>
-<h2><a class="anchor" id="step_4_insert_bearings"></a>
-Step 4 - Insert Bearings</h2>
+<h1><a class="anchor" id="step_4_insert_bearings"></a>
+Step 4 - Insert Bearings</h1>
 <div class="image">
 <img src="asm_stp004_insert_bearings.JPG" alt=""/>
 <div class="caption">
@@ -272,16 +172,16 @@ Insert Bearings</div></div>
 </ul>
 </dd></dl>
 <p>Insert four 26 x 17 x 5mm Bearings.</p>
-<h2><a class="anchor" id="step_5_locking_endstop_mounts"></a>
-Step 5 - Locking Endstop Mounts</h2>
+<h1><a class="anchor" id="step_5_locking_endstop_mounts"></a>
+Step 5 - Locking Endstop Mounts</h1>
 <div class="image">
 <img src="asm_stp005_locking_endstop_mount.JPG" alt=""/>
 <div class="caption">
 Locking Endstop Mount</div></div>
     <p ><span class="emoji">&#x1f7e0;</span> Make shore, that the holes for the endstop switches are looking <b>inwards</b>.</p>
 <p ><span class="emoji">&#x1f7e3;</span> Tighten the four screws, but <b>not so hard</b>, the bearings has to move a bit sideways.</p>
-<h2><a class="anchor" id="step_6_moving_platform_knobs"></a>
-Step 6 - Moving Platform Knobs</h2>
+<h1><a class="anchor" id="step_6_moving_platform_knobs"></a>
+Step 6 - Moving Platform Knobs</h1>
 <div class="image">
 <img src="asm_stp005_moving_platform_knob.JPG" alt=""/>
 <div class="caption">
@@ -292,8 +192,8 @@ Moving Platform Knobs</div></div>
 </ul>
 </dd></dl>
 <p>Insert the two knobs to the rails on the moving platform.</p>
-<h2><a class="anchor" id="step_6_moving_platform_knobs"></a>
-Step 6 - Moving Platform Knobs</h2>
+<h1><a class="anchor" id="step_6_moving_platform_knobs"></a>
+Step 6 - Moving Platform Knobs</h1>
 <div class="image">
 <img src="asm_stp006_moving_platform_knob_screws.JPG" alt=""/>
 <div class="caption">
@@ -319,19 +219,19 @@ Moving Platform Knobs</div></div>
 
 </p>
 <dl class="section note"><dt>Note</dt><dd>It has to slide freely like in the video above.</dd></dl>
-<h2><a class="anchor" id="step_7_insert_encoder"></a>
-Step 7 - Insert Encoder</h2>
+<h1><a class="anchor" id="step_7_insert_encoder"></a>
+Step 7 - Insert Encoder</h1>
 <div class="image">
 <img src="asm_stp007_insert_encoder.JPG" alt=""/>
 <div class="caption">
 Insert Encoder</div></div>
     <dl class="section pre"><dt>Precondition</dt><dd>Required parts:<ul>
-<li><b>Encoder With</b> <a class="el" href="md_docs_markdown_pages_assembly.html#encoder_cable">Cable Assembly</a> - 1pcs</li>
+<li><b>Encoder With</b> <a class="el" href="md_docs_markdown_pages_pcb_assembly.html#encoder_cable">Cable Assembly</a> - 1pcs</li>
 </ul>
 </dd></dl>
 <p>Insert the encoder into the moving platform.</p>
-<h2><a class="anchor" id="step_8_lock_encoder"></a>
-Step 8 - Lock Encoder</h2>
+<h1><a class="anchor" id="step_8_lock_encoder"></a>
+Step 8 - Lock Encoder</h1>
 <div class="image">
 <img src="asm_stp008_lock_encoder.JPG" alt=""/>
 <div class="caption">
@@ -341,23 +241,23 @@ Lock Encoder</div></div>
 </ul>
 </dd></dl>
 <p>Lock the encoder shaft with a nut. It has to be tighten.</p>
-<h2><a class="anchor" id="step_9_slide_in_moving_platform"></a>
-Step 9 - Slide In The Moving Platform</h2>
+<h1><a class="anchor" id="step_9_slide_in_moving_platform"></a>
+Step 9 - Slide In The Moving Platform</h1>
 <div class="image">
 <img src="asm_stp009_slide_in_moving_platform.JPG" alt=""/>
 <div class="caption">
 Slide In The Moving Platform</div></div>
     <p >Slide in the moving platform to the base. The four bearings has to slide in to the sockets on the moving platform.</p>
-<h2><a class="anchor" id="step_10_lock_endstop_mount_screws"></a>
-Step 10 - Lock Endstop Mount Screws</h2>
+<h1><a class="anchor" id="step_10_lock_endstop_mount_screws"></a>
+Step 10 - Lock Endstop Mount Screws</h1>
 <div class="image">
 <img src="asm_stp010_lock_endstop_mount_screws.JPG" alt=""/>
 <div class="caption">
 Lock Encoder</div></div>
     <p >Lock the four endstop mount screws.</p>
 <dl class="section note"><dt>Note</dt><dd>The moving platform has to move freely forward and backward, without any side wobble.</dd></dl>
-<h2><a class="anchor" id="step_11_motor_shaft_thread_cutting"></a>
-Step 11 - Motor Shaft M3 Thread Cutting</h2>
+<h1><a class="anchor" id="step_11_motor_shaft_thread_cutting"></a>
+Step 11 - Motor Shaft M3 Thread Cutting</h1>
 <div class="image">
 <img src="asm_stp011_motor_shaft_thread_cutting.JPG" alt=""/>
 <div class="caption">
@@ -367,8 +267,8 @@ Motor Shaft M3 Thread Cutting</div></div>
 </ul>
 </dd></dl>
 <p>Cut an M3 thread to the hole on the side.</p>
-<h2><a class="anchor" id="step_12_eccentric_shaft_assembly"></a>
-Step 12 - Eccentric Shaft Assembly</h2>
+<h1><a class="anchor" id="step_12_eccentric_shaft_assembly"></a>
+Step 12 - Eccentric Shaft Assembly</h1>
 <div class="image">
 <img src="asm_stp012_eccentric_shaft_assembly.JPG" alt=""/>
 <div class="caption">
@@ -380,8 +280,8 @@ Eccentric Shaft Assembly</div></div>
 </ul>
 </dd></dl>
 <p>Assemble the eccentric shaft as seen on the picture above.</p>
-<h2><a class="anchor" id="step_13_insert_motor_screws"></a>
-Step 13 - Insert Motor Screws</h2>
+<h1><a class="anchor" id="step_13_insert_motor_screws"></a>
+Step 13 - Insert Motor Screws</h1>
 <div class="image">
 <img src="asm_stp013_insert_motor_screws.JPG" alt=""/>
 <div class="caption">
@@ -392,19 +292,19 @@ Insert Motor Screws</div></div>
 </ul>
 </dd></dl>
 <p>Insert the two screws into the motor mount.</p>
-<h2><a class="anchor" id="step_14_lock_motor_screws"></a>
-Step 14 - Lock The Motor Screws</h2>
+<h1><a class="anchor" id="step_14_lock_motor_screws"></a>
+Step 14 - Lock The Motor Screws</h1>
 <div class="image">
 <img src="asm_stp014_lock_motor_screws.JPG" alt=""/>
 <div class="caption">
 Tighten Motor Screws</div></div>
     <dl class="section pre"><dt>Precondition</dt><dd>Required parts:<ul>
-<li><b>Motor With</b> <a class="el" href="md_docs_markdown_pages_assembly.html#motor_cable">Cable Assembly</a> - 1pcs</li>
+<li><b>Motor With</b> <a class="el" href="md_docs_markdown_pages_pcb_assembly.html#motor_cable">Cable Assembly</a> - 1pcs</li>
 </ul>
 </dd></dl>
 <p>Tighten the two screws of the motor.</p>
-<h2><a class="anchor" id="step_15_insert_motor_mount_nuts"></a>
-Step 15 - Insert Motor Mount Nuts</h2>
+<h1><a class="anchor" id="step_15_insert_motor_mount_nuts"></a>
+Step 15 - Insert Motor Mount Nuts</h1>
 <div class="image">
 <img src="asm_stp015_insert_motor_mount_nuts.JPG" alt=""/>
 <div class="caption">
@@ -414,8 +314,8 @@ Insert Motor Mount Nuts</div></div>
 </ul>
 </dd></dl>
 <p>Insert the nuts to the slots on the motor mount.</p>
-<h2><a class="anchor" id="step_16_press_the_eccentric_shaft"></a>
-Step 16 - Press The Eccentric Shaft To The Motor</h2>
+<h1><a class="anchor" id="step_16_press_the_eccentric_shaft"></a>
+Step 16 - Press The Eccentric Shaft To The Motor</h1>
 <div class="image">
 <img src="asm_stp016_press_the_eccentric_shaft.JPG" alt=""/>
 <div class="caption">
@@ -425,8 +325,8 @@ Press The Eccentric Shaft</div></div>
 </ul>
 </dd></dl>
 <p>Press the eccentric shaft to the motor shaft.</p>
-<h2><a class="anchor" id="step_17_insert_the_motor_mount"></a>
-Step 17 - Insert The Motor Mount</h2>
+<h1><a class="anchor" id="step_17_insert_the_motor_mount"></a>
+Step 17 - Insert The Motor Mount</h1>
 <div class="image">
 <img src="asm_stp017_insert_the_motor_mount.JPG" alt=""/>
 <div class="caption">
@@ -449,40 +349,40 @@ Insert The Motor Mount</div></div>
 </iframe>
 
 </p>
-<h2><a class="anchor" id="step_18_insert_power_jack"></a>
-Step 18 - Insert Power Jack</h2>
+<h1><a class="anchor" id="step_18_insert_power_jack"></a>
+Step 18 - Insert Power Jack</h1>
 <div class="image">
 <img src="asm_stp018_insert_power_jack.JPG" alt=""/>
 <div class="caption">
 Insert Power Jack</div></div>
     <dl class="section pre"><dt>Precondition</dt><dd>Required parts:<ul>
-<li><a class="el" href="md_docs_markdown_pages_assembly.html#power_connector_cable">Power Cable Assembly</a> - 1pcs</li>
+<li><a class="el" href="md_docs_markdown_pages_pcb_assembly.html#power_connector_cable">Power Cable Assembly</a> - 1pcs</li>
 </ul>
 </dd></dl>
 <p>Insert the power jack to the slot on the back side.</p>
-<h2><a class="anchor" id="step_19_lock_power_jack"></a>
-Step 19 - Lock Power Jack</h2>
+<h1><a class="anchor" id="step_19_lock_power_jack"></a>
+Step 19 - Lock Power Jack</h1>
 <div class="image">
 <img src="asm_stp019_lock_power_jack.JPG" alt=""/>
 <div class="caption">
 Lock Power Jack</div></div>
     <p >Lock the power jack with it's nut. A tweezer can be helpful for this operation.</p>
-<h2><a class="anchor" id="step_20_insert_endstops"></a>
-Step 20 - Insert Endstops</h2>
+<h1><a class="anchor" id="step_20_insert_endstops"></a>
+Step 20 - Insert Endstops</h1>
 <div class="image">
 <img src="asm_stp020_insert_endstops.JPG" alt=""/>
 <div class="caption">
 Insert Endstops</div></div>
     <dl class="section pre"><dt>Precondition</dt><dd>Required parts:<ul>
 <li><b>M2.3 x 10mm Regular</b> <a href="https://www.tme.com/us/en-us/details/b2.3x10_bn330/bolts/bossard/1123106/">Screws</a> - 4pcs</li>
-<li><b>Front Endstop</b> <a class="el" href="md_docs_markdown_pages_assembly.html#front_endstop_cable">Cable Assembly</a> - 1pcs</li>
-<li><b>Back Endstop</b> <a class="el" href="md_docs_markdown_pages_assembly.html#back_endstop_cable">Cable Assembly</a> - 1pcs</li>
+<li><b>Front Endstop</b> <a class="el" href="md_docs_markdown_pages_pcb_assembly.html#front_endstop_cable">Cable Assembly</a> - 1pcs</li>
+<li><b>Back Endstop</b> <a class="el" href="md_docs_markdown_pages_pcb_assembly.html#back_endstop_cable">Cable Assembly</a> - 1pcs</li>
 </ul>
 </dd></dl>
 <p>Fix the endstops with the screws. The screw has to cut thread to the plastic, it require some force.</p>
 <dl class="section note"><dt>Note</dt><dd>Check the orientation of the endstops!</dd></dl>
-<h2><a class="anchor" id="step_21_insert_pcb_screws"></a>
-Step 21 - Insert PCB Screws</h2>
+<h1><a class="anchor" id="step_21_insert_pcb_screws"></a>
+Step 21 - Insert PCB Screws</h1>
 <div class="image">
 <img src="asm_stp021_insert_pcb_screws.JPG" alt=""/>
 <div class="caption">
@@ -494,8 +394,8 @@ Insert Endstops</div></div>
 </dd></dl>
 <p><span class="emoji">&#x1f7e0;</span> M3 X 16mm screws.</p>
 <p ><span class="emoji">&#x1f7e3;</span> M3 X 30mm screw.</p>
-<h2><a class="anchor" id="step_22_insert_arduino"></a>
-Step 22 - Insert Arduino</h2>
+<h1><a class="anchor" id="step_22_insert_arduino"></a>
+Step 22 - Insert Arduino</h1>
 <div class="image">
 <img src="asm_stp022_insert_arduino.JPG" alt=""/>
 <div class="caption">
@@ -505,8 +405,8 @@ Insert Arduino</div></div>
 </ul>
 </dd></dl>
 <p>Insert an Arduino UNO <b>R3</b> to the base.</p>
-<h2><a class="anchor" id="step_23_insert_pcb_spacers"></a>
-Step 23 - Insert Threaded PCB Spacers</h2>
+<h1><a class="anchor" id="step_23_insert_pcb_spacers"></a>
+Step 23 - Insert Threaded PCB Spacers</h1>
 <div class="image">
 <img src="asm_stp023_insert_pcb_spacers.JPG" alt=""/>
 <div class="caption">
@@ -516,8 +416,8 @@ Insert Threaded PCB Spacers</div></div>
 </ul>
 </dd></dl>
 <p>Insert the spacers and tighten them.</p>
-<h2><a class="anchor" id="step_24_insert_printed_pcb_spacer"></a>
-Step 24 - Insert Printed PCB Spacer</h2>
+<h1><a class="anchor" id="step_24_insert_printed_pcb_spacer"></a>
+Step 24 - Insert Printed PCB Spacer</h1>
 <div class="image">
 <img src="asm_stp024_insert_printed_pcb_spacer.JPG" alt=""/>
 <div class="caption">
@@ -528,8 +428,8 @@ Insert Printed PCB Spacer</div></div>
 </dd></dl>
 <p>Insert the spacer.</p>
 <dl class="section note"><dt>Note</dt><dd>Check the orientation!</dd></dl>
-<h2><a class="anchor" id="step_25_insert_viking_pcb"></a>
-Step 25 - Insert Techno Viking PCB</h2>
+<h1><a class="anchor" id="step_25_insert_viking_pcb"></a>
+Step 25 - Insert Techno Viking PCB</h1>
 <div class="image">
 <img src="asm_stp025_insert_viking_pcb.JPG" alt=""/>
 <div class="caption">
@@ -540,8 +440,8 @@ Insert Techno Viking PCB</div></div>
 </dd></dl>
 <p>Insert the PCB to the Arduino UNO.</p>
 <dl class="section note"><dt>Note</dt><dd>Gently push the Techno Viking Board to the Arduino UNO.</dd></dl>
-<h2><a class="anchor" id="step_26_insert_plastic_washer_pcb"></a>
-Step 26 - Insert Plastic Washer</h2>
+<h1><a class="anchor" id="step_26_insert_plastic_washer_pcb"></a>
+Step 26 - Insert Plastic Washer</h1>
 <div class="image">
 <img src="asm_stp026_insert_plastic_washer_pcb.JPG" alt=""/>
 <div class="caption">
@@ -551,8 +451,8 @@ Insert Plastic Washer</div></div>
 </ul>
 </dd></dl>
 <p>Insert the plastic washer to the screw.</p>
-<h2><a class="anchor" id="step_27_lock_pcb"></a>
-Step 27 - Lock The PCB</h2>
+<h1><a class="anchor" id="step_27_lock_pcb"></a>
+Step 27 - Lock The PCB</h1>
 <div class="image">
 <img src="asm_stp027_lock_pcb.JPG" alt=""/>
 <div class="caption">
@@ -562,8 +462,8 @@ Lock The PCB</div></div>
 </ul>
 </dd></dl>
 <p>Lock the screw with a nut.</p>
-<h2><a class="anchor" id="step_28_insert_other_pcb_washers"></a>
-Step 28 - Insert Plastic Washer</h2>
+<h1><a class="anchor" id="step_28_insert_other_pcb_washers"></a>
+Step 28 - Insert Plastic Washer</h1>
 <div class="image">
 <img src="asm_stp028_insert_other_pcb_washers.JPG" alt=""/>
 <div class="caption">
@@ -573,8 +473,8 @@ Insert Plastic Washer</div></div>
 </ul>
 </dd></dl>
 <p>Insert the remaining plastic PCB washers.</p>
-<h2><a class="anchor" id="step_29_lock_pcb_screws"></a>
-Step 29 - Lock PCB Screws</h2>
+<h1><a class="anchor" id="step_29_lock_pcb_screws"></a>
+Step 29 - Lock PCB Screws</h1>
 <div class="image">
 <img src="asm_stp029_lock_pcb_screws.JPG" alt=""/>
 <div class="caption">
@@ -584,8 +484,8 @@ Lock PCB Screws</div></div>
 </ul>
 </dd></dl>
 <p>Lock the PCB with the screws.</p>
-<h2><a class="anchor" id="step_30_glue_display_holder"></a>
-Step 30 - Glue Display Holder</h2>
+<h1><a class="anchor" id="step_30_glue_display_holder"></a>
+Step 30 - Glue Display Holder</h1>
 <div class="image">
 <img src="asm_stp030_glue_display_holder.JPG" alt=""/>
 <div class="caption">
@@ -598,8 +498,8 @@ Lock PCB Screws</div></div>
 </dd></dl>
 <p>Glue the front to the base part of the display holder.</p>
 <dl class="section note"><dt>Note</dt><dd>Check the orientation before gluing!</dd></dl>
-<h2><a class="anchor" id="step_31_glue_magnet_holder"></a>
-Step 31 - Glue Magnet Holder</h2>
+<h1><a class="anchor" id="step_31_glue_magnet_holder"></a>
+Step 31 - Glue Magnet Holder</h1>
 <div class="image">
 <img src="asm_stp031_glue_magnet_holder.JPG" alt=""/>
 <div class="caption">
@@ -611,8 +511,8 @@ Glue Magnet Holder</div></div>
 </ul>
 </dd></dl>
 <p>Glue the magnet into the magnet holder.</p>
-<h2><a class="anchor" id="step_32_insert_front_nuts"></a>
-Step 32 - Insert Front Nuts</h2>
+<h1><a class="anchor" id="step_32_insert_front_nuts"></a>
+Step 32 - Insert Front Nuts</h1>
 <div class="image">
 <img src="asm_stp032_insert_front_nuts.JPG" alt=""/>
 <div class="caption">
@@ -623,8 +523,8 @@ Lock PCB Screws</div></div>
 </ul>
 </dd></dl>
 <p>Insert the nuts, to the slots on the front panel.</p>
-<h2><a class="anchor" id="step_33_display_holder_thread"></a>
-Step 33 - Display Holder Thread Cut</h2>
+<h1><a class="anchor" id="step_33_display_holder_thread"></a>
+Step 33 - Display Holder Thread Cut</h1>
 <div class="image">
 <img src="asm_stp033_display_holder_thread.JPG" alt=""/>
 <div class="caption">
@@ -636,8 +536,8 @@ Display Holder Thread Cut</div></div>
 </dd></dl>
 <p>Cut an M3 thread both sides of the display holder.</p>
 <dl class="section note"><dt>Note</dt><dd>Be gentle when cutting the thread. If you cut too fast, the plastic can melt or the cutter can break.</dd></dl>
-<h2><a class="anchor" id="step_34_insert_display_holder_screws"></a>
-Step 34 - Insert Display Holder Screws</h2>
+<h1><a class="anchor" id="step_34_insert_display_holder_screws"></a>
+Step 34 - Insert Display Holder Screws</h1>
 <div class="image">
 <img src="asm_stp034_insert_display_holder_screws.JPG" alt=""/>
 <div class="caption">
@@ -654,8 +554,8 @@ Insert Display Holder Screws</div></div>
 <p ><span class="emoji">&#x1f7e0;</span> M3 x 16mm screw</p>
 <p ><span class="emoji">&#x1f7e3;</span> M3 x 8mm screw</p>
 <dl class="section note"><dt>Note</dt><dd>Check the orientation of the slot on the front panel and the slot on the display.</dd></dl>
-<h2><a class="anchor" id="step_35_insert_display_holder_nuts"></a>
-Step 35 - Insert Display Holder Nuts</h2>
+<h1><a class="anchor" id="step_35_insert_display_holder_nuts"></a>
+Step 35 - Insert Display Holder Nuts</h1>
 <div class="image">
 <img src="asm_stp035_insert_display_holder_nuts.JPG" alt=""/>
 <div class="caption">
@@ -679,8 +579,8 @@ Insert Display Holder Nuts</div></div>
 </iframe>
 
 </p>
-<h2><a class="anchor" id="step_36_insert_display_holder_magnet"></a>
-Step 36 - Insert Display Holder Magnet</h2>
+<h1><a class="anchor" id="step_36_insert_display_holder_magnet"></a>
+Step 36 - Insert Display Holder Magnet</h1>
 <div class="image">
 <img src="asm_stp036_insert_display_holder_magnet.JPG" alt=""/>
 <div class="caption">
@@ -691,8 +591,8 @@ Insert Display Holder Magnet</div></div>
 </dd></dl>
 <p>Insert the magnet in the slot on the display holder.</p>
 <dl class="section note"><dt>Note</dt><dd><b>Do NOT glue the magnet!</b> It will be glued in the next steps.</dd></dl>
-<h2><a class="anchor" id="step_37_insert_display_holder_knobs"></a>
-Step 37 - Insert Display Holder Knobs</h2>
+<h1><a class="anchor" id="step_37_insert_display_holder_knobs"></a>
+Step 37 - Insert Display Holder Knobs</h1>
 <div class="image">
 <img src="asm_stp037_insert_display_holder_knobs.JPG" alt=""/>
 <div class="caption">
@@ -706,8 +606,8 @@ Insert Display Holder Knobs</div></div>
 <p>Fix the knobs to the display holder.</p>
 <p ><span class="emoji">&#x1f7e0;</span> Short spacer</p>
 <p ><span class="emoji">&#x1f7e3;</span> Long spacer</p>
-<h2><a class="anchor" id="step_38_test_magnets"></a>
-Step 38 - Test Magnets</h2>
+<h1><a class="anchor" id="step_38_test_magnets"></a>
+Step 38 - Test Magnets</h1>
 <div class="image">
 <img src="asm_stp038_test_magnets.JPG" alt=""/>
 <div class="caption">
@@ -733,23 +633,23 @@ Test Magnets</div></div>
 </p>
 <p >If the magnet polarity wrong, just flip the magnet inside the display holder and try it again.</p>
 <p >After you have tested the display holder and it's working fine, you can glue the magnet holder into the front panel, and the magnet inside the display holder.</p>
-<h2><a class="anchor" id="step_39_peel_off_display_cover"></a>
-Step 39 - Peel Off Display Cover</h2>
+<h1><a class="anchor" id="step_39_peel_off_display_cover"></a>
+Step 39 - Peel Off Display Cover</h1>
 <div class="image">
 <img src="asm_stp039_peel_off_display_cover.JPG" alt=""/>
 <div class="caption">
 Peel Off Display Cover</div></div>
     <p >Peel off the protecting foil from the oled display.</p>
-<h2><a class="anchor" id="step_40_insert_display"></a>
-Step 40 - Insert Display</h2>
+<h1><a class="anchor" id="step_40_insert_display"></a>
+Step 40 - Insert Display</h1>
 <div class="image">
 <img src="asm_stp040_insert_display.JPG" alt=""/>
 <div class="caption">
 Insert Display</div></div>
     <p >Insert the oled display into the display holder.</p>
 <dl class="section note"><dt>Note</dt><dd>Check the orientation of the display cable.</dd></dl>
-<h2><a class="anchor" id="step_41_insert_display_clamps"></a>
-Step 41 - Insert Display Clamps</h2>
+<h1><a class="anchor" id="step_41_insert_display_clamps"></a>
+Step 41 - Insert Display Clamps</h1>
 <div class="image">
 <img src="asm_stp041_insert_display_clamps.JPG" alt=""/>
 <div class="caption">
@@ -759,15 +659,15 @@ Insert Display Clamps</div></div>
 </ul>
 </dd></dl>
 <p>Insert the clamps into the display holder.</p>
-<h2><a class="anchor" id="step_42_rotate_shaft_back"></a>
-Step 42 - Rotate Shaft Back</h2>
+<h1><a class="anchor" id="step_42_rotate_shaft_back"></a>
+Step 42 - Rotate Shaft Back</h1>
 <div class="image">
 <img src="asm_stp042_rotate_shaft_back.JPG" alt=""/>
 <div class="caption">
 Rotate Shaft Back</div></div>
     <p >Slowly rotate the eccentric shaft to the back position.</p>
-<h2><a class="anchor" id="step_43_insert_front"></a>
-Step 43 - Insert Front</h2>
+<h1><a class="anchor" id="step_43_insert_front"></a>
+Step 43 - Insert Front</h1>
 <div class="image">
 <img src="asm_stp043_insert_front.JPG" alt=""/>
 <div class="caption">
@@ -779,8 +679,8 @@ Insert Front</div></div>
 <div class="caption">
 Result</div></div>
     <p >It should look like this.</p>
-<h2><a class="anchor" id="step_44_lock_front"></a>
-Step 44 - Lock Front</h2>
+<h1><a class="anchor" id="step_44_lock_front"></a>
+Step 44 - Lock Front</h1>
 <div class="image">
 <img src="asm_stp044_lock_front.JPG" alt=""/>
 <div class="caption">
@@ -790,15 +690,15 @@ Lock Front</div></div>
 </ul>
 </dd></dl>
 <p>Tighten the screws on the bottom to lock the front panel.</p>
-<h2><a class="anchor" id="step_45_rotate_shaft_front"></a>
-Step 45 - Rotate Shaft Front</h2>
+<h1><a class="anchor" id="step_45_rotate_shaft_front"></a>
+Step 45 - Rotate Shaft Front</h1>
 <div class="image">
 <img src="asm_stp045_rotate_shaft_front.JPG" alt=""/>
 <div class="caption">
 Rotate Shaft Front</div></div>
     <p >Slowly rotate the eccentric shaft to the front position.</p>
-<h2><a class="anchor" id="step_46_push_motor_mount_front"></a>
-Step 46 - Push Motor Mount Front</h2>
+<h1><a class="anchor" id="step_46_push_motor_mount_front"></a>
+Step 46 - Push Motor Mount Front</h1>
 <div class="image">
 <img src="asm_stp046_push_motor_mount_front.JPG" alt=""/>
 <div class="caption">
@@ -817,8 +717,8 @@ Push Motor Mount Front</div></div>
 </iframe>
 
 </p>
-<h2><a class="anchor" id="step_47_lock_motor_mount"></a>
-Step 47 - Lock Motor Mount</h2>
+<h1><a class="anchor" id="step_47_lock_motor_mount"></a>
+Step 47 - Lock Motor Mount</h1>
 <div class="image">
 <img src="asm_stp047_lock_motor_mount.JPG" alt=""/>
 <div class="caption">
@@ -843,8 +743,8 @@ Lock Motor Mount</div></div>
 <li>If the mechanism stuck at opening, that means the motor mount is set the wrong position, it has to be adjusted. You have to push it a bit to the back.</li>
 <li>If the mechanism opens and closes, but the display doesn't open fully, that means the motor mount is set the wrong position, it has to be adjusted. You have to push it a bit to the front.</li>
 </ul>
-<h2><a class="anchor" id="step_48_adjust_back_estop_knob"></a>
-Step 48 - Adjust Back Endstop Knob</h2>
+<h1><a class="anchor" id="step_48_adjust_back_estop_knob"></a>
+Step 48 - Adjust Back Endstop Knob</h1>
 <div class="image">
 <img src="asm_stp048_adjust_back_estop_knob.JPG" alt=""/>
 <div class="caption">
@@ -854,8 +754,8 @@ Adjust Back Endstop Knob</div></div>
 <li>Adjust the back endstop knob position. It has to just click when the mechanism arrives to the back position.</li>
 <li>Tighten the screw to fix the knob.</li>
 </ol>
-<h2><a class="anchor" id="step_49_adjust_font_estop_knob"></a>
-Step 49 - Adjust Front Endstop Knob</h2>
+<h1><a class="anchor" id="step_49_adjust_font_estop_knob"></a>
+Step 49 - Adjust Front Endstop Knob</h1>
 <div class="image">
 <img src="asm_stp049_adjust_front_estop_knob.JPG" alt=""/>
 <div class="caption">
@@ -865,8 +765,8 @@ Adjust Front Endstop Knob</div></div>
 <li>Adjust the front endstop knob position. It has to just click when the mechanism arrives to the front position.</li>
 <li>Tighten the screw to fix the knob.</li>
 </ol>
-<h2><a class="anchor" id="step_50_connect_wires"></a>
-Step 50 - Connect Wires</h2>
+<h1><a class="anchor" id="step_50_connect_wires"></a>
+Step 50 - Connect Wires</h1>
 <div class="image">
 <img src="asm_stp050_connect_wires.JPG" alt=""/>
 <div class="caption">
@@ -882,8 +782,8 @@ Pinout</div></div>
 <p ><span class="emoji">&#x1f7e1;</span> Input power <span class="emoji">&#x26a0;</span> <b>Check the polarity!</b></p>
 <p ><span class="emoji">&#x1f534;</span> Oled display.</p>
 <dl class="section note"><dt>Note</dt><dd>If the oled display cable won't fit easily, it is recommended to unscrew the Techno Viking PCB to access the oled display cable connector. After the display cable connected the PCB put back to it's place.</dd></dl>
-<h2><a class="anchor" id="step_51_oled_cable_tie"></a>
-Step 51 - Oled Cable Tie</h2>
+<h1><a class="anchor" id="step_51_oled_cable_tie"></a>
+Step 51 - Oled Cable Tie</h1>
 <div class="image">
 <img src="asm_stp051_oled_cable_tie.JPG" alt=""/>
 <div class="caption">
@@ -895,8 +795,8 @@ Oled Cable Tie</div></div>
 <div class="caption">
 Base Cables</div></div>
     <p >The wiring should look like this.</p>
-<h2><a class="anchor" id="step_52_encoder_knob"></a>
-Step 52 - Encoder Knob</h2>
+<h1><a class="anchor" id="step_52_encoder_knob"></a>
+Step 52 - Encoder Knob</h1>
 <div class="image">
 <img src="asm_stp052_encoder_knob.JPG" alt=""/>
 <div class="caption">
@@ -907,11 +807,11 @@ Encoder Knob</div></div>
 </dd></dl>
 <p>Insert the encoder knob to the encoder shaft.</p>
 <dl class="section note"><dt>Note</dt><dd>The encoder knob model is designed to fit multiple length encoder shafts. Maybe it can be pushed further than it should. In this case, insert some cotton swabs into the hole in the knob until it's internal length is perfect.</dd></dl>
-<h2><a class="anchor" id="step_53_upload_software"></a>
-Step 53 - Upload Software</h2>
+<h1><a class="anchor" id="step_53_upload_software"></a>
+Step 53 - Upload Software</h1>
 <p >Now it's time to upload the software to the board. After it finished you can check the functionality of the mechanism by double pressing the encoder button. Also the display should work. Maybe some adjustment on the endstop knobs are required. <b>Do not continue until the mechanism and the display does not work correctly!</b></p>
-<h2><a class="anchor" id="step_54_led_holder_nuts"></a>
-Step 54 - Insert LED Holder Nuts</h2>
+<h1><a class="anchor" id="step_54_led_holder_nuts"></a>
+Step 54 - Insert LED Holder Nuts</h1>
 <div class="image">
 <img src="asm_stp054_led_holder_nuts.JPG" alt=""/>
 <div class="caption">
@@ -926,8 +826,8 @@ Insert LED Holder Nuts</div></div>
 <p ><span class="emoji">&#x1f7e0;</span> Regular nut</p>
 <p ><span class="emoji">&#x1f7e3;</span> Locknut</p>
 <dl class="section note"><dt>Note</dt><dd>On the photo I have used locknuts everywhere. It was a mistake.</dd></dl>
-<h2><a class="anchor" id="step_55_insert_led_ring_mount"></a>
-Step 55 - Insert LED Ring Mount</h2>
+<h1><a class="anchor" id="step_55_insert_led_ring_mount"></a>
+Step 55 - Insert LED Ring Mount</h1>
 <div class="image">
 <img src="asm_stp055_insert_led_ring_mount.JPG" alt=""/>
 <div class="caption">
@@ -937,8 +837,8 @@ Insert LED Ring Mount</div></div>
 </ul>
 </dd></dl>
 <p>Insert the LED ring mount to the LED holder.</p>
-<h2><a class="anchor" id="step_56_insert_cotton_swab"></a>
-Step 56 - Insert Cotton Swab</h2>
+<h1><a class="anchor" id="step_56_insert_cotton_swab"></a>
+Step 56 - Insert Cotton Swab</h1>
 <div class="image">
 <img src="asm_stp056_cotton_swab_ear_stick.JPG" alt=""/>
 <div class="caption">
@@ -954,8 +854,8 @@ Cotton Swab From Ear Stick</div></div>
 </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Some humidifier modules come with a cotton swab rod, some don't. If your does not contain it, you can use an ear cleaning stick, and use the cotton swab from it. If your module come with a cotton swab rod, you have to cut exactly <b>3mm</b> long peace of it with an exacto knife.</dd></dl>
 <p>Insert the cotton swab to the center slot on the atomizer socket.</p>
-<h2><a class="anchor" id="step_57_insert_atomizer"></a>
-Step 57 - Insert Atomizer</h2>
+<h1><a class="anchor" id="step_57_insert_atomizer"></a>
+Step 57 - Insert Atomizer</h1>
 <div class="image">
 <img src="asm_stp057_insert_atomizer.JPG" alt=""/>
 <div class="caption">
@@ -967,8 +867,8 @@ Insert Atomizer</div></div>
 <p>Insert the atomizer to the socket on the atomizer socket.</p>
 <dl class="section note"><dt>Note</dt><dd>Check the wire orientation. It has to slide into the slot on the atomizer socket.</dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>Do <b>NOT</b> use any glue or sealant. It could clog the return path and the humidifier wont work. Trust me I have tried it...</dd></dl>
-<h2><a class="anchor" id="step_58_fix_atomizer_socket"></a>
-Step 58 - Fix Atomizer Socket</h2>
+<h1><a class="anchor" id="step_58_fix_atomizer_socket"></a>
+Step 58 - Fix Atomizer Socket</h1>
 <div class="image">
 <img src="asm_stp058_fix_atomizer_socket.JPG" alt=""/>
 <div class="caption">
@@ -981,15 +881,15 @@ Fix Atomizer Socket</div></div>
 <p><span class="emoji">&#x1f7e3;</span> Tighten the screws using a <b>star pattern</b>. If it's too loose, it will leak.</p>
 <p ><span class="emoji">&#x1f7e0;</span> Insert the nuts to the slots.</p>
 <dl class="section note"><dt>Note</dt><dd>Check the wire during the process. It can stuck between the two surfaces.</dd></dl>
-<h2><a class="anchor" id="step_59_humidifier_pcb_holes"></a>
-Step 59 - Humidifier PCB Holes</h2>
+<h1><a class="anchor" id="step_59_humidifier_pcb_holes"></a>
+Step 59 - Humidifier PCB Holes</h1>
 <dl class="section pre"><dt>Precondition</dt><dd>Required parts:<ul>
 <li><b>3.2mm Drill Bit</b></li>
 </ul>
 </dd></dl>
 <p>I have bought a few humidifier module and the hole positions were different for each. If your modules hole positions are different, lock the board to one hole and drill another one. To fix the humidifier PCB, at least two screws are required.</p>
-<h2><a class="anchor" id="step_60_humidifier_pcb_screws"></a>
-Step 60 - Insert Humidifier PCB Screws</h2>
+<h1><a class="anchor" id="step_60_humidifier_pcb_screws"></a>
+Step 60 - Insert Humidifier PCB Screws</h1>
 <div class="image">
 <img src="asm_stp060_humidifier_pcb_screws.JPG" alt=""/>
 <div class="caption">
@@ -1003,8 +903,8 @@ Insert Humidifier PCB Screws</div></div>
 <li>Insert 4 - 4 plastic spacer to the screw from the bottom.</li>
 </ol>
 </dd></dl>
-<h2><a class="anchor" id="step_61_fix_humidifier_pcb"></a>
-Step 61 - Fix Humidifier PCB</h2>
+<h1><a class="anchor" id="step_61_fix_humidifier_pcb"></a>
+Step 61 - Fix Humidifier PCB</h1>
 <div class="image">
 <img src="asm_stp061_fix_humidifier_pcb.JPG" alt=""/>
 <div class="caption">
@@ -1015,8 +915,8 @@ Fix Humidifier PCB</div></div>
 </dd></dl>
 <p><span class="emoji">&#x1f7e0;</span> Tighten the screws.</p>
 <p ><span class="emoji">&#x1f7e3;</span> Connect the humidifier disc cable to the PCB.</p>
-<h2><a class="anchor" id="step_62_humidifier_test"></a>
-Step 62 - Humidifier Test</h2>
+<h1><a class="anchor" id="step_62_humidifier_test"></a>
+Step 62 - Humidifier Test</h1>
 <ol type="1">
 <li>You have to make shore that the humidifier does not leak.</li>
 </ol>
@@ -1042,22 +942,22 @@ Fill The Tank</div></div>
 <ol type="1">
 <li>Leave some water in the tank and put some dry paper towels between the tank and the table. Let it on the table for a day at least. If it does not leak after a day it probably good.</li>
 </ol>
-<h2><a class="anchor" id="step_63_insert_led_strip"></a>
-Step 63 - Insert LED Strip</h2>
+<h1><a class="anchor" id="step_63_insert_led_strip"></a>
+Step 63 - Insert LED Strip</h1>
 <div class="image">
 <img src="asm_stp063_insert_led_strip.JPG" alt=""/>
 <div class="caption">
 Insert LED Strip</div></div>
     <dl class="section pre"><dt>Precondition</dt><dd>Required parts:<ul>
-<li><b>LED Strip</b> <a class="el" href="md_docs_markdown_pages_assembly.html#led_strip_cable">Cable Assembly</a> - 1pcs</li>
+<li><b>LED Strip</b> <a class="el" href="md_docs_markdown_pages_pcb_assembly.html#led_strip_cable">Cable Assembly</a> - 1pcs</li>
 </ul>
 <ol type="1">
 <li>Insert the LED strip into the slots on the LED holder. It does not require any glue!</li>
 <li>Feed through the cable on the hole at the corner.</li>
 </ol>
 </dd></dl>
-<h2><a class="anchor" id="step_64_skull_inserts"></a>
-Step 64 - Skull Inserts</h2>
+<h1><a class="anchor" id="step_64_skull_inserts"></a>
+Step 64 - Skull Inserts</h1>
 <div class="image">
 <img src="asm_stp064_skull_inserts.JPG" alt=""/>
 <div class="caption">
@@ -1069,8 +969,8 @@ Skull Inserts</div></div>
 </dd></dl>
 <p>Press the two inserts to the plastic with a soldering iron. I used the with 200°C and it worked perfectly.</p>
 <dl class="section note"><dt>Note</dt><dd>Let it cool for 2-3 minutes.</dd></dl>
-<h2><a class="anchor" id="step_65_fix_skull"></a>
-Step 65 - Fix Skull</h2>
+<h1><a class="anchor" id="step_65_fix_skull"></a>
+Step 65 - Fix Skull</h1>
 <div class="image">
 <img src="asm_stp065_fix_skull.JPG" alt=""/>
 <div class="caption">
@@ -1085,19 +985,19 @@ Fix Skull</div></div>
 <div class="caption">
 Top Part Finished</div></div>
     <p >It should look like this.</p>
-<h2><a class="anchor" id="step_66_insert_the_led_ring"></a>
-Step 66 - Insert LED Disc</h2>
+<h1><a class="anchor" id="step_66_insert_the_led_ring"></a>
+Step 66 - Insert LED Disc</h1>
 <div class="image">
 <img src="asm_stp066_insert_the_led_ring.JPG" alt=""/>
 <div class="caption">
 Insert LED Disc</div></div>
     <dl class="section pre"><dt>Precondition</dt><dd>Required parts:<ul>
-<li><b>LED Disc</b> <a class="el" href="md_docs_markdown_pages_assembly.html#led_disc_cable">Cable Assembly</a> - 1pcs</li>
+<li><b>LED Disc</b> <a class="el" href="md_docs_markdown_pages_pcb_assembly.html#led_disc_cable">Cable Assembly</a> - 1pcs</li>
 </ul>
 </dd></dl>
 <p>Insert the LED disc to the slot.</p>
-<h2><a class="anchor" id="step_67_connect_top_cables"></a>
-Step 67 - Connect Top Cables</h2>
+<h1><a class="anchor" id="step_67_connect_top_cables"></a>
+Step 67 - Connect Top Cables</h1>
 <div class="image">
 <img src="asm_stp067_connect_top_cables.JPG" alt=""/>
 <div class="caption">
@@ -1106,16 +1006,16 @@ Connect Top Cables</div></div>
 <p ><span class="emoji">&#x1f7e0;</span> LED disc</p>
 <p ><span class="emoji">&#x1f7e3;</span> Humidifier</p>
 <p ><span class="emoji">&#x1f535;</span> LED strip</p>
-<h2><a class="anchor" id="step_68_insert_led_holder"></a>
-Step 68 - Insert LED Holder</h2>
+<h1><a class="anchor" id="step_68_insert_led_holder"></a>
+Step 68 - Insert LED Holder</h1>
 <div class="image">
 <img src="asm_stp068_insert_led_holder.JPG" alt=""/>
 <div class="caption">
 Insert LED Holder</div></div>
     <p >Insert the LED holder to the base.</p>
 <dl class="section note"><dt>Note</dt><dd>Check the orientation.</dd></dl>
-<h2><a class="anchor" id="step_69_insert_top"></a>
-Step 69 - Insert Top</h2>
+<h1><a class="anchor" id="step_69_insert_top"></a>
+Step 69 - Insert Top</h1>
 <div class="image">
 <img src="asm_stp069_insert_top.JPG" alt=""/>
 <div class="caption">
@@ -1128,8 +1028,8 @@ Insert Top</div></div>
 <li>Tighten the 4 screws on the sides( 2 on the back 1 - 1 on the front sides ).</li>
 </ol>
 </dd></dl>
-<h2><a class="anchor" id="step_70_fix_top"></a>
-Step 70 - Fix Top</h2>
+<h1><a class="anchor" id="step_70_fix_top"></a>
+Step 70 - Fix Top</h1>
 <div class="image">
 <img src="asm_stp070_lock_top.JPG" alt=""/>
 <div class="caption">

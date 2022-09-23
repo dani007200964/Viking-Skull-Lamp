@@ -50,11 +50,13 @@ This journey consists of four stages. You have to start from the first and progr
 1. \ref print_guide "3D Printing Parts:" Firstly, you have to print all the necessary parts. There are some tricky ones
 so read the __print guide__ section carefully.
 
-2. __PCB Assembly__
+2. \ref pcb_assembly "PCB Assembly:" I have designed a custom PCB for this project. It expands the functionality of
+the Arduino UNO platform. It controls all the peripherals in the system.
 
-3. __Software Build / Upload__
+3. \ref software_guide "Software Guide:" Of course this project have a custom firmware. It is written in C++ and I
+have used PlatformIO as a development tool.
 
-4. __Mechanical Assembly__
+4. \ref mechanical_assembly "Mechanical Assembly:" Finally it's time to assemble the whole thing.
 
 <a href="Schematics.pdf" target="_blank"><b>Schematics</b></a>
 

@@ -1,5 +1,14 @@
 var NAVTREEINDEX2 =
 {
+"motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86":[8,0,1,1,6,2],
+"motor_control_8cpp_source.html":[8,0,1,1,6],
+"motor_control_8hpp.html":[8,0,1,0,7],
+"motor_control_8hpp.html#a22049b2885d6694a73ed5aacf860c850":[8,0,1,0,7,2],
+"motor_control_8hpp.html#a3edea24b195ca992810885fdec367a5b":[8,0,1,0,7,7],
+"motor_control_8hpp.html#a4791ff1b15456945c9ab12648d764532":[8,0,1,0,7,10],
+"motor_control_8hpp.html#a591cbe2b633311b422ee212b3fe6b941":[8,0,1,0,7,0],
+"motor_control_8hpp.html#a83a04ce693b2d2819bb351e1781f48b0":[8,0,1,0,7,4],
+"motor_control_8hpp.html#a96c26390bdfe2e0077aad30751aab157":[8,0,1,0,7,5],
 "motor_control_8hpp.html#a978983329d511d8ab27545d8badfbd89":[8,0,1,0,7,8],
 "motor_control_8hpp.html#a9ba1fee0e94a9cdaf0137894daf3e153":[8,0,1,0,7,1],
 "motor_control_8hpp.html#aa6b9b6a60feed520f3227ec9a50c5e86":[8,0,1,0,7,9],
