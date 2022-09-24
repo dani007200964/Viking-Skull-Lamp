@@ -96,7 +96,7 @@ var sectionId = 'dynsection-4';
 <!-- Node20 -->
 <g id="node20" class="node">
 <title>Node20</title>
-<g id="a_node20"><a xlink:href="fog_machine_8cpp.html#aeeeab6eddd5682f0cd25b20233cc354c" target="_top" xlink:title=" ">
+<g id="a_node20"><a xlink:href="fog_machine_8cpp.html#aeeeab6eddd5682f0cd25b20233cc354c" target="_top" xlink:title="Update the fog machine state.">
 <polygon fill="white" stroke="#666666" points="174.5,-99.97 77.5,-99.97 77.5,-80.97 174.5,-80.97 174.5,-99.97"/>
 <text text-anchor="middle" x="126" y="-87.97" font-family="Helvetica,sans-Serif" font-size="10.00">fogMachineUpdate</text>
 </a>
@@ -398,7 +398,7 @@ var sectionId = 'dynsection-4';
 <!-- Node21 -->
 <g id="node21" class="node">
 <title>Node21</title>
-<g id="a_node21"><a xlink:href="fog_machine_8cpp.html#a7faf79e9d5df9f5a6772fa03154749e4" target="_top" xlink:title=" ">
+<g id="a_node21"><a xlink:href="fog_machine_8cpp.html#a7faf79e9d5df9f5a6772fa03154749e4" target="_top" xlink:title="Enable the humidifier.">
 <polygon fill="white" stroke="#666666" points="481.5,-136.97 385.5,-136.97 385.5,-117.97 481.5,-117.97 481.5,-136.97"/>
 <text text-anchor="middle" x="433.5" y="-124.97" font-family="Helvetica,sans-Serif" font-size="10.00">fogMachineEnable</text>
 </a>

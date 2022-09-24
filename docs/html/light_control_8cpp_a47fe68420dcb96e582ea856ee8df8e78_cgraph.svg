@@ -155,7 +155,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="fog_machine_8cpp.html#a7faf79e9d5df9f5a6772fa03154749e4" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="fog_machine_8cpp.html#a7faf79e9d5df9f5a6772fa03154749e4" target="_top" xlink:title="Enable the humidifier.">
 <polygon fill="white" stroke="#666666" points="359,-167 263,-167 263,-148 359,-148 359,-167"/>
 <text text-anchor="middle" x="311" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">fogMachineEnable</text>
 </a>

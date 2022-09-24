@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Initialize the fog machine( humidifier ).">
 <polygon fill="#999999" stroke="#666666" points="156,-19 77,-19 77,0 156,0 156,-19"/>
 <text text-anchor="middle" x="116.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">fogMachineInit</text>
 </a>

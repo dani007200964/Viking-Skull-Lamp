@@ -135,19 +135,25 @@ $(document).ready(function(){initNavTree('fog_machine_8hpp.html',''); initResiza
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:aad1ef188cfcdce503f1b09155acb7ce2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8hpp.html#aad1ef188cfcdce503f1b09155acb7ce2">HUMIDIFIER_PIN</a>&#160;&#160;&#160;6</td></tr>
+<tr class="memdesc:aad1ef188cfcdce503f1b09155acb7ce2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The humidifier is connected to pin 6 on the Arduino.  <a href="fog_machine_8hpp.html#aad1ef188cfcdce503f1b09155acb7ce2">More...</a><br /></td></tr>
 <tr class="separator:aad1ef188cfcdce503f1b09155acb7ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c46ac16f65add24c98a91a17edb9812"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8hpp.html#a9c46ac16f65add24c98a91a17edb9812">HUMIDIFIER_DURATION</a>&#160;&#160;&#160;(unsigned long)15000</td></tr>
+<tr class="memdesc:a9c46ac16f65add24c98a91a17edb9812"><td class="mdescLeft">&#160;</td><td class="mdescRight">Humidifier turn on duration in ms. The humidifier will be turned on for this amount of time.  <a href="fog_machine_8hpp.html#a9c46ac16f65add24c98a91a17edb9812">More...</a><br /></td></tr>
 <tr class="separator:a9c46ac16f65add24c98a91a17edb9812"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4cac70df2a7b2f844b020b775ac42dc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8hpp.html#af4cac70df2a7b2f844b020b775ac42dc">HUMIDIFIER_COOL_DOWN</a>&#160;&#160;&#160;(unsigned long)30000</td></tr>
+<tr class="memdesc:af4cac70df2a7b2f844b020b775ac42dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Humidifier cool down time. The humidifier has to be furned off for this amount of time before turning on again.  <a href="fog_machine_8hpp.html#af4cac70df2a7b2f844b020b775ac42dc">More...</a><br /></td></tr>
 <tr class="separator:af4cac70df2a7b2f844b020b775ac42dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a9c7fca1e7e26243088ff945475d8ae57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8hpp.html#a9c7fca1e7e26243088ff945475d8ae57">fogMachineInit</a> ()</td></tr>
+<tr class="memdesc:a9c7fca1e7e26243088ff945475d8ae57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the fog machine( humidifier ).  <a href="fog_machine_8hpp.html#a9c7fca1e7e26243088ff945475d8ae57">More...</a><br /></td></tr>
 <tr class="separator:a9c7fca1e7e26243088ff945475d8ae57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeeab6eddd5682f0cd25b20233cc354c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8hpp.html#aeeeab6eddd5682f0cd25b20233cc354c">fogMachineUpdate</a> ()</td></tr>
+<tr class="memdesc:aeeeab6eddd5682f0cd25b20233cc354c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the fog machine state.  <a href="fog_machine_8hpp.html#aeeeab6eddd5682f0cd25b20233cc354c">More...</a><br /></td></tr>
 <tr class="separator:aeeeab6eddd5682f0cd25b20233cc354c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7faf79e9d5df9f5a6772fa03154749e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8hpp.html#a7faf79e9d5df9f5a6772fa03154749e4">fogMachineEnable</a> ()</td></tr>
+<tr class="memdesc:a7faf79e9d5df9f5a6772fa03154749e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the humidifier.  <a href="fog_machine_8hpp.html#a7faf79e9d5df9f5a6772fa03154749e4">More...</a><br /></td></tr>
 <tr class="separator:a7faf79e9d5df9f5a6772fa03154749e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -163,7 +169,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8hpp_source.html#l00038">38</a> of file <a class="el" href="fog_machine_8hpp_source.html">fogMachine.hpp</a>.</p>
+<p>Humidifier cool down time. The humidifier has to be furned off for this amount of time before turning on again. </p>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8hpp_source.html#l00043">43</a> of file <a class="el" href="fog_machine_8hpp_source.html">fogMachine.hpp</a>.</p>
 
 </div>
 </div>
@@ -179,7 +187,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8hpp_source.html#l00037">37</a> of file <a class="el" href="fog_machine_8hpp_source.html">fogMachine.hpp</a>.</p>
+<p>Humidifier turn on duration in ms. The humidifier will be turned on for this amount of time. </p>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8hpp_source.html#l00040">40</a> of file <a class="el" href="fog_machine_8hpp_source.html">fogMachine.hpp</a>.</p>
 
 </div>
 </div>
@@ -195,7 +205,9 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8hpp_source.html#l00036">36</a> of file <a class="el" href="fog_machine_8hpp_source.html">fogMachine.hpp</a>.</p>
+<p>The humidifier is connected to pin 6 on the Arduino. </p>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8hpp_source.html#l00037">37</a> of file <a class="el" href="fog_machine_8hpp_source.html">fogMachine.hpp</a>.</p>
 
 </div>
 </div>
@@ -215,11 +227,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00139">139</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
+<p>Enable the humidifier. </p>
+<p >This function turns on the humidifier if:</p><ol type="1">
+<li>The humidifier is turend off</li>
+<li>And the cool down time has expired. </li>
+</ol>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00167">167</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="fog_machine_8hpp_a7faf79e9d5df9f5a6772fa03154749e4_icgraph.svg" width="614" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="fog_machine_8hpp_a7faf79e9d5df9f5a6772fa03154749e4_icgraph.svg" width="614" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -239,7 +258,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00037">37</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
+<p>Initialize the fog machine( humidifier ). </p>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00050">50</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -263,11 +284,20 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00044">44</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
+<p>Update the fog machine state. </p>
+<p >This function should be called periodically. It handles the state machine of the humidifier. The humidifier module can not work for a long period of time with dry tank, because it will overheat. We doesn't have any sensor to monitor the liquid level in the tank, so I implemented the simplest solution:</p><ol type="1">
+<li>The humidifier can be operated for a short amount of time. It is specified in <a class="el" href="fog_machine_8hpp.html#a9c46ac16f65add24c98a91a17edb9812">HUMIDIFIER_DURATION</a></li>
+<li>After this time has elapsed it has to be turned off and let it cool at least for some time. It is specified in <a class="el" href="fog_machine_8hpp.html#af4cac70df2a7b2f844b020b775ac42dc">HUMIDIFIER_COOL_DOWN</a></li>
+<li>It can not turend on until the cool down time has expired.</li>
+</ol>
+<p >Also if the humidifier is enabled for periodic humidification we have to calculate when to start the automatic humidification next. </p>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00057">57</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="fog_machine_8hpp_aeeeab6eddd5682f0cd25b20233cc354c_cgraph.svg" width="316" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="fog_machine_8hpp_aeeeab6eddd5682f0cd25b20233cc354c_cgraph.svg" width="316" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>

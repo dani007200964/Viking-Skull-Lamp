@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title=" " alt="" coords="5,539,52,564"/>
 <area shape="rect" id="node2" href="$classmenu.html#a6fcf97a34d06d1889ae8cf52e5060d06" title=" " alt="" coords="129,103,218,128"/>
 <area shape="rect" id="node5" href="$main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" title=" " alt="" coords="100,389,247,415"/>
-<area shape="rect" id="node20" href="$fog_machine_8cpp.html#aeeeab6eddd5682f0cd25b20233cc354c" title=" " alt="" coords="109,859,238,884"/>
+<area shape="rect" id="node20" href="$fog_machine_8cpp.html#aeeeab6eddd5682f0cd25b20233cc354c" title="Update the fog machine state." alt="" coords="109,859,238,884"/>
 <area shape="rect" id="node22" href="$light_control_8cpp.html#a47fe68420dcb96e582ea856ee8df8e78" title=" " alt="" coords="130,711,217,736"/>
 <area shape="rect" id="node3" href="$classmenu.html#aa570579eea43a7810230472ee28b873a" title=" " alt="" coords="333,103,425,128"/>
 <area shape="rect" id="node4" href="$classmenu.html#a87a6a695240e84646f5f92a6f764b7e9" title=" " alt="" coords="341,29,417,55"/>
@@ -20,7 +20,7 @@
 <area shape="rect" id="node12" href="$light_control_8cpp.html#ac63baab438299bd5074897396b600c00" title=" " alt="" coords="552,587,615,612"/>
 <area shape="rect" id="node13" href="$light_control_8cpp.html#a4dc2c28dc568051bd85575dfd2082c54" title=" " alt="" coords="552,537,615,563"/>
 <area shape="rect" id="node18" href="$classconfiguration_manager.html#a5ca29572d941838b46df0dcb0ab811f3" title="Maxim like crc&#45;8." alt="" coords="511,275,656,315"/>
-<area shape="rect" id="node21" href="$fog_machine_8cpp.html#a7faf79e9d5df9f5a6772fa03154749e4" title=" " alt="" coords="519,809,647,835"/>
+<area shape="rect" id="node21" href="$fog_machine_8cpp.html#a7faf79e9d5df9f5a6772fa03154749e4" title="Enable the humidifier." alt="" coords="519,809,647,835"/>
 <area shape="rect" id="node23" href="$buzzer_control_8cpp.html#ad981474a88ca6153a65b8e133af409a8" title="Generate clap melody." alt="" coords="335,784,423,809"/>
 <area shape="rect" id="node24" href="$light_control_8cpp.html#a936cbab2212d6c6efe113fcd4362d2af" title=" " alt="" coords="299,833,458,859"/>
 <area shape="rect" id="node25" href="$light_control_8cpp.html#ac5e502533fb7bf671c8f22b73e935ad7" title=" " alt="" coords="304,883,453,908"/>

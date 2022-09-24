@@ -134,21 +134,28 @@ $(document).ready(function(){initNavTree('fog_machine_8cpp.html',''); initResiza
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a9c7fca1e7e26243088ff945475d8ae57"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8cpp.html#a9c7fca1e7e26243088ff945475d8ae57">fogMachineInit</a> ()</td></tr>
+<tr class="memdesc:a9c7fca1e7e26243088ff945475d8ae57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the fog machine( humidifier ).  <a href="fog_machine_8cpp.html#a9c7fca1e7e26243088ff945475d8ae57">More...</a><br /></td></tr>
 <tr class="separator:a9c7fca1e7e26243088ff945475d8ae57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeeeab6eddd5682f0cd25b20233cc354c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8cpp.html#aeeeab6eddd5682f0cd25b20233cc354c">fogMachineUpdate</a> ()</td></tr>
+<tr class="memdesc:aeeeab6eddd5682f0cd25b20233cc354c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the fog machine state.  <a href="fog_machine_8cpp.html#aeeeab6eddd5682f0cd25b20233cc354c">More...</a><br /></td></tr>
 <tr class="separator:aeeeab6eddd5682f0cd25b20233cc354c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7faf79e9d5df9f5a6772fa03154749e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8cpp.html#a7faf79e9d5df9f5a6772fa03154749e4">fogMachineEnable</a> ()</td></tr>
+<tr class="memdesc:a7faf79e9d5df9f5a6772fa03154749e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the humidifier.  <a href="fog_machine_8cpp.html#a7faf79e9d5df9f5a6772fa03154749e4">More...</a><br /></td></tr>
 <tr class="separator:a7faf79e9d5df9f5a6772fa03154749e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a624862336ba9e999f844b99f8c93ad22"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8cpp.html#a624862336ba9e999f844b99f8c93ad22">fogMachineTimer</a> = 0</td></tr>
+<tr class="memdesc:a624862336ba9e999f844b99f8c93ad22"><td class="mdescLeft">&#160;</td><td class="mdescRight">This variable is used for automatic humidification.  <a href="fog_machine_8cpp.html#a624862336ba9e999f844b99f8c93ad22">More...</a><br /></td></tr>
 <tr class="separator:a624862336ba9e999f844b99f8c93ad22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2d2608039a794edc3fc714d52b2cce5"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8cpp.html#ad2d2608039a794edc3fc714d52b2cce5">fogLastTurnOn</a> = 0</td></tr>
+<tr class="memdesc:ad2d2608039a794edc3fc714d52b2cce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This variable stores the last system time when the humidifier was turned on by any reason.  <a href="fog_machine_8cpp.html#ad2d2608039a794edc3fc714d52b2cce5">More...</a><br /></td></tr>
 <tr class="separator:ad2d2608039a794edc3fc714d52b2cce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59cf96b1a614115f4ed5b9cbbb070b70"><td class="memItemLeft" align="right" valign="top">unsigned long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8cpp.html#a59cf96b1a614115f4ed5b9cbbb070b70">fogCoolDownTimer</a> = 0</td></tr>
+<tr class="memdesc:a59cf96b1a614115f4ed5b9cbbb070b70"><td class="mdescLeft">&#160;</td><td class="mdescRight">This variable stores the last system time when the cool down event happened.  <a href="fog_machine_8cpp.html#a59cf96b1a614115f4ed5b9cbbb070b70">More...</a><br /></td></tr>
 <tr class="separator:a59cf96b1a614115f4ed5b9cbbb070b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa24b60e7ccaa472cd091121a06725831"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="fog_machine_8cpp.html#aa24b60e7ccaa472cd091121a06725831">fogCoolDown</a> = false</td></tr>
+<tr class="memdesc:aa24b60e7ccaa472cd091121a06725831"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the cool down procedure still in progress, this flag will be true.  <a href="fog_machine_8cpp.html#aa24b60e7ccaa472cd091121a06725831">More...</a><br /></td></tr>
 <tr class="separator:aa24b60e7ccaa472cd091121a06725831"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -167,11 +174,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00139">139</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
+<p>Enable the humidifier. </p>
+<p >This function turns on the humidifier if:</p><ol type="1">
+<li>The humidifier is turend off</li>
+<li>And the cool down time has expired. </li>
+</ol>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00167">167</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="fog_machine_8cpp_a7faf79e9d5df9f5a6772fa03154749e4_icgraph.svg" width="614" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="fog_machine_8cpp_a7faf79e9d5df9f5a6772fa03154749e4_icgraph.svg" width="614" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 
 </div>
@@ -191,7 +205,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00037">37</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
+<p>Initialize the fog machine( humidifier ). </p>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00050">50</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -215,11 +231,20 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00044">44</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
+<p>Update the fog machine state. </p>
+<p >This function should be called periodically. It handles the state machine of the humidifier. The humidifier module can not work for a long period of time with dry tank, because it will overheat. We doesn't have any sensor to monitor the liquid level in the tank, so I implemented the simplest solution:</p><ol type="1">
+<li>The humidifier can be operated for a short amount of time. It is specified in <a class="el" href="fog_machine_8hpp.html#a9c46ac16f65add24c98a91a17edb9812">HUMIDIFIER_DURATION</a></li>
+<li>After this time has elapsed it has to be turned off and let it cool at least for some time. It is specified in <a class="el" href="fog_machine_8hpp.html#af4cac70df2a7b2f844b020b775ac42dc">HUMIDIFIER_COOL_DOWN</a></li>
+<li>It can not turend on until the cool down time has expired.</li>
+</ol>
+<p >Also if the humidifier is enabled for periodic humidification we have to calculate when to start the automatic humidification next. </p>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00057">57</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="fog_machine_8cpp_aeeeab6eddd5682f0cd25b20233cc354c_cgraph.svg" width="316" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="fog_machine_8cpp_aeeeab6eddd5682f0cd25b20233cc354c_cgraph.svg" width="316" height="36"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
 </div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
@@ -242,7 +267,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00035">35</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
+<p>If the cool down procedure still in progress, this flag will be true. </p>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00048">48</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
 
 </div>
 </div>
@@ -258,7 +285,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00034">34</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
+<p>This variable stores the last system time when the cool down event happened. </p>
+<p >From this time whe should not turn on the humidifier for <a class="el" href="fog_machine_8hpp.html#af4cac70df2a7b2f844b020b775ac42dc">HUMIDIFIER_COOL_DOWN</a> duration. </p>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00045">45</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
 
 </div>
 </div>
@@ -274,7 +304,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00033">33</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
+<p>This variable stores the last system time when the humidifier was turned on by any reason. </p>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00039">39</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
 
 </div>
 </div>
@@ -290,7 +322,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00032">32</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
+<p>This variable is used for automatic humidification. </p>
+<p >It stores the last system time when the humidifier was turned on by the automated logic. </p>
+
+<p class="definition">Definition at line <a class="el" href="fog_machine_8cpp_source.html#l00035">35</a> of file <a class="el" href="fog_machine_8cpp_source.html">fogMachine.cpp</a>.</p>
 
 </div>
 </div>

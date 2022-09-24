@@ -50,7 +50,7 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="fog_machine_8cpp.html#a9c7fca1e7e26243088ff945475d8ae57" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="fog_machine_8cpp.html#a9c7fca1e7e26243088ff945475d8ae57" target="_top" xlink:title="Initialize the fog machine( humidifier ).">
 <polygon fill="white" stroke="#666666" points="171,-744.05 92,-744.05 92,-725.05 171,-725.05 171,-744.05"/>
 <text text-anchor="middle" x="131.5" y="-732.05" font-family="Helvetica,sans-Serif" font-size="10.00">fogMachineInit</text>
 </a>

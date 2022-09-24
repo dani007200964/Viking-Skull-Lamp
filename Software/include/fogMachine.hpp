@@ -33,14 +33,41 @@ SOFTWARE.
 #include "Arduino.h"
 #include "menu.hpp"
 
+/// The humidifier is connected to pin 6 on the Arduino
 #define HUMIDIFIER_PIN 6
+
+/// Humidifier turn on duration in ms. The humidifier will be turned on for this amount of time.
 #define HUMIDIFIER_DURATION (unsigned long)15000
+
+/// Humidifier cool down time. The humidifier has to be furned off for this amount of time before turning on again.
 #define HUMIDIFIER_COOL_DOWN (unsigned long)30000
 
+/// Initialize the fog machine( humidifier ).
 void fogMachineInit();
 
+/// Update the fog machine state.
+///
+/// This function should be called periodically.
+/// It handles the state machine of the humidifier.
+/// The humidifier module can not work for a long period of time
+/// with dry tank, because it will overheat. We doesn't have any
+/// sensor to monitor the liquid level in the tank, so I implemented
+/// the simplest solution:
+/// 1. The humidifier can be operated for a short amount of time.
+/// It is specified in @ref HUMIDIFIER_DURATION
+/// 2. After this time has elapsed it has to be turned off and let it
+/// cool at least for some time. It is specified in @ref HUMIDIFIER_COOL_DOWN
+/// 3. It can not turend on until the cool down time has expired.
+///
+/// Also if the humidifier is enabled for periodic humidification
+/// we have to calculate when to start the automatic humidification next.
 void fogMachineUpdate();
 
+/// Enable the humidifier
+///
+/// This function turns on the humidifier if:
+/// 1. The humidifier is turend off
+/// 2. And the cool down time has expired.
 void fogMachineEnable();
 
 #endif

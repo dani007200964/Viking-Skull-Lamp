@@ -29,9 +29,22 @@ SOFTWARE.
 
 #include "fogMachine.hpp"
 
+/// This variable is used for automatic humidification.
+/// It stores the last system time when the humidifier
+/// was turned on by the automated logic.
 unsigned long fogMachineTimer = 0;
+
+/// This variable stores the last system time when the
+/// humidifier was turned on by any reason.
 unsigned long fogLastTurnOn = 0;
+
+/// This variable stores the last system time when the
+/// cool down event happened. From this time whe should
+/// not turn on the humidifier for @ref HUMIDIFIER_COOL_DOWN
+/// duration.
 unsigned long fogCoolDownTimer = 0;
+
+/// If the cool down procedure still in progress, this flag will be true.
 bool fogCoolDown = false;
 
 void fogMachineInit(){
@@ -43,16 +56,22 @@ void fogMachineInit(){
 
 void fogMachineUpdate(){
 
+    // Calculate one minute in ms.
     unsigned long timerCalculated = (unsigned long)1000 * 60; // one minute
 
+    // Check if the maximum allowed on time has expired.
     if( ( ( (unsigned long)millis() - fogLastTurnOn ) > HUMIDIFIER_DURATION ) ){
 
+        // If the humidifier is turned of we have to turn if off.
         if( digitalRead( HUMIDIFIER_PIN ) ){
 
             digitalWrite( HUMIDIFIER_PIN, 0 );
             Serial.print( millis() );
             Serial.print( F( " : " ) );
             Serial.println( F( "Humidifier finished! Cool-down timer start..." ) );
+
+            // Start the cool down procedure by setting
+            // the flag and saving the system time.
             fogCoolDown = true;
             fogCoolDownTimer = millis();
 
@@ -60,20 +79,25 @@ void fogMachineUpdate(){
 
     }
 
+    // Check if the cool down period expired.
     if( fogCoolDown && ( ( (unsigned long)millis() - fogCoolDownTimer ) > HUMIDIFIER_COOL_DOWN ) ){
 
         Serial.print( millis() );
         Serial.print( F( " : " ) );
         Serial.println( F( "Cooling finished!" ) );
+
+        // If the cool down procedure finished,
+        // clear the flag.
         fogCoolDown = false;
 
     }
 
+    // In this section we just calculate the automatic humidification
+    // periods based on the fogTimer variable.
     switch( fogTimer ){
 
         case 0:
             timerCalculated = (unsigned long)15 * timerCalculated;
-            //timerCalculated = (unsigned long)1 * timerCalculated; // DEBUG
         break;
 
         case 1:
@@ -124,9 +148,13 @@ void fogMachineUpdate(){
 
     }
 
+    // Check if the automatic humidification has to be turned on.
     if( ( (unsigned long)millis() - fogMachineTimer ) > timerCalculated ){
 
+        // Save the system time for the logic.
         fogMachineTimer = millis();
+        
+        // Try to enable the humidifier.
         fogMachineEnable();
         Serial.print( millis() );
         Serial.print( F( " : " ) );
@@ -138,14 +166,18 @@ void fogMachineUpdate(){
 
 void fogMachineEnable(){
 
+    // If the humidifier is disabled we are not allowed to turn it on.
     if( !fogMachineEnabled ){
 
         return;
 
     }
 
+    // If the humidifier pin is off and the cool down procedure
+    // expired, we are allowed to turn on the humidifier.
     if( !digitalRead( HUMIDIFIER_PIN ) && !fogCoolDown ){
 
+        // Save the system time for the logic.
         fogLastTurnOn = millis();
         digitalWrite( HUMIDIFIER_PIN, 1 );
 
