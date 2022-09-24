@@ -31,6 +31,7 @@ SOFTWARE.
 
 configurationManager::configurationManager( configurationData_t *configTree_p, uint8_t configTreeSize_p ){
 
+    // Save the pointer and the size to internal variable.
     configTree = configTree_p;
     configTreeSize = configTreeSize_p;
 
@@ -38,11 +39,18 @@ configurationManager::configurationManager( configurationData_t *configTree_p, u
 
 void configurationManager::saveConfig(){
 
+    // Generic counter variables.
     uint8_t i;
     uint8_t j;
+
+    // Index of the next byte that should be written.
+    // It also shows how many bytes have been written.
     uint16_t index = 0;
+
+    // Points to the next byte that should be written.
     uint8_t *dataPtr;
 
+    // Reset CRC to default.
     crc = 0x00;
 
     Serial.println( F( "Saving bytes:" ) );
@@ -71,6 +79,7 @@ void configurationManager::saveConfig(){
 
     }
 
+    // Write the CRC as well.
     EEPROM.update( index, crc );
 
     Serial.print( F( "\tCalculated CRC: " ) );
@@ -80,12 +89,21 @@ void configurationManager::saveConfig(){
 
 bool configurationManager::loadConfig(){
 
+    // Generic counter variables.
     uint8_t i;
     uint8_t j;
+
+    // Index of the next byte that should be read.
+    // It also shows how many bytes have been read.
     uint16_t index = 0;
+
+    // Points to the next byte that should be read.
     uint8_t *dataPtr;
+
+    // We will read the stored CRC from the EEPROM to this variable.
     uint8_t crcRead = 0;
 
+    // Reset CRC to default.
     crc = 0x00;
 
     Serial.println( F( "Loading bytes:" ) );
@@ -115,8 +133,10 @@ bool configurationManager::loadConfig(){
 
     }
 
+    // Read the stored CRC.
     crcRead = EEPROM.read( index );
 
+    // Compare the two CRC
     if( crcRead != crc ){
 
         Serial.print( F( "\tCRC error! Calculated: " ) );

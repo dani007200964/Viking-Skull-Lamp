@@ -15,6 +15,10 @@ var classssd1306 =
     [ "setPixel", "classssd1306.html#aaf722f3e4edc245962dacd80bf4d10ff", null ],
     [ "update", "classssd1306.html#a9f49989e8e3d77edd76b620ad8d02f9f", null ],
     [ "writeCharacter", "classssd1306.html#a24d76957efada045c99ca3bb71f19ec3", null ],
+    [ "writeCommand", "classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18", null ],
+    [ "writeData", "classssd1306.html#a2e5b436dbf766c8e46b9b6c937988b39", null ],
+    [ "address", "classssd1306.html#a97d10c8755cb25df410e9639be06c6b4", null ],
+    [ "buffer", "classssd1306.html#a6033abca31723fa5c7d387bfee0f5694", null ],
     [ "cursorX", "classssd1306.html#a2be0b9222799ddeb51e83f97f90ae871", null ],
     [ "cursorY", "classssd1306.html#ab8314e143ead624b39b7918bbdd916f4", null ],
     [ "inverted", "classssd1306.html#a39e6db519fbd5bf7350352242c7dc5ee", null ]

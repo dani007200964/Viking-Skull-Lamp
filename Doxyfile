@@ -505,7 +505,7 @@ EXTRACT_ALL            = YES
 # be included in the documentation.
 # The default value is: NO.
 
-EXTRACT_PRIVATE        = NO
+EXTRACT_PRIVATE        = YES
 
 # If the EXTRACT_PRIV_VIRTUAL tag is set to YES, documented private virtual
 # methods of a class will be included in the documentation.
@@ -1447,7 +1447,11 @@ HTML_EXTRA_FILES       = docs/Style/doxygen-awesome-darkmode-toggle.js \
                          CAD/short_screw_spacer_1pcs.stl \
                          CAD/skull_1pcs.stl \
                          CAD/3mf/short_screw_spacer_1pcs.3mf \
-                         CAD/3mf/skull_1pcs.3mf
+                         CAD/3mf/skull_1pcs.3mf \
+                         CAD/without_artwork/box_front_naked_1pcs.stl \
+                         CAD/without_artwork/box_top_naked_1pcs.stl \
+                         CAD/without_artwork/display_holder_naked_1pcs.stl \
+                         CAD/without_artwork/encoder_knob_naked_1pcs.stl
 
 # The HTML_COLORSTYLE tag can be used to specify if the generated HTML output
 # should be rendered with a dark or light theme. Default setting AUTO_LIGHT

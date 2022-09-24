@@ -1,0 +1,4 @@
+<map id="configurationManager::loadConfig" name="configurationManager::loadConfig">
+<area shape="rect" id="node1" title="Load configuration from EEPROM." alt="" coords="5,5,151,45"/>
+<area shape="rect" id="node2" href="$classconfiguration_manager.html#a5ca29572d941838b46df0dcb0ab811f3" title="Maxim like crc&#45;8." alt="" coords="199,5,344,45"/>
+</map>

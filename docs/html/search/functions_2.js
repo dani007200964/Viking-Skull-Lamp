@@ -11,5 +11,6 @@ var searchData=
   ['colormenuselectfunction_8',['colorMenuSelectFunction',['../menu_8hpp.html#ac022544e45c7f043d12d0951547249a1',1,'colorMenuSelectFunction(enum menuItem::encoderState_t state):&#160;menu.cpp'],['../menu_8cpp.html#ac022544e45c7f043d12d0951547249a1',1,'colorMenuSelectFunction(enum menuItem::encoderState_t state):&#160;menu.cpp']]],
   ['colorselectdrawfunction_9',['colorSelectDrawFunction',['../menu_8hpp.html#aa6c25806baf4bb6f997ffd124d95d7a9',1,'colorSelectDrawFunction(ssd1306 *oled):&#160;menu.cpp'],['../menu_8cpp.html#aa6c25806baf4bb6f997ffd124d95d7a9',1,'colorSelectDrawFunction(ssd1306 *oled):&#160;menu.cpp']]],
   ['colorselectfunction_10',['colorSelectFunction',['../menu_8hpp.html#a43e28b685319d16ec59e9d329fa5877e',1,'colorSelectFunction(enum menuItem::encoderState_t state):&#160;menu.cpp'],['../menu_8cpp.html#a43e28b685319d16ec59e9d329fa5877e',1,'colorSelectFunction(enum menuItem::encoderState_t state):&#160;menu.cpp']]],
-  ['configurationmanager_11',['configurationManager',['../classconfiguration_manager.html#a6d11a396c7d2440ce26d832f558f7153',1,'configurationManager']]]
+  ['configurationmanager_11',['configurationManager',['../classconfiguration_manager.html#a6d11a396c7d2440ce26d832f558f7153',1,'configurationManager']]],
+  ['crcfeed_12',['crcFeed',['../classconfiguration_manager.html#a5ca29572d941838b46df0dcb0ab811f3',1,'configurationManager']]]
 ];

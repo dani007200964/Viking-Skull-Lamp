@@ -124,30 +124,65 @@ $(document).ready(function(){initNavTree('classconfiguration_manager.html',''); 
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classconfiguration_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">configurationManager Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
+<p>Configuration Manager Class.  
+ <a href="classconfiguration_manager.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="configuration_8hpp_source.html">configuration.hpp</a>&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for configurationManager:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classconfiguration_manager__coll__graph.svg" width="156" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structconfiguration_manager_1_1configuration_data__t.html">configurationData_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type for configTree element.  <a href="structconfiguration_manager_1_1configuration_data__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6d11a396c7d2440ce26d832f558f7153"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfiguration_manager.html#a6d11a396c7d2440ce26d832f558f7153">configurationManager</a> (<a class="el" href="structconfiguration_manager_1_1configuration_data__t.html">configurationData_t</a> *configTree_p, uint8_t configTreeSize_p)</td></tr>
+<tr class="memdesc:a6d11a396c7d2440ce26d832f558f7153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classconfiguration_manager.html#a6d11a396c7d2440ce26d832f558f7153">More...</a><br /></td></tr>
 <tr class="separator:a6d11a396c7d2440ce26d832f558f7153"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98840390e246bd6606af1345d54458ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfiguration_manager.html#a98840390e246bd6606af1345d54458ec">saveConfig</a> ()</td></tr>
+<tr class="memdesc:a98840390e246bd6606af1345d54458ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save configuration to EEPROM.  <a href="classconfiguration_manager.html#a98840390e246bd6606af1345d54458ec">More...</a><br /></td></tr>
 <tr class="separator:a98840390e246bd6606af1345d54458ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a629bdf8057c5fd994baf023dbb36d87c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfiguration_manager.html#a629bdf8057c5fd994baf023dbb36d87c">loadConfig</a> ()</td></tr>
+<tr class="memdesc:a629bdf8057c5fd994baf023dbb36d87c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load configuration from EEPROM.  <a href="classconfiguration_manager.html#a629bdf8057c5fd994baf023dbb36d87c">More...</a><br /></td></tr>
 <tr class="separator:a629bdf8057c5fd994baf023dbb36d87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5ca29572d941838b46df0dcb0ab811f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfiguration_manager.html#a5ca29572d941838b46df0dcb0ab811f3">crcFeed</a> (uint8_t data)</td></tr>
+<tr class="memdesc:a5ca29572d941838b46df0dcb0ab811f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maxim like crc-8.  <a href="classconfiguration_manager.html#a5ca29572d941838b46df0dcb0ab811f3">More...</a><br /></td></tr>
+<tr class="separator:a5ca29572d941838b46df0dcb0ab811f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1b367fe20679bcb9fcbc141ac8a75133"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structconfiguration_manager_1_1configuration_data__t.html">configurationData_t</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfiguration_manager.html#a1b367fe20679bcb9fcbc141ac8a75133">configTree</a> = NULL</td></tr>
+<tr class="memdesc:a1b367fe20679bcb9fcbc141ac8a75133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to configTree.  <a href="classconfiguration_manager.html#a1b367fe20679bcb9fcbc141ac8a75133">More...</a><br /></td></tr>
+<tr class="separator:a1b367fe20679bcb9fcbc141ac8a75133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaa8fe38aa7b488ffe5d224fe387752d"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfiguration_manager.html#acaa8fe38aa7b488ffe5d224fe387752d">configTreeSize</a> = 0</td></tr>
+<tr class="memdesc:acaa8fe38aa7b488ffe5d224fe387752d"><td class="mdescLeft">&#160;</td><td class="mdescRight">configTree size.  <a href="classconfiguration_manager.html#acaa8fe38aa7b488ffe5d224fe387752d">More...</a><br /></td></tr>
+<tr class="separator:acaa8fe38aa7b488ffe5d224fe387752d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c6372034f2c5b6cf2129daafcbbed70"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classconfiguration_manager.html#a5c6372034f2c5b6cf2129daafcbbed70">crc</a> = 0xff</td></tr>
+<tr class="memdesc:a5c6372034f2c5b6cf2129daafcbbed70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculated CRC.  <a href="classconfiguration_manager.html#a5c6372034f2c5b6cf2129daafcbbed70">More...</a><br /></td></tr>
+<tr class="separator:a5c6372034f2c5b6cf2129daafcbbed70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="configuration_8hpp_source.html#l00038">38</a> of file <a class="el" href="configuration_8hpp_source.html">configuration.hpp</a>.</p>
+<div class="textblock"><p >Configuration Manager Class. </p>
+<p >This class handles the saving and loading any type of data. The adata has to be specified in an array called configTree. You can use the <a class="el" href="configuration_8hpp.html#a6c573e6bbcc11e8c34a1000c3771dadf">createData</a> macro to simplify the configTree creation. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="configuration_8hpp.html#a6c573e6bbcc11e8c34a1000c3771dadf">createData</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="configuration_8hpp_source.html#l00045">45</a> of file <a class="el" href="configuration_8hpp_source.html">configuration.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a6d11a396c7d2440ce26d832f558f7153" name="a6d11a396c7d2440ce26d832f558f7153"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6d11a396c7d2440ce26d832f558f7153">&#9670;&#160;</a></span>configurationManager()</h2>
@@ -175,11 +210,56 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">configTree_p</td><td>Pointer to the configTree. </td></tr>
+    <tr><td class="paramname">configTreeSize_p</td><td>Size of the configTree. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 <p class="definition">Definition at line <a class="el" href="configuration_8cpp_source.html#l00032">32</a> of file <a class="el" href="configuration_8cpp_source.html">configuration.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5ca29572d941838b46df0dcb0ab811f3" name="a5ca29572d941838b46df0dcb0ab811f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ca29572d941838b46df0dcb0ab811f3">&#9670;&#160;</a></span>crcFeed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void configurationManager::crcFeed </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Maxim like crc-8. </p>
+
+<p class="definition">Definition at line <a class="el" href="configuration_8cpp_source.html#l00159">159</a> of file <a class="el" href="configuration_8cpp_source.html">configuration.cpp</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classconfiguration_manager_a5ca29572d941838b46df0dcb0ab811f3_icgraph.svg" width="639" height="115"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+
+</div>
+</div>
 <a id="a629bdf8057c5fd994baf023dbb36d87c" name="a629bdf8057c5fd994baf023dbb36d87c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a629bdf8057c5fd994baf023dbb36d87c">&#9670;&#160;</a></span>loadConfig()</h2>
 
@@ -195,7 +275,16 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="configuration_8cpp_source.html#l00081">81</a> of file <a class="el" href="configuration_8cpp_source.html">configuration.cpp</a>.</p>
+<p>Load configuration from EEPROM. </p>
+<p >Typically you shuld call this at startup. It loads the previously saved configuration from the EEPROM to the elements in the configTree. The function calculates a CRC from the stored data and compare it with a stored CRC. If they doesn't match, that means the saved data has corrupted( or the EEPROM was empty ). In this case it wont update the elements in the configTree with the wrong values. </p>
+
+<p class="definition">Definition at line <a class="el" href="configuration_8cpp_source.html#l00090">90</a> of file <a class="el" href="configuration_8cpp_source.html">configuration.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classconfiguration_manager_a629bdf8057c5fd994baf023dbb36d87c_cgraph.svg" width="350" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -219,12 +308,100 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="configuration_8cpp_source.html#l00039">39</a> of file <a class="el" href="configuration_8cpp_source.html">configuration.cpp</a>.</p>
+<p>Save configuration to EEPROM. </p>
+<p >You shall call this when you have changed some of the elements value in the configTree. The function generates a CRC and store it as well, to detect data corruption. </p><dl class="section note"><dt>Note</dt><dd>You can call this every time when some key parameter changes. It will only write the EEPROM if something actually changed. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="configuration_8cpp_source.html#l00040">40</a> of file <a class="el" href="configuration_8cpp_source.html">configuration.cpp</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classconfiguration_manager_a98840390e246bd6606af1345d54458ec_cgraph.svg" width="350" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><iframe scrolling="no" frameborder="0" src="classconfiguration_manager_a98840390e246bd6606af1345d54458ec_icgraph.svg" width="446" height="86"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1b367fe20679bcb9fcbc141ac8a75133" name="a1b367fe20679bcb9fcbc141ac8a75133"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b367fe20679bcb9fcbc141ac8a75133">&#9670;&#160;</a></span>configTree</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structconfiguration_manager_1_1configuration_data__t.html">configurationData_t</a>* configurationManager::configTree = NULL</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pointer to configTree. </p>
+
+<p class="definition">Definition at line <a class="el" href="configuration_8hpp_source.html#l00093">93</a> of file <a class="el" href="configuration_8hpp_source.html">configuration.hpp</a>.</p>
+
+</div>
+</div>
+<a id="acaa8fe38aa7b488ffe5d224fe387752d" name="acaa8fe38aa7b488ffe5d224fe387752d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaa8fe38aa7b488ffe5d224fe387752d">&#9670;&#160;</a></span>configTreeSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t configurationManager::configTreeSize = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>configTree size. </p>
+
+<p class="definition">Definition at line <a class="el" href="configuration_8hpp_source.html#l00096">96</a> of file <a class="el" href="configuration_8hpp_source.html">configuration.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a5c6372034f2c5b6cf2129daafcbbed70" name="a5c6372034f2c5b6cf2129daafcbbed70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c6372034f2c5b6cf2129daafcbbed70">&#9670;&#160;</a></span>crc</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t configurationManager::crc = 0xff</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculated CRC. </p>
+
+<p class="definition">Definition at line <a class="el" href="configuration_8hpp_source.html#l00099">99</a> of file <a class="el" href="configuration_8hpp_source.html">configuration.hpp</a>.</p>
 
 </div>
 </div>
@@ -250,7 +427,7 @@ Here is the caller graph for this function:</div>
       <b>Viking Skull Lamp V1.0.1</b> &nbsp;|&nbsp; Generated by:
       <a href="http://www.doxygen.org/index.html">
         <img class="footer" src="doxygen.svg" alt="doxygen"/>
-      </a> on Sat Sep 24 2022
+      </a> on Sun Sep 25 2022
       <hr class="footer"/><address class="footer"><small>
         <a title="PlatformIO" href="https://registry.platformio.org/libraries/dani007200964/Shellminator/">
           <img class="footer" src="platformio_logo.png" alt="PlatformIO" style="height:20px;width:auto;"/>
@@ -262,7 +439,7 @@ Here is the caller graph for this function:</div>
         <b>Viking Skull Lamp V1.0.1</b> &nbsp;|&nbsp; Generated by:
         <a href="http://www.doxygen.org/index.html">
           <img class="footer" src="doxygen.svg" alt="doxygen"/>
-        </a> on Sat Sep 24 2022
+        </a> on Sun Sep 25 2022
       </small></address>
     </li>
   </ul>

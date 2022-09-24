@@ -33,17 +33,25 @@ SOFTWARE.
 #include "Arduino.h"
 #include "menu.hpp"
 
+/// The speaker is connected to pin 9 on the Arduino.
 #define SPEAKER_PIN 9
 
+/// Tone frequency for button click event.
 #define BUTTON_CLICK_FREQUENCY 1000
+/// Tone duration for button click event.
 #define BUTTON_CLICK_DURATION 20
 
+/// Tone frequency for encoder rotate event.
 #define ENCODER_ROTATE_FREQUENCY 5000
+/// Tone duration for encoder rotate event.
 #define ENCODER_ROTATE_DURATION 15
 
+/// Tone frequency for turn on event.
 #define TURN_ON_SOUND_FREQUENCY 1800
+/// Tone duration for turn on event.
 #define TURN_ON_SOUND_DURATION 30
 
+// Frequency of notes.
 #define NOTE_B0  31
 #define NOTE_C1  33
 #define NOTE_CS1 35
@@ -134,20 +142,37 @@ SOFTWARE.
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
 
-#define VIKING_MELODY_SIZE 5
-extern uint16_t vikingMelody1[][2];
-
-extern uint16_t vikingMelody2[][2];
-
-extern uint16_t vikingMelody3[][2];
-
-extern uint16_t vikingMelody4[][2];
-
+/// Generate button click sound
+///
+/// This function generates the button click sound effect on the buzzer.
+/// @see BUTTON_CLICK_FREQUENCY
+/// @see BUTTON_CLICK_DURATION
 void buttonClickSound();
+
+/// Generate encoder rotate sound
+///
+/// This function generates the encoder rotate sound effect on the buzzer.
+/// @see ENCODER_ROTATE_FREQUENCY
+/// @see ENCODER_ROTATE_DURATION
 void encoderRotateSound();
+
+/// Generate turn on sound
+///
+/// This function generates the turn on sound effect on the buzzer.
+/// @note Originally it was a meody( this is why the name ), but I
+/// @note ran out of memory, so I had to optimize out things.
+/// @see TURN_ON_SOUND_FREQUENCY
+/// @see TURN_ON_SOUND_DURATION
 void turnOnMelody();
-void playMelody( uint16_t data[][ 2 ], uint8_t dataSize );
+
+/// Generate open-close melody
+///
+/// This function generates the open-close melody on the buzzer.
 void openCloseMelody();
+
+/// Generate clap melody
+///
+/// This function generates the clap melody on the buzzer.
 void clapMelody();
 
 #endif

@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="buzzer_control_8cpp.html#ad981474a88ca6153a65b8e133af409a8" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="buzzer_control_8cpp.html#ad981474a88ca6153a65b8e133af409a8" target="_top" xlink:title="Generate clap melody.">
 <polygon fill="white" stroke="#666666" points="197,-315 131,-315 131,-296 197,-296 197,-315"/>
 <text text-anchor="middle" x="164" y="-303" font-family="Helvetica,sans-Serif" font-size="10.00">clapMelody</text>
 </a>

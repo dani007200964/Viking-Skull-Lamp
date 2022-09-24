@@ -96,15 +96,9 @@ var buzzer_control_8hpp =
     [ "SPEAKER_PIN", "buzzer_control_8hpp.html#aa390e9c7204cc2275a144e51b788596b", null ],
     [ "TURN_ON_SOUND_DURATION", "buzzer_control_8hpp.html#aa8830e76441a4d0c4948b019ab373eec", null ],
     [ "TURN_ON_SOUND_FREQUENCY", "buzzer_control_8hpp.html#ac1207ca99b8229e5b615df6929701e6e", null ],
-    [ "VIKING_MELODY_SIZE", "buzzer_control_8hpp.html#ad962c39c3c33c348f1ceb16f8e6e601e", null ],
     [ "buttonClickSound", "buzzer_control_8hpp.html#a5864c94f53494adcbc834a0ba15395a4", null ],
     [ "clapMelody", "buzzer_control_8hpp.html#ad981474a88ca6153a65b8e133af409a8", null ],
     [ "encoderRotateSound", "buzzer_control_8hpp.html#a0d69ac845e7ec3529999488f019097af", null ],
     [ "openCloseMelody", "buzzer_control_8hpp.html#a7e4caa5e23b84269cfee1710ff391d81", null ],
-    [ "playMelody", "buzzer_control_8hpp.html#af72c00168ed164d7223bb72fec741edf", null ],
-    [ "turnOnMelody", "buzzer_control_8hpp.html#a510029b29e503662590cc7e69a41b744", null ],
-    [ "vikingMelody1", "buzzer_control_8hpp.html#abeb5202f9b44dd8e78ba05001733162f", null ],
-    [ "vikingMelody2", "buzzer_control_8hpp.html#a39e879c4d9fbe6cf86d8a4ad3a75ddf2", null ],
-    [ "vikingMelody3", "buzzer_control_8hpp.html#a42be53783d3831add0ea5646ecb0ac02", null ],
-    [ "vikingMelody4", "buzzer_control_8hpp.html#aecc1bb904c7108b691bc801f50cae390", null ]
+    [ "turnOnMelody", "buzzer_control_8hpp.html#a510029b29e503662590cc7e69a41b744", null ]
 ];

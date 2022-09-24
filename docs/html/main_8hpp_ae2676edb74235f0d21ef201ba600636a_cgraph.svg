@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="buzzer_control_8cpp.html#a0d69ac845e7ec3529999488f019097af" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="buzzer_control_8cpp.html#a0d69ac845e7ec3529999488f019097af" target="_top" xlink:title="Generate encoder rotate sound.">
 <polygon fill="white" stroke="#666666" points="210,-74 103,-74 103,-55 210,-55 210,-74"/>
 <text text-anchor="middle" x="156.5" y="-62" font-family="Helvetica,sans-Serif" font-size="10.00">encoderRotateSound</text>
 </a>

@@ -35,20 +35,53 @@ SOFTWARE.
 
 #define createData( x ) { .dataPointer = &x, .dataSize = sizeof( x ) }
 
+/// Configuration Manager Class
+///
+/// This class handles the saving and loading any type of data.
+/// The adata has to be specified in an array called configTree.
+/// You can use the @ref createData macro to simplify the configTree
+/// creation.
+/// @see createData
 class configurationManager{
 
 public:
 
+    /// Type for configTree element.
+    ///
+    /// You don't have to fill it manually, the @ref createData
+    /// macro does this for you.
     typedef struct{
 
-        void* dataPointer;
-        uint8_t dataSize;
+        void* dataPointer; ///< Pointer for the data, that has to be stored or loaded. The type is void* to support any kind of data.
+        uint8_t dataSize;  ///< The size of the data, that has to be stored or loaded. Specified in bytes.
 
     }configurationData_t;
 
+    /// Constructor
+    /// @param configTree_p Pointer to the configTree.
+    /// @param configTreeSize_p Size of the configTree.
     configurationManager( configurationData_t *configTree_p, uint8_t configTreeSize_p );
 
+    /// Save configuration to EEPROM.
+    ///
+    /// You shall call this when you have changed some
+    /// of the elements value in the configTree. The function
+    /// generates a CRC and store it as well, to detect data
+    /// corruption.
+    /// @note You can call this every time when some key parameter changes. It will only write the EEPROM if something actually changed.
     void saveConfig();
+
+    /// Load configuration from EEPROM.
+    ///
+    /// Typically you shuld call this at startup.
+    /// It loads the previously saved configuration
+    /// from the EEPROM to the elements in the
+    /// configTree. The function calculates a CRC
+    /// from the stored data and compare it with a
+    /// stored CRC. If they doesn't match, that means
+    /// the saved data has corrupted( or the EEPROM was empty ).
+    /// In this case it wont update the elements in the
+    /// configTree with the wrong values.
     bool loadConfig();
 
 private:
@@ -56,9 +89,13 @@ private:
     /// Maxim like crc-8
     void crcFeed( uint8_t data );
     
+    /// Pointer to configTree.
     configurationData_t *configTree = NULL;
+
+    /// configTree size.
     uint8_t configTreeSize = 0;
 
+    /// Calculated CRC.
     uint8_t crc = 0xff;
 
 };

@@ -17,7 +17,7 @@
 ![Rubber Feet](asm_stp001_rubber_feet.JPG)
 
 @pre Required parts:
-* __box_bottom_1pcs.stl__ - 1pcs
+* @ref box_bottom "Box Bottom" - 1pcs
 * __Rubber Feet__         - 4pcs
 
 The four rubber feet has to glued to the bottom of the box.
@@ -29,8 +29,8 @@ Rubber feet, that I used can be found
 ![Endstop Mount Prepare](asm_stp002_endstop_mount_prepare.JPG)
 
 @pre Required parts:
-* __right_endstop_mount_1pcs.stl__ - 1pcs
-* __left_endstop_mount_1pcs.stl__  - 1pcs
+* @ref right_endstop_mount "Right Endstop Mount" - 1pcs
+* @ref left_endstop_mount "Left Endstop Mount"  - 1pcs
 * __M3 locknut__                   - 4pcs
 
 Four M3 locknuts has to be pressed to the endstop mounts.
@@ -65,21 +65,17 @@ to move a bit sideways.
 
 @section step_6_moving_platform_knobs Step 6 - Moving Platform Knobs
 
-![Moving Platform Knobs](asm_stp005_moving_platform_knob.JPG)
+![Moving Platform Knobs](asm_stp006_moving_platform_knob.JPG)
 
 @pre Required parts:
-* __endstop_knob_2pcs.stl__ - 2pcs
-* __moving_platform_1pcs.stl__ - 1pcs
+* @ref endstop_knob "Enstop Knob"        - 2pcs
+* @ref moving_platform "Moving Platform" - 1pcs
+* __M3 x 16mm Regular Screw__            - 2pcs
+* __M3 Nut ( Regular )__                 - 2pcs
 
 Insert the two knobs to the rails on the moving platform.
 
-@section step_6_moving_platform_knobs Step 6 - Moving Platform Knobs
-
 ![Moving Platform Knobs](asm_stp006_moving_platform_knob_screws.JPG)
-
-@pre Required parts:
-* __M3 x 16mm Regular Screw__ - 2pcs
-* __M3 Nut ( Regular )__ - 2pcs
 
 \emoji :orange_circle: Insert the two M3 nut to the back side of the moving platform.
 
@@ -140,7 +136,7 @@ Lock the four endstop mount screws.
 ![Motor Shaft M3 Thread Cutting](asm_stp011_motor_shaft_thread_cutting.JPG)
 
 @pre Required parts:
-* __eccetric_shaft_1pcs.stl__ - 1pcs
+* @ref eccentric_shaft "Eccentric Shaft" - 1pcs
 
 Cut an M3 thread to the hole on the side.
 
@@ -149,7 +145,7 @@ Cut an M3 thread to the hole on the side.
 ![Eccentric Shaft Assembly](asm_stp012_eccentric_shaft_assembly.JPG)
 
 @pre Required parts:
-* __eccetric_shaft_1pcs.stl__ - 1pcs
+* @ref step_11_motor_shaft_thread_cutting "Eccentric Shaft With Thread" - 1pcs
 * __M3 x 12mm Flat Head__ - 1pcs
 * __7mm OD, 3.6mm ID 8mm Height__ [Spacer](https://www.hestore.hu/prod_10024539.html) - 1pcs
 
@@ -160,7 +156,7 @@ Assemble the eccentric shaft as seen on the picture above.
 ![Insert Motor Screws](asm_stp013_insert_motor_screws.JPG)
 
 @pre Required parts:
-* __motor_mount_1pcs.stl__ - 1pcs
+* @ref motor_mount "Motor Mount" - 1pcs
 * __M1.6 x 5mm Flat Head__ [Screw](https://www.tme.com/us/en-us/details/b1.6x5_bn661/bolts/bossard/5512816/) - 2pcs
 
 Insert the two screws into the motor mount.
@@ -280,7 +276,7 @@ Insert the spacers and tighten them.
 ![Insert Printed PCB Spacer](asm_stp024_insert_printed_pcb_spacer.JPG)
 
 @pre Required parts:
-* __pcb_spacer_corner_1pcs.stl__ - 1pcs
+* @ref pcb_spacer "PCB Spacer" - 1pcs
 
 Insert the spacer.
 
@@ -338,8 +334,8 @@ Lock the PCB with the screws.
 ![Lock PCB Screws](asm_stp030_glue_display_holder.JPG)
 
 @pre Required parts:
-* __display_holder_base_with_art_1pcs.stl__ - 1pcs
-* __display_holder_front_with_art_1pcs.stl__ - 1pcs
+* @ref display_holder_base "Display Holder Base" - 1pcs
+* @ref display_holder_front "Display Holder Front" - 1pcs
 * __Super Glue__
 
 Glue the front to the base part of the display holder.
@@ -351,7 +347,7 @@ Glue the front to the base part of the display holder.
 ![Glue Magnet Holder](asm_stp031_glue_magnet_holder.JPG)
 
 @pre Required parts:
-* __front_panel_magnet_holder_1pcs.stl__ - 1pcs
+* @ref magnet_holder "Magnet Holder" - 1pcs
 * __10mm x 3mm__ [Neodymium Magnet](https://www.tme.com/us/en-us/details/gn55.2-nd-10-3/magnets/elesa-ganter/gn-55-2-nd-10-3/) - 1pcs
 * __Super Glue__
 
@@ -362,7 +358,7 @@ Glue the magnet into the magnet holder.
 ![Lock PCB Screws](asm_stp032_insert_front_nuts.JPG)
 
 @pre Required parts:
-* __box_front_with_art_1pcs.stl__ - 1pcs
+* @ref box_front "Box Front" - 1pcs
 * __M3 Locknut__ - 2pcs
 
 Insert the nuts, to the slots on the front panel.
@@ -441,8 +437,8 @@ Insert the magnet in the slot on the display holder.
 ![Insert Display Holder Knobs](asm_stp037_insert_display_holder_knobs.JPG)
 
 @pre Required parts:
-* __short_screw_spacer_1pcs.stl__ - 1pcs
-* __long_screw_spacer_1pcs.stl__  - 1pcs
+* @ref short_screw_spacer "Short Screw Spacer" - 1pcs
+* @ref long_screw_spacer "Long Screw Spacer"  - 1pcs
 * __M3 x 8mm Imbus Head Screw__   - 2pcs
 
 Fix the knobs to the display holder.
@@ -501,7 +497,7 @@ Insert the oled display into the display holder.
 ![Insert Display Clamps](asm_stp041_insert_display_clamps.JPG)
 
 @pre Required parts:
-* __display_clamp_2pcs.stl__ - 2pcs
+* @ref display_clamp "Display Clamp" - 2pcs
 
 Insert the clamps into the display holder.
 
@@ -649,7 +645,7 @@ The wiring should look like this.
 ![Encoder Knob](asm_stp052_encoder_knob.JPG)
 
 @pre Required parts:
-* __encoder_knob_with_art_1pcs.stl__ - 2pcs
+* @ref encoder_knob "Encoder Knob" - 2pcs
 
 Insert the encoder knob to the encoder shaft.
 
@@ -659,17 +655,19 @@ swabs into the hole in the knob until it's internal length is perfect.
 
 @section step_53_upload_software Step 53 - Upload Software
 
-Now it's time to upload the software to the board. After it finished you can check the
-functionality of the mechanism by double pressing the encoder button. Also the display
-should work. Maybe some adjustment on the endstop knobs are required.
-__Do not continue until the mechanism and the display does not work correctly!__
+Now it's time to @ref software_guide "upload the software" to the board. After it
+finished you can check the functionality of the mechanism by double pressing the
+encoder button. Also the display should work. Maybe some adjustment on the endstop
+knobs are required.
+
+@warning Do not continue until the mechanism and the display does not work correctly!
 
 @section step_54_led_holder_nuts Step 54 - Insert LED Holder Nuts
 
 ![Insert LED Holder Nuts](asm_stp054_led_holder_nuts.JPG)
 
 @pre Required parts:
-* __led_holder_1pcs.stl__ - 1pcs
+* @ref led_holder "Led Holder" - 1pcs
 * __M3 Locknut__          - 5pcs
 * __M3  Regular Nut__     - 4pcs
 
@@ -686,7 +684,7 @@ Insert the nuts into their slots.
 ![Insert LED Ring Mount](asm_stp055_insert_led_ring_mount.JPG)
 
 @pre Required parts:
-* __led_ring_mount_1pcs.stl__ - 1pcs
+* @ref led_ring_mount "Led Ring Mount" - 1pcs
 
 Insert the LED ring mount to the LED holder.
 
@@ -697,7 +695,7 @@ Insert the LED ring mount to the LED holder.
 ![3mm Long Cotton Swab Rod](asm_stp056_cotton_swab_rod.JPG)
 
 @pre Required parts:
-* __azomizer_socket_1pcs_PETG.stl__ - 1pcs
+* @ref atomizer_socket "Atomizer Socket" - 1pcs
 * __Cotton Swab__                   - 1pcs
 
 @note Some humidifier modules come with a cotton swab rod, some don't.
@@ -811,7 +809,7 @@ Let it on the table for a day at least. If it does not leak after a day it proba
 ![Skull Inserts](asm_stp064_skull_inserts.JPG)
 
 @pre Required parts:
-* __skull_1pcs.stl__ - 1pcs
+* @ref skull "Skull" - 1pcs
 * __M3 inserts__ - 2pcs
 
 Press the two inserts to the plastic with a soldering iron. I used  the with 200°C
@@ -824,6 +822,7 @@ and it worked perfectly.
 ![Fix Skull](asm_stp065_fix_skull.JPG)
 
 @pre Required parts:
+* @ref box_top "Box Top"     - 1pcs
 * __M3 x 10mm D-Head Screw__ - 2pcs
 
 Tighten the two screws to fix the skull to the top.

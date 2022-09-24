@@ -130,6 +130,7 @@ var NAVTREE =
     [ "Print Guide", "md_docs_markdown_pages_print_guide.html", [
       [ "Basic Parts", "md_docs_markdown_pages_print_guide.html#basic_parts", [
         [ "Display Clamp", "md_docs_markdown_pages_print_guide.html#display_clamp", null ],
+        [ "Motor Mount", "md_docs_markdown_pages_print_guide.html#motor_mount", null ],
         [ "Eccentric Shaft", "md_docs_markdown_pages_print_guide.html#eccentric_shaft", null ],
         [ "Endstop Knob", "md_docs_markdown_pages_print_guide.html#endstop_knob", null ],
         [ "Magnet Holder", "md_docs_markdown_pages_print_guide.html#magnet_holder", null ],
@@ -151,9 +152,14 @@ var NAVTREE =
         [ "Box Top", "md_docs_markdown_pages_print_guide.html#box_top", null ],
         [ "Display Holder Front", "md_docs_markdown_pages_print_guide.html#display_holder_front", null ],
         [ "Encoder Knob", "md_docs_markdown_pages_print_guide.html#encoder_knob", null ]
-      ] ]
+      ] ],
+      [ "Custom Artwork", "md_docs_markdown_pages_print_guide.html#custom_artwork", null ]
     ] ],
-    [ "Software Guide", "md_docs_markdown_pages_software_guide.html", null ],
+    [ "Software Guide", "md_docs_markdown_pages_software_guide.html", [
+      [ "Environment", "md_docs_markdown_pages_software_guide.html#environment", null ],
+      [ "Build The Firmware", "md_docs_markdown_pages_software_guide.html#build_the_firmware", null ],
+      [ "Upload The Firmware", "md_docs_markdown_pages_software_guide.html#upload_the_firmware", null ]
+    ] ],
     [ "Required Tools", "md_docs_markdown_pages_tools.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
@@ -183,8 +189,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"light_control_8cpp.html#aae84786ae5e87c03661732015708670b",
-"menu_8hpp.html#aa49b232bf9d3276c713685e5edfd2942"
+"light_control_8cpp.html#a02a6a9031fb951ca75c2b7e8c9d7c0f7",
+"menu_8hpp.html#a3c3d956aca28de46741cd6e5db5ffaee"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

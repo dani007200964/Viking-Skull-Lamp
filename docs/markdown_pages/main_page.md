@@ -37,13 +37,7 @@ the Arduino UNO platform. It controls all the peripherals in the system.
 3. \ref software_guide "Software Guide:" Of course this project have a custom firmware. It is written in C++ and I
 have used PlatformIO as a development tool.
 
-4. \ref mechanical_assembly "Mechanical Assembly:" Finally it's time to assemble the whole thing.
-
-<a href="Schematics.pdf" target="_blank"><b>Schematics</b></a>
-
-<a href="gerber.zip" target="_blank"><b>Gerber files</b></a>
-
-<a href="ibom.html" target="_blank"><b>Interactive BOM</b></a>
+4. \ref assembly_instructions "Mechanical Assembly:" Finally it's time to assemble the whole thing.
 
 __Donation__
 
@@ -55,9 +49,7 @@ __Contributing__
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
-
-__license License & copyright__
+__License & copyright__
 
 © Daniel Hajnal
 

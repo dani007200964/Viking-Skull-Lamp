@@ -31,8 +31,10 @@ SOFTWARE.
 
 void buttonClickSound(){
 
+    // Check if we are muted.
     if( buzzerEnabled ){
 
+        // If not, make some nose.
         tone( SPEAKER_PIN, BUTTON_CLICK_FREQUENCY, BUTTON_CLICK_DURATION );
 
     }
@@ -41,41 +43,27 @@ void buttonClickSound(){
 
 void encoderRotateSound(){
 
+    // Check if we are muted.
     if( buzzerEnabled ){
 
+        // If not, make some nose.
         tone( SPEAKER_PIN, ENCODER_ROTATE_FREQUENCY, ENCODER_ROTATE_DURATION );
     
     }
 
 }
 
-void playMelody( uint16_t data[][ 2 ], uint8_t dataSize ){
-
-    uint8_t i;
-
-    if( !buzzerEnabled ){
-
-        return;
-
-    }
-
-    for( i = 0; i < dataSize; i++ ){
-
-        tone( SPEAKER_PIN, data[ i ][ 0 ], data[ i ][ 1 ] );
-        delay( data[ i ][ 1 ] );
-
-    }
-
-}
-
 void openCloseMelody(){
 
+    // Check if we are muted.
     if( !buzzerEnabled ){
 
+        // We have to be quaiet, so return.
         return;
 
     }
-    
+
+    // Play the melody.
     tone( SPEAKER_PIN, NOTE_F3, 100 );
     delay( 100 );
 
@@ -92,12 +80,15 @@ void openCloseMelody(){
 
 void clapMelody(){
 
+    // Check if we are muted.
     if( !buzzerEnabled ){
 
+        // We have to be quaiet, so return.
         return;
 
     }
-    
+
+    // Play the melody.
     tone( SPEAKER_PIN, NOTE_C2, 50 );
     delay( 50 );
 
@@ -114,8 +105,10 @@ void clapMelody(){
 
 void turnOnMelody(){
 
+    // Check if we are muted.
     if( buzzerEnabled ){
 
+        // If not, make some nose.
         tone( SPEAKER_PIN, TURN_ON_SOUND_FREQUENCY, TURN_ON_SOUND_DURATION );
 
     }

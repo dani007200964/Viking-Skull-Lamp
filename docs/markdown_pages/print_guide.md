@@ -33,6 +33,20 @@ Just set the layer height to 0.2mm and print them.
 * __File for Prusa Slicer:__ <a href="display_clamp_2pcs.3mf" target="_blank"><b>display_clamp_2pcs.3mf</b></a>
 * __File for other slicers:__ <a href="display_clamp_2pcs.stl" target="_blank"><b>display_clamp_2pcs.stl</b></a>
 
+@subsection motor_mount Motor Mount
+
+![Motor Mount](print_motor_mount_1pcs.png)
+
+@pre
+* __Required quantity:__ 2pcs
+* __Color:__ \emoji :yellow_circle: Yellow
+* __Recommended material:__ PLA
+* __Material, that I have used:__ [Prusament PLA Pineapple Yellow 1kg](https://www.prusa3d.com/product/prusament-pla-pineapple-yellow-1kg/)
+* __Required filament:__ 0.33g
+* __Estimated print time:__ 3m
+* __File for Prusa Slicer:__ <a href="motor_mount_1pcs.3mf" target="_blank"><b>motor_mount_1pcs.3mf</b></a>
+* __File for other slicers:__ <a href="motor_mount_1pcs.stl" target="_blank"><b>motor_mount_1pcs.stl</b></a>
+
 @subsection eccentric_shaft Eccentric Shaft
 
 ![Eccentric Shaft](print_eccetric_shaft_1pcs.png)
@@ -352,3 +366,27 @@ pattern on the front panel is visible at low light conditions.
 * __Estimated print time:__ 31m
 * __File for Prusa Slicer:__ <a href="encoder_knob_with_art_1pcs.3mf" target="_blank"><b>encoder_knob_with_art_1pcs.3mf</b></a>
 * __File for other slicers:__ <a href="encoder_knob_with_art_1pcs.stl" target="_blank"><b>encoder_knob_with_art_1pcs.stl</b></a>
+
+@section custom_artwork Custom Artwork
+
+If you doesn't like the artwork on the box or if you want to replace it with your own,
+there is an option for that as well. There are those components without artwork_
+* <a href="box_front_naked_1pcs.stl" target="_blank"><b>box_front_naked_1pcs.stl</b></a>
+* <a href="box_top_naked_1pcs.stl" target="_blank"><b>box_top_naked_1pcs.stl</b></a>
+* <a href="display_holder_naked_1pcs.stl" target="_blank"><b>display_holder_naked_1pcs.stl</b></a>
+* <a href="encoder_knob_naked_1pcs.stl" target="_blank"><b>encoder_knob_naked_1pcs.stl</b></a>
+
+I used [Blender](https://www.blender.org/) and it's __Boolean__ feature to embed
+the artwork to the models. The easiest way is to:
+1. Create an __SVG__ file from the art bitmap( or use SVG from the beginning ) and import it to Blender.
+2. Create a 3D mesh from the imported path.
+3. Place the mesh to the component where you want to use it. The two mesh has to intersect.
+4. Apply the __Boolean Modifier__ .
+
+There is a video about the subject.
+
+\htmlonly
+
+<iframe width="1024" height="786" src="https://www.youtube.com/embed/_S3D8djM5bE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+\endhtmlonly
