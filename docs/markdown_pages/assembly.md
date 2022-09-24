@@ -1,5 +1,17 @@
 @page assembly_instructions Assembly Instructions
 
+\htmlonly
+
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<model-viewer src="assembly_animation.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.png" shadow-intensity="0" exposure="0.81" shadow-softness="1" environment-image="legacy" autoplay style="width:100%;height:80vh;">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+</model-viewer>
+
+\endhtmlonly
+
 @section step_1_rubber_feet Step 1 - Rubber Feet
 
 ![Rubber Feet](asm_stp001_rubber_feet.JPG)

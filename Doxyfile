@@ -1395,10 +1395,6 @@ HTML_EXTRA_FILES       = docs/Style/doxygen-awesome-darkmode-toggle.js \
                          docs/images/galery/galery_012.jpg \
                          docs/images/galery/galery_013.jpg \
                          docs/images/galery/galery_014.jpg \
-                         docs/images/galery/video_001.mp4 \
-                         docs/images/galery/video_002.mp4 \
-                         docs/images/galery/video_003.mp4 \
-                         docs/images/galery/video_004.mp4 \
                          docs/images/arduino_logo.png \
                          docs/images/platformio_logo.png \
                          docs/images/asm_stp017_demonstration.mp4 \
@@ -1408,8 +1404,50 @@ HTML_EXTRA_FILES       = docs/Style/doxygen-awesome-darkmode-toggle.js \
                          docs/images/asm_stp047_test.mp4 \
                          docs/images/asm_stp062_humidifier_test_video.mp4 \
                          docs/documents/assembly.glb \
-                         docs/documents/spruit_sunrise_1k_HDR.hdr \
-                         docs/images/poster_assembly.png
+                         docs/images/poster.png \
+                         docs/documents/assembly_animation.glb \
+                         CAD/azomizer_socket_1pcs_PETG.stl \
+                         CAD/3mf/azomizer_socket_1pcs_PETG.3mf \
+                         CAD/3mf/box_bottom_1pcs.3mf \
+                         CAD/box_bottom_1pcs.stl \
+                         CAD/box_front_with_art_1pcs.stl \
+                         CAD/3mf/box_front_with_art_1pcs.3mf \
+                         CAD/3mf/box_top_with_art_1pcs.3mf \
+                         CAD/box_top_with_art_1pcs.stl \
+                         CAD/display_clamp_2pcs.stl \
+                         CAD/3mf/display_clamp_2pcs.3mf \
+                         CAD/3mf/display_holder_base_with_art_1pcs.3mf \
+                         CAD/display_holder_base_with_art_1pcs.stl \
+                         CAD/display_holder_front_with_art_1pcs.stl \
+                         CAD/3mf/display_holder_front_with_art_1pcs.3mf \
+                         CAD/3mf/eccetric_shaft_1pcs.3mf \
+                         CAD/eccetric_shaft_1pcs.stl \
+                         CAD/encoder_knob_with_art_1pcs.stl \
+                         CAD/endstop_knob_2pcs.stl \
+                         CAD/3mf/encoder_knob_with_art_1pcs.3mf \
+                         CAD/3mf/endstop_knob_2pcs.3mf \
+                         CAD/3mf/front_panel_magnet_holder_1pcs.3mf \
+                         CAD/front_panel_magnet_holder_1pcs.stl \
+                         CAD/led_holder_1pcs.stl \
+                         CAD/3mf/led_holder_1pcs.3mf \
+                         CAD/3mf/led_ring_mount_1pcs.3mf \
+                         CAD/led_ring_mount_1pcs.stl \
+                         CAD/left_endstop_mount_1pcs.stl \
+                         CAD/3mf/left_endstop_mount_1pcs.3mf \
+                         CAD/3mf/long_screw_spacer_1pcs.3mf \
+                         CAD/long_screw_spacer_1pcs.stl \
+                         CAD/motor_mount_1pcs.stl \
+                         CAD/3mf/motor_mount_1pcs.3mf \
+                         CAD/3mf/moving_platform_1pcs.3mf \
+                         CAD/moving_platform_1pcs.stl \
+                         CAD/pcb_spacer_corner_1pcs.stl \
+                         CAD/3mf/pcb_spacer_corner_1pcs.3mf \
+                         CAD/3mf/right_endstop_mount_1pcs.3mf \
+                         CAD/right_endstop_mount_1pcs.stl \
+                         CAD/short_screw_spacer_1pcs.stl \
+                         CAD/skull_1pcs.stl \
+                         CAD/3mf/short_screw_spacer_1pcs.3mf \
+                         CAD/3mf/skull_1pcs.3mf
 
 # The HTML_COLORSTYLE tag can be used to specify if the generated HTML output
 # should be rendered with a dark or light theme. Default setting AUTO_LIGHT

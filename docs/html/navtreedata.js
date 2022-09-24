@@ -127,7 +127,32 @@ var NAVTREE =
         [ "Back Motor Cable", "md_docs_markdown_pages_pcb_assembly.html#motor_cable", null ]
       ] ]
     ] ],
-    [ "Print Guide", "md_docs_markdown_pages_print_guide.html", null ],
+    [ "Print Guide", "md_docs_markdown_pages_print_guide.html", [
+      [ "Basic Parts", "md_docs_markdown_pages_print_guide.html#basic_parts", [
+        [ "Display Clamp", "md_docs_markdown_pages_print_guide.html#display_clamp", null ],
+        [ "Eccentric Shaft", "md_docs_markdown_pages_print_guide.html#eccentric_shaft", null ],
+        [ "Endstop Knob", "md_docs_markdown_pages_print_guide.html#endstop_knob", null ],
+        [ "Magnet Holder", "md_docs_markdown_pages_print_guide.html#magnet_holder", null ],
+        [ "LED Ring Mount", "md_docs_markdown_pages_print_guide.html#led_ring_mount", null ],
+        [ "Left Endstop Mount", "md_docs_markdown_pages_print_guide.html#left_endstop_mount", null ],
+        [ "Right Endstop Mount", "md_docs_markdown_pages_print_guide.html#right_endstop_mount", null ],
+        [ "Long Screw Spacer", "md_docs_markdown_pages_print_guide.html#long_screw_spacer", null ],
+        [ "Short Screw Spacer", "md_docs_markdown_pages_print_guide.html#short_screw_spacer", null ],
+        [ "Moving Platform", "md_docs_markdown_pages_print_guide.html#moving_platform", null ],
+        [ "PCB Spacer", "md_docs_markdown_pages_print_guide.html#pcb_spacer", null ],
+        [ "Atomizer Socket", "md_docs_markdown_pages_print_guide.html#atomizer_socket", null ],
+        [ "Box Bottom", "md_docs_markdown_pages_print_guide.html#box_bottom", null ],
+        [ "Display Holder Base", "md_docs_markdown_pages_print_guide.html#display_holder_base", null ],
+        [ "LED Holder", "md_docs_markdown_pages_print_guide.html#led_holder", null ],
+        [ "Skull", "md_docs_markdown_pages_print_guide.html#skull", null ]
+      ] ],
+      [ "Advanced Parts", "md_docs_markdown_pages_print_guide.html#advanced_parts", [
+        [ "Box Front", "md_docs_markdown_pages_print_guide.html#box_front", null ],
+        [ "Box Top", "md_docs_markdown_pages_print_guide.html#box_top", null ],
+        [ "Display Holder Front", "md_docs_markdown_pages_print_guide.html#display_holder_front", null ],
+        [ "Encoder Knob", "md_docs_markdown_pages_print_guide.html#encoder_knob", null ]
+      ] ]
+    ] ],
     [ "Software Guide", "md_docs_markdown_pages_software_guide.html", null ],
     [ "Required Tools", "md_docs_markdown_pages_tools.html", null ],
     [ "Classes", "annotated.html", [
@@ -159,7 +184,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "light_control_8cpp.html#aae84786ae5e87c03661732015708670b",
-"motor_control_8cpp.html"
+"menu_8hpp.html#aa49b232bf9d3276c713685e5edfd2942"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

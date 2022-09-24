@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2022 - Daniel Hajnal
  * hajnal.daniel96@gmail.com
- * This file is part of the Shellminator project.
+ * This file is part of the Viking Skull Lamp project.
  * Modified 2022.06.27
 */
 

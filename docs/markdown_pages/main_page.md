@@ -6,38 +6,13 @@ I have made this project for my brother. He asked me to create a Viking style la
 The result came out pretty good I think, so I decided to share this project with the world. The device was finished in June of 2022 and I decided to
 announce the design for the 2022 Halloween Contest on Printables.com. So I roughly had five month to test the device before publishing it. I can
 happily say that in this period nothing went wrong with it, it just worked like a charm. Also I have worked a lot on the documentation in this time.
-Here you can see what can this ting actually do:
+Here you can see what can this ting actually do. Also there are some nice photos about the lighting in the @ref gallery "gallery".
 
 \htmlonly
 
-<p align="center"><iframe width="1024" height="786" src="https://www.youtube.com/embed/yvYET1PqnmI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p align="center"><iframe width="1024" height="786" src="https://www.youtube.com/embed/Z976pNBqhS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 \endhtmlonly
-
-\htmlonly
-
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-
-<model-viewer src="assembly.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster_assembly.png" shadow-intensity="1" environment-image="spruit_sunrise_1k_HDR.hdr" min-camera-orbit="auto 20deg auto" max-camera-orbit="auto 90deg auto">
-    <div class="progress-bar hide" slot="progress-bar">
-        <div class="update-bar"></div>
-    </div>
-    <button slot="ar-button" id="ar-button">
-        View in your space
-    </button>
-    <div id="ar-prompt">
-        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-    </div>
-</model-viewer>
-
-<script>
-    document.getElementById('glb').src=
-</script>
-
-
-\endhtmlonly
-
-Also there are some nice photos about the lighting in the @ref gallery "gallery".
 
 ![](hardcore_logo.png)
 
