@@ -65,7 +65,7 @@
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="classmenu.html#aa90b85d7aa5ddfa761e7cb8f9e83da93" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="classmenu.html#aa90b85d7aa5ddfa761e7cb8f9e83da93" target="_top" xlink:title="Enter to the next menu if possible.">
 <polygon fill="white" stroke="#666666" points="233,-179 168,-179 168,-160 233,-160 233,-179"/>
 <text text-anchor="middle" x="200.5" y="-167" font-family="Helvetica,sans-Serif" font-size="10.00">menu::next</text>
 </a>

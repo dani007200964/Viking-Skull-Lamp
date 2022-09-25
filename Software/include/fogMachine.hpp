@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2022 - Daniel Hajnal
  * hajnal.daniel96@gmail.com
- * This file is part of the Shellminator project.
+ * This file is part of the Viking Skull Lamp project.
  * Modified 2022.06.27
 */
 
@@ -27,6 +27,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
+
 #ifndef FOG_MACHINE_HPP__
 #define FOG_MACHINE_HPP__
 
@@ -39,7 +40,7 @@ SOFTWARE.
 /// Humidifier turn on duration in ms. The humidifier will be turned on for this amount of time.
 #define HUMIDIFIER_DURATION (unsigned long)15000
 
-/// Humidifier cool down time. The humidifier has to be furned off for this amount of time before turning on again.
+/// Humidifier cool down time. The humidifier has to be turned off for this amount of time before turning on again.
 #define HUMIDIFIER_COOL_DOWN (unsigned long)30000
 
 /// Initialize the fog machine( humidifier ).
@@ -57,7 +58,7 @@ void fogMachineInit();
 /// It is specified in @ref HUMIDIFIER_DURATION
 /// 2. After this time has elapsed it has to be turned off and let it
 /// cool at least for some time. It is specified in @ref HUMIDIFIER_COOL_DOWN
-/// 3. It can not turend on until the cool down time has expired.
+/// 3. It can not turned on until the cool down time has expired.
 ///
 /// Also if the humidifier is enabled for periodic humidification
 /// we have to calculate when to start the automatic humidification next.
@@ -66,7 +67,7 @@ void fogMachineUpdate();
 /// Enable the humidifier
 ///
 /// This function turns on the humidifier if:
-/// 1. The humidifier is turend off
+/// 1. The humidifier is turned off
 /// 2. And the cool down time has expired.
 void fogMachineEnable();
 

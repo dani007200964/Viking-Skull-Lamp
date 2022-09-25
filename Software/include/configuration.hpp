@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2022 - Daniel Hajnal
  * hajnal.daniel96@gmail.com
- * This file is part of the Shellminator project.
+ * This file is part of the Viking Skull Lamp project.
  * Modified 2022.06.27
 */
 
@@ -38,7 +38,7 @@ SOFTWARE.
 /// Configuration Manager Class
 ///
 /// This class handles the saving and loading any type of data.
-/// The adata has to be specified in an array called configTree.
+/// The data has to be specified in an array called configTree.
 /// You can use the @ref createData macro to simplify the configTree
 /// creation.
 /// @see createData
@@ -73,7 +73,7 @@ public:
 
     /// Load configuration from EEPROM.
     ///
-    /// Typically you shuld call this at startup.
+    /// Typically you should call this at startup.
     /// It loads the previously saved configuration
     /// from the EEPROM to the elements in the
     /// configTree. The function calculates a CRC

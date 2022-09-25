@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2022 - Daniel Hajnal
  * hajnal.daniel96@gmail.com
- * This file is part of the Shellminator project.
+ * This file is part of the Viking Skull Lamp project.
  * Modified 2022.06.27
 */
 
@@ -59,7 +59,7 @@ SOFTWARE.
 /// on or off the lighting.
 #define LIGHT_FADE_RATE 2
 
-/// It is used for the clap switch. It determinates
+/// It is used for the clap switch. It determinate
 /// the time between two sample updates in ms.
 #define SAMPLE_UPDATE_RATE 30
 

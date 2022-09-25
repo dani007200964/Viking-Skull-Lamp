@@ -57,7 +57,7 @@ var sectionId = 'dynsection-12';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Initialize the menu system.">
 <polygon fill="#999999" stroke="#666666" points="53,-278 0,-278 0,-259 53,-259 53,-278"/>
 <text text-anchor="middle" x="26.5" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00">menuInit</text>
 </a>
@@ -66,7 +66,7 @@ var sectionId = 'dynsection-12';
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="menu_8cpp.html#a05c76b51924f5f8f4ef70cae6d07eb90" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="menu_8cpp.html#a05c76b51924f5f8f4ef70cae6d07eb90" target="_top" xlink:title="Draw override for brightness selection.">
 <polygon fill="white" stroke="#666666" points="243,-537 94,-537 94,-518 243,-518 243,-537"/>
 <text text-anchor="middle" x="168.5" y="-525" font-family="Helvetica,sans-Serif" font-size="10.00">brightnessSelectDrawFunction</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-12';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="menu_8cpp.html#a2b016118a0e096dd41f9217dc9cff74b" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="menu_8cpp.html#a2b016118a0e096dd41f9217dc9cff74b" target="_top" xlink:title="Behaviour override for brightness selection.">
 <polygon fill="white" stroke="#666666" points="232,-500 105,-500 105,-481 232,-481 232,-500"/>
 <text text-anchor="middle" x="168.5" y="-488" font-family="Helvetica,sans-Serif" font-size="10.00">brightnessSelectFunction</text>
 </a>
@@ -96,7 +96,7 @@ var sectionId = 'dynsection-12';
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="menu_8cpp.html#a7b11962e0299f94228c9156915a69ee5" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="menu_8cpp.html#a7b11962e0299f94228c9156915a69ee5" target="_top" xlink:title="Behaviour override for buzzer menu.">
 <polygon fill="white" stroke="#666666" points="241.5,-463 95.5,-463 95.5,-444 241.5,-444 241.5,-463"/>
 <text text-anchor="middle" x="168.5" y="-451" font-family="Helvetica,sans-Serif" font-size="10.00">buzzerMenuSelectedFunction</text>
 </a>
@@ -111,7 +111,7 @@ var sectionId = 'dynsection-12';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="menu_8cpp.html#a6c110f4f0e90ee77f942f14ee7ffb81b" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="menu_8cpp.html#a6c110f4f0e90ee77f942f14ee7ffb81b" target="_top" xlink:title="Behaviour override for candle menu select.">
 <polygon fill="white" stroke="#666666" points="235.5,-426 101.5,-426 101.5,-407 235.5,-407 235.5,-426"/>
 <text text-anchor="middle" x="168.5" y="-414" font-family="Helvetica,sans-Serif" font-size="10.00">candleMenuSelectFunction</text>
 </a>
@@ -126,7 +126,7 @@ var sectionId = 'dynsection-12';
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="menu_8cpp.html#a3c3d956aca28de46741cd6e5db5ffaee" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="menu_8cpp.html#a3c3d956aca28de46741cd6e5db5ffaee" target="_top" xlink:title="Behaviour override for clap menu.">
 <polygon fill="white" stroke="#666666" points="235.5,-389 101.5,-389 101.5,-370 235.5,-370 235.5,-389"/>
 <text text-anchor="middle" x="168.5" y="-377" font-family="Helvetica,sans-Serif" font-size="10.00">clapMenuSelectedFunction</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-12';
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="menu_8cpp.html#ac022544e45c7f043d12d0951547249a1" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="menu_8cpp.html#ac022544e45c7f043d12d0951547249a1" target="_top" xlink:title="Behaviour override for color mode menu.">
 <polygon fill="white" stroke="#666666" points="232,-352 105,-352 105,-333 232,-333 232,-352"/>
 <text text-anchor="middle" x="168.5" y="-340" font-family="Helvetica,sans-Serif" font-size="10.00">colorMenuSelectFunction</text>
 </a>
@@ -156,7 +156,7 @@ var sectionId = 'dynsection-12';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="menu_8cpp.html#aa6c25806baf4bb6f997ffd124d95d7a9" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="menu_8cpp.html#aa6c25806baf4bb6f997ffd124d95d7a9" target="_top" xlink:title="Draw override for color select menu.">
 <polygon fill="white" stroke="#666666" points="231,-315 106,-315 106,-296 231,-296 231,-315"/>
 <text text-anchor="middle" x="168.5" y="-303" font-family="Helvetica,sans-Serif" font-size="10.00">colorSelectDrawFunction</text>
 </a>
@@ -171,7 +171,7 @@ var sectionId = 'dynsection-12';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="menu_8cpp.html#a43e28b685319d16ec59e9d329fa5877e" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="menu_8cpp.html#a43e28b685319d16ec59e9d329fa5877e" target="_top" xlink:title="Behaviour override for color select menu.">
 <polygon fill="white" stroke="#666666" points="220,-278 117,-278 117,-259 220,-259 220,-278"/>
 <text text-anchor="middle" x="168.5" y="-266" font-family="Helvetica,sans-Serif" font-size="10.00">colorSelectFunction</text>
 </a>
@@ -201,7 +201,7 @@ var sectionId = 'dynsection-12';
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="menu_8cpp.html#a88d2dece762e3b85d4aa7b2182ce26e9" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="menu_8cpp.html#a88d2dece762e3b85d4aa7b2182ce26e9" target="_top" xlink:title="Draw override for fog timer setting.">
 <polygon fill="white" stroke="#666666" points="238.5,-204 98.5,-204 98.5,-185 238.5,-185 238.5,-204"/>
 <text text-anchor="middle" x="168.5" y="-192" font-family="Helvetica,sans-Serif" font-size="10.00">fogTimerSelectDrawFunction</text>
 </a>
@@ -216,7 +216,7 @@ var sectionId = 'dynsection-12';
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="menu_8cpp.html#a9e1e416e4818382df8d39d0125d210f5" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="menu_8cpp.html#a9e1e416e4818382df8d39d0125d210f5" target="_top" xlink:title="Behaviour override for fog timer setting menu.">
 <polygon fill="white" stroke="#666666" points="228,-167 109,-167 109,-148 228,-148 228,-167"/>
 <text text-anchor="middle" x="168.5" y="-155" font-family="Helvetica,sans-Serif" font-size="10.00">fogTimerSelectFunction</text>
 </a>
@@ -231,7 +231,7 @@ var sectionId = 'dynsection-12';
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="menu_8cpp.html#a1970379f59b8760eecae1c62b524dc48" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="menu_8cpp.html#a1970379f59b8760eecae1c62b524dc48" target="_top" xlink:title="Behaviour override for komodo menu select.">
 <polygon fill="white" stroke="#666666" points="238.5,-130 98.5,-130 98.5,-111 238.5,-111 238.5,-130"/>
 <text text-anchor="middle" x="168.5" y="-118" font-family="Helvetica,sans-Serif" font-size="10.00">komodoMenuSelectFunction</text>
 </a>
@@ -246,7 +246,7 @@ var sectionId = 'dynsection-12';
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="menu_8cpp.html#af63afc520dcef97967678aa6dbc973b9" target="_top" xlink:title=" ">
+<g id="a_node14"><a xlink:href="menu_8cpp.html#af63afc520dcef97967678aa6dbc973b9" target="_top" xlink:title="Behaviour override for music menu select.">
 <polygon fill="white" stroke="#666666" points="234.5,-93 102.5,-93 102.5,-74 234.5,-74 234.5,-93"/>
 <text text-anchor="middle" x="168.5" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">musicMenuSelectFunction</text>
 </a>
@@ -261,7 +261,7 @@ var sectionId = 'dynsection-12';
 <!-- Node15 -->
 <g id="node15" class="node">
 <title>Node15</title>
-<g id="a_node15"><a xlink:href="menu_8cpp.html#a910a5811ac94710f8ddf95ba54708324" target="_top" xlink:title=" ">
+<g id="a_node15"><a xlink:href="menu_8cpp.html#a910a5811ac94710f8ddf95ba54708324" target="_top" xlink:title="Behaviour override for pulse menu select.">
 <polygon fill="white" stroke="#666666" points="233,-56 104,-56 104,-37 233,-37 233,-56"/>
 <text text-anchor="middle" x="168.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">pulseMenuSelectFunction</text>
 </a>
@@ -276,7 +276,7 @@ var sectionId = 'dynsection-12';
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="menu_8cpp.html#ae0e8c5d7972d85144e7f0121104c75a1" target="_top" xlink:title=" ">
+<g id="a_node16"><a xlink:href="menu_8cpp.html#ae0e8c5d7972d85144e7f0121104c75a1" target="_top" xlink:title="Behaviour override for rainbow menu select.">
 <polygon fill="white" stroke="#666666" points="238,-19 99,-19 99,0 238,0 238,-19"/>
 <text text-anchor="middle" x="168.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">rainbowMenuSelectFunction</text>
 </a>

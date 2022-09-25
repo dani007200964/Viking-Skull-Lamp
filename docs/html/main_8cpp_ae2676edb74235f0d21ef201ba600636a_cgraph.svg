@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classmenu.html#aa570579eea43a7810230472ee28b873a" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classmenu.html#aa570579eea43a7810230472ee28b873a" target="_top" xlink:title="Step te menu downwards if possible.">
 <polygon fill="white" stroke="#666666" points="191,-111 122,-111 122,-92 191,-92 191,-111"/>
 <text text-anchor="middle" x="156.5" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00">menu::down</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classmenu.html#a87a6a695240e84646f5f92a6f764b7e9" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classmenu.html#a87a6a695240e84646f5f92a6f764b7e9" target="_top" xlink:title="Step te menu upwards if possible.">
 <polygon fill="white" stroke="#666666" points="185,-19 128,-19 128,0 185,0 185,-19"/>
 <text text-anchor="middle" x="156.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">menu::up</text>
 </a>

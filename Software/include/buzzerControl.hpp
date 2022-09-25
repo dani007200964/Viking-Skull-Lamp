@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2022 - Daniel Hajnal
  * hajnal.daniel96@gmail.com
- * This file is part of the Shellminator project.
+ * This file is part of the Viking Skull Lamp project.
  * Modified 2022.06.27
 */
 
@@ -159,7 +159,7 @@ void encoderRotateSound();
 /// Generate turn on sound
 ///
 /// This function generates the turn on sound effect on the buzzer.
-/// @note Originally it was a meody( this is why the name ), but I
+/// @note Originally it was a melody( this is why the name ), but I
 /// @note ran out of memory, so I had to optimize out things.
 /// @see TURN_ON_SOUND_FREQUENCY
 /// @see TURN_ON_SOUND_DURATION

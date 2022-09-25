@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Menu Controller Class.">
 <polygon fill="#999999" stroke="#666666" points="127,-19 86,-19 86,0 127,0 127,-19"/>
 <text text-anchor="middle" x="106.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">menu</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classmenu_item.html" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classmenu_item.html" target="_top" xlink:title="Menu Item Class.">
 <polygon fill="white" stroke="#666666" points="59,-92 0,-92 0,-73 59,-73 59,-92"/>
 <text text-anchor="middle" x="29.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">menuItem</text>
 </a>

@@ -1,5 +1,5 @@
 <map id="colorSelectDrawFunction" name="colorSelectDrawFunction">
-<area shape="rect" id="node1" title=" " alt="" coords="227,5,393,31"/>
-<area shape="rect" id="node2" href="$menu_8cpp.html#a7f54e3748544f98b538cfbc35d963bb8" title=" " alt="" coords="108,5,179,31"/>
+<area shape="rect" id="node1" title="Draw override for color select menu." alt="" coords="227,5,393,31"/>
+<area shape="rect" id="node2" href="$menu_8cpp.html#a7f54e3748544f98b538cfbc35d963bb8" title="Initialize the menu system." alt="" coords="108,5,179,31"/>
 <area shape="rect" id="node3" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Device initialization section after reset." alt="" coords="5,5,60,31"/>
 </map>

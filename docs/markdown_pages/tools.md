@@ -20,7 +20,9 @@ future projects.
 * Caliper
 * Pliers
 * Connector crimping pliers( [PA-09](https://www.engineertools-jp.com/pa092021) for example )
-* 3D printer with 180mm * 180mm * 150mm volume at least
+* 3D printer with 180mm * 180mm * 150mm volume at least. Personally I have a Prusa Mini, but
+I think any popular 3D printer can make this parts. For the nozzle I used 0.4mm one and it
+was enough for all parts.
 
 @note If you do some soldering work PLEASE USE A FUME EXTRACTOR. That smoke is very
 dangerous, it can kill you. Please solder in a well ventilated area with some kind

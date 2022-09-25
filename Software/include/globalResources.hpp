@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2022 - Daniel Hajnal
  * hajnal.daniel96@gmail.com
- * This file is part of the Shellminator project.
+ * This file is part of the Viking Skull Lamp project.
  * Modified 2022.06.27
 */
 
@@ -40,7 +40,7 @@ SOFTWARE.
 /// Object for the display.
 ///
 /// This object can control a 128 x 32 pixel oled
-/// display whisch have an SSD1306 display driver.
+/// display which have an SSD1306 display driver.
 /// The address is configurable in the
 /// @ref OLED_ADDRESS macro.
 /// @see OLED_ADDRESS

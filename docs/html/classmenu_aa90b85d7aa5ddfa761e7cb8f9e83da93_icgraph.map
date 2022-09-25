@@ -1,5 +1,5 @@
 <map id="menu::next" name="menu::next">
-<area shape="rect" id="node1" title=" " alt="" coords="295,29,381,55"/>
+<area shape="rect" id="node1" title="Enter to the next menu if possible." alt="" coords="295,29,381,55"/>
 <area shape="rect" id="node2" href="$main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" title="This function handles the button press detection." alt="" coords="100,29,247,55"/>
 <area shape="rect" id="node3" href="$main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="This is the infinite loop of the code." alt="" coords="5,29,52,55"/>
 </map>

@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Step te menu upwards if possible.">
 <polygon fill="#999999" stroke="#666666" points="237,-37 180,-37 180,-18 237,-18 237,-37"/>
 <text text-anchor="middle" x="208.5" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00">menu::up</text>
 </a>
@@ -26,7 +26,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classmenu.html#a6fcf97a34d06d1889ae8cf52e5060d06" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classmenu.html#a6fcf97a34d06d1889ae8cf52e5060d06" target="_top" xlink:title="Redraw the menu to the display.">
 <polygon fill="white" stroke="#666666" points="144,-56 77,-56 77,-37 144,-37 144,-56"/>
 <text text-anchor="middle" x="110.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">menu::draw</text>
 </a>

@@ -3,7 +3,7 @@
  *
  * Copyright (c) 2022 - Daniel Hajnal
  * hajnal.daniel96@gmail.com
- * This file is part of the Shellminator project.
+ * This file is part of the Viking Skull Lamp project.
  * Modified 2022.06.27
 */
 
@@ -52,7 +52,15 @@ SOFTWARE.
 
 // The buzzer is connected to pin 9 on the Arduino.
 #define BUZZER 9
+/*
+    ____       ____            ____     ______            _____      
+   / __ \___  / __/___ ___  __/ / /_   / ____/___  ____  / __(_)___ _
+  / / / / _ \/ /_/ __ `/ / / / / __/  / /   / __ \/ __ \/ /_/ / __ `/
+ / /_/ /  __/ __/ /_/ / /_/ / / /_   / /___/ /_/ / / / / __/ / /_/ / 
+/_____/\___/_/  \__,_/\__,_/_/\__/   \____/\____/_/ /_/_/ /_/\__, /  
+                                                            /____/   
 
+*/
 //---- This section contains the default configuration for the first boot up ----//
 
 /// Default value for the light mode.

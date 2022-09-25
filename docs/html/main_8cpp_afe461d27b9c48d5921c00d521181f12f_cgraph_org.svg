@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classmenu.html#a6fcf97a34d06d1889ae8cf52e5060d06" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classmenu.html#a6fcf97a34d06d1889ae8cf52e5060d06" target="_top" xlink:title="Redraw the menu to the display.">
 <polygon fill="white" stroke="#666666" points="159.5,-666.97 92.5,-666.97 92.5,-647.97 159.5,-647.97 159.5,-666.97"/>
 <text text-anchor="middle" x="126" y="-654.97" font-family="Helvetica,sans-Serif" font-size="10.00">menu::draw</text>
 </a>
@@ -80,7 +80,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classmenu.html#aa570579eea43a7810230472ee28b873a" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classmenu.html#aa570579eea43a7810230472ee28b873a" target="_top" xlink:title="Step te menu downwards if possible.">
 <polygon fill="white" stroke="#666666" points="314.5,-666.97 245.5,-666.97 245.5,-647.97 314.5,-647.97 314.5,-666.97"/>
 <text text-anchor="middle" x="280" y="-654.97" font-family="Helvetica,sans-Serif" font-size="10.00">menu::down</text>
 </a>
@@ -95,7 +95,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classmenu.html#a87a6a695240e84646f5f92a6f764b7e9" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classmenu.html#a87a6a695240e84646f5f92a6f764b7e9" target="_top" xlink:title="Step te menu upwards if possible.">
 <polygon fill="white" stroke="#666666" points="308.5,-721.97 251.5,-721.97 251.5,-702.97 308.5,-702.97 308.5,-721.97"/>
 <text text-anchor="middle" x="280" y="-709.97" font-family="Helvetica,sans-Serif" font-size="10.00">menu::up</text>
 </a>
@@ -167,7 +167,7 @@
 <!-- Node14 -->
 <g id="node14" class="node">
 <title>Node14</title>
-<g id="a_node14"><a xlink:href="classmenu.html#aa90b85d7aa5ddfa761e7cb8f9e83da93" target="_top" xlink:title=" ">
+<g id="a_node14"><a xlink:href="classmenu.html#aa90b85d7aa5ddfa761e7cb8f9e83da93" target="_top" xlink:title="Enter to the next menu if possible.">
 <polygon fill="white" stroke="#666666" points="312.5,-611.97 247.5,-611.97 247.5,-592.97 312.5,-592.97 312.5,-611.97"/>
 <text text-anchor="middle" x="280" y="-599.97" font-family="Helvetica,sans-Serif" font-size="10.00">menu::next</text>
 </a>

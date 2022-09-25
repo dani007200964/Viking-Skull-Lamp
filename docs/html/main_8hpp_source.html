@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('main_8hpp_source.html',''); initResiza
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment"> *</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"> * Copyright (c) 2022 - Daniel Hajnal</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="comment"> * hajnal.daniel96@gmail.com</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> * This file is part of the Shellminator project.</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment"> * This file is part of the Viking Skull Lamp project.</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="comment"> * Modified 2022.06.27</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="comment">*/</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
@@ -175,26 +175,34 @@ $(document).ready(function(){initNavTree('main_8hpp_source.html',''); initResiza
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">// The buzzer is connected to pin 9 on the Arduino.</span></div>
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="main_8hpp.html#a145103118f6d9d1129aa4509cf214a13">   54</a></span><span class="preprocessor">#define BUZZER 9</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">//---- This section contains the default configuration for the first boot up ----//</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="main_8hpp.html#a6f9e187df797cdf6d89ac7a5953af410">   59</a></span><span class="preprocessor">#define DEFAULT_LIGHT_MODE          LIGHT_MODE_RAINBOW</span></div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="main_8hpp.html#a517b60c8bef4ebaf8a6f365d6a0db578">   62</a></span><span class="preprocessor">#define DEFAULT_SELECTED_COLOR      0</span></div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="main_8hpp.html#a4e796d696ff7550ffa8516dd711364dd">   65</a></span><span class="preprocessor">#define DEFAULT_LIGHT_BRIGHTNESS    30</span></div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="main_8hpp.html#a65a7b14ca8887c94e0bdc3343df4d0da">   68</a></span><span class="preprocessor">#define DEFAULT_BUZZER_STATE        true</span></div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="main_8hpp.html#a4303952c2ce6839d366a8efe5e1de095">   71</a></span><span class="preprocessor">#define DEFAULT_CLAP_SWITCH_STATE   true</span></div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="main_8hpp.html#ae83693c97aba79c1b9818dcdc732544a">   74</a></span><span class="preprocessor">#define DEFAULT_FOG_STATE           true</span></div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keywordtype">void</span> <a class="code hl_function" href="main_8hpp.html#ae2676edb74235f0d21ef201ba600636a">encoderISR</a>();</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keywordtype">void</span> <a class="code hl_function" href="main_8hpp.html#a098f004d14a561a6007a87e9a2959eb9">encoderButtonUpdate</a>();</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="comment">/*</span></div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">    ____       ____            ____     ______            _____      </span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="comment">   / __ \___  / __/___ ___  __/ / /_   / ____/___  ____  / __(_)___ _</span></div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="comment">  / / / / _ \/ /_/ __ `/ / / / / __/  / /   / __ \/ __ \/ /_/ / __ `/</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="comment"> / /_/ /  __/ __/ /_/ / /_/ / / /_   / /___/ /_/ / / / / __/ / /_/ / </span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="comment">/_____/\___/_/  \__,_/\__,_/_/\__/   \____/\____/_/ /_/_/ /_/\__, /  </span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="comment">                                                            /____/   </span></div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="comment"></span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="comment">*/</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="comment">//---- This section contains the default configuration for the first boot up ----//</span></div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="main_8hpp.html#a6f9e187df797cdf6d89ac7a5953af410">   67</a></span><span class="preprocessor">#define DEFAULT_LIGHT_MODE          LIGHT_MODE_RAINBOW</span></div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno"><a class="line" href="main_8hpp.html#a517b60c8bef4ebaf8a6f365d6a0db578">   70</a></span><span class="preprocessor">#define DEFAULT_SELECTED_COLOR      0</span></div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno"><a class="line" href="main_8hpp.html#a4e796d696ff7550ffa8516dd711364dd">   73</a></span><span class="preprocessor">#define DEFAULT_LIGHT_BRIGHTNESS    30</span></div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span> </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="main_8hpp.html#a65a7b14ca8887c94e0bdc3343df4d0da">   76</a></span><span class="preprocessor">#define DEFAULT_BUZZER_STATE        true</span></div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno"><a class="line" href="main_8hpp.html#a4303952c2ce6839d366a8efe5e1de095">   79</a></span><span class="preprocessor">#define DEFAULT_CLAP_SWITCH_STATE   true</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno"><a class="line" href="main_8hpp.html#ae83693c97aba79c1b9818dcdc732544a">   82</a></span><span class="preprocessor">#define DEFAULT_FOG_STATE           true</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span><span class="keywordtype">void</span> <a class="code hl_function" href="main_8hpp.html#ae2676edb74235f0d21ef201ba600636a">encoderISR</a>();</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span> </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span><span class="keywordtype">void</span> <a class="code hl_function" href="main_8hpp.html#a098f004d14a561a6007a87e9a2959eb9">encoderButtonUpdate</a>();</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span> </div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="abuzzer_control_8hpp_html"><div class="ttname"><a href="buzzer_control_8hpp.html">buzzerControl.hpp</a></div></div>
 <div class="ttc" id="aconfiguration_8hpp_html"><div class="ttname"><a href="configuration_8hpp.html">configuration.hpp</a></div></div>
 <div class="ttc" id="afog_machine_8hpp_html"><div class="ttname"><a href="fog_machine_8hpp.html">fogMachine.hpp</a></div></div>
@@ -227,7 +235,7 @@ $(document).ready(function(){initNavTree('main_8hpp_source.html',''); initResiza
       <b>Viking Skull Lamp V1.0.1</b> &nbsp;|&nbsp; Generated by:
       <a href="http://www.doxygen.org/index.html">
         <img class="footer" src="doxygen.svg" alt="doxygen"/>
-      </a> on Sun Sep 25 2022
+      </a> on Mon Sep 26 2022
       <hr class="footer"/><address class="footer"><small>
         <a title="PlatformIO" href="https://registry.platformio.org/libraries/dani007200964/Shellminator/">
           <img class="footer" src="platformio_logo.png" alt="PlatformIO" style="height:20px;width:auto;"/>
@@ -239,7 +247,7 @@ $(document).ready(function(){initNavTree('main_8hpp_source.html',''); initResiza
         <b>Viking Skull Lamp V1.0.1</b> &nbsp;|&nbsp; Generated by:
         <a href="http://www.doxygen.org/index.html">
           <img class="footer" src="doxygen.svg" alt="doxygen"/>
-        </a> on Sun Sep 25 2022
+        </a> on Mon Sep 26 2022
       </small></address>
     </li>
   </ul>

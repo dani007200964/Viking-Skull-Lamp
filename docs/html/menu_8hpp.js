@@ -37,7 +37,6 @@ var menu_8hpp =
     [ "fogEnableMenuItem", "menu_8hpp.html#aeba140ba537d2c02949cc07c030fb093", null ],
     [ "fogMachineEnabled", "menu_8hpp.html#a4d6cd92aafcf5861ceecd2d0c3c92a2f", null ],
     [ "fogTimer", "menu_8hpp.html#af1ed90b4442d1f717a133fabd0f9d714", null ],
-    [ "fogTimerInMS", "menu_8hpp.html#ad841b0adb68bea4a7e4fa4ce4789aa17", null ],
     [ "fogTimerMenuItem", "menu_8hpp.html#afdc4651b4d4657ddae03f2e201669f88", null ],
     [ "fogTimerSelectMenuItem", "menu_8hpp.html#a5484ba7b9dd66eedff9eb1541d0b946c", null ],
     [ "komodoModeMenuItem", "menu_8hpp.html#a318cad5db30f3b2cbef1a50df2e61122", null ],
