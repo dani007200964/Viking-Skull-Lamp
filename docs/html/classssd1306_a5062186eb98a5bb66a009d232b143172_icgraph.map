@@ -1,7 +1,7 @@
 <map id="ssd1306::displayOff" name="ssd1306::displayOff">
 <area shape="rect" id="node1" title=" " alt="" coords="433,31,569,56"/>
-<area shape="rect" id="node2" href="$motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" title=" " alt="" coords="303,5,385,31"/>
-<area shape="rect" id="node5" href="$motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89" title=" " alt="" coords="145,55,217,80"/>
+<area shape="rect" id="node2" href="$motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" title="Close the font." alt="" coords="303,5,385,31"/>
+<area shape="rect" id="node5" href="$motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89" title="Initialize the motor." alt="" coords="145,55,217,80"/>
 <area shape="rect" id="node3" href="$main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" title="This function handles the button press detection." alt="" coords="108,5,255,31"/>
 <area shape="rect" id="node4" href="$main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="This is the infinite loop of the code." alt="" coords="9,5,56,31"/>
 <area shape="rect" id="node6" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Device initialization section after reset." alt="" coords="5,55,60,80"/>

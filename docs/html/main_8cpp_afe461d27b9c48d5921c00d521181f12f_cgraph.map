@@ -7,11 +7,11 @@
 <area shape="rect" id="node3" href="$classmenu.html#aa570579eea43a7810230472ee28b873a" title="Step te menu downwards if possible." alt="" coords="333,103,425,128"/>
 <area shape="rect" id="node4" href="$classmenu.html#a87a6a695240e84646f5f92a6f764b7e9" title="Step te menu upwards if possible." alt="" coords="341,29,417,55"/>
 <area shape="rect" id="node6" href="$buzzer_control_8cpp.html#a5864c94f53494adcbc834a0ba15395a4" title="Generate button click sound." alt="" coords="317,439,441,464"/>
-<area shape="rect" id="node7" href="$motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" title=" " alt="" coords="337,488,420,513"/>
+<area shape="rect" id="node7" href="$motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" title="Close the font." alt="" coords="337,488,420,513"/>
 <area shape="rect" id="node11" href="$light_control_8cpp.html#a917dd43e7776a36541f1689c14266d8c" title="Toggle the lighting." alt="" coords="337,537,421,563"/>
 <area shape="rect" id="node14" href="$classmenu.html#aa90b85d7aa5ddfa761e7cb8f9e83da93" title="Enter to the next menu if possible." alt="" coords="335,176,422,201"/>
 <area shape="rect" id="node15" href="$buzzer_control_8cpp.html#a7e4caa5e23b84269cfee1710ff391d81" title="Generate open&#45;close melody." alt="" coords="316,225,441,251"/>
-<area shape="rect" id="node16" href="$motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86" title=" " alt="" coords="339,340,419,365"/>
+<area shape="rect" id="node16" href="$motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86" title="Open the font." alt="" coords="339,340,419,365"/>
 <area shape="rect" id="node17" href="$classconfiguration_manager.html#a98840390e246bd6606af1345d54458ec" title="Save configuration to EEPROM." alt="" coords="306,275,451,315"/>
 <area shape="rect" id="node19" href="$buzzer_control_8cpp.html#a510029b29e503662590cc7e69a41b744" title="Generate turn on sound." alt="" coords="327,389,430,415"/>
 <area shape="rect" id="node8" href="$classssd1306.html#a5062186eb98a5bb66a009d232b143172" title=" " alt="" coords="515,488,651,513"/>

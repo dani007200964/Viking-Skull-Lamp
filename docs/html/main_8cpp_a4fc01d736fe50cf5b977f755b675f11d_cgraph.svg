@@ -157,7 +157,7 @@ var sectionId = 'dynsection-5';
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89" target="_top" xlink:title=" ">
+<g id="a_node30"><a xlink:href="motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89" target="_top" xlink:title="Initialize the motor.">
 <polygon fill="white" stroke="#666666" points="158.5,-56.05 104.5,-56.05 104.5,-37.05 158.5,-37.05 158.5,-56.05"/>
 <text text-anchor="middle" x="131.5" y="-44.05" font-family="Helvetica,sans-Serif" font-size="10.00">motorInit</text>
 </a>
@@ -543,7 +543,7 @@ var sectionId = 'dynsection-5';
 <!-- Node31 -->
 <g id="node31" class="node">
 <title>Node31</title>
-<g id="a_node31"><a xlink:href="motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" target="_top" xlink:title=" ">
+<g id="a_node31"><a xlink:href="motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" target="_top" xlink:title="Close the font.">
 <polygon fill="white" stroke="#666666" points="332.5,-37.05 270.5,-37.05 270.5,-18.05 332.5,-18.05 332.5,-37.05"/>
 <text text-anchor="middle" x="301.5" y="-25.05" font-family="Helvetica,sans-Serif" font-size="10.00">closeFront</text>
 </a>

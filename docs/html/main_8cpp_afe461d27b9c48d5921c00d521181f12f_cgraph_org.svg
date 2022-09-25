@@ -137,7 +137,7 @@
 <!-- Node7 -->
 <g id="node7" class="node">
 <title>Node7</title>
-<g id="a_node7"><a xlink:href="motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" target="_top" xlink:title=" ">
+<g id="a_node7"><a xlink:href="motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" target="_top" xlink:title="Close the font.">
 <polygon fill="white" stroke="#666666" points="311,-377.97 249,-377.97 249,-358.97 311,-358.97 311,-377.97"/>
 <text text-anchor="middle" x="280" y="-365.97" font-family="Helvetica,sans-Serif" font-size="10.00">closeFront</text>
 </a>
@@ -197,7 +197,7 @@
 <!-- Node16 -->
 <g id="node16" class="node">
 <title>Node16</title>
-<g id="a_node16"><a xlink:href="motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86" target="_top" xlink:title=" ">
+<g id="a_node16"><a xlink:href="motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86" target="_top" xlink:title="Open the font.">
 <polygon fill="white" stroke="#666666" points="310,-488.97 250,-488.97 250,-469.97 310,-469.97 310,-488.97"/>
 <text text-anchor="middle" x="280" y="-476.97" font-family="Helvetica,sans-Serif" font-size="10.00">openFront</text>
 </a>

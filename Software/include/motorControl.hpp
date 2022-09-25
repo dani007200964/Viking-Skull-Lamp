@@ -33,27 +33,52 @@ SOFTWARE.
 #include "Arduino.h"
 #include "globalResources.hpp"
 
+/// The motor is connected to pin 5 on the Arduino.
 #define MOTOR 5
+
+/// The motor power can be set with this definition.
+/// It's range is 0 - 255. 0 means no power 255 is max power.
 #define MOTOR_PWM 240
 
+/// The front endstop is connected to pin 7 on the Arduino.
 #define FRONT_ENDSTOP 7
+
+/// The back endstop is connected to pin 7 on the Arduino.
 #define BACK_ENDSTOP 8
 
+/// Maximum allowed time in ms, to open the front.
 #define OPEN_TIMEOUT 2000
+
+/// Maximum allowed time in ms, to close the front.
 #define CLOSE_TIMEOUT 2000
 
+/// States of the front panel.
 enum frontState_t{
 
-    FRONT_UNKNOWN,
-    FRONT_OPEN,
-    FRONT_CLOSE
+    FRONT_UNKNOWN,   ///< Front state is unknown( for example at startup ).
+    FRONT_OPEN,      ///< Front is opened.
+    FRONT_CLOSE      ///< Front is closed.
 
 };
 
+/// Initialize the motor.
 void motorInit();
+
+/// Open the font.
+///
+/// It will try to open the front panel.
+/// @note If it fails and can't open the front in time, it will stop.
+/// @see OPEN_TIMEOUT
 void openFront();
+
+/// Close the font.
+///
+/// It will try to close the front panel.
+/// @note If it fails and can't close the front in time, it will stop.
+/// @see CLOSE_TIMEOUT
 void closeFront();
 
+/// Store the state of the front panel.
 extern enum frontState_t frontState;
 
 #endif

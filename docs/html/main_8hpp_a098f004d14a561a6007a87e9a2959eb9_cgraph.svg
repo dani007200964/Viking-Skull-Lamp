@@ -81,7 +81,7 @@ var sectionId = 'dynsection-0';
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" target="_top" xlink:title="Close the font.">
 <polygon fill="white" stroke="#666666" points="231.5,-105 169.5,-105 169.5,-86 231.5,-86 231.5,-105"/>
 <text text-anchor="middle" x="200.5" y="-93" font-family="Helvetica,sans-Serif" font-size="10.00">closeFront</text>
 </a>
@@ -141,7 +141,7 @@ var sectionId = 'dynsection-0';
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86" target="_top" xlink:title="Open the font.">
 <polygon fill="white" stroke="#666666" points="230.5,-234 170.5,-234 170.5,-215 230.5,-215 230.5,-234"/>
 <text text-anchor="middle" x="200.5" y="-222" font-family="Helvetica,sans-Serif" font-size="10.00">openFront</text>
 </a>

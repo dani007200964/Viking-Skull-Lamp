@@ -134,15 +134,19 @@ $(document).ready(function(){initNavTree('motor_control_8cpp.html',''); initResi
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a978983329d511d8ab27545d8badfbd89"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89">motorInit</a> ()</td></tr>
+<tr class="memdesc:a978983329d511d8ab27545d8badfbd89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the motor.  <a href="motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89">More...</a><br /></td></tr>
 <tr class="separator:a978983329d511d8ab27545d8badfbd89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6b9b6a60feed520f3227ec9a50c5e86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86">openFront</a> ()</td></tr>
+<tr class="memdesc:aa6b9b6a60feed520f3227ec9a50c5e86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Open the font.  <a href="motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86">More...</a><br /></td></tr>
 <tr class="separator:aa6b9b6a60feed520f3227ec9a50c5e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3edea24b195ca992810885fdec367a5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b">closeFront</a> ()</td></tr>
+<tr class="memdesc:a3edea24b195ca992810885fdec367a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the font.  <a href="motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b">More...</a><br /></td></tr>
 <tr class="separator:a3edea24b195ca992810885fdec367a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a4791ff1b15456945c9ab12648d764532"><td class="memItemLeft" align="right" valign="top">enum <a class="el" href="motor_control_8hpp.html#af910c1710458dbcce1a7eead0463b17f">frontState_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="motor_control_8cpp.html#a4791ff1b15456945c9ab12648d764532">frontState</a> = <a class="el" href="motor_control_8hpp.html#af910c1710458dbcce1a7eead0463b17fa803361fd85d77c2906d21a6ce8b09aac">FRONT_UNKNOWN</a></td></tr>
+<tr class="memdesc:a4791ff1b15456945c9ab12648d764532"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store the state of the front panel.  <a href="motor_control_8cpp.html#a4791ff1b15456945c9ab12648d764532">More...</a><br /></td></tr>
 <tr class="separator:a4791ff1b15456945c9ab12648d764532"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -161,7 +165,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="motor_control_8cpp_source.html#l00094">94</a> of file <a class="el" href="motor_control_8cpp_source.html">motorControl.cpp</a>.</p>
+<p>Close the font. </p>
+<p >It will try to close the front panel. </p><dl class="section note"><dt>Note</dt><dd>If it fails and can't close the front in time, it will stop. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="motor_control_8hpp.html#a9ba1fee0e94a9cdaf0137894daf3e153" title="Maximum allowed time in ms, to close the front.">CLOSE_TIMEOUT</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="motor_control_8cpp_source.html#l00116">116</a> of file <a class="el" href="motor_control_8cpp_source.html">motorControl.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -190,7 +198,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="motor_control_8cpp_source.html#l00034">34</a> of file <a class="el" href="motor_control_8cpp_source.html">motorControl.cpp</a>.</p>
+<p>Initialize the motor. </p>
+
+<p class="definition">Definition at line <a class="el" href="motor_control_8cpp_source.html#l00035">35</a> of file <a class="el" href="motor_control_8cpp_source.html">motorControl.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -219,7 +229,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="motor_control_8cpp_source.html#l00067">67</a> of file <a class="el" href="motor_control_8cpp_source.html">motorControl.cpp</a>.</p>
+<p>Open the font. </p>
+<p >It will try to open the front panel. </p><dl class="section note"><dt>Note</dt><dd>If it fails and can't open the front in time, it will stop. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="motor_control_8hpp.html#a96c26390bdfe2e0077aad30751aab157" title="Maximum allowed time in ms, to open the front.">OPEN_TIMEOUT</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="motor_control_8cpp_source.html#l00073">73</a> of file <a class="el" href="motor_control_8cpp_source.html">motorControl.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -246,7 +260,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="motor_control_8cpp_source.html#l00032">32</a> of file <a class="el" href="motor_control_8cpp_source.html">motorControl.cpp</a>.</p>
+<p>Store the state of the front panel. </p>
+
+<p class="definition">Definition at line <a class="el" href="motor_control_8cpp_source.html#l00033">33</a> of file <a class="el" href="motor_control_8cpp_source.html">motorControl.cpp</a>.</p>
 
 </div>
 </div>

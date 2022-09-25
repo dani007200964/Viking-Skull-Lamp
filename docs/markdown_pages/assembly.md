@@ -662,6 +662,10 @@ knobs are required.
 
 @warning Do not continue until the mechanism and the display does not work correctly!
 
+@note If the motor is too aggressive and fast, that means you made better mechanism than me \emoji :tada:.
+In this case you have to lower the motor power by reducing the @ref MOTOR_PWM parameter in the firmware.
+It requires to rebuild the software and upload it again.
+
 @section step_54_led_holder_nuts Step 54 - Insert LED Holder Nuts
 
 ![Insert LED Holder Nuts](asm_stp054_led_holder_nuts.JPG)

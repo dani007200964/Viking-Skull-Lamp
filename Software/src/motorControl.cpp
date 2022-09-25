@@ -29,16 +29,22 @@ SOFTWARE.
 
 #include "motorControl.hpp"
 
+// Set the front state to unknown by default.
 enum frontState_t frontState = FRONT_UNKNOWN;
 
 void motorInit(){
 
+    // Set the endstop pins to input.
     pinMode( FRONT_ENDSTOP, INPUT );
     pinMode( BACK_ENDSTOP, INPUT );
 
+    // Set the motor pin to output.
     pinMode( MOTOR, OUTPUT );
+
+    // Disable the motor.
     digitalWrite( MOTOR, 0 );
 
+    // Check if the front state can be detected at startup.
     if( digitalRead( FRONT_ENDSTOP ) == 0 ){
 
         frontState = FRONT_OPEN;
@@ -66,17 +72,28 @@ void motorInit(){
 
 void openFront(){
 
+    // Store the system time, when the procedure started.
     long timerStart;
 
+    // Turn on the motor with the MOTOR_PWM power.
     analogWrite( MOTOR, MOTOR_PWM );
 
+    // Save system time.
     timerStart = millis();
 
+    // The endstps has inverted logic. If the
+    // endstop is pressed, the output of it
+    // will be low. Wait until the front endstop
+    // is high.
     while( digitalRead( FRONT_ENDSTOP ) == 1 ){
         
+        // Check for timeout.
         if( ( millis() - timerStart ) > OPEN_TIMEOUT ){
 
+            // If timeout occured, stop the motor and return.
             digitalWrite( MOTOR, 0 );
+
+            // Also set state to unknown.
             frontState = FRONT_UNKNOWN;
             display.displayOn();
             return;
@@ -85,25 +102,41 @@ void openFront(){
 
     }
 
+    // If the endstop has triggered, we have to stop the motor.
     digitalWrite( MOTOR, 0 );
+
+    // Turn on the display.
     display.displayOn();
+
+    // Save the state.
     frontState = FRONT_OPEN;
 
 }
 
 void closeFront(){
 
+    // Store the system time, when the procedure started.
     long timerStart;
 
+    // Turn on the motor with the MOTOR_PWM power.
     analogWrite( MOTOR, MOTOR_PWM );
 
+    // Save system time.
     timerStart = millis();
 
+    // The endstps has inverted logic. If the
+    // endstop is pressed, the output of it
+    // will be low. Wait until the back endstop
+    // is high.
     while( digitalRead( BACK_ENDSTOP ) == 1 ){
         
+        // Check for timeout.
         if( ( millis() - timerStart ) > CLOSE_TIMEOUT ){
 
+            // If timeout occured, stop the motor and return.
             digitalWrite( MOTOR, 0 );
+
+            // Also set state to unknown.
             frontState = FRONT_UNKNOWN;
             display.displayOn();
             return;
@@ -112,8 +145,13 @@ void closeFront(){
 
     }
 
+    // If the endstop has triggered, we have to stop the motor.
     digitalWrite( MOTOR, 0 );
+
+    // Save the state.
     frontState = FRONT_CLOSE;
+
+    // Turn off the display.
     display.displayOff();
 
 }

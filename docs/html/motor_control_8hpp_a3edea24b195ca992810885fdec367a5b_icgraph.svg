@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Close the font.">
 <polygon fill="#999999" stroke="#666666" points="285,-37 223,-37 223,-18 285,-18 285,-37"/>
 <text text-anchor="middle" x="254" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00">closeFront</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89" target="_top" xlink:title="Initialize the motor.">
 <polygon fill="white" stroke="#666666" points="159,-19 105,-19 105,0 159,0 159,-19"/>
 <text text-anchor="middle" x="132" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">motorInit</text>
 </a>
