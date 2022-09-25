@@ -223,9 +223,10 @@ var NAVTREEINDEX0 =
 "functions_func.html":[7,2,1],
 "functions_vars.html":[7,2,2],
 "global_resources_8hpp.html":[8,0,1,0,3],
-"global_resources_8hpp.html#a11ea459c3b7eec7140ac47b363f9f609":[8,0,1,0,3,0],
-"global_resources_8hpp.html#a377a915cdf03523a68c82bf6747db7b7":[8,0,1,0,3,1],
-"global_resources_8hpp.html#a70cb52f9aedc516134ce5aead2091ca4":[8,0,1,0,3,2],
+"global_resources_8hpp.html#a11ea459c3b7eec7140ac47b363f9f609":[8,0,1,0,3,1],
+"global_resources_8hpp.html#a377a915cdf03523a68c82bf6747db7b7":[8,0,1,0,3,2],
+"global_resources_8hpp.html#a5751031b78e50f8d0fe4a34441717b9a":[8,0,1,0,3,0],
+"global_resources_8hpp.html#a70cb52f9aedc516134ce5aead2091ca4":[8,0,1,0,3,3],
 "global_resources_8hpp_source.html":[8,0,1,0,3],
 "globals.html":[8,1,0],
 "globals.html":[8,1,0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "globals_s.html":[8,1,0,13],
 "globals_t.html":[8,1,0,14],
 "globals_vars.html":[8,1,2],
-"index.html":[],
-"light_control_8cpp.html":[8,0,1,1,3]
+"index.html":[]
 };

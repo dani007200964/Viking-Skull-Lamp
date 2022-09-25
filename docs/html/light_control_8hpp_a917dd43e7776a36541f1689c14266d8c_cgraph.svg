@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Toggle the lighting.">
 <polygon fill="#999999" stroke="#666666" points="63,-37 0,-37 0,-18 63,-18 63,-37"/>
 <text text-anchor="middle" x="31.5" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00">lightToggle</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="light_control_8cpp.html#ac63baab438299bd5074897396b600c00" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="light_control_8cpp.html#ac63baab438299bd5074897396b600c00" target="_top" xlink:title="Turn off the lighting.">
 <polygon fill="white" stroke="#666666" points="146,-56 99,-56 99,-37 146,-37 146,-56"/>
 <text text-anchor="middle" x="122.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">lightOff</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="light_control_8cpp.html#a4dc2c28dc568051bd85575dfd2082c54" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="light_control_8cpp.html#a4dc2c28dc568051bd85575dfd2082c54" target="_top" xlink:title="Turn on the lighting.">
 <polygon fill="white" stroke="#666666" points="146,-19 99,-19 99,0 146,0 146,-19"/>
 <text text-anchor="middle" x="122.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">lightOn</text>
 </a>

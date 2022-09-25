@@ -29,8 +29,21 @@ SOFTWARE.
 
 #include "main.hpp"
 
-ssd1306 display( 0x3C );
+/// Object for the display.
+///
+/// This object can control a 128 x 32 pixel oled
+/// display whisch have an SSD1306 display driver.
+/// The address is configurable in the
+/// @ref OLED_ADDRESS macro.
+/// @see OLED_ADDRESS
+ssd1306 display( OLED_ADDRESS );
 
+/// Object for the menu.
+///
+/// This object handles all the logic behind the
+/// menu system. It uses the @ref display object
+/// as output and the default selected menu item
+/// is @ref lightMenuItem
 menu menuController( &display, &lightMenuItem );
 
 configurationManager::configurationData_t configTree[] = {
@@ -44,6 +57,12 @@ configurationManager::configurationData_t configTree[] = {
 
 };
 
+/// Object for configuration saving and loading.
+///
+/// This object handles the saving and the loading 
+/// loading of the configuration data. It uses the
+/// @ref configTree array, which contains all the
+/// configuration associated variables.
 configurationManager config( configTree, ( sizeof( configTree ) / sizeof( configTree[0] ) ) );
 
 void setup() {

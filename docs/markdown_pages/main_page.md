@@ -14,6 +14,23 @@ Here you can see what can this ting actually do. Also there are some nice photos
 
 \endhtmlonly
 
+__Features:__
+* 30 adressable LED to make it shine \emoji :rotating_light:
+* Microphone for \emoji :studio_microphone:
+  * Music reactive lighting \emoji :musical_note:
+  * @ref clap_pattern "Clap switch" \emoji :clap:
+* Foldable controls
+* Interactive menu with a graphical display \emoji :joystick:
+* Saving and loading the configuration parameters \emoji :floppy_disk:
+* Light modes:
+  * Rainbow \emoji :rainbow:
+  * Candle \emoji :candle:
+  * Pulse \emoji :loud_sound:
+  * Komodo \emoji :sunny:
+  * Color \emoji :art:
+* Humidifier for spooky smoke effect \emoji :ghost:
+* Magic runes on the front. They are glow in the dark \emoji :star:
+
 ![](hardcore_logo.png)
 
 I want to clarify at the beginning that this is not a beginner level project. It's more like a hardcore one.

@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"light_control_8cpp.html":[8,0,1,1,3],
 "light_control_8cpp.html#a02a6a9031fb951ca75c2b7e8c9d7c0f7":[8,0,1,1,3,4],
 "light_control_8cpp.html#a08e6769ebfcf03f135a24ab9862b2b68":[8,0,1,1,3,12],
 "light_control_8cpp.html#a1ad437ecb8e95e8b7e9b7ec85b882bf8":[8,0,1,1,3,17],
@@ -45,10 +46,10 @@ var NAVTREEINDEX1 =
 "main_8cpp.html":[8,0,1,1,4],
 "main_8cpp.html#a007a41c3af49865d85e3fc2ec1d81284":[8,0,1,1,4,9],
 "main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9":[8,0,1,1,4,0],
+"main_8cpp.html#a0f3829cdcbc0200abab8429e87d0bbf7":[8,0,1,1,4,8],
 "main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d":[8,0,1,1,4,3],
 "main_8cpp.html#a94d6fb80ebc962752e092191e00bbfdc":[8,0,1,1,4,5],
 "main_8cpp.html#aa2ba7e5d1c0fca4ddbe3a80a9d60df5e":[8,0,1,1,4,4],
-"main_8cpp.html#aa50f259d51a39a39a5267fbfaeba0ab9":[8,0,1,1,4,8],
 "main_8cpp.html#abf7ddb97240a6ed50a16875193ac934b":[8,0,1,1,4,7],
 "main_8cpp.html#ae2676edb74235f0d21ef201ba600636a":[8,0,1,1,4,1],
 "main_8cpp.html#afcf58dcf009b55aec4259d4589eeb35c":[8,0,1,1,4,6],
@@ -142,6 +143,7 @@ var NAVTREEINDEX1 =
 "md_docs_markdown_pages_assembly.html#step_8_lock_encoder":[0,7],
 "md_docs_markdown_pages_assembly.html#step_9_slide_in_moving_platform":[0,8],
 "md_docs_markdown_pages_gallery.html":[1],
+"md_docs_markdown_pages_gallery.html#clap_pattern":[1,0],
 "md_docs_markdown_pages_issue_guide.html":[2],
 "md_docs_markdown_pages_pcb_assembly.html":[3],
 "md_docs_markdown_pages_pcb_assembly.html#analog_stage":[3,2,0],
@@ -196,8 +198,11 @@ var NAVTREEINDEX1 =
 "md_docs_markdown_pages_software_guide.html":[5],
 "md_docs_markdown_pages_software_guide.html#build_the_firmware":[5,1],
 "md_docs_markdown_pages_software_guide.html#environment":[5,0],
+"md_docs_markdown_pages_software_guide.html#modify_the_firmware":[5,3],
 "md_docs_markdown_pages_software_guide.html#upload_the_firmware":[5,2],
 "md_docs_markdown_pages_tools.html":[6],
+"md_docs_markdown_pages_tools.html#essential_tools":[6,0],
+"md_docs_markdown_pages_tools.html#tools_for_warriors":[6,1],
 "menu_8cpp.html":[8,0,1,1,5],
 "menu_8cpp.html#a05c76b51924f5f8f4ef70cae6d07eb90":[8,0,1,1,5,0],
 "menu_8cpp.html#a07306f2d260b56eb6d0960f8dc01db22":[8,0,1,1,5,37],
@@ -244,10 +249,5 @@ var NAVTREEINDEX1 =
 "menu_8hpp.html":[8,0,1,0,6],
 "menu_8hpp.html#a01ed23b054e61f5f8c3d60ac0962b882":[8,0,1,0,6,37],
 "menu_8hpp.html#a05c76b51924f5f8f4ef70cae6d07eb90":[8,0,1,0,6,3],
-"menu_8hpp.html#a1970379f59b8760eecae1c62b524dc48":[8,0,1,0,6,13],
-"menu_8hpp.html#a1e5c2abc1c3243b59fef84516f50a157":[8,0,1,0,6,35],
-"menu_8hpp.html#a21eb027c354ff4bc24b8ca00cd07b722":[8,0,1,0,6,23],
-"menu_8hpp.html#a2b016118a0e096dd41f9217dc9cff74b":[8,0,1,0,6,4],
-"menu_8hpp.html#a318cad5db30f3b2cbef1a50df2e61122":[8,0,1,0,6,33],
-"menu_8hpp.html#a3603109fde2e852b743883c2a02a9afa":[8,0,1,0,6,36]
+"menu_8hpp.html#a1970379f59b8760eecae1c62b524dc48":[8,0,1,0,6,13]
 };

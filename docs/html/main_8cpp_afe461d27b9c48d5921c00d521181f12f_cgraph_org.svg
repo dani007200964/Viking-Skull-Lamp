@@ -65,7 +65,7 @@
 <!-- Node22 -->
 <g id="node22" class="node">
 <title>Node22</title>
-<g id="a_node22"><a xlink:href="light_control_8cpp.html#a47fe68420dcb96e582ea856ee8df8e78" target="_top" xlink:title=" ">
+<g id="a_node22"><a xlink:href="light_control_8cpp.html#a47fe68420dcb96e582ea856ee8df8e78" target="_top" xlink:title="Update function for the lighting.">
 <polygon fill="white" stroke="#666666" points="158.5,-210.97 93.5,-210.97 93.5,-191.97 158.5,-191.97 158.5,-210.97"/>
 <text text-anchor="middle" x="126" y="-198.97" font-family="Helvetica,sans-Serif" font-size="10.00">lightUpdate</text>
 </a>
@@ -152,7 +152,7 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="light_control_8cpp.html#a917dd43e7776a36541f1689c14266d8c" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="light_control_8cpp.html#a917dd43e7776a36541f1689c14266d8c" target="_top" xlink:title="Toggle the lighting.">
 <polygon fill="white" stroke="#666666" points="311.5,-340.97 248.5,-340.97 248.5,-321.97 311.5,-321.97 311.5,-340.97"/>
 <text text-anchor="middle" x="280" y="-328.97" font-family="Helvetica,sans-Serif" font-size="10.00">lightToggle</text>
 </a>
@@ -294,7 +294,7 @@
 <!-- Node12 -->
 <g id="node12" class="node">
 <title>Node12</title>
-<g id="a_node12"><a xlink:href="light_control_8cpp.html#ac63baab438299bd5074897396b600c00" target="_top" xlink:title=" ">
+<g id="a_node12"><a xlink:href="light_control_8cpp.html#ac63baab438299bd5074897396b600c00" target="_top" xlink:title="Turn off the lighting.">
 <polygon fill="white" stroke="#666666" points="457,-303.97 410,-303.97 410,-284.97 457,-284.97 457,-303.97"/>
 <text text-anchor="middle" x="433.5" y="-291.97" font-family="Helvetica,sans-Serif" font-size="10.00">lightOff</text>
 </a>
@@ -309,7 +309,7 @@
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="light_control_8cpp.html#a4dc2c28dc568051bd85575dfd2082c54" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="light_control_8cpp.html#a4dc2c28dc568051bd85575dfd2082c54" target="_top" xlink:title="Turn on the lighting.">
 <polygon fill="white" stroke="#666666" points="457,-340.97 410,-340.97 410,-321.97 457,-321.97 457,-340.97"/>
 <text text-anchor="middle" x="433.5" y="-328.97" font-family="Helvetica,sans-Serif" font-size="10.00">lightOn</text>
 </a>
@@ -388,7 +388,7 @@
 <!-- Node24 -->
 <g id="node24" class="node">
 <title>Node24</title>
-<g id="a_node24"><a xlink:href="light_control_8cpp.html#a936cbab2212d6c6efe113fcd4362d2af" target="_top" xlink:title=" ">
+<g id="a_node24"><a xlink:href="light_control_8cpp.html#a936cbab2212d6c6efe113fcd4362d2af" target="_top" xlink:title="Update function for the candle mode.">
 <polygon fill="white" stroke="#666666" points="339.5,-118.97 220.5,-118.97 220.5,-99.97 339.5,-99.97 339.5,-118.97"/>
 <text text-anchor="middle" x="280" y="-106.97" font-family="Helvetica,sans-Serif" font-size="10.00">lightModeCandleUpdate</text>
 </a>
@@ -403,7 +403,7 @@
 <!-- Node25 -->
 <g id="node25" class="node">
 <title>Node25</title>
-<g id="a_node25"><a xlink:href="light_control_8cpp.html#ac5e502533fb7bf671c8f22b73e935ad7" target="_top" xlink:title=" ">
+<g id="a_node25"><a xlink:href="light_control_8cpp.html#ac5e502533fb7bf671c8f22b73e935ad7" target="_top" xlink:title="Update function for the color mode.">
 <polygon fill="white" stroke="#666666" points="336,-81.97 224,-81.97 224,-62.97 336,-62.97 336,-81.97"/>
 <text text-anchor="middle" x="280" y="-69.97" font-family="Helvetica,sans-Serif" font-size="10.00">lightModeColorUpdate</text>
 </a>
@@ -418,7 +418,7 @@
 <!-- Node26 -->
 <g id="node26" class="node">
 <title>Node26</title>
-<g id="a_node26"><a xlink:href="light_control_8cpp.html#a9144d48445bcbb1509593aeb5021750a" target="_top" xlink:title=" ">
+<g id="a_node26"><a xlink:href="light_control_8cpp.html#a9144d48445bcbb1509593aeb5021750a" target="_top" xlink:title="Update function for the komodo mode.">
 <polygon fill="white" stroke="#666666" points="342.5,-44.97 217.5,-44.97 217.5,-25.97 342.5,-25.97 342.5,-44.97"/>
 <text text-anchor="middle" x="280" y="-32.97" font-family="Helvetica,sans-Serif" font-size="10.00">lightModeKomodoUpdate</text>
 </a>
@@ -433,7 +433,7 @@
 <!-- Node27 -->
 <g id="node27" class="node">
 <title>Node27</title>
-<g id="a_node27"><a xlink:href="light_control_8cpp.html#a02a6a9031fb951ca75c2b7e8c9d7c0f7" target="_top" xlink:title=" ">
+<g id="a_node27"><a xlink:href="light_control_8cpp.html#a02a6a9031fb951ca75c2b7e8c9d7c0f7" target="_top" xlink:title="Update function for the music mode.">
 <polygon fill="white" stroke="#666666" points="338,-303.97 222,-303.97 222,-284.97 338,-284.97 338,-303.97"/>
 <text text-anchor="middle" x="280" y="-291.97" font-family="Helvetica,sans-Serif" font-size="10.00">lightModeMusicUpdate</text>
 </a>
@@ -448,7 +448,7 @@
 <!-- Node28 -->
 <g id="node28" class="node">
 <title>Node28</title>
-<g id="a_node28"><a xlink:href="light_control_8cpp.html#a9580f8c1dc2cf814e26e3e73b870d89e" target="_top" xlink:title=" ">
+<g id="a_node28"><a xlink:href="light_control_8cpp.html#a9580f8c1dc2cf814e26e3e73b870d89e" target="_top" xlink:title="Update function for the pulse mode.">
 <polygon fill="white" stroke="#666666" points="337,-266.97 223,-266.97 223,-247.97 337,-247.97 337,-266.97"/>
 <text text-anchor="middle" x="280" y="-254.97" font-family="Helvetica,sans-Serif" font-size="10.00">lightModePulseUpdate</text>
 </a>
@@ -463,7 +463,7 @@
 <!-- Node29 -->
 <g id="node29" class="node">
 <title>Node29</title>
-<g id="a_node29"><a xlink:href="light_control_8cpp.html#adb7e99a733ea745af705e33fc11c2dbf" target="_top" xlink:title=" ">
+<g id="a_node29"><a xlink:href="light_control_8cpp.html#adb7e99a733ea745af705e33fc11c2dbf" target="_top" xlink:title="Update function for the rainbow mode.">
 <polygon fill="white" stroke="#666666" points="343,-229.97 217,-229.97 217,-210.97 343,-210.97 343,-229.97"/>
 <text text-anchor="middle" x="280" y="-217.97" font-family="Helvetica,sans-Serif" font-size="10.00">lightModeRainbowUpdate</text>
 </a>

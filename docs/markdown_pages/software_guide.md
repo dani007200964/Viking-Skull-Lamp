@@ -22,7 +22,7 @@ __4.__ Open VS Code and follow the steps below.
 
 ![](vscode_open_pt1.png)
 
-__5.__ Locate the __Software__ folder in the downloaded project folder.
+__5.__ Locate and open the __Software__ folder in the downloaded project folder.
 
 ![](vscode_open_pt2.png)
 
@@ -42,3 +42,12 @@ the USB port only. If you use the device as intended of course you can use the
 power chord.
 
 ![](vscode_upload.png)
+
+@section modify_the_firmware Modify The Firmware
+
+![Classes And Files](classes_files_section.png)
+
+Of course it is an open source project, you can modify it as you like. The software
+is no exception. I tried to comment it as much as possible to make it Doxygen compatible.
+To understand the structure and the logic behind the source code, please check out
+the __Classes__ and __Files__ section at the bottom left.

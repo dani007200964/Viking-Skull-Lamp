@@ -97,7 +97,9 @@ var NAVTREE =
       [ "Step 69 - Insert Top", "md_docs_markdown_pages_assembly.html#step_69_insert_top", null ],
       [ "Step 70 - Fix Top", "md_docs_markdown_pages_assembly.html#step_70_fix_top", null ]
     ] ],
-    [ "Gallery", "md_docs_markdown_pages_gallery.html", null ],
+    [ "Gallery", "md_docs_markdown_pages_gallery.html", [
+      [ "Clap Pattern", "md_docs_markdown_pages_gallery.html#clap_pattern", null ]
+    ] ],
     [ "Issue Guide", "md_docs_markdown_pages_issue_guide.html", null ],
     [ "PCB Assembly", "md_docs_markdown_pages_pcb_assembly.html", [
       [ "How To Get The PCB", "md_docs_markdown_pages_pcb_assembly.html#how_to_get_the_pcb", null ],
@@ -158,9 +160,13 @@ var NAVTREE =
     [ "Software Guide", "md_docs_markdown_pages_software_guide.html", [
       [ "Environment", "md_docs_markdown_pages_software_guide.html#environment", null ],
       [ "Build The Firmware", "md_docs_markdown_pages_software_guide.html#build_the_firmware", null ],
-      [ "Upload The Firmware", "md_docs_markdown_pages_software_guide.html#upload_the_firmware", null ]
+      [ "Upload The Firmware", "md_docs_markdown_pages_software_guide.html#upload_the_firmware", null ],
+      [ "Modify The Firmware", "md_docs_markdown_pages_software_guide.html#modify_the_firmware", null ]
     ] ],
-    [ "Required Tools", "md_docs_markdown_pages_tools.html", null ],
+    [ "Required Tools", "md_docs_markdown_pages_tools.html", [
+      [ "Essential Tools", "md_docs_markdown_pages_tools.html#essential_tools", null ],
+      [ "Tools For Warriors", "md_docs_markdown_pages_tools.html#tools_for_warriors", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -189,8 +195,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"light_control_8cpp.html#a02a6a9031fb951ca75c2b7e8c9d7c0f7",
-"menu_8hpp.html#a3c3d956aca28de46741cd6e5db5ffaee"
+"light_control_8cpp.html",
+"menu_8hpp.html#a1e5c2abc1c3243b59fef84516f50a157"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

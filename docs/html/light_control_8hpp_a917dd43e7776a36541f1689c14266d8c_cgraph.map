@@ -1,5 +1,5 @@
 <map id="lightToggle" name="lightToggle">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,89,56"/>
-<area shape="rect" id="node2" href="$light_control_8cpp.html#ac63baab438299bd5074897396b600c00" title=" " alt="" coords="137,5,200,31"/>
-<area shape="rect" id="node3" href="$light_control_8cpp.html#a4dc2c28dc568051bd85575dfd2082c54" title=" " alt="" coords="137,55,200,80"/>
+<area shape="rect" id="node1" title="Toggle the lighting." alt="" coords="5,31,89,56"/>
+<area shape="rect" id="node2" href="$light_control_8cpp.html#ac63baab438299bd5074897396b600c00" title="Turn off the lighting." alt="" coords="137,5,200,31"/>
+<area shape="rect" id="node3" href="$light_control_8cpp.html#a4dc2c28dc568051bd85575dfd2082c54" title="Turn on the lighting." alt="" coords="137,55,200,80"/>
 </map>

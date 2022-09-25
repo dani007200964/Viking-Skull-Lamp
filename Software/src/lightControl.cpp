@@ -29,21 +29,39 @@ SOFTWARE.
 
 #include "lightControl.hpp"
 
+/// Pixel buffer for the LED strip.
 CRGB stripLightBuffer[ LIGHT_STRIP_SIZE ];
+
+/// Pixel buffer for the LED disc.
 CRGB skullLightBuffer[ LIGHT_SKULL_SIZE ];
 
+/// Stores the last system time when the last light update event happened.
 unsigned long lightTimer = 0;
+
+/// Stores the last system time when the last sample update event happened.
 unsigned long sampleTimer = 0;
 
+/// Stores the direction and speed of the fading.
 int fadeDirection = 0;
+
+/// The actual brightness of the strips are calculated
+/// to this variable. It is required because of the fading
+/// effets.
 int fadedBrightness = 0;
 
+/// This is a flag, that shows the actual state of the lighting.
 bool lightStateOn = false;
 
+/// Flag for peak detection. It is used for the clap detection
 bool prevPeak = false;
 
+/// Flag for beat detection. It is used for the music visualizer.
 bool prevBeat = false;
 
+/// This array is used for the clap detection. It is a circular
+/// buffer, that stores the previous four system time, when a
+/// peak is detected. The element 3 is the latest peak time,
+/// the element 0 is the oldest.
 unsigned long peakTimes[ 4 ] = { 0 };
 
 void lightInit(){
@@ -89,14 +107,19 @@ void lightToggle(){
 
 void lightUpdate(){
 
+    // Check if we have to update the lighting.
     if( ( (unsigned long)millis() - lightTimer ) > LIGHT_UPDATE_RATE ){
 
+        // Handle the fading effect.
         fadedBrightness += fadeDirection;
 
+        // Handle the limits if the fadedBrightness variable
         if( fadeDirection > 0 ){
 
+            // Check if saturated.
             if( fadedBrightness >= lightBrightness ){
 
+                // If it reached the upper limit stop the fading.
                 fadedBrightness = lightBrightness;
                 fadeDirection = 0;
 
@@ -104,10 +127,13 @@ void lightUpdate(){
 
         }
 
+        // Handle the limits if the fadedBrightness variable
         else if( fadeDirection < 0 ){
 
+            // Check if saturated.
             if( fadedBrightness <= 0 ){
 
+                // If it reached the lower limit stop the fading.
                 fadedBrightness = 0;
                 fadeDirection = 0;
 
@@ -115,15 +141,21 @@ void lightUpdate(){
 
         }
 
+        // Every other case( basically that means fading is stopped ),
+        // when the lighting is on, we set the fadedBrightness to the
+        // lightBrightness, which is configured in the menu.
         else if( lightStateOn ){
 
             fadedBrightness = lightBrightness;
 
         }
 
-
+        // Set the calculated brightness.
         FastLED.setBrightness( fadedBrightness );
 
+        // We have to select the right update function
+        // depending on the lightMode, which is configured
+        // in the menu.
         switch( lightMode ){
 
             case LIGHT_MODE_RAINBOW:
@@ -164,41 +196,36 @@ void lightUpdate(){
 
         }
         
-        // skullLightBuffer[ 0 ].setHSV( selectedColor, 255, 255 );
-        
+        // Send the calculated data from the pixel buffers to the LEDs.   
         FastLED.show();
 
+        // Store the system time for the next update timing.
         lightTimer = millis();
 
     }
 
+    // Check if we have to update the clap detector.
     if( ( (unsigned long)millis() - sampleTimer ) > SAMPLE_UPDATE_RATE ){
 
+        // Update the peak detector.
         peak.update();
 
+        // Check if we have a peak.
         if( peak.peak == true && prevPeak == false ){
 
+            // Shift down the elements in the curcular buffer.
             peakTimes[ 0 ] = peakTimes[ 1 ];
             peakTimes[ 1 ] = peakTimes[ 2 ];
             peakTimes[ 2 ] = peakTimes[ 3 ];
-            peakTimes[ 3 ] = millis();
+            peakTimes[ 3 ] = millis();            
 
-            /*
-            Serial.print( F( "Peak times: " ) );
-            Serial.print( peakTimes[ 0 ] );
-            Serial.print( F( ", " ) );
-            Serial.print( peakTimes[ 1 ] );
-            Serial.print( F( ", " ) );
-            Serial.print( peakTimes[ 2 ] );
-            Serial.print( F( ", " ) );
-            Serial.print( peakTimes[ 3 ] );
-            Serial.println( F( ", " ) );
-            */
-            
-
+            // Calculate the time between the two oldest peaks.
             unsigned long delta = peakTimes[ 1 ] - peakTimes[ 0 ];
+
+            // At least 1000ms has to elapse after the prevoius clap.
             if( delta > 1000 ){
 
+                // Try to detect the pattern from the time between the claps.
                 delta = peakTimes[ 2 ] - peakTimes[ 1 ];
                 if( ( delta > 400 ) && ( delta < 900 ) ){
 
@@ -207,8 +234,13 @@ void lightUpdate(){
 
                         Serial.println( F( "Clap pattern match!" ) );
 
+                        // The following has to acomplish to toggle the lights:
+                        // * Clap switch function has to be enabled.
+                        // * We are not in music mode. The clap detector become mad when the drop kicks in.
+                        // * Front has to be closed.
                         if( clapSwitchEnabled && ( lightMode != LIGHT_MODE_MUSIC ) && ( frontState == FRONT_CLOSE ) ){
 
+                            // Play the melody and toggle the lights.
                             clapMelody();
                             lightToggle();
 
@@ -222,8 +254,10 @@ void lightUpdate(){
 
         }
 
+        // Store the current peak state.
         prevPeak = peak.peak;
 
+        // Store the system time for the next update timing.
         sampleTimer = millis();
 
     }
@@ -234,19 +268,29 @@ void lightUpdate(){
 
 void lightModeRainbowUpdate(){
 
+    // Generic counter.
     uint8_t i;
+
+    // Hue value will be calculated here.
     uint8_t hue;
 
+    // Fold a rainbow pattern around the LED strip,
+    // and make it slowly rotate.
     for( i = 0; i < LIGHT_STRIP_SIZE; i++ ){
 
+        // Calculate the rainbow color according to the
+        // position on the LED strep.
         hue = (uint8_t)( (uint16_t)i * 255 / LIGHT_STRIP_SIZE );
 
+        // Shift it a slowly by a timer and limit it between 0 - 255.
         hue = (uint8_t)( (unsigned long)( hue + millis() / 100 ) % 255 );
 
+        // Store the pixel value.
         stripLightBuffer[ i ].setHSV( hue, 255, 255 );
 
     }
 
+    // The LED disc will lit as one color. This color also changy by time.
     hue = (uint8_t)( (unsigned long)( millis() / 100 ) % 255 );
 
     for( i = 0; i < LIGHT_SKULL_SIZE; i++ ){
@@ -259,24 +303,45 @@ void lightModeRainbowUpdate(){
 
 void lightModeCandleUpdate(){
 
+    // Generic counter.
     uint8_t i;
+
+    // Value will be calculated here for each pixel on the LED strip.
     float value;
 
     for( i = 0; i < LIGHT_STRIP_SIZE; i++ ){
 
+        // Now this is something. It basically wraps a sine wawe around the LED strip.
+        // * When the result of the sine function is -1.0, the brigntess will be 0 ( off ).
+        // * When the result of the sine function is 1.0, the brigntess will be 255 ( full brightness ).
+        // Also it is rotated by time.
+        //   sine function     ms      rotation              map it for the    it tells how many sine   convert from    convert from
+        //                    timer     speed                LED strip size    periods will be mapped    -1.0 - 1.0       0.0 - 1.0
+        //                                                                                              to 0.0 - 1.0     to 0 - 255
+        //         |            |          |                         |                          |           |           |
+        //         ˇ            ˇ          ˇ                         ˇ                          ˇ           ˇ           ˇ
         value = ( sin( (float)millis() / 500.0 + (float)i / (float)LIGHT_STRIP_SIZE * TWO_PI * 2.0  ) / 2.0 + 0.5 ) * 255;
+
+        // Set the valie for each pixel with a mystic blue color.
         stripLightBuffer[ i ].setHSV( 136, 163, (uint8_t)value );
 
     }
 
+    // For the led disc we want to imitate that a candle is placed inside the skull.
+    // We split the LED disc to two color components a warmer orange-ish color and
+    // a colder yellow-ish one. The intensity if these pixels will be random. to
+    // mimic a flame in a candle. I think it is realistic enoug, but if you doesn't
+    // like it, you can tweak the parameters.
     for( i = 0; i < LIGHT_SKULL_SIZE; i++ ){
 
+        // Select the even indexed pixels.
         if( i % 2 == 0 ){
 
             skullLightBuffer[ i ].setHSV( 31, 138, random( 50 ) + 205 );
 
         }
 
+        // Select the odd indexed pixels.
         else{
 
             skullLightBuffer[ i ].setHSV( 20, 237, random( 50 ) + 305 );

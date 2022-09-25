@@ -20,3 +20,22 @@
 </div>
 
 \endhtmlonly
+
+@section clap_pattern Clap Pattern
+
+\htmlonly
+
+<p style="text-align: center;">
+<iframe
+    width="640"
+    height="480"
+    src="clap_pattern.mp4"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+    display:bloc
+>
+</iframe>
+</p>
+
+\endhtmlonly

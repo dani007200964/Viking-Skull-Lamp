@@ -8,7 +8,7 @@ var searchData=
   ['default_5flight_5fbrightness_5',['DEFAULT_LIGHT_BRIGHTNESS',['../main_8hpp.html#a4e796d696ff7550ffa8516dd711364dd',1,'main.hpp']]],
   ['default_5flight_5fmode_6',['DEFAULT_LIGHT_MODE',['../main_8hpp.html#a6f9e187df797cdf6d89ac7a5953af410',1,'main.hpp']]],
   ['default_5fselected_5fcolor_7',['DEFAULT_SELECTED_COLOR',['../main_8hpp.html#a517b60c8bef4ebaf8a6f365d6a0db578',1,'main.hpp']]],
-  ['display_8',['display',['../global_resources_8hpp.html#a377a915cdf03523a68c82bf6747db7b7',1,'display():&#160;main.cpp'],['../main_8cpp.html#aa50f259d51a39a39a5267fbfaeba0ab9',1,'display():&#160;main.cpp']]],
+  ['display_8',['display',['../global_resources_8hpp.html#a377a915cdf03523a68c82bf6747db7b7',1,'display():&#160;main.cpp'],['../main_8cpp.html#a0f3829cdcbc0200abab8429e87d0bbf7',1,'display():&#160;main.cpp']]],
   ['displayoff_9',['displayOff',['../classssd1306.html#a5062186eb98a5bb66a009d232b143172',1,'ssd1306']]],
   ['displayon_10',['displayOn',['../classssd1306.html#a8ef7011e9d60ce7307650365e48e285d',1,'ssd1306']]],
   ['down_11',['down',['../classmenu_item.html#a90805e235a3b92db6cc384838dbccc05',1,'menuItem::down()'],['../classmenu.html#aa570579eea43a7810230472ee28b873a',1,'menu::down()']]],

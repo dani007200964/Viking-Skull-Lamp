@@ -8,6 +8,6 @@ var main_8cpp =
     [ "buttonPressed", "main_8cpp.html#a94d6fb80ebc962752e092191e00bbfdc", null ],
     [ "config", "main_8cpp.html#afcf58dcf009b55aec4259d4589eeb35c", null ],
     [ "configTree", "main_8cpp.html#abf7ddb97240a6ed50a16875193ac934b", null ],
-    [ "display", "main_8cpp.html#aa50f259d51a39a39a5267fbfaeba0ab9", null ],
+    [ "display", "main_8cpp.html#a0f3829cdcbc0200abab8429e87d0bbf7", null ],
     [ "lastButtonPress", "main_8cpp.html#a007a41c3af49865d85e3fc2ec1d81284", null ]
 ];

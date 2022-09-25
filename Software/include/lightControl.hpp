@@ -38,29 +38,112 @@ SOFTWARE.
 #include "buzzerControl.hpp"
 #include "motorControl.hpp"
 
+/// The LED strip is connected to pin 12 on the Arduino.
+/// The LED strip illuminates the artwork on the box.
 #define LIGHT_STRIP_PIN 12
+
+/// The LED disc is connected to pin 11 on the Arduino.
+/// The LED disc illuminates the skull.
 #define LIGHT_SKULL_PIN 11
 
+/// Number of LEDs on the LED strip.
 #define LIGHT_STRIP_SIZE 27
+/// Number of LEDs on the LED disc.
 #define LIGHT_SKULL_SIZE 7
 
+/// Time between two LED updates in ms.
+/// If it's big the system wont be responsive.
 #define LIGHT_UPDATE_RATE 20
+
+/// The speed of dimming when turning
+/// on or off the lighting.
 #define LIGHT_FADE_RATE 2
 
+/// It is used for the clap switch. It determinates
+/// the time between two sample updates in ms.
 #define SAMPLE_UPDATE_RATE 30
 
+/// Initialize the LEDs.
 void lightInit();
+
+/// Update function for the lighting.
+///
+/// This function handles all the animations and
+/// effects for the specific light modes. Also
+/// it tries to recognise the clap pattern for
+/// the clap switch.
 void lightUpdate();
 
+/// Turn on the lighting.
+///
+/// If you want to turn on the lights,
+/// you have to call this function.
 void lightOn();
+
+/// Turn off the lighting.
+///
+/// If you want to turn off the lights,
+/// you have to call this function.
 void lightOff();
+
+/// Toggle the lighting.
+///
+/// If you want to toggle the lights,
+/// you have to call this function.
 void lightToggle();
 
+/// Update function for the rainbow mode.
+///
+/// Tis function handles the animations and lighting
+/// for the rainbow mode. It has to be called by the
+/// @ref lightUpdate function when the rainbow mode
+/// is selected.
+/// @see lightMode_t
 void lightModeRainbowUpdate();
+
+/// Update function for the candle mode.
+///
+/// Tis function handles the animations and lighting
+/// for the candle mode. It has to be called by the
+/// @ref lightUpdate function when the candle mode
+/// is selected.
+/// @see lightMode_t
 void lightModeCandleUpdate();
+
+/// Update function for the pulse mode.
+///
+/// Tis function handles the animations and lighting
+/// for the pulse mode. It has to be called by the
+/// @ref lightUpdate function when the pulse mode
+/// is selected.
+/// @see lightMode_t
 void lightModePulseUpdate();
+
+/// Update function for the music mode.
+///
+/// Tis function handles the animations and lighting
+/// for the music mode. It has to be called by the
+/// @ref lightUpdate function when the music mode
+/// is selected.
+/// @see lightMode_t
 void lightModeMusicUpdate();
+
+/// Update function for the komodo mode.
+///
+/// Tis function handles the animations and lighting
+/// for the komodo mode. It has to be called by the
+/// @ref lightUpdate function when the komodo mode
+/// is selected.
+/// @see lightMode_t
 void lightModeKomodoUpdate();
+
+/// Update function for the color mode.
+///
+/// Tis function handles the animations and lighting
+/// for the color mode. It has to be called by the
+/// @ref lightUpdate function when the color mode
+/// is selected.
+/// @see lightMode_t
 void lightModeColorUpdate();
 
 

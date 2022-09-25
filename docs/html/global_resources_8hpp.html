@@ -122,6 +122,7 @@ $(document).ready(function(){initNavTree('global_resources_8hpp.html',''); initR
 
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">globalResources.hpp File Reference</div></div>
 </div><!--header-->
@@ -133,15 +134,40 @@ $(document).ready(function(){initNavTree('global_resources_8hpp.html',''); initR
 </div>
 <p><a href="global_resources_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a5751031b78e50f8d0fe4a34441717b9a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="global_resources_8hpp.html#a5751031b78e50f8d0fe4a34441717b9a">OLED_ADDRESS</a>&#160;&#160;&#160;0x3C</td></tr>
+<tr class="separator:a5751031b78e50f8d0fe4a34441717b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a377a915cdf03523a68c82bf6747db7b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classssd1306.html">ssd1306</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="global_resources_8hpp.html#a377a915cdf03523a68c82bf6747db7b7">display</a></td></tr>
+<tr class="memdesc:a377a915cdf03523a68c82bf6747db7b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object for the display.  <a href="global_resources_8hpp.html#a377a915cdf03523a68c82bf6747db7b7">More...</a><br /></td></tr>
 <tr class="separator:a377a915cdf03523a68c82bf6747db7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70cb52f9aedc516134ce5aead2091ca4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmenu.html">menu</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="global_resources_8hpp.html#a70cb52f9aedc516134ce5aead2091ca4">menuController</a></td></tr>
+<tr class="memdesc:a70cb52f9aedc516134ce5aead2091ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object for the menu.  <a href="global_resources_8hpp.html#a70cb52f9aedc516134ce5aead2091ca4">More...</a><br /></td></tr>
 <tr class="separator:a70cb52f9aedc516134ce5aead2091ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11ea459c3b7eec7140ac47b363f9f609"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classconfiguration_manager.html">configurationManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="global_resources_8hpp.html#a11ea459c3b7eec7140ac47b363f9f609">config</a></td></tr>
+<tr class="memdesc:a11ea459c3b7eec7140ac47b363f9f609"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object for configuration saving and loading.  <a href="global_resources_8hpp.html#a11ea459c3b7eec7140ac47b363f9f609">More...</a><br /></td></tr>
 <tr class="separator:a11ea459c3b7eec7140ac47b363f9f609"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a5751031b78e50f8d0fe4a34441717b9a" name="a5751031b78e50f8d0fe4a34441717b9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5751031b78e50f8d0fe4a34441717b9a">&#9670;&#160;</a></span>OLED_ADDRESS</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OLED_ADDRESS&#160;&#160;&#160;0x3C</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="global_resources_8hpp_source.html#l00038">38</a> of file <a class="el" href="global_resources_8hpp_source.html">globalResources.hpp</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a id="a11ea459c3b7eec7140ac47b363f9f609" name="a11ea459c3b7eec7140ac47b363f9f609"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a11ea459c3b7eec7140ac47b363f9f609">&#9670;&#160;</a></span>config</h2>
@@ -162,6 +188,9 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Object for configuration saving and loading. </p>
+<p >This object handles the saving and the loading loading of the configuration data. It uses the <a class="el" href="main_8cpp.html#abf7ddb97240a6ed50a16875193ac934b">configTree</a> array, which contains all the configuration associated variables. </p>
 
 </div>
 </div>
@@ -185,7 +214,12 @@ Variables</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00034">34</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<p>Object for the display. </p>
+<p >Object for the menu.</p>
+<p >This object can control a 128 x 32 pixel oled display whisch have an SSD1306 display driver. The address is configurable in the <a class="el" href="global_resources_8hpp.html#a5751031b78e50f8d0fe4a34441717b9a">OLED_ADDRESS</a> macro. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="global_resources_8hpp.html#a5751031b78e50f8d0fe4a34441717b9a">OLED_ADDRESS</a></dd></dl>
+<p>This object handles all the logic behind the menu system. It uses the <a class="el" href="global_resources_8hpp.html#a377a915cdf03523a68c82bf6747db7b7">display</a> object as output and the default selected menu item is <a class="el" href="menu_8hpp.html#a1e5c2abc1c3243b59fef84516f50a157">lightMenuItem</a> </p>
+
+<p class="definition">Definition at line <a class="el" href="main_8cpp_source.html#l00047">47</a> of file <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 
 </div>
 </div>
@@ -208,6 +242,9 @@ Variables</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Object for the menu. </p>
+<p >This object handles all the logic behind the menu system. It uses the <a class="el" href="global_resources_8hpp.html#a377a915cdf03523a68c82bf6747db7b7">display</a> object as output and the default selected menu item is <a class="el" href="menu_8hpp.html#a1e5c2abc1c3243b59fef84516f50a157">lightMenuItem</a> </p>
 
 </div>
 </div>
