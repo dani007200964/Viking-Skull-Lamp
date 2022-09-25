@@ -155,7 +155,8 @@ var NAVTREE =
         [ "Display Holder Front", "md_docs_markdown_pages_print_guide.html#display_holder_front", null ],
         [ "Encoder Knob", "md_docs_markdown_pages_print_guide.html#encoder_knob", null ]
       ] ],
-      [ "Custom Artwork", "md_docs_markdown_pages_print_guide.html#custom_artwork", null ]
+      [ "Custom Artwork", "md_docs_markdown_pages_print_guide.html#custom_artwork", null ],
+      [ "Skull Replacement", "md_docs_markdown_pages_print_guide.html#skull_replacement", null ]
     ] ],
     [ "Software Guide", "md_docs_markdown_pages_software_guide.html", [
       [ "Environment", "md_docs_markdown_pages_software_guide.html#environment", null ],
@@ -196,7 +197,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "light_control_8cpp.html",
-"menu_8hpp.html#a1e5c2abc1c3243b59fef84516f50a157"
+"menu_8hpp.html#a1970379f59b8760eecae1c62b524dc48"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

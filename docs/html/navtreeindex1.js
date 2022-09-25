@@ -195,6 +195,7 @@ var NAVTREEINDEX1 =
 "md_docs_markdown_pages_print_guide.html#right_endstop_mount":[4,0,7],
 "md_docs_markdown_pages_print_guide.html#short_screw_spacer":[4,0,9],
 "md_docs_markdown_pages_print_guide.html#skull":[4,0,16],
+"md_docs_markdown_pages_print_guide.html#skull_replacement":[4,3],
 "md_docs_markdown_pages_software_guide.html":[5],
 "md_docs_markdown_pages_software_guide.html#build_the_firmware":[5,1],
 "md_docs_markdown_pages_software_guide.html#environment":[5,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX1 =
 "menu_8cpp_source.html":[8,0,1,1,5],
 "menu_8hpp.html":[8,0,1,0,6],
 "menu_8hpp.html#a01ed23b054e61f5f8c3d60ac0962b882":[8,0,1,0,6,37],
-"menu_8hpp.html#a05c76b51924f5f8f4ef70cae6d07eb90":[8,0,1,0,6,3],
-"menu_8hpp.html#a1970379f59b8760eecae1c62b524dc48":[8,0,1,0,6,13]
+"menu_8hpp.html#a05c76b51924f5f8f4ef70cae6d07eb90":[8,0,1,0,6,3]
 };

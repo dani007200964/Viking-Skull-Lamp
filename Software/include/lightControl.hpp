@@ -98,6 +98,8 @@ void lightToggle();
 /// for the rainbow mode. It has to be called by the
 /// @ref lightUpdate function when the rainbow mode
 /// is selected.
+/// @note This function uses the [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) color space.
+/// @note I used it because it is much easier to animate, than the regular RGB color space.
 /// @see lightMode_t
 void lightModeRainbowUpdate();
 
@@ -107,6 +109,8 @@ void lightModeRainbowUpdate();
 /// for the candle mode. It has to be called by the
 /// @ref lightUpdate function when the candle mode
 /// is selected.
+/// @note This function uses the [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) color space.
+/// @note I used it because it is much easier to animate, than the regular RGB color space.
 /// @see lightMode_t
 void lightModeCandleUpdate();
 
@@ -116,6 +120,8 @@ void lightModeCandleUpdate();
 /// for the pulse mode. It has to be called by the
 /// @ref lightUpdate function when the pulse mode
 /// is selected.
+/// @note This function uses the [HSV](https://en.wikipedia.org/wiki/HSL_and_HSV) color space.
+/// @note I used it because it is much easier to animate, than the regular RGB color space.
 /// @see lightMode_t
 void lightModePulseUpdate();
 
@@ -133,7 +139,7 @@ void lightModeMusicUpdate();
 /// Tis function handles the animations and lighting
 /// for the komodo mode. It has to be called by the
 /// @ref lightUpdate function when the komodo mode
-/// is selected.
+/// is selected. The name come from [Malcolm in the Middle](https://www.youtube.com/watch?v=97WTudZ5qzA)
 /// @see lightMode_t
 void lightModeKomodoUpdate();
 

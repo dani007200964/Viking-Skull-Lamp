@@ -371,7 +371,10 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Update function for the candle mode. </p>
-<p >Tis function handles the animations and lighting for the candle mode. It has to be called by the <a class="el" href="light_control_8hpp.html#a47fe68420dcb96e582ea856ee8df8e78">lightUpdate</a> function when the candle mode is selected. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a> </dd></dl>
+<p >Tis function handles the animations and lighting for the candle mode. It has to be called by the <a class="el" href="light_control_8hpp.html#a47fe68420dcb96e582ea856ee8df8e78">lightUpdate</a> function when the candle mode is selected. </p><dl class="section note"><dt>Note</dt><dd>This function uses the <a href="https://en.wikipedia.org/wiki/HSL_and_HSV">HSV</a> color space. </dd>
+<dd>
+I used it because it is much easier to animate, than the regular RGB color space. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="light_control_8cpp_source.html#l00304">304</a> of file <a class="el" href="light_control_8cpp_source.html">lightControl.cpp</a>.</p>
 <div class="dynheader">
@@ -400,7 +403,7 @@ Here is the caller graph for this function:</div>
 <p>Update function for the color mode. </p>
 <p >Tis function handles the animations and lighting for the color mode. It has to be called by the <a class="el" href="light_control_8hpp.html#a47fe68420dcb96e582ea856ee8df8e78">lightUpdate</a> function when the color mode is selected. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="light_control_8cpp_source.html#l00495">495</a> of file <a class="el" href="light_control_8cpp_source.html">lightControl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="light_control_8cpp_source.html#l00599">599</a> of file <a class="el" href="light_control_8cpp_source.html">lightControl.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -425,9 +428,9 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Update function for the komodo mode. </p>
-<p >Tis function handles the animations and lighting for the komodo mode. It has to be called by the <a class="el" href="light_control_8hpp.html#a47fe68420dcb96e582ea856ee8df8e78">lightUpdate</a> function when the komodo mode is selected. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a> </dd></dl>
+<p >Tis function handles the animations and lighting for the komodo mode. It has to be called by the <a class="el" href="light_control_8hpp.html#a47fe68420dcb96e582ea856ee8df8e78">lightUpdate</a> function when the komodo mode is selected. The name come from <a href="https://www.youtube.com/watch?v=97WTudZ5qzA">Malcolm in the Middle</a> </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="light_control_8cpp_source.html#l00477">477</a> of file <a class="el" href="light_control_8cpp_source.html">lightControl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="light_control_8cpp_source.html#l00580">580</a> of file <a class="el" href="light_control_8cpp_source.html">lightControl.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -454,7 +457,7 @@ Here is the caller graph for this function:</div>
 <p>Update function for the music mode. </p>
 <p >Tis function handles the animations and lighting for the music mode. It has to be called by the <a class="el" href="light_control_8hpp.html#a47fe68420dcb96e582ea856ee8df8e78">lightUpdate</a> function when the music mode is selected. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="light_control_8cpp_source.html#l00409">409</a> of file <a class="el" href="light_control_8cpp_source.html">lightControl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="light_control_8cpp_source.html#l00449">449</a> of file <a class="el" href="light_control_8cpp_source.html">lightControl.cpp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -484,7 +487,10 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Update function for the pulse mode. </p>
-<p >Tis function handles the animations and lighting for the pulse mode. It has to be called by the <a class="el" href="light_control_8hpp.html#a47fe68420dcb96e582ea856ee8df8e78">lightUpdate</a> function when the pulse mode is selected. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a> </dd></dl>
+<p >Tis function handles the animations and lighting for the pulse mode. It has to be called by the <a class="el" href="light_control_8hpp.html#a47fe68420dcb96e582ea856ee8df8e78">lightUpdate</a> function when the pulse mode is selected. </p><dl class="section note"><dt>Note</dt><dd>This function uses the <a href="https://en.wikipedia.org/wiki/HSL_and_HSV">HSV</a> color space. </dd>
+<dd>
+I used it because it is much easier to animate, than the regular RGB color space. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="light_control_8cpp_source.html#l00355">355</a> of file <a class="el" href="light_control_8cpp_source.html">lightControl.cpp</a>.</p>
 <div class="dynheader">
@@ -511,7 +517,10 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Update function for the rainbow mode. </p>
-<p >Tis function handles the animations and lighting for the rainbow mode. It has to be called by the <a class="el" href="light_control_8hpp.html#a47fe68420dcb96e582ea856ee8df8e78">lightUpdate</a> function when the rainbow mode is selected. </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a> </dd></dl>
+<p >Tis function handles the animations and lighting for the rainbow mode. It has to be called by the <a class="el" href="light_control_8hpp.html#a47fe68420dcb96e582ea856ee8df8e78">lightUpdate</a> function when the rainbow mode is selected. </p><dl class="section note"><dt>Note</dt><dd>This function uses the <a href="https://en.wikipedia.org/wiki/HSL_and_HSV">HSV</a> color space. </dd>
+<dd>
+I used it because it is much easier to animate, than the regular RGB color space. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88">lightMode_t</a> </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="light_control_8cpp_source.html#l00269">269</a> of file <a class="el" href="light_control_8cpp_source.html">lightControl.cpp</a>.</p>
 <div class="dynheader">

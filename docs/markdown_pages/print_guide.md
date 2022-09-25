@@ -390,3 +390,16 @@ There is a video about the subject.
 <iframe width="1024" height="786" src="https://www.youtube.com/embed/_S3D8djM5bE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 \endhtmlonly
+
+@section skull_replacement Skull Replacement
+
+I think the base section of the model( without artwork ) can be used to create awesome lamps.
+For this reason the top part( in this case the skull ) is easily replaceable with anything.
+It secured by only two screws. You can put any model on the top instead of the skull. I think
+it would be awesome with a stormtrooper helmet for example.
+
+![Top Dimensions](top_dimensions.svg)
+
+<a href="top_dimensions.svg" target="_blank"><b>Zoom</b></a> \emoji :mag_right:
+
+You can find the exact dimensions of the slots and the screws on the drawing above.
