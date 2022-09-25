@@ -4,10 +4,10 @@
 <area shape="rect" id="node4" href="$classssd1306.html#a5062186eb98a5bb66a009d232b143172" title=" " alt="" coords="462,105,598,131"/>
 <area shape="rect" id="node9" href="$classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" title=" " alt="" coords="461,56,599,81"/>
 <area shape="rect" id="node11" href="$classssd1306.html#a9f49989e8e3d77edd76b620ad8d02f9f" title=" " alt="" coords="471,155,589,180"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,31,60,56"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Device initialization section after reset." alt="" coords="5,31,60,56"/>
 <area shape="rect" id="node5" href="$motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" title=" " alt="" coords="317,104,399,129"/>
 <area shape="rect" id="node8" href="$motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89" title=" " alt="" coords="145,141,217,167"/>
-<area shape="rect" id="node6" href="$main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" title=" " alt="" coords="108,92,255,117"/>
-<area shape="rect" id="node7" href="$main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="9,92,56,117"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" title="This function handles the button press detection." alt="" coords="108,92,255,117"/>
+<area shape="rect" id="node7" href="$main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="This is the infinite loop of the code." alt="" coords="9,92,56,117"/>
 <area shape="rect" id="node10" href="$motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86" title=" " alt="" coords="318,55,398,80"/>
 </map>

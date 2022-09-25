@@ -1451,7 +1451,8 @@ HTML_EXTRA_FILES       = docs/Style/doxygen-awesome-darkmode-toggle.js \
                          CAD/without_artwork/box_front_naked_1pcs.stl \
                          CAD/without_artwork/box_top_naked_1pcs.stl \
                          CAD/without_artwork/display_holder_naked_1pcs.stl \
-                         CAD/without_artwork/encoder_knob_naked_1pcs.stl
+                         CAD/without_artwork/encoder_knob_naked_1pcs.stl \
+                         docs/images/clap_pattern.mp4
 
 # The HTML_COLORSTYLE tag can be used to specify if the generated HTML output
 # should be rendered with a dark or light theme. Default setting AUTO_LIGHT

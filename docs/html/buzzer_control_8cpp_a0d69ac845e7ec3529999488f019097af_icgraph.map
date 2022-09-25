@@ -1,5 +1,5 @@
 <map id="encoderRotateSound" name="encoderRotateSound">
 <area shape="rect" id="node1" title="Generate encoder rotate sound." alt="" coords="245,5,388,31"/>
-<area shape="rect" id="node2" href="$main_8cpp.html#ae2676edb74235f0d21ef201ba600636a" title=" " alt="" coords="108,5,197,31"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,5,60,31"/>
+<area shape="rect" id="node2" href="$main_8cpp.html#ae2676edb74235f0d21ef201ba600636a" title="Interrupt service for the encoder rotation events." alt="" coords="108,5,197,31"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Device initialization section after reset." alt="" coords="5,5,60,31"/>
 </map>

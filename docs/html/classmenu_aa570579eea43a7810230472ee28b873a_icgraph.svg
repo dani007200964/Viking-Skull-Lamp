@@ -41,7 +41,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="main_8cpp.html#ae2676edb74235f0d21ef201ba600636a" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="main_8cpp.html#ae2676edb74235f0d21ef201ba600636a" target="_top" xlink:title="Interrupt service for the encoder rotation events.">
 <polygon fill="white" stroke="#666666" points="144,-19 77,-19 77,0 144,0 144,-19"/>
 <text text-anchor="middle" x="110.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">encoderISR</text>
 </a>
@@ -56,7 +56,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" target="_top" xlink:title="This is the infinite loop of the code.">
 <polygon fill="white" stroke="#666666" points="38,-56 3,-56 3,-37 38,-37 38,-56"/>
 <text text-anchor="middle" x="20.5" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">loop</text>
 </a>
@@ -71,7 +71,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" target="_top" xlink:title="Device initialization section after reset.">
 <polygon fill="white" stroke="#666666" points="41,-19 0,-19 0,0 41,0 41,-19"/>
 <text text-anchor="middle" x="20.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">setup</text>
 </a>

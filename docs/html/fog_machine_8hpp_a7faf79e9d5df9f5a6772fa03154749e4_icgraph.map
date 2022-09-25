@@ -2,6 +2,6 @@
 <area shape="rect" id="node1" title="Enable the humidifier." alt="" coords="480,29,608,55"/>
 <area shape="rect" id="node2" href="$fog_machine_8cpp.html#aeeeab6eddd5682f0cd25b20233cc354c" title="Update the fog machine state." alt="" coords="100,5,229,31"/>
 <area shape="rect" id="node4" href="$light_control_8cpp.html#a02a6a9031fb951ca75c2b7e8c9d7c0f7" title="Update function for the music mode." alt="" coords="277,55,432,80"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title=" " alt="" coords="5,31,52,56"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="This is the infinite loop of the code." alt="" coords="5,31,52,56"/>
 <area shape="rect" id="node5" href="$light_control_8cpp.html#a47fe68420dcb96e582ea856ee8df8e78" title="Update function for the lighting." alt="" coords="121,55,208,80"/>
 </map>

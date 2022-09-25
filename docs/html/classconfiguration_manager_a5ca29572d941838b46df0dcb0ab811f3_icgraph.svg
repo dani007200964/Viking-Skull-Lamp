@@ -53,7 +53,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" target="_top" xlink:title="Device initialization section after reset.">
 <polygon fill="white" stroke="#666666" points="146.5,-66.5 105.5,-66.5 105.5,-47.5 146.5,-47.5 146.5,-66.5"/>
 <text text-anchor="middle" x="126" y="-54.5" font-family="Helvetica,sans-Serif" font-size="10.00">setup</text>
 </a>
@@ -74,7 +74,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" target="_top" xlink:title="This function handles the button press detection.">
 <polygon fill="white" stroke="#666666" points="181,-24.5 71,-24.5 71,-5.5 181,-5.5 181,-24.5"/>
 <text text-anchor="middle" x="126" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">encoderButtonUpdate</text>
 </a>
@@ -89,7 +89,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" target="_top" xlink:title="This is the infinite loop of the code.">
 <polygon fill="white" stroke="#666666" points="35,-24.5 0,-24.5 0,-5.5 35,-5.5 35,-24.5"/>
 <text text-anchor="middle" x="17.5" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">loop</text>
 </a>

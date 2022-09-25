@@ -41,23 +41,42 @@ SOFTWARE.
 #include "fogMachine.hpp"
 #include <avr/wdt.h>
 
+/// The encoder button is connected to pin 2 on the Arduino.
 #define ENCODER_BTN 2
+
+/// The encoder data line is connected to pin 4 on the Arduino.
 #define ENCODER_DATA 4
+
+/// The encoder clock line is connected to pin 3 on the Arduino.
 #define ENCODER_CLK 3
 
+// The buzzer is connected to pin 9 on the Arduino.
 #define BUZZER 9
-#define ENCODER_TONE_FREQENCY 5000
-#define ENCODER_TONE_DURATION 20
 
+//---- This section contains the default configuration for the first boot up ----//
+
+/// Default value for the light mode.
 #define DEFAULT_LIGHT_MODE          LIGHT_MODE_RAINBOW
+
+/// Default value for the user selected color.
 #define DEFAULT_SELECTED_COLOR      0
+
+/// Default value for the brightness.
 #define DEFAULT_LIGHT_BRIGHTNESS    30
+
+/// By default the buzzer is enabled.
 #define DEFAULT_BUZZER_STATE        true
+
+/// By default the clap switch is enabled.
 #define DEFAULT_CLAP_SWITCH_STATE   true
+
+/// By default the fog machine is enabled.
 #define DEFAULT_FOG_STATE           true
 
-
+/// Interrupt service for the encoder rotation events.
 void encoderISR();
+
+/// This function handles the button press detection.
 void encoderButtonUpdate();
 
 #endif

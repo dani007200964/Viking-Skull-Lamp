@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="This function handles the button press detection.">
 <polygon fill="#999999" stroke="#666666" points="110,-160 0,-160 0,-141 110,-141 110,-160"/>
 <text text-anchor="middle" x="55" y="-148" font-family="Helvetica,sans-Serif" font-size="10.00">encoderButtonUpdate</text>
 </a>

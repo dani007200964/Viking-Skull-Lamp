@@ -1,5 +1,5 @@
 <map id="encoderISR" name="encoderISR">
-<area shape="rect" id="node1" title=" " alt="" coords="5,79,95,104"/>
+<area shape="rect" id="node1" title="Interrupt service for the encoder rotation events." alt="" coords="5,79,95,104"/>
 <area shape="rect" id="node2" href="$classmenu.html#aa570579eea43a7810230472ee28b873a" title=" " alt="" coords="168,29,260,55"/>
 <area shape="rect" id="node3" href="$buzzer_control_8cpp.html#a0d69ac845e7ec3529999488f019097af" title="Generate encoder rotate sound." alt="" coords="143,79,285,104"/>
 <area shape="rect" id="node4" href="$classmenu.html#a87a6a695240e84646f5f92a6f764b7e9" title=" " alt="" coords="176,152,252,177"/>

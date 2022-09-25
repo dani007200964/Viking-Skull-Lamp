@@ -46,6 +46,8 @@ ssd1306 display( OLED_ADDRESS );
 /// is @ref lightMenuItem
 menu menuController( &display, &lightMenuItem );
 
+/// This array contains all the variables,
+/// that required for configuring the device
 configurationManager::configurationData_t configTree[] = {
 
     createData( lightMode ),
@@ -65,14 +67,29 @@ configurationManager::configurationData_t configTree[] = {
 /// configuration associated variables.
 configurationManager config( configTree, ( sizeof( configTree ) / sizeof( configTree[0] ) ) );
 
+/// Last system time when the button was pressed.
+long lastButtonPress = 0;
+
+/// Counts how many button press was detected in a period.
+uint8_t buttonPressCntr = 0;
+
+/// Flag for button press detection.
+bool buttonPressed = false;
+
+/// Device initialization section after reset.
 void setup() {
   
+    // Just in case we enable the watchdog with 4-sec timeout.
     wdt_enable( WDTO_4S );
 
+    // Initialize the Serial port.
     Serial.begin( 115200 );
 
+    // Try to load the configuration from the EEPROM.
     if( !config.loadConfig() ){
 
+        // If the configuration loading is not succesful,
+        // we set the config variables to the default values.
         lightMode = DEFAULT_LIGHT_MODE;
         selectedColor = DEFAULT_SELECTED_COLOR;
         lightBrightness = DEFAULT_LIGHT_BRIGHTNESS;
@@ -80,51 +97,80 @@ void setup() {
         clapSwitchEnabled = DEFAULT_CLAP_SWITCH_STATE;
         fogMachineEnabled = DEFAULT_FOG_STATE;
 
+        // Also we try to save the config again.
         config.saveConfig();
 
     }
 
+    // Try to initialize the oled display.
     if( !display.begin() ){
 
+        // If we can't, we print the error.
         Serial.println( F( "Display Error!" ) );
         
     }
 
+    // Initialize motor logic.
     motorInit();
 
+    // Initialize encoder pins.
     pinMode( ENCODER_CLK, INPUT );
     pinMode( ENCODER_BTN, INPUT );
     pinMode( ENCODER_DATA, INPUT );
 
+    // For encoder rotation detection we use an interrupt,
+    // so we have to register that to the @ref ENCODER_CLK pin.
+    // Every time a rising endge arrives ti @ref ENCODER_CLK pin,
+    // the @ref encoderISR function will be called.
     attachInterrupt( digitalPinToInterrupt( ENCODER_CLK ), encoderISR, RISING );
 
+    // Initialize menu system.
     menuInit();
 
+    // Initialize lighting.
     lightInit();
+
+    // Initialize the humidifier.
     fogMachineInit();
         
 }
 
+/// This is the infinite loop of
+/// the code. Every periodic task
+/// should be placed here.
 void loop() {
 
+    // Update menu data.
     menuController.draw();
+
+    // Update button handler.
     encoderButtonUpdate();
+
+    // Update lighting effects.
     lightUpdate();
+
+    // Update the humidifier module.
     fogMachineUpdate();
 
+    // Feed the watchdog.
     wdt_reset();
 
 }
 
 void encoderISR(){
 
+    // We only allowed to use the menu,
+    // when the front panel is opened.
     if( frontState != FRONT_OPEN ){
 
         return;
 
     }
 
-    //todo Ha csukva van, akkor ne vinnyogjon.
+    // We have to detect the direction of the rotation.
+    // If we rotate it to one direction the state of the
+    // data line and the clock line always be equal. If we
+    // change direction they always be different.
     if( digitalRead( ENCODER_CLK ) == digitalRead( ENCODER_DATA ) ){
 
         menuController.up();
@@ -141,30 +187,48 @@ void encoderISR(){
   
 }
 
-long lastButtonPress = 0;
-uint8_t buttonPressCntr = 0;
-bool buttonPressed = false;
-
 void encoderButtonUpdate(){
 
+    // The encoder button uses inverted logic. If it is pressed
+    // the output of the button will be low.
     if( digitalRead( ENCODER_BTN ) == 0 && !buttonPressed ){
+
+        // A tiny delay required to debounce the signal.
         delay( 15 );
+
+        // Increment the buttonPressCntr.
         buttonPressCntr++;
+
+        // Save system time.
         lastButtonPress = millis();
+
+        // Set the flag to true. It is required for event generation.
         buttonPressed = true;
     }
 
+    // Check if the button was released.
     if( digitalRead( ENCODER_BTN ) == 1 ){
 
+        // Reset the flag.
         buttonPressed = false;
 
     }
 
+    // To detect multiple button presses we have to be quick. The time between
+    // two button presses should be less than 250ms. Otherwise it will be detected
+    // as a single press.
     if( ( ( millis() - lastButtonPress ) > 250 ) && buttonPressCntr ){
 
+        // Decide action according to the number of the button pressed.
         switch( buttonPressCntr ){
+
+            // Button pressed once.
             case 1:
 
+                // If the front is opened we use the button to navigate
+                // in the menu. Also we save the config with every button
+                // press. If there are no changes in the configuration
+                // data it will skip the writing anyway.
                 if( frontState == FRONT_OPEN ){
 
                     menuController.next();
@@ -173,6 +237,8 @@ void encoderButtonUpdate(){
 
                 }
 
+                // If the front is closed we use the button to turn on or
+                // off the lighting.
                 else{
 
                     lightToggle();
@@ -182,8 +248,10 @@ void encoderButtonUpdate(){
 
             break;
 
+            // Button pressed twice.
             case 2:
 
+                // Open or close the front depending on it's state.
                 openCloseMelody();
                 if( frontState == FRONT_OPEN ){
 
@@ -201,6 +269,7 @@ void encoderButtonUpdate(){
 
         }
         
+        // Reset the buttonPressCntr variable for the next round.
         buttonPressCntr = 0;
         
     }

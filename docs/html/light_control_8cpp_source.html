@@ -693,38 +693,42 @@ $(document).ready(function(){initNavTree('light_control_8cpp_source.html',''); i
 <div class="line"><a id="l00582" name="l00582"></a><span class="lineno">  582</span>    <span class="comment">// Generic counter.</span></div>
 <div class="line"><a id="l00583" name="l00583"></a><span class="lineno">  583</span>    uint8_t i;</div>
 <div class="line"><a id="l00584" name="l00584"></a><span class="lineno">  584</span> </div>
-<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>    <span class="keywordflow">for</span>( i = 0; i &lt; <a class="code hl_define" href="light_control_8hpp.html#aaea83285a309b0964300a3cbb2e479ed">LIGHT_STRIP_SIZE</a>; i++ ){</div>
-<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span> </div>
-<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span>        <a class="code hl_variable" href="light_control_8cpp.html#ae5d4a0804cc1375d2b4110c9d03f07b5">stripLightBuffer</a>[ i ].setHSV( 43, 61, 255 );</div>
-<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span> </div>
-<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span>    }</div>
-<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span> </div>
-<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span>    <span class="keywordflow">for</span>( i = 0; i &lt; <a class="code hl_define" href="light_control_8hpp.html#a01a5b390e8e124784d627c54b25a44d2">LIGHT_SKULL_SIZE</a>; i++ ){</div>
-<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span> </div>
-<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span>        <a class="code hl_variable" href="light_control_8cpp.html#aae84786ae5e87c03661732015708670b">skullLightBuffer</a>[ i ].setHSV( 255, 0, 255 );</div>
-<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span> </div>
-<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span>    }</div>
-<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span> </div>
-<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span>}</div>
-<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span> </div>
-<div class="line"><a id="l00599" name="l00599"></a><span class="lineno"><a class="line" href="light_control_8hpp.html#ac5e502533fb7bf671c8f22b73e935ad7">  599</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="light_control_8cpp.html#ac5e502533fb7bf671c8f22b73e935ad7">lightModeColorUpdate</a>(){</div>
-<div class="line"><a id="l00600" name="l00600"></a><span class="lineno">  600</span> </div>
-<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span>    uint8_t i;</div>
-<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span> </div>
-<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>    <span class="keywordflow">for</span>( i = 0; i &lt; <a class="code hl_define" href="light_control_8hpp.html#aaea83285a309b0964300a3cbb2e479ed">LIGHT_STRIP_SIZE</a>; i++ ){</div>
+<div class="line"><a id="l00585" name="l00585"></a><span class="lineno">  585</span>    <span class="comment">// We set a bright light.</span></div>
+<div class="line"><a id="l00586" name="l00586"></a><span class="lineno">  586</span>    <span class="keywordflow">for</span>( i = 0; i &lt; <a class="code hl_define" href="light_control_8hpp.html#aaea83285a309b0964300a3cbb2e479ed">LIGHT_STRIP_SIZE</a>; i++ ){</div>
+<div class="line"><a id="l00587" name="l00587"></a><span class="lineno">  587</span> </div>
+<div class="line"><a id="l00588" name="l00588"></a><span class="lineno">  588</span>        <a class="code hl_variable" href="light_control_8cpp.html#ae5d4a0804cc1375d2b4110c9d03f07b5">stripLightBuffer</a>[ i ].setHSV( 43, 61, 255 );</div>
+<div class="line"><a id="l00589" name="l00589"></a><span class="lineno">  589</span> </div>
+<div class="line"><a id="l00590" name="l00590"></a><span class="lineno">  590</span>    }</div>
+<div class="line"><a id="l00591" name="l00591"></a><span class="lineno">  591</span> </div>
+<div class="line"><a id="l00592" name="l00592"></a><span class="lineno">  592</span>    <span class="keywordflow">for</span>( i = 0; i &lt; <a class="code hl_define" href="light_control_8hpp.html#a01a5b390e8e124784d627c54b25a44d2">LIGHT_SKULL_SIZE</a>; i++ ){</div>
+<div class="line"><a id="l00593" name="l00593"></a><span class="lineno">  593</span> </div>
+<div class="line"><a id="l00594" name="l00594"></a><span class="lineno">  594</span>        <a class="code hl_variable" href="light_control_8cpp.html#aae84786ae5e87c03661732015708670b">skullLightBuffer</a>[ i ].setHSV( 255, 0, 255 );</div>
+<div class="line"><a id="l00595" name="l00595"></a><span class="lineno">  595</span> </div>
+<div class="line"><a id="l00596" name="l00596"></a><span class="lineno">  596</span>    }</div>
+<div class="line"><a id="l00597" name="l00597"></a><span class="lineno">  597</span> </div>
+<div class="line"><a id="l00598" name="l00598"></a><span class="lineno">  598</span>}</div>
+<div class="line"><a id="l00599" name="l00599"></a><span class="lineno">  599</span> </div>
+<div class="line"><a id="l00600" name="l00600"></a><span class="lineno"><a class="line" href="light_control_8hpp.html#ac5e502533fb7bf671c8f22b73e935ad7">  600</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="light_control_8cpp.html#ac5e502533fb7bf671c8f22b73e935ad7">lightModeColorUpdate</a>(){</div>
+<div class="line"><a id="l00601" name="l00601"></a><span class="lineno">  601</span> </div>
+<div class="line"><a id="l00602" name="l00602"></a><span class="lineno">  602</span>    <span class="comment">// Generic counter.</span></div>
+<div class="line"><a id="l00603" name="l00603"></a><span class="lineno">  603</span>    uint8_t i;</div>
 <div class="line"><a id="l00604" name="l00604"></a><span class="lineno">  604</span> </div>
-<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>        <a class="code hl_variable" href="light_control_8cpp.html#ae5d4a0804cc1375d2b4110c9d03f07b5">stripLightBuffer</a>[ i ].setHSV( <a class="code hl_variable" href="menu_8hpp.html#a7d5012ae75e8efcdb99ba658e2679abf">selectedColor</a>, 255, 255 );</div>
-<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span> </div>
-<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span>    }</div>
-<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span> </div>
-<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span>    <span class="keywordflow">for</span>( i = 0; i &lt; <a class="code hl_define" href="light_control_8hpp.html#a01a5b390e8e124784d627c54b25a44d2">LIGHT_SKULL_SIZE</a>; i++ ){</div>
-<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span> </div>
-<div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span>        <a class="code hl_variable" href="light_control_8cpp.html#aae84786ae5e87c03661732015708670b">skullLightBuffer</a>[ i ].setHSV( (uint8_t)( <a class="code hl_variable" href="menu_8hpp.html#a7d5012ae75e8efcdb99ba658e2679abf">selectedColor</a> + 128 ), 255, 255 );</div>
-<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span> </div>
-<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>    }</div>
+<div class="line"><a id="l00605" name="l00605"></a><span class="lineno">  605</span>    <span class="comment">// In this mode we set the user defined value to the strip.</span></div>
+<div class="line"><a id="l00606" name="l00606"></a><span class="lineno">  606</span>    <span class="keywordflow">for</span>( i = 0; i &lt; <a class="code hl_define" href="light_control_8hpp.html#aaea83285a309b0964300a3cbb2e479ed">LIGHT_STRIP_SIZE</a>; i++ ){</div>
+<div class="line"><a id="l00607" name="l00607"></a><span class="lineno">  607</span> </div>
+<div class="line"><a id="l00608" name="l00608"></a><span class="lineno">  608</span>        <a class="code hl_variable" href="light_control_8cpp.html#ae5d4a0804cc1375d2b4110c9d03f07b5">stripLightBuffer</a>[ i ].setHSV( <a class="code hl_variable" href="menu_8hpp.html#a7d5012ae75e8efcdb99ba658e2679abf">selectedColor</a>, 255, 255 );</div>
+<div class="line"><a id="l00609" name="l00609"></a><span class="lineno">  609</span> </div>
+<div class="line"><a id="l00610" name="l00610"></a><span class="lineno">  610</span>    }</div>
+<div class="line"><a id="l00611" name="l00611"></a><span class="lineno">  611</span> </div>
+<div class="line"><a id="l00612" name="l00612"></a><span class="lineno">  612</span>    <span class="comment">// And create the complementary color for the skull.</span></div>
+<div class="line"><a id="l00613" name="l00613"></a><span class="lineno">  613</span>    <span class="keywordflow">for</span>( i = 0; i &lt; <a class="code hl_define" href="light_control_8hpp.html#a01a5b390e8e124784d627c54b25a44d2">LIGHT_SKULL_SIZE</a>; i++ ){</div>
 <div class="line"><a id="l00614" name="l00614"></a><span class="lineno">  614</span> </div>
-<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>}</div>
+<div class="line"><a id="l00615" name="l00615"></a><span class="lineno">  615</span>        <a class="code hl_variable" href="light_control_8cpp.html#aae84786ae5e87c03661732015708670b">skullLightBuffer</a>[ i ].setHSV( (uint8_t)( <a class="code hl_variable" href="menu_8hpp.html#a7d5012ae75e8efcdb99ba658e2679abf">selectedColor</a> + 128 ), 255, 255 );</div>
 <div class="line"><a id="l00616" name="l00616"></a><span class="lineno">  616</span> </div>
+<div class="line"><a id="l00617" name="l00617"></a><span class="lineno">  617</span>    }</div>
+<div class="line"><a id="l00618" name="l00618"></a><span class="lineno">  618</span> </div>
+<div class="line"><a id="l00619" name="l00619"></a><span class="lineno">  619</span>}</div>
+<div class="line"><a id="l00620" name="l00620"></a><span class="lineno">  620</span> </div>
 <div class="ttc" id="abuzzer_control_8hpp_html_ad981474a88ca6153a65b8e133af409a8"><div class="ttname"><a href="buzzer_control_8hpp.html#ad981474a88ca6153a65b8e133af409a8">clapMelody</a></div><div class="ttdeci">void clapMelody()</div><div class="ttdoc">Generate clap melody.</div><div class="ttdef"><b>Definition:</b> <a href="buzzer_control_8cpp_source.html#l00081">buzzerControl.cpp:81</a></div></div>
 <div class="ttc" id="aclassmusic_channel_html_a15ae593419dfa3a15077ce490d75de3e"><div class="ttname"><a href="classmusic_channel.html#a15ae593419dfa3a15077ce490d75de3e">musicChannel::update</a></div><div class="ttdeci">void update()</div><div class="ttdef"><b>Definition:</b> <a href="music_visualizer_8cpp_source.html#l00063">musicVisualizer.cpp:63</a></div></div>
 <div class="ttc" id="aclassmusic_channel_html_af995bd036f576b4725fab35b3eab9524"><div class="ttname"><a href="classmusic_channel.html#af995bd036f576b4725fab35b3eab9524">musicChannel::peak</a></div><div class="ttdeci">bool peak</div><div class="ttdef"><b>Definition:</b> <a href="music_visualizer_8hpp_source.html#l00049">musicVisualizer.hpp:49</a></div></div>
@@ -744,7 +748,7 @@ $(document).ready(function(){initNavTree('light_control_8cpp_source.html',''); i
 <div class="ttc" id="alight_control_8cpp_html_a9580f8c1dc2cf814e26e3e73b870d89e"><div class="ttname"><a href="light_control_8cpp.html#a9580f8c1dc2cf814e26e3e73b870d89e">lightModePulseUpdate</a></div><div class="ttdeci">void lightModePulseUpdate()</div><div class="ttdoc">Update function for the pulse mode.</div><div class="ttdef"><b>Definition:</b> <a href="light_control_8cpp_source.html#l00355">lightControl.cpp:355</a></div></div>
 <div class="ttc" id="alight_control_8cpp_html_aae84786ae5e87c03661732015708670b"><div class="ttname"><a href="light_control_8cpp.html#aae84786ae5e87c03661732015708670b">skullLightBuffer</a></div><div class="ttdeci">CRGB skullLightBuffer[LIGHT_SKULL_SIZE]</div><div class="ttdoc">Pixel buffer for the LED disc.</div><div class="ttdef"><b>Definition:</b> <a href="light_control_8cpp_source.html#l00036">lightControl.cpp:36</a></div></div>
 <div class="ttc" id="alight_control_8cpp_html_ab66c9f714d74f15b8c7de01d1039a542"><div class="ttname"><a href="light_control_8cpp.html#ab66c9f714d74f15b8c7de01d1039a542">fadedBrightness</a></div><div class="ttdeci">int fadedBrightness</div><div class="ttdoc">The actual brightness of the strips are calculated to this variable.</div><div class="ttdef"><b>Definition:</b> <a href="light_control_8cpp_source.html#l00050">lightControl.cpp:50</a></div></div>
-<div class="ttc" id="alight_control_8cpp_html_ac5e502533fb7bf671c8f22b73e935ad7"><div class="ttname"><a href="light_control_8cpp.html#ac5e502533fb7bf671c8f22b73e935ad7">lightModeColorUpdate</a></div><div class="ttdeci">void lightModeColorUpdate()</div><div class="ttdoc">Update function for the color mode.</div><div class="ttdef"><b>Definition:</b> <a href="light_control_8cpp_source.html#l00599">lightControl.cpp:599</a></div></div>
+<div class="ttc" id="alight_control_8cpp_html_ac5e502533fb7bf671c8f22b73e935ad7"><div class="ttname"><a href="light_control_8cpp.html#ac5e502533fb7bf671c8f22b73e935ad7">lightModeColorUpdate</a></div><div class="ttdeci">void lightModeColorUpdate()</div><div class="ttdoc">Update function for the color mode.</div><div class="ttdef"><b>Definition:</b> <a href="light_control_8cpp_source.html#l00600">lightControl.cpp:600</a></div></div>
 <div class="ttc" id="alight_control_8cpp_html_ac63baab438299bd5074897396b600c00"><div class="ttname"><a href="light_control_8cpp.html#ac63baab438299bd5074897396b600c00">lightOff</a></div><div class="ttdeci">void lightOff()</div><div class="ttdoc">Turn off the lighting.</div><div class="ttdef"><b>Definition:</b> <a href="light_control_8cpp_source.html#l00085">lightControl.cpp:85</a></div></div>
 <div class="ttc" id="alight_control_8cpp_html_acaead3b9457173243d868998eb0c6aab"><div class="ttname"><a href="light_control_8cpp.html#acaead3b9457173243d868998eb0c6aab">lightTimer</a></div><div class="ttdeci">unsigned long lightTimer</div><div class="ttdoc">Stores the last system time when the last light update event happened.</div><div class="ttdef"><b>Definition:</b> <a href="light_control_8cpp_source.html#l00039">lightControl.cpp:39</a></div></div>
 <div class="ttc" id="alight_control_8cpp_html_ad1dcf79a5e404583cee3b93d65f05d6a"><div class="ttname"><a href="light_control_8cpp.html#ad1dcf79a5e404583cee3b93d65f05d6a">prevBeat</a></div><div class="ttdeci">bool prevBeat</div><div class="ttdoc">Flag for beat detection. It is used for the music visualizer.</div><div class="ttdef"><b>Definition:</b> <a href="light_control_8cpp_source.html#l00059">lightControl.cpp:59</a></div></div>

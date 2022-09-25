@@ -1,5 +1,5 @@
 <map id="ssd1306::clear" name="ssd1306::clear">
 <area shape="rect" id="node1" title=" " alt="" coords="267,5,373,31"/>
 <area shape="rect" id="node2" href="$classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" title=" " alt="" coords="108,5,219,31"/>
-<area shape="rect" id="node3" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,5,60,31"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Device initialization section after reset." alt="" coords="5,5,60,31"/>
 </map>

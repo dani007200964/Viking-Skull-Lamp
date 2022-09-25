@@ -1,4 +1,4 @@
 <map id="configurationManager::loadConfig" name="configurationManager::loadConfig">
 <area shape="rect" id="node1" title="Load configuration from EEPROM." alt="" coords="108,5,253,45"/>
-<area shape="rect" id="node2" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title=" " alt="" coords="5,13,60,38"/>
+<area shape="rect" id="node2" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Device initialization section after reset." alt="" coords="5,13,60,38"/>
 </map>

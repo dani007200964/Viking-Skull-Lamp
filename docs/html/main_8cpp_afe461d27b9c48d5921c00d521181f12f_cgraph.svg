@@ -57,7 +57,7 @@ var sectionId = 'dynsection-4';
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="This is the infinite loop of the code.">
 <polygon fill="#999999" stroke="#666666" points="35,-339.97 0,-339.97 0,-320.97 35,-320.97 35,-339.97"/>
 <text text-anchor="middle" x="17.5" y="-327.97" font-family="Helvetica,sans-Serif" font-size="10.00">loop</text>
 </a>
@@ -81,7 +81,7 @@ var sectionId = 'dynsection-4';
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" target="_top" xlink:title="This function handles the button press detection.">
 <polygon fill="white" stroke="#666666" points="181,-451.97 71,-451.97 71,-432.97 181,-432.97 181,-451.97"/>
 <text text-anchor="middle" x="126" y="-439.97" font-family="Helvetica,sans-Serif" font-size="10.00">encoderButtonUpdate</text>
 </a>

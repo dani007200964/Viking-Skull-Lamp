@@ -26,7 +26,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" target="_top" xlink:title="This function handles the button press detection.">
 <polygon fill="white" stroke="#666666" points="181,-19 71,-19 71,0 181,0 181,-19"/>
 <text text-anchor="middle" x="126" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">encoderButtonUpdate</text>
 </a>
@@ -41,7 +41,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" target="_top" xlink:title="This is the infinite loop of the code.">
 <polygon fill="white" stroke="#666666" points="35,-19 0,-19 0,0 35,0 35,-19"/>
 <text text-anchor="middle" x="17.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">loop</text>
 </a>

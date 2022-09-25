@@ -1,7 +1,7 @@
 <map id="loop" name="loop">
-<area shape="rect" id="node1" title=" " alt="" coords="5,539,52,564"/>
+<area shape="rect" id="node1" title="This is the infinite loop of the code." alt="" coords="5,539,52,564"/>
 <area shape="rect" id="node2" href="$classmenu.html#a6fcf97a34d06d1889ae8cf52e5060d06" title=" " alt="" coords="129,103,218,128"/>
-<area shape="rect" id="node5" href="$main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" title=" " alt="" coords="100,389,247,415"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" title="This function handles the button press detection." alt="" coords="100,389,247,415"/>
 <area shape="rect" id="node20" href="$fog_machine_8cpp.html#aeeeab6eddd5682f0cd25b20233cc354c" title="Update the fog machine state." alt="" coords="109,859,238,884"/>
 <area shape="rect" id="node22" href="$light_control_8cpp.html#a47fe68420dcb96e582ea856ee8df8e78" title="Update function for the lighting." alt="" coords="130,711,217,736"/>
 <area shape="rect" id="node3" href="$classmenu.html#aa570579eea43a7810230472ee28b873a" title=" " alt="" coords="333,103,425,128"/>

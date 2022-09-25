@@ -167,33 +167,41 @@ $(document).ready(function(){initNavTree('main_8hpp_source.html',''); initResiza
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &quot;<a class="code" href="fog_machine_8hpp.html">fogMachine.hpp</a>&quot;</span></div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="preprocessor">#include &lt;avr/wdt.h&gt;</span></div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="main_8hpp.html#a8db80a4185bc604766cbccf008c9e32d">   44</a></span><span class="preprocessor">#define ENCODER_BTN 2</span></div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="main_8hpp.html#a22c350ed1fd8ae78386073b4c9fde7cd">   45</a></span><span class="preprocessor">#define ENCODER_DATA 4</span></div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno"><a class="line" href="main_8hpp.html#a376b55be5bcbc0f96467d3c1151b28e5">   46</a></span><span class="preprocessor">#define ENCODER_CLK 3</span></div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="main_8hpp.html#a145103118f6d9d1129aa4509cf214a13">   48</a></span><span class="preprocessor">#define BUZZER 9</span></div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="main_8hpp.html#afd03462c6cfd331add61c508fa63ad1f">   49</a></span><span class="preprocessor">#define ENCODER_TONE_FREQENCY 5000</span></div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="main_8hpp.html#a3b4429d517719a0714244ade3250d1ef">   50</a></span><span class="preprocessor">#define ENCODER_TONE_DURATION 20</span></div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="main_8hpp.html#a6f9e187df797cdf6d89ac7a5953af410">   52</a></span><span class="preprocessor">#define DEFAULT_LIGHT_MODE          LIGHT_MODE_RAINBOW</span></div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="main_8hpp.html#a517b60c8bef4ebaf8a6f365d6a0db578">   53</a></span><span class="preprocessor">#define DEFAULT_SELECTED_COLOR      0</span></div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="main_8hpp.html#a4e796d696ff7550ffa8516dd711364dd">   54</a></span><span class="preprocessor">#define DEFAULT_LIGHT_BRIGHTNESS    30</span></div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="main_8hpp.html#a65a7b14ca8887c94e0bdc3343df4d0da">   55</a></span><span class="preprocessor">#define DEFAULT_BUZZER_STATE        true</span></div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="main_8hpp.html#a4303952c2ce6839d366a8efe5e1de095">   56</a></span><span class="preprocessor">#define DEFAULT_CLAP_SWITCH_STATE   true</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="main_8hpp.html#ae83693c97aba79c1b9818dcdc732544a">   57</a></span><span class="preprocessor">#define DEFAULT_FOG_STATE           true</span></div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="keywordtype">void</span> <a class="code hl_function" href="main_8hpp.html#ae2676edb74235f0d21ef201ba600636a">encoderISR</a>();</div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keywordtype">void</span> <a class="code hl_function" href="main_8hpp.html#a098f004d14a561a6007a87e9a2959eb9">encoderButtonUpdate</a>();</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="main_8hpp.html#a8db80a4185bc604766cbccf008c9e32d">   45</a></span><span class="preprocessor">#define ENCODER_BTN 2</span></div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="main_8hpp.html#a22c350ed1fd8ae78386073b4c9fde7cd">   48</a></span><span class="preprocessor">#define ENCODER_DATA 4</span></div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="main_8hpp.html#a376b55be5bcbc0f96467d3c1151b28e5">   51</a></span><span class="preprocessor">#define ENCODER_CLK 3</span></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span><span class="comment">// The buzzer is connected to pin 9 on the Arduino.</span></div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="main_8hpp.html#a145103118f6d9d1129aa4509cf214a13">   54</a></span><span class="preprocessor">#define BUZZER 9</span></div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">//---- This section contains the default configuration for the first boot up ----//</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="main_8hpp.html#a6f9e187df797cdf6d89ac7a5953af410">   59</a></span><span class="preprocessor">#define DEFAULT_LIGHT_MODE          LIGHT_MODE_RAINBOW</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno"><a class="line" href="main_8hpp.html#a517b60c8bef4ebaf8a6f365d6a0db578">   62</a></span><span class="preprocessor">#define DEFAULT_SELECTED_COLOR      0</span></div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="main_8hpp.html#a4e796d696ff7550ffa8516dd711364dd">   65</a></span><span class="preprocessor">#define DEFAULT_LIGHT_BRIGHTNESS    30</span></div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno"><a class="line" href="main_8hpp.html#a65a7b14ca8887c94e0bdc3343df4d0da">   68</a></span><span class="preprocessor">#define DEFAULT_BUZZER_STATE        true</span></div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="main_8hpp.html#a4303952c2ce6839d366a8efe5e1de095">   71</a></span><span class="preprocessor">#define DEFAULT_CLAP_SWITCH_STATE   true</span></div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno"><a class="line" href="main_8hpp.html#ae83693c97aba79c1b9818dcdc732544a">   74</a></span><span class="preprocessor">#define DEFAULT_FOG_STATE           true</span></div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span><span class="keywordtype">void</span> <a class="code hl_function" href="main_8hpp.html#ae2676edb74235f0d21ef201ba600636a">encoderISR</a>();</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="keywordtype">void</span> <a class="code hl_function" href="main_8hpp.html#a098f004d14a561a6007a87e9a2959eb9">encoderButtonUpdate</a>();</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="abuzzer_control_8hpp_html"><div class="ttname"><a href="buzzer_control_8hpp.html">buzzerControl.hpp</a></div></div>
 <div class="ttc" id="aconfiguration_8hpp_html"><div class="ttname"><a href="configuration_8hpp.html">configuration.hpp</a></div></div>
 <div class="ttc" id="afog_machine_8hpp_html"><div class="ttname"><a href="fog_machine_8hpp.html">fogMachine.hpp</a></div></div>
 <div class="ttc" id="aglobal_resources_8hpp_html"><div class="ttname"><a href="global_resources_8hpp.html">globalResources.hpp</a></div></div>
 <div class="ttc" id="alight_control_8hpp_html"><div class="ttname"><a href="light_control_8hpp.html">lightControl.hpp</a></div></div>
-<div class="ttc" id="amain_8hpp_html_a098f004d14a561a6007a87e9a2959eb9"><div class="ttname"><a href="main_8hpp.html#a098f004d14a561a6007a87e9a2959eb9">encoderButtonUpdate</a></div><div class="ttdeci">void encoderButtonUpdate()</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00148">main.cpp:148</a></div></div>
-<div class="ttc" id="amain_8hpp_html_ae2676edb74235f0d21ef201ba600636a"><div class="ttname"><a href="main_8hpp.html#ae2676edb74235f0d21ef201ba600636a">encoderISR</a></div><div class="ttdeci">void encoderISR()</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00119">main.cpp:119</a></div></div>
+<div class="ttc" id="amain_8hpp_html_a098f004d14a561a6007a87e9a2959eb9"><div class="ttname"><a href="main_8hpp.html#a098f004d14a561a6007a87e9a2959eb9">encoderButtonUpdate</a></div><div class="ttdeci">void encoderButtonUpdate()</div><div class="ttdoc">This function handles the button press detection.</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00190">main.cpp:190</a></div></div>
+<div class="ttc" id="amain_8hpp_html_ae2676edb74235f0d21ef201ba600636a"><div class="ttname"><a href="main_8hpp.html#ae2676edb74235f0d21ef201ba600636a">encoderISR</a></div><div class="ttdeci">void encoderISR()</div><div class="ttdoc">Interrupt service for the encoder rotation events.</div><div class="ttdef"><b>Definition:</b> <a href="main_8cpp_source.html#l00160">main.cpp:160</a></div></div>
 <div class="ttc" id="amenu_8hpp_html"><div class="ttname"><a href="menu_8hpp.html">menu.hpp</a></div></div>
 <div class="ttc" id="amotor_control_8hpp_html"><div class="ttname"><a href="motor_control_8hpp.html">motorControl.hpp</a></div></div>
 <div class="ttc" id="aoled_8hpp_html"><div class="ttname"><a href="oled_8hpp.html">oled.hpp</a></div></div>
