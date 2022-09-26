@@ -101,7 +101,12 @@ var NAVTREE =
     [ "Gallery", "md_docs_markdown_pages_gallery.html", [
       [ "Clap Pattern", "md_docs_markdown_pages_gallery.html#clap_pattern", null ]
     ] ],
-    [ "Issue Guide", "md_docs_markdown_pages_issue_guide.html", null ],
+    [ "Issue Guide", "md_docs_markdown_pages_issue_guide.html", [
+      [ "New Issue", "md_docs_markdown_pages_issue_guide.html#new_issue", null ],
+      [ "Issue Example", "md_docs_markdown_pages_issue_guide.html#issue_example", null ],
+      [ "Discussion Section", "md_docs_markdown_pages_issue_guide.html#discussion_section", null ],
+      [ "Pull Request", "md_docs_markdown_pages_issue_guide.html#pull_request", null ]
+    ] ],
     [ "PCB Assembly", "md_docs_markdown_pages_pcb_assembly.html", [
       [ "How To Get The PCB", "md_docs_markdown_pages_pcb_assembly.html#how_to_get_the_pcb", null ],
       [ "How To Get PCB Components", "md_docs_markdown_pages_pcb_assembly.html#how_to_get_the_right_components", null ],
@@ -199,7 +204,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "light_control_8cpp.html",
-"menu_8hpp.html#a1e5c2abc1c3243b59fef84516f50a157"
+"menu_8hpp.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

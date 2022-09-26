@@ -1,13 +1,13 @@
 @page pcb_assembly PCB Assembly
 
-@section how_to_get_the_pcb How To Get The PCB
+@section how_to_get_the_pcb How To Get The PCB?
 
 This is a tricky question. If you never made a PCB and you doesn't want to try it, maybe I can help, but it's not shore.
 I can make a few in a month but it's depending on my free time, and suppliers( shortage... ). If you are in trouble
 with the PCB you can contact me and I will try to help.
 
 The other option is to create the PCB for yourself. It is not that hard actually, you need a good soldering iron and a
-tweezer. There are a ton of videos about soldering online, but here is my preferred one:
+tweezer. There are a ton of videos online about soldering, but here is my preferred one:
 
 \htmlonly
 
@@ -23,7 +23,7 @@ and fill the settings as shown below:
 
 @note Please check the settings twice. A wrong setting can be a huge difference in price!
 
-@section how_to_get_the_right_components How To Get PCB Components
+@section how_to_get_the_right_components How To Get PCB Components?
 
 The whole PCB is designed with [KiCad](https://www.kicad.org/) and it has a very useful plugin
 called [Interactive HTML BOM](https://github.com/openscopeproject/InteractiveHtmlBom).
@@ -43,7 +43,7 @@ KiCad.
 
 @section schematic Schematics
 
-This section explains the different modules ant their job on the panel. You can skip this part if you
+This section explains the different modules and their job on the panel. You can skip this part if you
 are not interested in circuit design.
 
 \htmlonly
@@ -58,16 +58,17 @@ are not interested in circuit design.
 
 __This part consists of seven amplifier stages:__
 
-1. __Microphone Preamplifier:__ The condenser microphone generates a very low signal. This stage amplifies this signal
-to make it useable for the other stages. Also this amplified signal is connected to the A3 ADC channel by default.
+1. __Microphone Preamplifier:__ The condenser microphone generates a very low amplitude signal. This stage amplifies this
+signal to make it useable for the other stages. Also this amplified signal is connected to the A3 ADC channel by default.
 2. __Half-Wave Rectifier:__ This stage consumes two amplifiers. In this configuration it is a peak detector. The software
 is using this signal to detect the noise floor of the environment. It is connected to A2 ADC channel.
 3. __Low-Pass Filter:__ This stage attenuates frequency components above 500Hz. It could be used for something, but
 this signal is not used by default. If you want, you can switch the state of JP1 and JP2 jumpers to use this channel.
 In this way it will be connected to A3 ADC channel instead of the preamplifier output.
+__The software does not support it, you have to implement it if needed.__
 4. __High-Pass Filter:__ This stage attenuates frequency components below 2000Hz. It is connected to A1 ADC channel.
 5. __Band-Pass Filter:__ The last stage consumes two amplifiers. It has a pass band between 500Hz and 2000Hz. That
-means it passes all frequency components in this range, but outside this band it attenuates.
+means it passes all frequency components in this range, but outside this band, it attenuates.
 
 @subsection half_supply_generator Half-Supply Generator
 
@@ -114,11 +115,12 @@ The encoder is basically three switch, they has to be debounced. This section do
 @section pcb_test PCB Test
 
 1. After you have assembled the PCB it is necessary to test it, before connecting it to the Arduino.
-This is the smoke test. The best method is to have a bench power supply, and power the board up with
-5V at 100mA current limit. The power LED should turn on, and the current consumption should be less
+This is the smoke test. The best method is to have a bench power supply, and power up the board with
+5V and 100mA current limit. The power LED should turn on, and the current consumption should be less
 than 50mA( for just the bare PCB ).
-2. If the smoke test succeeds it's time to connect the PCB to the Arduino UNO and upload the firmware
-to it. If you can program the Arduino without a problem that is a good sign.
+2. If the smoke test succeeds it's time to connect the PCB to the Arduino UNO and
+@ref software_guide "upload the firmware" to it. If you can program the Arduino without a problem that
+is a good sign.
 3. Lastly you have to connect all the peripherals to the board and try them before the final assembly.
 For this step you need all the @ref cable_preparation "peripherals and cables to be prepared". Every
 connector is labeled on the PCB, so you can find the right one for each peripheral easily.

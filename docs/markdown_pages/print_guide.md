@@ -3,13 +3,14 @@
 I have made a lot of iterations for some parts to make them perfectly fit. I had
 a ton of ideas at the beginning how to make this whole thing happen, so I tried
 them and I chose the solution that I think is the best. After a month of tweaking
-I think the models are ready for anyone, every FDM printer should make them.
+I think the models are ready for anyone. Every FDM printer nowdays should be capable
+to make them.
 
 ![Prototypes](proto_parts.jpg)
 
 If you doesn't like the color design of my version, you can use different colors
-and materials of course. Be creative and create something that you like to see
-on your desk.
+and materials of course. Be creative and create something that you would like to
+see on your desk.
 
 @note Only the atomizer socket should be printed from PETG, because it will hold
 some water.
@@ -370,7 +371,7 @@ pattern on the front panel is visible at low light conditions.
 @section custom_artwork Custom Artwork
 
 If you doesn't like the artwork on the box or if you want to replace it with your own,
-there is an option for that as well. There are those components without artwork_
+there is an option for that as well. There are those components without artwork:
 * <a href="box_front_naked_1pcs.stl" target="_blank"><b>box_front_naked_1pcs.stl</b></a>
 * <a href="box_top_naked_1pcs.stl" target="_blank"><b>box_top_naked_1pcs.stl</b></a>
 * <a href="display_holder_naked_1pcs.stl" target="_blank"><b>display_holder_naked_1pcs.stl</b></a>

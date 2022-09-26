@@ -144,6 +144,10 @@ var NAVTREEINDEX1 =
 "md_docs_markdown_pages_gallery.html":[2],
 "md_docs_markdown_pages_gallery.html#clap_pattern":[2,0],
 "md_docs_markdown_pages_issue_guide.html":[3],
+"md_docs_markdown_pages_issue_guide.html#discussion_section":[3,2],
+"md_docs_markdown_pages_issue_guide.html#issue_example":[3,1],
+"md_docs_markdown_pages_issue_guide.html#new_issue":[3,0],
+"md_docs_markdown_pages_issue_guide.html#pull_request":[3,3],
 "md_docs_markdown_pages_pcb_assembly.html":[4],
 "md_docs_markdown_pages_pcb_assembly.html#analog_stage":[4,2,0],
 "md_docs_markdown_pages_pcb_assembly.html#back_endstop_cable":[4,4,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX1 =
 "menu_8cpp.html#af1ed90b4442d1f717a133fabd0f9d714":[10,0,1,1,5,27],
 "menu_8cpp.html#af3ee8b0d37244bc474229e03cb7dd8f1":[10,0,1,1,5,29],
 "menu_8cpp.html#af63afc520dcef97967678aa6dbc973b9":[10,0,1,1,5,13],
-"menu_8cpp_source.html":[10,0,1,1,5],
-"menu_8hpp.html":[10,0,1,0,6],
-"menu_8hpp.html#a01ed23b054e61f5f8c3d60ac0962b882":[10,0,1,0,6,36],
-"menu_8hpp.html#a05c76b51924f5f8f4ef70cae6d07eb90":[10,0,1,0,6,3],
-"menu_8hpp.html#a1970379f59b8760eecae1c62b524dc48":[10,0,1,0,6,13]
+"menu_8cpp_source.html":[10,0,1,1,5]
 };
