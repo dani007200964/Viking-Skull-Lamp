@@ -1,6 +1,6 @@
 ---
 name: 📜 Documentation problem
-about: Create a report to help us improve
+about: Report a problem in the documentation
 title: ''
 labels: documentation
 assignees: ''
@@ -16,6 +16,7 @@ Steps to reproduce the behavior:
 2. The problem is on section '...'
 3. In the documentation there is '...' instead of '...'
 4. '...' is missing from '...'
+5. I don't understand this step or section: '...'
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.

@@ -1,6 +1,6 @@
 ---
 name: 🛠️ Mechanical problem
-about: Create a report to help us improve
+about: Report a mechanical related problem
 title: ''
 labels: mechanical
 assignees: ''

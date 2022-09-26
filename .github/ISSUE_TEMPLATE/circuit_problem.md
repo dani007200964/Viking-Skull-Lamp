@@ -1,6 +1,6 @@
 ---
 name: ⚡ Circuit problem
-about: Create a report to help us improve
+about: Report a problem with the circuit
 title: ''
 labels: circuit
 assignees: ''
