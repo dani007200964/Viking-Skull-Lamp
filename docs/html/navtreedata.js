@@ -97,6 +97,7 @@ var NAVTREE =
       [ "Step 69 - Insert Top", "md_docs_markdown_pages_assembly.html#step_69_insert_top", null ],
       [ "Step 70 - Fix Top", "md_docs_markdown_pages_assembly.html#step_70_fix_top", null ]
     ] ],
+    [ "Components", "md_docs_markdown_pages_components.html", null ],
     [ "Gallery", "md_docs_markdown_pages_gallery.html", [
       [ "Clap Pattern", "md_docs_markdown_pages_gallery.html#clap_pattern", null ]
     ] ],
@@ -198,7 +199,7 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "light_control_8cpp.html",
-"menu_8hpp.html#a21eb027c354ff4bc24b8ca00cd07b722"
+"menu_8hpp.html#a1e5c2abc1c3243b59fef84516f50a157"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

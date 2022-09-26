@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gallery_0',['Gallery',['../md_docs_markdown_pages_gallery.html',1,'']]]
+  ['components_0',['Components',['../md_docs_markdown_pages_components.html',1,'']]]
 ];

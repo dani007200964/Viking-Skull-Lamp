@@ -39,26 +39,29 @@ through the whole assembly procedure. Before you start buying the components, pl
 @ref required_tools "required tools" page. It contains everything you need to create this device. If you doesn't
 have a tool it will be clear at the beginning.
 
-At the beginning I would say that I'm a human and I have made this whole thing on my own. I tried to not make mistakes in the
-device or it's documentation, but mistakes happen. If you find a problem, our something does not understandable, please visit
-the @ref issue_guide "issue guide" section. There is an example how to submit an issue, and I will try my best to fix them.
+I tried to not make mistakes in the device or it's documentation, but I'm just a regular persons  sometimes
+I make mistakes as everyone else. If you find a problem, our something does not understandable, please visit
+the @ref issue_guide "issue guide" section. There is an example how to submit an issue. If you report an issue
+I will try my best to fix it.
 
-This journey consists of four stages. You have to start from the first and progress upwards.
+This journey consists of five stages. You have to start from the first and progress upwards.
 
-1. \ref print_guide "3D Printing Parts:" Firstly, you have to print all the necessary parts. There are some tricky ones
-so read the __print guide__ section carefully.
+1. \ref components "Sourcing Components:" Firstly you have to source the required parts and materials.
 
-2. \ref pcb_assembly "PCB Assembly:" I have designed a custom PCB for this project. It expands the functionality of
-the Arduino UNO platform. It controls all the peripherals in the system.
+2. \ref print_guide "3D Printing Parts:" Next, you have to print all the necessary parts. There are some tricky ones
+so read the \ref print_guide "print guide" section carefully.
 
-3. \ref software_guide "Software Guide:" Of course this project have a custom firmware. It is written in C++ and I
+3. \ref pcb_assembly "PCB Assembly:" I have designed a custom PCB for this project. It expands the functionality of
+the Arduino UNO platform. It controls all the peripherals in the system. It was necessary to make it fit to this size.
+
+4. \ref software_guide "Software Guide:" Of course this project have a custom firmware. It is written in C++ and I
 have used PlatformIO as a development tool.
 
-4. \ref assembly_instructions "Mechanical Assembly:" Finally it's time to assemble the whole thing.
+5. \ref assembly_instructions "Mechanical Assembly:" Finally it's time to assemble the whole thing.
 
 __Donation__
 
-If this project help you reduce time to develop, you can give me a cup of coffee \emoji :coffee: \emoji :coffee: \emoji :coffee:
+If you like my work, and if it was useful for you, please consider buying me a coffee or tipping. \emoji :coffee: \emoji :coffee: \emoji :coffee:
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=YFGZD78H6K2CS)
 

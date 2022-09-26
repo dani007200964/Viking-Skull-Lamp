@@ -38,12 +38,12 @@ Just set the layer height to 0.2mm and print them.
 ![Motor Mount](print_motor_mount_1pcs.png)
 
 @pre
-* __Required quantity:__ 2pcs
+* __Required quantity:__ 1pcs
 * __Color:__ \emoji :yellow_circle: Yellow
 * __Recommended material:__ PLA
 * __Material, that I have used:__ [Prusament PLA Pineapple Yellow 1kg](https://www.prusa3d.com/product/prusament-pla-pineapple-yellow-1kg/)
-* __Required filament:__ 0.33g
-* __Estimated print time:__ 3m
+* __Required filament:__ 3.47g
+* __Estimated print time:__ 39m
 * __File for Prusa Slicer:__ <a href="motor_mount_1pcs.3mf" target="_blank"><b>motor_mount_1pcs.3mf</b></a>
 * __File for other slicers:__ <a href="motor_mount_1pcs.stl" target="_blank"><b>motor_mount_1pcs.stl</b></a>
 

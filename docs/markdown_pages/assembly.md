@@ -18,7 +18,7 @@
 
 @pre Required parts:
 * @ref box_bottom "Box Bottom" - 1pcs
-* __Rubber Feet__         - 4pcs
+* __Rubber Feet__              - 4pcs
 
 The four rubber feet has to glued to the bottom of the box.
 Rubber feet, that I used can be found
@@ -30,8 +30,8 @@ Rubber feet, that I used can be found
 
 @pre Required parts:
 * @ref right_endstop_mount "Right Endstop Mount" - 1pcs
-* @ref left_endstop_mount "Left Endstop Mount"  - 1pcs
-* __M3 locknut__                   - 4pcs
+* @ref left_endstop_mount "Left Endstop Mount"   - 1pcs
+* __M3 Lock Nut__                                - 4pcs
 
 Four M3 locknuts has to be pressed to the endstop mounts.
 
@@ -40,7 +40,7 @@ Four M3 locknuts has to be pressed to the endstop mounts.
 ![Endstop Mount Screws](asm_stp003_endstop_mount_screws.JPG)
 
 @pre Required parts:
-* __M3 x 18mm Flat Head Screw__ - 4pcs
+* __M3 x 18mm FHCS__ - 4pcs
 
 Four M3 x 18mm Flat Head Screw has to be inserted to the endstop mount holes.
 
@@ -49,9 +49,9 @@ Four M3 x 18mm Flat Head Screw has to be inserted to the endstop mount holes.
 ![Insert Bearings](asm_stp004_insert_bearings.JPG)
 
 @pre Required parts:
-* __26 x 17 x 5mm Bearings__ - 4pcs
+* __61803 ZZ Bearings__ - 4pcs
 
-Insert four 26 x 17 x 5mm Bearings.
+Insert four 61803 ZZ Bearings.
 
 @section step_5_locking_endstop_mounts Step 5 - Locking Endstop Mounts
 
@@ -70,8 +70,8 @@ to move a bit sideways.
 @pre Required parts:
 * @ref endstop_knob "Enstop Knob"        - 2pcs
 * @ref moving_platform "Moving Platform" - 1pcs
-* __M3 x 16mm Regular Screw__            - 2pcs
-* __M3 Nut ( Regular )__                 - 2pcs
+* __M3 x 16mm SHCS__                     - 2pcs
+* __M3 Hexnut__                          - 2pcs
 
 Insert the two knobs to the rails on the moving platform.
 
@@ -146,8 +146,8 @@ Cut an M3 thread to the hole on the side.
 
 @pre Required parts:
 * @ref step_11_motor_shaft_thread_cutting "Eccentric Shaft With Thread" - 1pcs
-* __M3 x 12mm Flat Head__ - 1pcs
-* __7mm OD, 3.6mm ID 8mm Height__ [Spacer](https://www.hestore.hu/prod_10024539.html) - 1pcs
+* __M3 x 12mm FHCS__ - 1pcs
+* [Spacer](https://www.hestore.hu/prod_10024539.html) __OD=7mm ID=3.6mm H=8mm__ - 1pcs
 
 Assemble the eccentric shaft as seen on the picture above.
 
@@ -157,7 +157,7 @@ Assemble the eccentric shaft as seen on the picture above.
 
 @pre Required parts:
 * @ref motor_mount "Motor Mount" - 1pcs
-* __M1.6 x 5mm Flat Head__ [Screw](https://www.tme.com/us/en-us/details/b1.6x5_bn661/bolts/bossard/5512816/) - 2pcs
+* __M1.6 x 5mm FHCS__ - 2pcs
 
 Insert the two screws into the motor mount.
 
@@ -193,7 +193,7 @@ Press the eccentric shaft to the motor shaft.
 ![Insert The Motor Mount](asm_stp017_insert_the_motor_mount.JPG)
 
 @pre Required parts:
-* __M3 x 10mm Flat Head__ - 2pcs
+* __M3 x 10mm FHCS__ - 2pcs
 
 Insert the motor mount to the base. From the bottom insert two M3 x 10mm flat head crews.
 Tighten the two screws, but __not so hard__, the motor mount has to slide back and forward freely.
@@ -232,7 +232,7 @@ Lock the power jack with it's nut. A tweezer can be helpful for this operation.
 ![Insert Endstops](asm_stp020_insert_endstops.JPG)
 
 @pre Required parts:
-* __M2.3 x 10mm Regular__ [Screws](https://www.tme.com/us/en-us/details/b2.3x10_bn330/bolts/bossard/1123106/) - 4pcs
+* __M2.3 x 10mm SHCS__ [Screws](https://www.tme.com/us/en-us/details/b2.3x10_bn330/bolts/bossard/1123106/) - 4pcs
 * __Front Endstop__ @ref front_endstop_cable "Cable Assembly" - 1pcs
 * __Back Endstop__ @ref back_endstop_cable "Cable Assembly" - 1pcs
 
@@ -246,8 +246,8 @@ it require some force.
 ![Insert Endstops](asm_stp021_insert_pcb_screws.JPG)
 
 @pre Required parts:
-* __M3 x 30mm Flat Head Screw__ - 1pcs
-* __M3 x 16mm Flat Head Screw__ - 3pcs
+* __M3 x 30mm FHCS__ - 1pcs
+* __M3 x 16mm FHCS__ - 3pcs
 
 \emoji :orange_circle: M3 X 16mm screws.
 
@@ -307,7 +307,7 @@ Insert the plastic washer to the screw.
 ![Lock The PCB](asm_stp027_lock_pcb.JPG)
 
 @pre Required parts:
-* __M3 Locknut__ - 1pcs
+* __M3 Lock Nut__ - 1pcs
 
 Lock the screw with a nut.
 
@@ -325,7 +325,7 @@ Insert the remaining plastic PCB washers.
 ![Lock PCB Screws](asm_stp029_lock_pcb_screws.JPG)
 
 @pre Required parts:
-* __M3 x 5mm Regular Screw__ - 3pcs
+* __M3 x 5mm SHCS__ - 3pcs
 
 Lock the PCB with the screws.
 
@@ -359,7 +359,7 @@ Glue the magnet into the magnet holder.
 
 @pre Required parts:
 * @ref box_front "Box Front" - 1pcs
-* __M3 Locknut__ - 2pcs
+* __M3 Lock Nut__ - 2pcs
 
 Insert the nuts, to the slots on the front panel.
 
@@ -380,8 +380,8 @@ Cut an M3 thread both sides of the display holder.
 ![Insert Display Holder Screws](asm_stp034_insert_display_holder_screws.JPG)
 
 @pre Required parts:
-* __M3 x 8mm Imbus Head Screw__  - 1pcs
-* __M3 x 16mm Imbus Head Screw__ - 1pcs
+* __M3 x 8mm SHCS__  - 1pcs
+* __M3 x 16mm SHCS__ - 1pcs
 * @ref step_33_display_holder_thread "Display Holder Assembly" - 1pcs
 * @ref step_32_insert_front_nuts "Front Assembly" - 1pcs
 
@@ -400,7 +400,7 @@ __2.__ Insert the screws from inside of the display holder.
 ![Insert Display Holder Nuts](asm_stp035_insert_display_holder_nuts.JPG)
 
 @pre Required parts:
-* __M3 Locknut__ - 2pcs
+* __M3 Lock Nut__ - 2pcs
 
 Tighten the screws with an __Allen Key__ from the inside.
 
@@ -439,7 +439,7 @@ Insert the magnet in the slot on the display holder.
 @pre Required parts:
 * @ref short_screw_spacer "Short Screw Spacer" - 1pcs
 * @ref long_screw_spacer "Long Screw Spacer"  - 1pcs
-* __M3 x 8mm Imbus Head Screw__   - 2pcs
+* __M3 x 8mm SHCS__   - 2pcs
 
 Fix the knobs to the display holder.
 
@@ -525,7 +525,7 @@ It should look like this.
 ![Lock Front](asm_stp044_lock_front.JPG)
 
 @pre Required parts:
-* __M3 x 12mm Flat Head Screw__ - 2pcs
+* __M3 x 12mm FHCS__ - 2pcs
 
 Tighten the screws on the bottom to lock the front panel.
 
@@ -672,8 +672,8 @@ It requires to rebuild the software and upload it again.
 
 @pre Required parts:
 * @ref led_holder "Led Holder" - 1pcs
-* __M3 Locknut__          - 5pcs
-* __M3  Regular Nut__     - 4pcs
+* __M3 Lock Nut__   - 5pcs
+* __M3  Hexut__     - 4pcs
 
 Insert the nuts into their slots.
 
@@ -728,8 +728,8 @@ wont work. Trust me I have tried it...
 ![Fix Atomizer Socket](asm_stp058_fix_atomizer_socket.JPG)
 
 @pre Required parts:
-* __M3 x 20mm Flat Head Screw__ - 5pcs
-* __M3 Locknut__                - 4pcs
+* __M3 x 20mm FHCS__ - 5pcs
+* __M3 Lock Nut__    - 4pcs
 
 \emoji :purple_circle: Tighten the screws using a __star pattern__. If it's too loose, it will leak.
 
@@ -754,8 +754,9 @@ another one. To fix the humidifier PCB, at least two screws are required.
 * __M3 x 8mm Imbus Head Screw__ - 2pcs
 * __M3 x 0.5mm Plastic Spacer__ - 8pcs
 
-1. Insert the two screws from the top.
-2. Insert 4 - 4 plastic spacer to the screw from the bottom.
+__1.__ Insert the two screws from the top.
+
+__2.__ Insert 4 - 4 plastic spacer to the screw from the bottom.
 
 @section step_61_fix_humidifier_pcb Step 61 - Fix Humidifier PCB
 
@@ -770,7 +771,7 @@ another one. To fix the humidifier PCB, at least two screws are required.
 
 @section step_62_humidifier_test Step 62 - Humidifier Test
 
-1. You have to make shore that the humidifier does not leak.
+__1.__ You have to make shore that the humidifier does not leak.
 
 ![Fill The Tank](asm_stp062_humidifier_test.JPG)
 
@@ -795,7 +796,7 @@ some fog \emoji :ghost:
 
 \endhtmlonly
 
-2. Leave some water in the tank and put some dry paper towels between the tank and the table.
+__2.__ Leave some water in the tank and put some dry paper towels between the tank and the table.
 Let it on the table for a day at least. If it does not leak after a day it probably good.
 
 @section step_63_insert_led_strip Step 63 - Insert LED Strip
@@ -827,7 +828,7 @@ and it worked perfectly.
 
 @pre Required parts:
 * @ref box_top "Box Top"     - 1pcs
-* __M3 x 10mm D-Head Screw__ - 2pcs
+* __M3 x 10mm BHCS__ - 2pcs
 
 Tighten the two screws to fix the skull to the top.
 
@@ -869,7 +870,7 @@ Insert the LED holder to the base.
 ![Insert Top](asm_stp069_insert_top.JPG)
 
 @pre Required parts:
-* __M3 x 20mm Flat Head Screw__ - 4pcs
+* __M3 x 20mm FHCS__ - 4pcs
 
 1. Insert the top part.
 2. Tighten the 4 screws on the sides( 2 on the back 1 - 1 on the front sides ).
@@ -879,6 +880,6 @@ Insert the LED holder to the base.
 ![Fix Top](asm_stp070_lock_top.JPG)
 
 @pre Required parts:
-* __M3 x 20mm Flat Head Screw__ - 4pcs
+* __M3 x 20mm FHCS__ - 4pcs
 
 ![](finish_logo.png)

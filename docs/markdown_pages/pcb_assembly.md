@@ -233,6 +233,9 @@ The connector, that I used can be found [here](https://www.tme.eu/hu/details/phr
 Crimping tool for the connector, that I used can be found
 [here](https://www.tme.com/us/en-us/details/fut.pa-09/crimping-tools-for-terminals/engineer/pa-09/).
 
+Encoder module, that I used can be found
+[here](https://www.hestore.hu/prod_10043306.html).
+
 @note On the encoder side, the wires has to be soldered to the pins on the encoder module.
 Use heat-shrink tubes to isolate the wires from each other.
 

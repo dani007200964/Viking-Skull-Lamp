@@ -16,6 +16,8 @@ Steps to reproduce the behavior:
 2. The used microcontroller is: '....'
 3. The used environment and it's version is: '....'
 4. The used OS on your computer is: '....'
+5. The humidity of the roomis: '...'
+6. The currency of the gold is: '...'
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.

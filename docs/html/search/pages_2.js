@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['issue_20guide_0',['Issue Guide',['../md_docs_markdown_pages_issue_guide.html',1,'']]]
+  ['gallery_0',['Gallery',['../md_docs_markdown_pages_gallery.html',1,'']]]
 ];
