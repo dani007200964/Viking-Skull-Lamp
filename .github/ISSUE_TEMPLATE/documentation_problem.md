@@ -1,5 +1,5 @@
 ---
-name: Documentation problem
+name: 📜 Documentation problem
 about: Create a report to help us improve
 title: ''
 labels: documentation

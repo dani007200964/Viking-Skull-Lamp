@@ -1,5 +1,5 @@
 ---
-name: Mechanical problem
+name: 🛠️ Mechanical problem
 about: Create a report to help us improve
 title: ''
 labels: mechanical

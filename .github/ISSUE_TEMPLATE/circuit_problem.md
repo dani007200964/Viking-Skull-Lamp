@@ -1,5 +1,5 @@
 ---
-name: Circuit problem
+name: ⚡ Circuit problem
 about: Create a report to help us improve
 title: ''
 labels: circuit
