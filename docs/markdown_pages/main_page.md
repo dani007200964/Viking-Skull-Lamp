@@ -15,7 +15,7 @@ meanwhile. Here you can see what can this thing do. Also, there are some nice ph
 \endhtmlonly
 
 __Features:__
-* 30 addressable  LED to make it shine \emoji :rotating_light:
+* 30 addressable LED to make it shine \emoji :rotating_light:
 * Microphone for \emoji :studio_microphone:
   * Music reactive lighting \emoji :musical_note:
   * @ref clap_pattern "Clap switch" \emoji :clap:

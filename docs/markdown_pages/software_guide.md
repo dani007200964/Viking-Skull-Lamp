@@ -2,8 +2,8 @@
 
 @section environment Environment
 
-In this project I used [Visual Studio Code](https://code.visualstudio.com/). It is an
-open source, multi-platform text editor, which have a lot of useful plugins. One of
+In this project, I used [Visual Studio Code](https://code.visualstudio.com/). It is an
+open-source, multi-platform text editor, which has a lot of useful plugins. One of
 those plugins is [PlatformIO](https://platformio.org/), which is a complete build system
 for embedded devices. It is very easy to use and works very well.
 
@@ -16,7 +16,7 @@ __1.__ Download and install \emoji :package: [Visual Studio Code](https://code.v
 __2.__ Open VS Code and install the PlatformIO extension.
 
 __3.__ Download the latest [release](https://github.com/dani007200964/Viking-Skull-Lamp/releases)
-from the Viking Skull Lamp repository and unpack it to somewhere on your machine.
+from the Viking Skull Lamp repository and unpack it somewhere on your machine.
 
 __4.__ Open VS Code and follow the steps below.
 
@@ -47,7 +47,7 @@ power chord.
 
 ![Classes And Files](classes_files_section.png)
 
-Of course it is an open source project, you can modify it as you like. The software
+Of course, it is an open-source project, you can modify it as you like. The software
 is no exception. I tried to comment it as much as possible to make it Doxygen compatible.
 To understand the structure and the logic behind the source code, please check out
 the __Classes__ and __Files__ section at the bottom left.

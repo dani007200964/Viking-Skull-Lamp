@@ -1,23 +1,23 @@
 @page print_guide Print Guide
 
 I have made a lot of iterations for some parts to make them perfectly fit. I had
-a ton of ideas at the beginning how to make this whole thing happen, so I tried
-them and I chose the solution that I think is the best. After a month of tweaking
-I think the models are ready for anyone. Every FDM printer nowdays should be capable
+a ton of ideas at the beginning on how to make this whole thing happen, so I tried
+them and I chose the solution that I think is the best. After a month of tweaking,
+I think the models are ready for anyone. Every FDM printer nowadays should be capable
 to make them.
 
 ![Prototypes](proto_parts.jpg)
 
-If you doesn't like the color design of my version, you can use different colors
+If you don't like the color design of my version, you can use different colors
 and materials of course. Be creative and create something that you would like to
 see on your desk.
 
-@note Only the atomizer socket should be printed from PETG, because it will hold
+@note Only the atomizer socket should be printed from PETG because it will hold
 some water.
 
 @section basic_parts Basic Parts
 
-Firstly let's tart with the easy ones. These parts does not require any advanced settings.
+Firstly let's start with the easy ones. These parts do not require any advanced settings.
 Just set the layer height to 0.2mm and print them.
 
 @subsection display_clamp Display Clamp
@@ -248,7 +248,7 @@ Just set the layer height to 0.2mm and print them.
 
 ![Skull](print_skull_1pcs.png)
 
-@note This model need some support on the teeth area. I used __Paint On Support__
+@note This model needs some support in the teeth area. I used __Paint On Support__
 function in Prusa Slicer and it worked like a charm.
 
 ![Skull Support](print_skull_1pcs_support.png)
@@ -272,10 +272,10 @@ With Prusa Slicer it is easy, I have added the color change commands to the sett
 
 ![Box Front](print_box_front_with_art_1pcs.png)
 
-This part is made of three section:
-* Bottom one is black
+This part is made of three sections:
+* The bottom one is black
 * In the middle there is a special material, that is glow in the dark. This way the
-pattern on the front panel is visible at low light conditions.
+pattern on the front panel is visible in low light conditions.
 * The top section is black as well.
 
 ![Box Front Layer Stackup](print_box_front_with_art_1pcs_color_setup.png)
@@ -298,9 +298,9 @@ pattern on the front panel is visible at low light conditions.
 
 ![Box Top](print_box_top_with_art_1pcs.png)
 
-This part is made of two section:
-* Bottom one is white
-* Top one is black
+This part is made of two sections:
+* The bottom one is white
+* The top one is black
 
 ![Box Top Layer Stackup](print_box_top_with_art_1pcs_color_setup.png)
 
@@ -322,9 +322,9 @@ This part is made of two section:
 
 ![Display Holder Front](print_display_holder_front_with_art_1pcs.png)
 
-This part is made of two section:
-* Bottom one is special material, that is glow in the dark.
-* Top one is black
+This part is made of two sections:
+* The bottom one is special material, that is glow in the dark.
+* The top one is black
 
 ![Display Holder Front Layer Stackup](print_display_holder_front_with_art_1pcs_color_setup.png)
 
@@ -346,10 +346,10 @@ This part is made of two section:
 
 ![Encoder Knob](print_encoder_knob_with_art_1pcs.png)
 
-This part is made of three section:
+This part is made of three sections:
 * Bottom one is black
 * In the middle there is a special material, that is glow in the dark. This way the
-pattern on the front panel is visible at low light conditions.
+pattern on the front panel is visible in low light conditions.
 * The top section is black as well.
 
 ![Encoder Knob Layer Stackup](print_encoder_knob_with_art_1pcs_color_setup.png)
@@ -370,19 +370,19 @@ pattern on the front panel is visible at low light conditions.
 
 @section custom_artwork Custom Artwork
 
-If you doesn't like the artwork on the box or if you want to replace it with your own,
+If you don't like the artwork on the box or if you want to replace it with your own,
 there is an option for that as well. There are those components without artwork:
 * <a href="box_front_naked_1pcs.stl" target="_blank"><b>box_front_naked_1pcs.stl</b></a>
 * <a href="box_top_naked_1pcs.stl" target="_blank"><b>box_top_naked_1pcs.stl</b></a>
 * <a href="display_holder_naked_1pcs.stl" target="_blank"><b>display_holder_naked_1pcs.stl</b></a>
 * <a href="encoder_knob_naked_1pcs.stl" target="_blank"><b>encoder_knob_naked_1pcs.stl</b></a>
 
-I used [Blender](https://www.blender.org/) and it's __Boolean__ feature to embed
-the artwork to the models. The easiest way is to:
+I used [Blender](https://www.blender.org/) and its __Boolean__ feature to embed
+the artwork into the models. The easiest way is to:
 1. Create an __SVG__ file from the art bitmap( or use SVG from the beginning ) and import it to Blender.
 2. Create a 3D mesh from the imported path.
 3. Place the mesh to the component where you want to use it. The two mesh has to intersect.
-4. Apply the __Boolean Modifier__ .
+4. Apply the __Boolean Modifier__.
 
 There is a video about the subject.
 
@@ -395,8 +395,8 @@ There is a video about the subject.
 @section skull_replacement Skull Replacement
 
 I think the base section of the model( without artwork ) can be used to create awesome lamps.
-For this reason the top part( in this case the skull ) is easily replaceable with anything.
-It secured by only two screws. You can put any model on the top instead of the skull. I think
+For this reason, the top part( in this case the skull ) is easily replaceable with anything.
+It is secured by only two screws. You can put any model on the top instead of the skull. I think
 it would be awesome with a stormtrooper helmet for example.
 
 ![Top Dimensions](top_dimensions.svg)

@@ -108,8 +108,8 @@ var NAVTREE =
       [ "Pull Request", "md_docs_markdown_pages_issue_guide.html#pull_request", null ]
     ] ],
     [ "PCB Assembly", "md_docs_markdown_pages_pcb_assembly.html", [
-      [ "How To Get The PCB", "md_docs_markdown_pages_pcb_assembly.html#how_to_get_the_pcb", null ],
-      [ "How To Get PCB Components", "md_docs_markdown_pages_pcb_assembly.html#how_to_get_the_right_components", null ],
+      [ "How To Get The PCB?", "md_docs_markdown_pages_pcb_assembly.html#how_to_get_the_pcb", null ],
+      [ "How To Get PCB Components?", "md_docs_markdown_pages_pcb_assembly.html#how_to_get_the_right_components", null ],
       [ "Schematics", "md_docs_markdown_pages_pcb_assembly.html#schematic", [
         [ "Analog Stage", "md_docs_markdown_pages_pcb_assembly.html#analog_stage", null ],
         [ "Half-Supply Generator", "md_docs_markdown_pages_pcb_assembly.html#half_supply_generator", null ],
