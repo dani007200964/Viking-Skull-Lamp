@@ -1,6 +1,6 @@
-#Viking Skull Lamp ![Build Status](https://github.com/dani007200964/Viking-Skull-Lamp/actions/workflows/compile_test.yml/badge.svg?branch=main)
+# Viking Skull Lamp ![Build Status](https://github.com/dani007200964/Viking-Skull-Lamp/actions/workflows/compile_test.yml/badge.svg?branch=main)
 
-__Introduction__
+## Introduction
 
 I ​made this project for my brother. He loves Halloween and asked me to create a Viking-style lamp that has a glowing skull.
 This is what comes out of this idea. I roughly had five months to test the device before publishing it. I can happily say
@@ -9,7 +9,7 @@ meanwhile. Here you can see what can this thing do.
 
 [![Tutorial VIdeo](https://img.youtube.com/vi/T2uH4yskYew/0.jpg)](https://www.youtube.com/watch?v=T2uH4yskYew)
 
-__Features:__
+## Features:
 * 30 addressable LED to make it shine :rotating_light:
 * Microphone for :studio_microphone:
   * Music reactive lighting :musical_note:
@@ -26,17 +26,21 @@ __Features:__
 * Humidifier for spooky smoke effect :ghost:
 * Magic runes on the front. They are glow-in-the-dark :star:
 
-__Donation__
+## Documentation
+
+The full documentation with detailed assembly instructions can be found [here]( --MISSING-- ).
+
+## Donation
 
 If you like my work, and if it was useful for you, please consider buying me a coffee or tipping. :coffee: :coffee: :coffee:
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=YFGZD78H6K2CS)
 
-__Contributing__
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-__Used Resources:__
+## Used Resources:
 
 * [FastLED](https://github.com/FastLED/FastLED)
 * [PlatformIO](https://platformio.org/)
@@ -55,7 +59,7 @@ __Used Resources:__
 * [OpenShot](https://www.openshot.org/)
 * [<model-viewer>](https://modelviewer.dev/)
 
-__License & Copyright__
+## License & Copyright
 
 © Daniel Hajnal
 
