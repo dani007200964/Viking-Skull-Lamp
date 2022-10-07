@@ -1,9 +1,9 @@
 <map id="ssd1306::writeCommand" name="ssd1306::writeCommand">
-<area shape="rect" id="node1" title=" " alt="" coords="647,81,812,107"/>
-<area shape="rect" id="node2" href="$classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" title=" " alt="" coords="303,5,413,31"/>
-<area shape="rect" id="node4" href="$classssd1306.html#a5062186eb98a5bb66a009d232b143172" title=" " alt="" coords="462,105,598,131"/>
-<area shape="rect" id="node9" href="$classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" title=" " alt="" coords="461,56,599,81"/>
-<area shape="rect" id="node11" href="$classssd1306.html#a9f49989e8e3d77edd76b620ad8d02f9f" title=" " alt="" coords="471,155,589,180"/>
+<area shape="rect" id="node1" title="Write command to the display." alt="" coords="647,81,812,107"/>
+<area shape="rect" id="node2" href="$classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" title="Init function for the display." alt="" coords="303,5,413,31"/>
+<area shape="rect" id="node4" href="$classssd1306.html#a5062186eb98a5bb66a009d232b143172" title="Turn off the oled panel." alt="" coords="462,105,598,131"/>
+<area shape="rect" id="node9" href="$classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" title="Turn on the oled panel." alt="" coords="461,56,599,81"/>
+<area shape="rect" id="node11" href="$classssd1306.html#a9f49989e8e3d77edd76b620ad8d02f9f" title="Update the content of the panel." alt="" coords="471,155,589,180"/>
 <area shape="rect" id="node3" href="$main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Device initialization section after reset." alt="" coords="5,31,60,56"/>
 <area shape="rect" id="node5" href="$motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" title="Close the font." alt="" coords="317,104,399,129"/>
 <area shape="rect" id="node8" href="$motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89" title="Initialize the motor." alt="" coords="145,141,217,167"/>

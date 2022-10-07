@@ -130,56 +130,79 @@ $(document).ready(function(){initNavTree('classmusic_channel.html',''); initResi
 </div><!--header-->
 <div class="contents">
 
+<p>This object is used to process audio data.  
+ <a href="classmusic_channel.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a775cb1edcda5602e132e348b0db6a39e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a775cb1edcda5602e132e348b0db6a39e">musicChannel</a> (int pin_p, float silentLimit_p)</td></tr>
+<tr class="memdesc:a775cb1edcda5602e132e348b0db6a39e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classmusic_channel.html#a775cb1edcda5602e132e348b0db6a39e">More...</a><br /></td></tr>
 <tr class="separator:a775cb1edcda5602e132e348b0db6a39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63d83ad88fed8490259c7b971f891fa3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a63d83ad88fed8490259c7b971f891fa3">musicChannel</a> (int pin_p, float silentLimit_p, float offset_p)</td></tr>
+<tr class="memdesc:a63d83ad88fed8490259c7b971f891fa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classmusic_channel.html#a63d83ad88fed8490259c7b971f891fa3">More...</a><br /></td></tr>
 <tr class="separator:a63d83ad88fed8490259c7b971f891fa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1827a4274202e0c1f47cd801ec2c3beb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a1827a4274202e0c1f47cd801ec2c3beb">musicChannel</a> (int pin_p, float silentLimit_p, float offset_p, float avgSampleFilterBeta_p, float ampleFilterBeta_p)</td></tr>
-<tr class="separator:a1827a4274202e0c1f47cd801ec2c3beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cd113412993ee6ad5e110cd285ad918"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a0cd113412993ee6ad5e110cd285ad918">musicChannel</a> (int pin_p, float silentLimit_p, float offset_p, float avgSampleFilterBeta_p, float sampleFilterBeta_p)</td></tr>
+<tr class="memdesc:a0cd113412993ee6ad5e110cd285ad918"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classmusic_channel.html#a0cd113412993ee6ad5e110cd285ad918">More...</a><br /></td></tr>
+<tr class="separator:a0cd113412993ee6ad5e110cd285ad918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15ae593419dfa3a15077ce490d75de3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a15ae593419dfa3a15077ce490d75de3e">update</a> ()</td></tr>
+<tr class="memdesc:a15ae593419dfa3a15077ce490d75de3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update function.  <a href="classmusic_channel.html#a15ae593419dfa3a15077ce490d75de3e">More...</a><br /></td></tr>
 <tr class="separator:a15ae593419dfa3a15077ce490d75de3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac14a633f7538397912500bffb9c5b8da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#ac14a633f7538397912500bffb9c5b8da">attachPeakFunction</a> (void(*peakFunc_p)(void))</td></tr>
+<tr class="memdesc:ac14a633f7538397912500bffb9c5b8da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attach a function to every peak event.  <a href="classmusic_channel.html#ac14a633f7538397912500bffb9c5b8da">More...</a><br /></td></tr>
 <tr class="separator:ac14a633f7538397912500bffb9c5b8da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:af995bd036f576b4725fab35b3eab9524"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#af995bd036f576b4725fab35b3eab9524">peak</a></td></tr>
+<tr class="memdesc:af995bd036f576b4725fab35b3eab9524"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flag, that indicates a peak event.  <a href="classmusic_channel.html#af995bd036f576b4725fab35b3eab9524">More...</a><br /></td></tr>
 <tr class="separator:af995bd036f576b4725fab35b3eab9524"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06946a2d1ec8d6868d5955f7d1ffda8a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a06946a2d1ec8d6868d5955f7d1ffda8a">signal</a> = 0.0</td></tr>
+<tr class="memdesc:a06946a2d1ec8d6868d5955f7d1ffda8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The filtered signal will be stored in this variable.  <a href="classmusic_channel.html#a06946a2d1ec8d6868d5955f7d1ffda8a">More...</a><br /></td></tr>
 <tr class="separator:a06946a2d1ec8d6868d5955f7d1ffda8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1820ac31323996926ea96fbdd12bc4cd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a1820ac31323996926ea96fbdd12bc4cd">signalMax</a> = 0.0</td></tr>
+<tr class="memdesc:a1820ac31323996926ea96fbdd12bc4cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum level of the signal is stored in this variable.  <a href="classmusic_channel.html#a1820ac31323996926ea96fbdd12bc4cd">More...</a><br /></td></tr>
 <tr class="separator:a1820ac31323996926ea96fbdd12bc4cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a621762193097f03ff25fc5a87e6dff0d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a621762193097f03ff25fc5a87e6dff0d">silentLimit</a> = 0.0</td></tr>
+<tr class="memdesc:a621762193097f03ff25fc5a87e6dff0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Silent limit.  <a href="classmusic_channel.html#a621762193097f03ff25fc5a87e6dff0d">More...</a><br /></td></tr>
 <tr class="separator:a621762193097f03ff25fc5a87e6dff0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a496b2c8098542bf33106c4c4470f519d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a496b2c8098542bf33106c4c4470f519d">pin</a> = A0</td></tr>
+<tr class="memdesc:a496b2c8098542bf33106c4c4470f519d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Analog input pin of the channel.  <a href="classmusic_channel.html#a496b2c8098542bf33106c4c4470f519d">More...</a><br /></td></tr>
 <tr class="separator:a496b2c8098542bf33106c4c4470f519d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0fe3e113f9469273f4cb53da8befc2b"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#ae0fe3e113f9469273f4cb53da8befc2b">avgSample</a> = 0.0</td></tr>
+<tr class="memdesc:ae0fe3e113f9469273f4cb53da8befc2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Holds the average filter level.  <a href="classmusic_channel.html#ae0fe3e113f9469273f4cb53da8befc2b">More...</a><br /></td></tr>
 <tr class="separator:ae0fe3e113f9469273f4cb53da8befc2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f2b8040beb320642555447b5a66f6e3"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a5f2b8040beb320642555447b5a66f6e3">sample</a> = 0</td></tr>
+<tr class="memdesc:a5f2b8040beb320642555447b5a66f6e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The raw sample will be processed to this variable.  <a href="classmusic_channel.html#a5f2b8040beb320642555447b5a66f6e3">More...</a><br /></td></tr>
 <tr class="separator:a5f2b8040beb320642555447b5a66f6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf39a8c0cf9b9ef8adca0076097f1f2f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#adf39a8c0cf9b9ef8adca0076097f1f2f">signalPrev</a> = 0.0</td></tr>
+<tr class="memdesc:adf39a8c0cf9b9ef8adca0076097f1f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Previous value of the signal.  <a href="classmusic_channel.html#adf39a8c0cf9b9ef8adca0076097f1f2f">More...</a><br /></td></tr>
 <tr class="separator:adf39a8c0cf9b9ef8adca0076097f1f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5844ae3f2c8de3acf234685076eb4c46"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a5844ae3f2c8de3acf234685076eb4c46">avgPeak</a> = 0.0</td></tr>
+<tr class="memdesc:a5844ae3f2c8de3acf234685076eb4c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Average peak signal.  <a href="classmusic_channel.html#a5844ae3f2c8de3acf234685076eb4c46">More...</a><br /></td></tr>
 <tr class="separator:a5844ae3f2c8de3acf234685076eb4c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e513831cf0645922b3edc4d43ed2765"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a8e513831cf0645922b3edc4d43ed2765">offset</a> = 512.0</td></tr>
+<tr class="memdesc:a8e513831cf0645922b3edc4d43ed2765"><td class="mdescLeft">&#160;</td><td class="mdescRight">Offset of the ADC result.  <a href="classmusic_channel.html#a8e513831cf0645922b3edc4d43ed2765">More...</a><br /></td></tr>
 <tr class="separator:a8e513831cf0645922b3edc4d43ed2765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaf497ad29b8950f29c30fe016af81aa6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#aaf497ad29b8950f29c30fe016af81aa6">avgSampleFilterBeta</a> = 0.3</td></tr>
+<tr class="memdesc:aaf497ad29b8950f29c30fe016af81aa6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter constant for average sample.  <a href="classmusic_channel.html#aaf497ad29b8950f29c30fe016af81aa6">More...</a><br /></td></tr>
 <tr class="separator:aaf497ad29b8950f29c30fe016af81aa6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95d69a86baa634edb238b45ab8c25e3c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a95d69a86baa634edb238b45ab8c25e3c">ampleFilterBeta</a> = 0.5</td></tr>
-<tr class="separator:a95d69a86baa634edb238b45ab8c25e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2d5af25903975cbbcb1a7d640182081"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#ab2d5af25903975cbbcb1a7d640182081">sampleFilterBeta</a> = 0.5</td></tr>
+<tr class="memdesc:ab2d5af25903975cbbcb1a7d640182081"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filter constant for sample.  <a href="classmusic_channel.html#ab2d5af25903975cbbcb1a7d640182081">More...</a><br /></td></tr>
+<tr class="separator:ab2d5af25903975cbbcb1a7d640182081"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e6e3196367d5e8d98eb5a867d6ee8f2"><td class="memItemLeft" align="right" valign="top">void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmusic_channel.html#a9e6e3196367d5e8d98eb5a867d6ee8f2">peakFunc</a> )(void) = NULL</td></tr>
+<tr class="memdesc:a9e6e3196367d5e8d98eb5a867d6ee8f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function pointer to peak event function.  <a href="classmusic_channel.html#a9e6e3196367d5e8d98eb5a867d6ee8f2">More...</a><br /></td></tr>
 <tr class="separator:a9e6e3196367d5e8d98eb5a867d6ee8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00041">41</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<div class="textblock"><p >This object is used to process audio data. </p>
+<p >It is basically an advanced peak detector. It detects the noise floor dynamically to adjust it to the environment. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00051">51</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a775cb1edcda5602e132e348b0db6a39e" name="a775cb1edcda5602e132e348b0db6a39e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a775cb1edcda5602e132e348b0db6a39e">&#9670;&#160;</a></span>musicChannel() <span class="overload">[1/3]</span></h2>
@@ -206,6 +229,15 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pin_p</td><td>Analog input pin. </td></tr>
+    <tr><td class="paramname">silentLimit_p</td><td>Silent limit level. It depends on the exact type of the microphone. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="music_visualizer_8cpp_source.html#l00032">32</a> of file <a class="el" href="music_visualizer_8cpp_source.html">musicVisualizer.cpp</a>.</p>
 
@@ -243,12 +275,22 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8cpp_source.html#l00039">39</a> of file <a class="el" href="music_visualizer_8cpp_source.html">musicVisualizer.cpp</a>.</p>
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pin_p</td><td>Analog input pin. </td></tr>
+    <tr><td class="paramname">silentLimit_p</td><td>Silent limit level. It depends on the exact type of the microphone. </td></tr>
+    <tr><td class="paramname">offset_p</td><td>ADC offset. It is used when the ADC data is shifted. For example to half supply. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8cpp_source.html#l00040">40</a> of file <a class="el" href="music_visualizer_8cpp_source.html">musicVisualizer.cpp</a>.</p>
 
 </div>
 </div>
-<a id="a1827a4274202e0c1f47cd801ec2c3beb" name="a1827a4274202e0c1f47cd801ec2c3beb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1827a4274202e0c1f47cd801ec2c3beb">&#9670;&#160;</a></span>musicChannel() <span class="overload">[3/3]</span></h2>
+<a id="a0cd113412993ee6ad5e110cd285ad918" name="a0cd113412993ee6ad5e110cd285ad918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cd113412993ee6ad5e110cd285ad918">&#9670;&#160;</a></span>musicChannel() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -281,7 +323,7 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>ampleFilterBeta_p</em>&#160;</td>
+          <td class="paramname"><em>sampleFilterBeta_p</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -291,7 +333,19 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8cpp_source.html#l00047">47</a> of file <a class="el" href="music_visualizer_8cpp_source.html">musicVisualizer.cpp</a>.</p>
+<p>Constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pin_p</td><td>Analog input pin. </td></tr>
+    <tr><td class="paramname">silentLimit_p</td><td>Silent limit level. It depends on the exact type of the microphone. </td></tr>
+    <tr><td class="paramname">offset_p</td><td>ADC offset. It is used when the ADC data is shifted. For example to half supply. </td></tr>
+    <tr><td class="paramname">avgSampleFilterBeta_p</td><td>Filter coefficient for the average sample data. It used by a complementary-filter. Range [ 0.0 - 1.0 ] </td></tr>
+    <tr><td class="paramname">sampleFilterBeta_p</td><td>Filter coefficient for the sample data. It used by a complementary-filter. Range [ 0.0 - 1.0 ] </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8cpp_source.html#l00049">49</a> of file <a class="el" href="music_visualizer_8cpp_source.html">musicVisualizer.cpp</a>.</p>
 
 </div>
 </div>
@@ -312,7 +366,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8cpp_source.html#l00057">57</a> of file <a class="el" href="music_visualizer_8cpp_source.html">musicVisualizer.cpp</a>.</p>
+<p>Attach a function to every peak event. </p>
+<p >You can attach a function to every peak event. It can be useful when you want to respond very fast to a peak. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">peakFunc_p</td><td>Function that will be called when a peak event occurs. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8cpp_source.html#l00060">60</a> of file <a class="el" href="music_visualizer_8cpp_source.html">musicVisualizer.cpp</a>.</p>
 
 </div>
 </div>
@@ -331,7 +393,10 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8cpp_source.html#l00063">63</a> of file <a class="el" href="music_visualizer_8cpp_source.html">musicVisualizer.cpp</a>.</p>
+<p>Update function. </p>
+<p >This function has to be called periodically with fixed timing. </p><dl class="section note"><dt>Note</dt><dd>I tested it with various sampling times, in my opinion 30ms is a good choice. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8cpp_source.html#l00067">67</a> of file <a class="el" href="music_visualizer_8cpp_source.html">musicVisualizer.cpp</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -341,30 +406,6 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a95d69a86baa634edb238b45ab8c25e3c" name="a95d69a86baa634edb238b45ab8c25e3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95d69a86baa634edb238b45ab8c25e3c">&#9670;&#160;</a></span>ampleFilterBeta</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float musicChannel::ampleFilterBeta = 0.5</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00063">63</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
-
-</div>
-</div>
 <a id="a5844ae3f2c8de3acf234685076eb4c46" name="a5844ae3f2c8de3acf234685076eb4c46"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5844ae3f2c8de3acf234685076eb4c46">&#9670;&#160;</a></span>avgPeak</h2>
 
@@ -385,7 +426,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00060">60</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>Average peak signal. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00117">117</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -409,7 +452,10 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00057">57</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>Holds the average filter level. </p>
+<p >If the signal level rises above this level, a peak event will trigger. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00108">108</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -433,7 +479,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00062">62</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>Filter constant for average sample. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00123">123</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -457,7 +505,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00061">61</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>Offset of the ADC result. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00120">120</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -473,7 +523,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00049">49</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>Flag, that indicates a peak event. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00087">87</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -497,7 +549,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00064">64</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>Function pointer to peak event function. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00129">129</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -521,7 +575,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00056">56</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>Analog input pin of the channel. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00104">104</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -545,7 +601,35 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00058">58</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>The raw sample will be processed to this variable. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00111">111</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+
+</div>
+</div>
+<a id="ab2d5af25903975cbbcb1a7d640182081" name="ab2d5af25903975cbbcb1a7d640182081"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2d5af25903975cbbcb1a7d640182081">&#9670;&#160;</a></span>sampleFilterBeta</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float musicChannel::sampleFilterBeta = 0.5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Filter constant for sample. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00126">126</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -561,7 +645,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00050">50</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>The filtered signal will be stored in this variable. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00090">90</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -577,7 +663,10 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00051">51</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>The maximum level of the signal is stored in this variable. </p>
+<p >Imagine it like a digital Vu meters output. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00094">94</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -601,7 +690,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00059">59</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>Previous value of the signal. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00114">114</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -625,7 +716,10 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00055">55</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
+<p>Silent limit. </p>
+<p >If the signal is less then this value, it wont react to peaks. It has to be tuned for the microphone and the analog stage. </p>
+
+<p class="definition">Definition at line <a class="el" href="music_visualizer_8hpp_source.html#l00101">101</a> of file <a class="el" href="music_visualizer_8hpp_source.html">musicVisualizer.hpp</a>.</p>
 
 </div>
 </div>
@@ -651,7 +745,7 @@ Here is the caller graph for this function:</div>
       <b>Viking Skull Lamp V1.0.1</b> &nbsp;|&nbsp; Generated by:
       <a href="http://www.doxygen.org/index.html">
         <img class="footer" src="doxygen.svg" alt="doxygen"/>
-      </a> on Tue Sep 27 2022
+      </a> on Fri Oct 7 2022
       <hr class="footer"/><address class="footer"><small>
         <a title="PlatformIO" href="https://registry.platformio.org/libraries/dani007200964/Shellminator/">
           <img class="footer" src="platformio_logo.png" alt="PlatformIO" style="height:20px;width:auto;"/>
@@ -663,7 +757,7 @@ Here is the caller graph for this function:</div>
         <b>Viking Skull Lamp V1.0.1</b> &nbsp;|&nbsp; Generated by:
         <a href="http://www.doxygen.org/index.html">
           <img class="footer" src="doxygen.svg" alt="doxygen"/>
-        </a> on Tue Sep 27 2022
+        </a> on Fri Oct 7 2022
       </small></address>
     </li>
   </ul>

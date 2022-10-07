@@ -1,5 +1,5 @@
 <map id="ssd1306::writeCharacter" name="ssd1306::writeCharacter">
-<area shape="rect" id="node1" title=" " alt="" coords="309,5,472,31"/>
-<area shape="rect" id="node2" href="$classssd1306.html#aeb32316ce71950e7ab27838cf56be8c6" title=" " alt="" coords="157,5,261,31"/>
-<area shape="rect" id="node3" href="$classssd1306.html#a23f7f1cc9c309b2ddc5c691e4c47d590" title=" " alt="" coords="5,5,109,31"/>
+<area shape="rect" id="node1" title="Write a character to the display." alt="" coords="309,5,472,31"/>
+<area shape="rect" id="node2" href="$classssd1306.html#aeb32316ce71950e7ab27838cf56be8c6" title="Print a c&#45;string tho the display." alt="" coords="157,5,261,31"/>
+<area shape="rect" id="node3" href="$classssd1306.html#a23f7f1cc9c309b2ddc5c691e4c47d590" title="Print number to the display." alt="" coords="5,5,109,31"/>
 </map>

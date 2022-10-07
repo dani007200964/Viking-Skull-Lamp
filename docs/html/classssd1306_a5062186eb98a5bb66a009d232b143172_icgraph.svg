@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Turn off the oled panel.">
 <polygon fill="#999999" stroke="#666666" points="423,-37 321,-37 321,-18 423,-18 423,-37"/>
 <text text-anchor="middle" x="372" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::displayOff</text>
 </a>

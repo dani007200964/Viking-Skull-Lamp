@@ -3,7 +3,6 @@ var classssd1306 =
     [ "ssd1306", "classssd1306.html#aca3b6ace4c6de8c52a9461f26beff448", null ],
     [ "begin", "classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb", null ],
     [ "clear", "classssd1306.html#ac35fc8ed03a40242a1762ef4139746f5", null ],
-    [ "clearLine", "classssd1306.html#a5854b5620e4f354c7076fdcf54ae1abb", null ],
     [ "clearPixel", "classssd1306.html#a7abfe1d522f84e2a28cd4d95ec238097", null ],
     [ "clearRect", "classssd1306.html#a75d041fc00d6eecb3fe10839e7cbea78", null ],
     [ "displayOff", "classssd1306.html#a5062186eb98a5bb66a009d232b143172", null ],

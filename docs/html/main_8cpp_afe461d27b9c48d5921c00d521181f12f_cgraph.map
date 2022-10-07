@@ -14,9 +14,9 @@
 <area shape="rect" id="node16" href="$motor_control_8cpp.html#aa6b9b6a60feed520f3227ec9a50c5e86" title="Open the font." alt="" coords="339,340,419,365"/>
 <area shape="rect" id="node17" href="$classconfiguration_manager.html#a98840390e246bd6606af1345d54458ec" title="Save configuration to EEPROM." alt="" coords="306,275,451,315"/>
 <area shape="rect" id="node19" href="$buzzer_control_8cpp.html#a510029b29e503662590cc7e69a41b744" title="Generate turn on sound." alt="" coords="327,389,430,415"/>
-<area shape="rect" id="node8" href="$classssd1306.html#a5062186eb98a5bb66a009d232b143172" title=" " alt="" coords="515,488,651,513"/>
-<area shape="rect" id="node10" href="$classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" title=" " alt="" coords="515,439,652,464"/>
-<area shape="rect" id="node9" href="$classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" title=" " alt="" coords="704,464,869,489"/>
+<area shape="rect" id="node8" href="$classssd1306.html#a5062186eb98a5bb66a009d232b143172" title="Turn off the oled panel." alt="" coords="515,488,651,513"/>
+<area shape="rect" id="node10" href="$classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" title="Turn on the oled panel." alt="" coords="515,439,652,464"/>
+<area shape="rect" id="node9" href="$classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" title="Write command to the display." alt="" coords="704,464,869,489"/>
 <area shape="rect" id="node12" href="$light_control_8cpp.html#ac63baab438299bd5074897396b600c00" title="Turn off the lighting." alt="" coords="552,587,615,612"/>
 <area shape="rect" id="node13" href="$light_control_8cpp.html#a4dc2c28dc568051bd85575dfd2082c54" title="Turn on the lighting." alt="" coords="552,537,615,563"/>
 <area shape="rect" id="node18" href="$classconfiguration_manager.html#a5ca29572d941838b46df0dcb0ab811f3" title="Maxim like crc&#45;8." alt="" coords="511,275,656,315"/>
@@ -28,5 +28,5 @@
 <area shape="rect" id="node27" href="$light_control_8cpp.html#a02a6a9031fb951ca75c2b7e8c9d7c0f7" title="Update function for the music mode." alt="" coords="301,587,456,612"/>
 <area shape="rect" id="node28" href="$light_control_8cpp.html#a9580f8c1dc2cf814e26e3e73b870d89e" title="Update function for the pulse mode." alt="" coords="303,636,455,661"/>
 <area shape="rect" id="node29" href="$light_control_8cpp.html#adb7e99a733ea745af705e33fc11c2dbf" title="Update function for the rainbow mode." alt="" coords="295,685,463,711"/>
-<area shape="rect" id="node30" href="$classmusic_channel.html#a15ae593419dfa3a15077ce490d75de3e" title=" " alt="" coords="303,735,454,760"/>
+<area shape="rect" id="node30" href="$classmusic_channel.html#a15ae593419dfa3a15077ce490d75de3e" title="Update function." alt="" coords="303,735,454,760"/>
 </map>

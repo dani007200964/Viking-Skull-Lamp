@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Clear a pixel by location.">
 <polygon fill="#999999" stroke="#666666" points="488,-56 386,-56 386,-37 488,-37 488,-56"/>
 <text text-anchor="middle" x="437" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::clearPixel</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classssd1306.html#a75d041fc00d6eecb3fe10839e7cbea78" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classssd1306.html#a75d041fc00d6eecb3fe10839e7cbea78" target="_top" xlink:title="Create a cleared rectangle.">
 <polygon fill="white" stroke="#666666" points="339.5,-93 238.5,-93 238.5,-74 339.5,-74 339.5,-93"/>
 <text text-anchor="middle" x="289" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::clearRect</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classssd1306.html#a547de6f6b0943b64628d0bb93403698a" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classssd1306.html#a547de6f6b0943b64628d0bb93403698a" target="_top" xlink:title="Print line to the display.">
 <polygon fill="white" stroke="#666666" points="326,-56 252,-56 252,-37 326,-37 326,-56"/>
 <text text-anchor="middle" x="289" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::line</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classssd1306.html#a24d76957efada045c99ca3bb71f19ec3" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classssd1306.html#a24d76957efada045c99ca3bb71f19ec3" target="_top" xlink:title="Write a character to the display.">
 <polygon fill="white" stroke="#666666" points="350,-19 228,-19 228,0 350,0 350,-19"/>
 <text text-anchor="middle" x="289" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::writeCharacter</text>
 </a>
@@ -65,7 +65,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classssd1306.html#aeb32316ce71950e7ab27838cf56be8c6" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classssd1306.html#aeb32316ce71950e7ab27838cf56be8c6" target="_top" xlink:title="Print a c&#45;string tho the display.">
 <polygon fill="white" stroke="#666666" points="192,-19 114,-19 114,0 192,0 192,-19"/>
 <text text-anchor="middle" x="153" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::print</text>
 </a>
@@ -80,7 +80,7 @@
 <!-- Node6 -->
 <g id="node6" class="node">
 <title>Node6</title>
-<g id="a_node6"><a xlink:href="classssd1306.html#a23f7f1cc9c309b2ddc5c691e4c47d590" target="_top" xlink:title=" ">
+<g id="a_node6"><a xlink:href="classssd1306.html#a23f7f1cc9c309b2ddc5c691e4c47d590" target="_top" xlink:title="Print number to the display.">
 <polygon fill="white" stroke="#666666" points="78,-19 0,-19 0,0 78,0 78,-19"/>
 <text text-anchor="middle" x="39" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::print</text>
 </a>

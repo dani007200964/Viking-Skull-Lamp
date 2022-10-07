@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['name_0',['name',['../classmenu_item.html#a47256ca26db473028e076f595eaf9fcc',1,'menuItem']]],
-  ['next_1',['next',['../classmenu_item.html#a162d8c3e3671231d22fa50154a394505',1,'menuItem']]]
+  ['offset_0',['offset',['../classmusic_channel.html#a8e513831cf0645922b3edc4d43ed2765',1,'musicChannel']]],
+  ['oled_1',['oled',['../classmenu.html#af3c2cbef5f20a26582e6fd04bf961a05',1,'menu']]]
 ];

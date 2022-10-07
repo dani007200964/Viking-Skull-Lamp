@@ -97,7 +97,6 @@ public:
     /// If it's not NULL, the menu controller will call this function
     /// instead of the regular menu behaviour if any interaction happen
     /// to this item.
-    /// @param state The menu controller will pass the event type to the function.
     void(*actionFunc)( enum encoderState_t state ) = NULL;
 
     /// Function pointer to override the drawing behaviour
@@ -105,7 +104,6 @@ public:
     /// If it's not NULL, the menu controller will call this function
     /// instead of the regular drawing behaviour. It can be useful when
     /// you nedd to control or set something.
-    /// @param oled The menu controller will pass a pointer to the display controller object. This way the overriden function will have acces to the display.
     void(*drawFunc)( ssd1306* oled ) = NULL;
 
     /// It is a pointer to a string. This string will be displayed in the menu.

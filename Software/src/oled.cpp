@@ -37,9 +37,14 @@ ssd1306::ssd1306( uint8_t address_p ){
 
 bool ssd1306::begin(){
 
+    // Initialize I2C peripheral.
     Wire.begin();
+
+    // Set the clock speed to 400kHz of the I2C bus.
     Wire.setClock( 400000 );
 
+    // Check for the presence of the display on the bus.
+    // If it fails, you may check the address.
     Wire.beginTransmission( address );
     if( Wire.endTransmission() != 0 ){
 
@@ -112,12 +117,14 @@ bool ssd1306::begin(){
     writeCommand( 0x8D );
     writeCommand( 0x14 );
 
-    // Várunk kicsit, hogy a tápegység elindujlon.
+    // We have to wait a bit. The charge pump needs some
+    // time to startup correctly.
     delay( 500 );
 
-    // Bekapcsoljuk a kijelzőt.
+    // Turn on the display.
     displayOn();
 
+    // Clear the display buffer.
     clear();
 
     return true;
@@ -126,6 +133,7 @@ bool ssd1306::begin(){
 
 void ssd1306::clear(){
 
+    // Clear the display buffer.
     memset( buffer, 0, SSD1306_WIDTH * SSD1306_HEIGHT / 8 );
   
 }
@@ -134,6 +142,7 @@ void ssd1306::update(){
 
     uint8_t i;
 
+    // Write data to the display line by line.
     for( i = 0; i < ( SSD1306_HEIGHT / 8 ); i++ ){
 
         writeCommand( (uint8_t)0xB0 + i );
@@ -150,30 +159,41 @@ void ssd1306::writeData( uint8_t* data, uint16_t dataSize ){
     uint16_t i;
     uint8_t sent;
 
+    // Begin the transmission.
     Wire.beginTransmission( address );
     Wire.write( (uint8_t)0x40 );
+
+    // On AVR we have to count the sent bytes, because
+    // Wire library can only send 32 bytes at once.
     sent = 1;
     for( i = 0; i < dataSize; i++ ){
 
-    if( sent >= 30 ){
-        
-        Wire.endTransmission();
-        Wire.beginTransmission( address );
-        Wire.write( (uint8_t)0x40 );
-        sent = 1;
-        
+        // Check if we reached the limit of the buffer.
+        if( sent >= 30 ){
+            
+            // If the buffer is full, we have to send everything
+            // and start a new transaction.
+            Wire.endTransmission();
+            Wire.beginTransmission( address );
+            Wire.write( (uint8_t)0x40 );
+            sent = 1;
+            
+        }
+
+        // Write the data.
+        Wire.write( data[ i ] );
+        sent++;
+
     }
 
-    Wire.write( data[ i ] );
-    sent++;
-
-    }
+    // Send the rest of the previous chunk.
     Wire.endTransmission();
 
 }
 
 void ssd1306::writeCommand( uint8_t command ){
 
+    // Write the command byte.
     Wire.beginTransmission( address );
     Wire.write( (uint8_t)0x00 );
     Wire.write( command );
@@ -195,6 +215,7 @@ void ssd1306::displayOff(){
 
 void ssd1306::setPixel( uint8_t x, uint8_t y ){
 
+    // Check the boundaries of the coordinates.
     if( x >= SSD1306_WIDTH ){
 
         return;
@@ -207,12 +228,14 @@ void ssd1306::setPixel( uint8_t x, uint8_t y ){
 
     }
 
+    // Set the pixel in the buffer.
     buffer[ x + ( y / 8 ) * SSD1306_WIDTH ] |= 1 << ( y % 8 );
 
 }
 
 void ssd1306::clearPixel( uint8_t x, uint8_t y ){
 
+    // Check the boundaries of the coordinates.
     if( x >= SSD1306_WIDTH ){
 
     return;
@@ -225,6 +248,7 @@ void ssd1306::clearPixel( uint8_t x, uint8_t y ){
 
     }
 
+    // Clear the pixel in the buffer.
     buffer[ x + ( y / 8 ) * SSD1306_WIDTH ] &= ~( 1 << ( y % 8 ) );
 
 }
@@ -234,6 +258,7 @@ void ssd1306::fillRect( uint8_t x, uint8_t y, uint8_t w, uint8_t h ){
     uint8_t x_iter;
     uint8_t y_iter;
 
+    // Fill the pixels of the rectangle.
     for( x_iter = x; x_iter < ( x + w ); x_iter++ ){
 
         for( y_iter = y; y_iter < ( y + h ); y_iter++ ){
@@ -251,11 +276,12 @@ void ssd1306::clearRect( uint8_t x, uint8_t y, uint8_t w, uint8_t h ){
     uint8_t x_iter;
     uint8_t y_iter;
 
+    // Clear the pixels of the rectangle.
     for( x_iter = 0; x_iter < ( x + w ); x_iter++ ){
 
         for( y_iter = 0; y_iter < ( y + h ); y_iter++ ){
 
-        clearPixel( x + x_iter, y + y_iter );
+            clearPixel( x + x_iter, y + y_iter );
 
         }
 
@@ -267,26 +293,35 @@ void ssd1306::writeCharacter( uint8_t c ){
 
     uint8_t i;
     uint8_t j;
+
+    // The character bitmaps are stored in PROGMEM.
+    // They have to be copied to a buffer before use.
     uint8_t characterData[5];
 
+    // Copy the bitmap data to the buffer.
+    // 32 has to be subtracted from the character to match the indexing.
+    // Every bitmap is 5 byte wide and they have a sixth emty bar to separate
+    // the characters.
     characterData[ 0 ] = pgm_read_byte_near( ASCII + (uint8_t)( c - 32 ) * 5 );
     characterData[ 1 ] = pgm_read_byte_near( ASCII + (uint8_t)( c - 32 ) * 5 + 1 );
     characterData[ 2 ] = pgm_read_byte_near( ASCII + (uint8_t)( c - 32 ) * 5 + 2 );
     characterData[ 3 ] = pgm_read_byte_near( ASCII + (uint8_t)( c - 32 ) * 5 + 3 );
     characterData[ 4 ] = pgm_read_byte_near( ASCII + (uint8_t)( c - 32 ) * 5 + 4 );
     
-    // Végigmegyünk a karakter öt oszlopán.
+    // Process every byte.
     for( i = 0; i < 5; i++ ){
 
-        // És minden oszlopot pixelről pixelre kirajzoljuk.
+        // Process every bit in the byte.
         for( j = 0; j < 8; j++ ){
 
+            // If not inverted and the bit is set, set the character.
             if( !!( characterData[ i ] & ( 1 << j ) ) ^ ( !!inverted ) ){
 
                 setPixel( cursorX + i , cursorY + j );
 
             }
 
+            // Else clear the character.
             else{
 
                 clearPixel( cursorX + i , cursorY + j );
@@ -297,6 +332,7 @@ void ssd1306::writeCharacter( uint8_t c ){
 
     }
 
+    // In inverted case the separator bar has to be filled.
     if( inverted ){
 
         for( j = 0; j < 8; j++ ){
@@ -307,11 +343,11 @@ void ssd1306::writeCharacter( uint8_t c ){
 
     }
 
-    // Kirajzolás után jobbra ugrasztjuk a kurzort karakterméretnyit.
+    // Step the cursor.
     cursorX += 6;
     
 
-    // Ha a kurzor túlcsordult sort is ugrunk.
+    // If the cursor overflows jump to next line and reset the cursor.
     if( cursorX > 127 ){
 
         cursorX = 0;
@@ -325,6 +361,7 @@ void ssd1306::print( char* str ){
 
     uint32_t i = 0;
 
+    // Print every character in the string.
     while( str[ i ] ){
 
         writeCharacter( str[ i ] );
@@ -338,6 +375,7 @@ void ssd1306::print( int d ){
 
     char charBuffer[ 22 ];
 
+    // Create a formatted string that contains the number and print it.
     snprintf( charBuffer, 22, "%d", d );
 
     print( charBuffer );
@@ -346,6 +384,8 @@ void ssd1306::print( int d ){
 
 void ssd1306::line( uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2 ){
 
+    // The good old Bresenham algorithm. He made a very elegant
+    // solution for line drawing.
     int m_new = 2 * ( y2 - y1 );
     int slope_error_new = m_new - ( x2 - x1 );
     int x;

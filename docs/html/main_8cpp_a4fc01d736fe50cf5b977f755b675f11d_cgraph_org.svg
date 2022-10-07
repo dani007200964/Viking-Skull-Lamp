@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" target="_top" xlink:title="Init function for the display.">
 <polygon fill="white" stroke="#666666" points="343,-864.05 260,-864.05 260,-845.05 343,-845.05 343,-864.05"/>
 <text text-anchor="middle" x="301.5" y="-852.05" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::begin</text>
 </a>
@@ -142,7 +142,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classssd1306.html#ac35fc8ed03a40242a1762ef4139746f5" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classssd1306.html#ac35fc8ed03a40242a1762ef4139746f5" target="_top" xlink:title="Clear the display.">
 <polygon fill="white" stroke="#666666" points="508.5,-864.05 428.5,-864.05 428.5,-845.05 508.5,-845.05 508.5,-864.05"/>
 <text text-anchor="middle" x="468.5" y="-852.05" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::clear</text>
 </a>
@@ -157,7 +157,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" target="_top" xlink:title="Turn on the oled panel.">
 <polygon fill="white" stroke="#666666" points="520,-75.05 417,-75.05 417,-56.05 520,-56.05 520,-75.05"/>
 <text text-anchor="middle" x="468.5" y="-63.05" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::displayOn</text>
 </a>
@@ -172,7 +172,7 @@
 <!-- Node5 -->
 <g id="node5" class="node">
 <title>Node5</title>
-<g id="a_node5"><a xlink:href="classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" target="_top" xlink:title=" ">
+<g id="a_node5"><a xlink:href="classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" target="_top" xlink:title="Write command to the display.">
 <polygon fill="white" stroke="#666666" points="680,-75.05 556,-75.05 556,-56.05 680,-56.05 680,-75.05"/>
 <text text-anchor="middle" x="618" y="-63.05" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::writeCommand</text>
 </a>
@@ -512,7 +512,7 @@
 <!-- Node32 -->
 <g id="node32" class="node">
 <title>Node32</title>
-<g id="a_node32"><a xlink:href="classssd1306.html#a5062186eb98a5bb66a009d232b143172" target="_top" xlink:title=" ">
+<g id="a_node32"><a xlink:href="classssd1306.html#a5062186eb98a5bb66a009d232b143172" target="_top" xlink:title="Turn off the oled panel.">
 <polygon fill="white" stroke="#666666" points="519.5,-37.05 417.5,-37.05 417.5,-18.05 519.5,-18.05 519.5,-37.05"/>
 <text text-anchor="middle" x="468.5" y="-25.05" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::displayOff</text>
 </a>

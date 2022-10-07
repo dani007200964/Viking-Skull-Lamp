@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Init function for the display.">
 <polygon fill="#999999" stroke="#666666" points="83,-38 0,-38 0,-19 83,-19 83,-38"/>
 <text text-anchor="middle" x="41.5" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::begin</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classssd1306.html#ac35fc8ed03a40242a1762ef4139746f5" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classssd1306.html#ac35fc8ed03a40242a1762ef4139746f5" target="_top" xlink:title="Clear the display.">
 <polygon fill="white" stroke="#666666" points="210.5,-75 130.5,-75 130.5,-56 210.5,-56 210.5,-75"/>
 <text text-anchor="middle" x="170.5" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::clear</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" target="_top" xlink:title="Turn on the oled panel.">
 <polygon fill="white" stroke="#666666" points="222,-38 119,-38 119,-19 222,-19 222,-38"/>
 <text text-anchor="middle" x="170.5" y="-26" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::displayOn</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" target="_top" xlink:title="Write command to the display.">
 <polygon fill="white" stroke="#666666" points="382,-19 258,-19 258,0 382,0 382,-19"/>
 <text text-anchor="middle" x="320" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::writeCommand</text>
 </a>

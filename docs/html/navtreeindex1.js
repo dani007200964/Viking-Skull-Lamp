@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"light_control_8cpp.html":[10,0,1,1,3],
 "light_control_8cpp.html#a02a6a9031fb951ca75c2b7e8c9d7c0f7":[10,0,1,1,3,4],
 "light_control_8cpp.html#a08e6769ebfcf03f135a24ab9862b2b68":[10,0,1,1,3,12],
 "light_control_8cpp.html#a1ad437ecb8e95e8b7e9b7ec85b882bf8":[10,0,1,1,3,17],
@@ -249,5 +248,6 @@ var NAVTREEINDEX1 =
 "menu_8cpp.html#af1ed90b4442d1f717a133fabd0f9d714":[10,0,1,1,5,27],
 "menu_8cpp.html#af3ee8b0d37244bc474229e03cb7dd8f1":[10,0,1,1,5,29],
 "menu_8cpp.html#af63afc520dcef97967678aa6dbc973b9":[10,0,1,1,5,13],
-"menu_8cpp_source.html":[10,0,1,1,5]
+"menu_8cpp_source.html":[10,0,1,1,5],
+"menu_8hpp.html":[10,0,1,0,6]
 };

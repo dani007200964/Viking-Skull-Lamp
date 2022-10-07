@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Write command to the display.">
 <polygon fill="#999999" stroke="#666666" points="605,-87.07 481,-87.07 481,-68.07 605,-68.07 605,-87.07"/>
 <text text-anchor="middle" x="543" y="-75.07" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::writeCommand</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" target="_top" xlink:title="Init function for the display.">
 <polygon fill="white" stroke="#666666" points="306,-144.07 223,-144.07 223,-125.07 306,-125.07 306,-144.07"/>
 <text text-anchor="middle" x="264.5" y="-132.07" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::begin</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
-<g id="a_node4"><a xlink:href="classssd1306.html#a5062186eb98a5bb66a009d232b143172" target="_top" xlink:title=" ">
+<g id="a_node4"><a xlink:href="classssd1306.html#a5062186eb98a5bb66a009d232b143172" target="_top" xlink:title="Turn off the oled panel.">
 <polygon fill="white" stroke="#666666" points="444.5,-69.07 342.5,-69.07 342.5,-50.07 444.5,-50.07 444.5,-69.07"/>
 <text text-anchor="middle" x="393.5" y="-57.07" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::displayOff</text>
 </a>
@@ -50,7 +50,7 @@
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" target="_top" xlink:title="Turn on the oled panel.">
 <polygon fill="white" stroke="#666666" points="445,-106.07 342,-106.07 342,-87.07 445,-87.07 445,-106.07"/>
 <text text-anchor="middle" x="393.5" y="-94.07" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::displayOn</text>
 </a>
@@ -65,7 +65,7 @@
 <!-- Node11 -->
 <g id="node11" class="node">
 <title>Node11</title>
-<g id="a_node11"><a xlink:href="classssd1306.html#a9f49989e8e3d77edd76b620ad8d02f9f" target="_top" xlink:title=" ">
+<g id="a_node11"><a xlink:href="classssd1306.html#a9f49989e8e3d77edd76b620ad8d02f9f" target="_top" xlink:title="Update the content of the panel.">
 <polygon fill="white" stroke="#666666" points="438,-32.07 349,-32.07 349,-13.07 438,-13.07 438,-32.07"/>
 <text text-anchor="middle" x="393.5" y="-20.07" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::update</text>
 </a>

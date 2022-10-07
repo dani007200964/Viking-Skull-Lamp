@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Turn on the oled panel.">
 <polygon fill="#999999" stroke="#666666" points="424,-75 321,-75 321,-56 424,-56 424,-75"/>
 <text text-anchor="middle" x="372.5" y="-63" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::displayOn</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" target="_top" xlink:title="Init function for the display.">
 <polygon fill="white" stroke="#666666" points="173.5,-131 90.5,-131 90.5,-112 173.5,-112 173.5,-131"/>
 <text text-anchor="middle" x="132" y="-119" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::begin</text>
 </a>

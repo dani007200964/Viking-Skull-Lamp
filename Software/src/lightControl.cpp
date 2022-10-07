@@ -319,7 +319,7 @@ void lightModeCandleUpdate(){
         //                    timer     speed                LED strip size    periods will be mapped    -1.0 - 1.0       0.0 - 1.0
         //                                                                                              to 0.0 - 1.0     to 0 - 255
         //         |            |          |                         |                          |           |           |
-        //         ˇ            ˇ          ˇ                         ˇ                          ˇ           ˇ           ˇ
+        //         V            V          V                         V                          V           V           V
         value = ( sin( (float)millis() / 500.0 + (float)i / (float)LIGHT_STRIP_SIZE * TWO_PI * 2.0  ) / 2.0 + 0.5 ) * 255;
 
         // Set the valie for each pixel with a mystic blue color.
@@ -559,7 +559,7 @@ void lightModeMusicUpdate(){
         //                    timer     speed                LED strip size    periods will be mapped  fact.    -1.0 - 1.0     0.0 - 1.0
         //                                                                                                      to 0.0 - 1.0   to 0 - 255
         //         |            |          |                         |                          |        |          |           |
-        //         ˇ            ˇ          ˇ                         ˇ                          ˇ        ˇ          ˇ           ˇ
+        //         V            V          V                         V                          V        V          V           V
         value = ( sin( (float)millis() / 2000.0 + (float)i / (float)LIGHT_STRIP_SIZE * TWO_PI * 2.0 + speed ) / 2.0 + 0.5 ) * 255;
 
         // Fill the pixel buffer with the calculated colors.

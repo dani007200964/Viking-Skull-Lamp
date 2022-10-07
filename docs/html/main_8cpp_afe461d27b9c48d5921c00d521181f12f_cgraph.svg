@@ -289,7 +289,7 @@ var sectionId = 'dynsection-4';
 <!-- Node8 -->
 <g id="node8" class="node">
 <title>Node8</title>
-<g id="a_node8"><a xlink:href="classssd1306.html#a5062186eb98a5bb66a009d232b143172" target="_top" xlink:title=" ">
+<g id="a_node8"><a xlink:href="classssd1306.html#a5062186eb98a5bb66a009d232b143172" target="_top" xlink:title="Turn off the oled panel.">
 <polygon fill="white" stroke="#666666" points="484.5,-377.97 382.5,-377.97 382.5,-358.97 484.5,-358.97 484.5,-377.97"/>
 <text text-anchor="middle" x="433.5" y="-365.97" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::displayOff</text>
 </a>
@@ -304,7 +304,7 @@ var sectionId = 'dynsection-4';
 <!-- Node10 -->
 <g id="node10" class="node">
 <title>Node10</title>
-<g id="a_node10"><a xlink:href="classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" target="_top" xlink:title=" ">
+<g id="a_node10"><a xlink:href="classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" target="_top" xlink:title="Turn on the oled panel.">
 <polygon fill="white" stroke="#666666" points="485,-414.97 382,-414.97 382,-395.97 485,-395.97 485,-414.97"/>
 <text text-anchor="middle" x="433.5" y="-402.97" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::displayOn</text>
 </a>
@@ -319,7 +319,7 @@ var sectionId = 'dynsection-4';
 <!-- Node9 -->
 <g id="node9" class="node">
 <title>Node9</title>
-<g id="a_node9"><a xlink:href="classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" target="_top" xlink:title=" ">
+<g id="a_node9"><a xlink:href="classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" target="_top" xlink:title="Write command to the display.">
 <polygon fill="white" stroke="#666666" points="648,-395.97 524,-395.97 524,-376.97 648,-376.97 648,-395.97"/>
 <text text-anchor="middle" x="586" y="-383.97" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::writeCommand</text>
 </a>
@@ -524,7 +524,7 @@ var sectionId = 'dynsection-4';
 <!-- Node30 -->
 <g id="node30" class="node">
 <title>Node30</title>
-<g id="a_node30"><a xlink:href="classmusic_channel.html#a15ae593419dfa3a15077ce490d75de3e" target="_top" xlink:title=" ">
+<g id="a_node30"><a xlink:href="classmusic_channel.html#a15ae593419dfa3a15077ce490d75de3e" target="_top" xlink:title="Update function.">
 <polygon fill="white" stroke="#666666" points="336.5,-192.97 223.5,-192.97 223.5,-173.97 336.5,-173.97 336.5,-192.97"/>
 <text text-anchor="middle" x="280" y="-180.97" font-family="Helvetica,sans-Serif" font-size="10.00">musicChannel::update</text>
 </a>

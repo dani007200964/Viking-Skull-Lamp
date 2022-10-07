@@ -45,7 +45,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classssd1306.html" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classssd1306.html" target="_top" xlink:title="Display driver object.">
 <polygon fill="white" stroke="#666666" points="174,-92 121,-92 121,-73 174,-73 174,-92"/>
 <text text-anchor="middle" x="147.5" y="-80" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306</text>
 </a>

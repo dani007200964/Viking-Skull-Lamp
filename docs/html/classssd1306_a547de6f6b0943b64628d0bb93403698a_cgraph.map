@@ -1,5 +1,5 @@
 <map id="ssd1306::line" name="ssd1306::line">
-<area shape="rect" id="node1" title=" " alt="" coords="5,31,104,56"/>
-<area shape="rect" id="node2" href="$classssd1306.html#a7abfe1d522f84e2a28cd4d95ec238097" title=" " alt="" coords="152,5,288,31"/>
-<area shape="rect" id="node3" href="$classssd1306.html#aaf722f3e4edc245962dacd80bf4d10ff" title=" " alt="" coords="157,55,283,80"/>
+<area shape="rect" id="node1" title="Print line to the display." alt="" coords="5,31,104,56"/>
+<area shape="rect" id="node2" href="$classssd1306.html#a7abfe1d522f84e2a28cd4d95ec238097" title="Clear a pixel by location." alt="" coords="152,5,288,31"/>
+<area shape="rect" id="node3" href="$classssd1306.html#aaf722f3e4edc245962dacd80bf4d10ff" title="Set a pixel by location." alt="" coords="157,55,283,80"/>
 </map>

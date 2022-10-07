@@ -34,13 +34,19 @@ SOFTWARE.
 #include "Wire.h"
 #include "stdint.h"
 
+/// Width of the display module in pixels.
 #define SSD1306_WIDTH 128
+
+/// Height of the display module in pixels.
 #define SSD1306_HEIGHT 32
 
+/// Font for the display.
+///
+/// Every printable character have an 8 pixel heigh, 5 pixel wide bitmap.
+/// The printable characters are start with 0x20 ( 32 in decimal ), this
+/// is a space character.
 const uint8_t ASCII[] PROGMEM = {
-    // First 32 characters (0x00-0x19) are ignored. These are
-    // non-displayable, control characters.
-    0x00, 0x00, 0x00, 0x00, 0x00 // 0x20
+    0x00, 0x00, 0x00, 0x00, 0x00  // 0x20 Space
     ,0x00, 0x00, 0x5f, 0x00, 0x00 // 0x21 !
     ,0x00, 0x07, 0x00, 0x07, 0x00 // 0x22 "
     ,0x14, 0x7f, 0x14, 0x7f, 0x14 // 0x23 #
@@ -100,7 +106,7 @@ const uint8_t ASCII[] PROGMEM = {
     ,0x07, 0x08, 0x70, 0x08, 0x07 // 0x59 Y
     ,0x61, 0x51, 0x49, 0x45, 0x43 // 0x5a Z
     ,0x00, 0x7f, 0x41, 0x41, 0x00 // 0x5b [
-    ,0x02, 0x04, 0x08, 0x10, 0x20 // 0x5c \ (keep this to escape the backslash)
+    ,0x02, 0x04, 0x08, 0x10, 0x20 // 0x5c backslash
     ,0x00, 0x41, 0x41, 0x7f, 0x00 // 0x5d ]
     ,0x04, 0x02, 0x01, 0x02, 0x04 // 0x5e ^
     ,0x40, 0x40, 0x40, 0x40, 0x40 // 0x5f _
@@ -142,39 +148,110 @@ const uint8_t ASCII[] PROGMEM = {
     ,0xFF, 0xFF, 0x7e, 0x3c, 0x00 // 0x83 Half full circle right
 };
 
-
+/// Display driver object.
+///
+/// This is a very optimized driver for the SSD1306 oled display driver.
+/// It uses ideas from lot other libraries, but it has been optimized
+/// to fit in this project. 
 class ssd1306{
 
 public:
 
+    /// Constructor
+    /// @param address_p I2C address of the display.
     ssd1306( uint8_t address_p );
-    bool begin();
-    void displayOn();
-    void displayOff();
-    void update();
-    void setPixel( uint8_t x, uint8_t y );
-    void clearPixel( uint8_t x, uint8_t y );
-    void fillRect( uint8_t x, uint8_t y, uint8_t w, uint8_t h );
-    void clearRect( uint8_t x, uint8_t y, uint8_t w, uint8_t h );
-    void writeCharacter( uint8_t c );
-    void clear();
-    void clearLine();
 
+    /// Init function for the display.
+    /// @returns Returns true if the init section succeeds.
+    bool begin();
+
+    /// Turn on the oled panel.
+    void displayOn();
+
+    /// Turn off the oled panel.
+    void displayOff();
+
+    /// Update the content of the panel.
+    ///
+    /// It writes the content of the buffer to the display.
+    /// @warning Changes on the display will only be visible after calling this function.
+    void update();
+
+    /// Set a pixel by location.
+    /// @param x X-coordinate of the pixel.
+    /// @param y Y-coordinate of the pixel.
+    void setPixel( uint8_t x, uint8_t y );
+
+    /// Clear a pixel by location.
+    /// @param x X-coordinate of the pixel.
+    /// @param y Y-coordinate of the pixel.
+    void clearPixel( uint8_t x, uint8_t y );
+
+    /// Create a filled rectangle.
+    /// @param x X-coordinate of the start corner.
+    /// @param y Y-coordinate of the start corner.
+    /// @param w Width of the rectangle.
+    /// @param h Height of the rectangle.
+    void fillRect( uint8_t x, uint8_t y, uint8_t w, uint8_t h );
+
+    /// Create a cleared rectangle.
+    /// @param x X-coordinate of the start corner.
+    /// @param y Y-coordinate of the start corner.
+    /// @param w Width of the rectangle.
+    /// @param h Height of the rectangle.
+    void clearRect( uint8_t x, uint8_t y, uint8_t w, uint8_t h );
+
+    /// Write a character to the display.
+    /// @note The cursor has to be set before this function.
+    /// @param c Character to write.
+    void writeCharacter( uint8_t c );
+
+    /// Clear the display.
+    void clear();
+
+    /// Print a c-string tho the display.
+    /// @note The cursor has to be set before this function.
+    /// @param str C-like string, that will be printed on the display.
     void print( char* str );
+
+    /// Print number to the display.
+    /// @note The cursor has to be set before this function.
+    /// @param d The number, that has o be printed on the display.
     void print( int d );
 
+    /// Print line to the display.
+    /// @param x1 X-coordinate of the start point.
+    /// @param y1 Y-coordinate of the start point.
+    /// @param x2 X-coordinate of the end point.
+    /// @param y2 Y-coordinate of the end point.
     void line( uint8_t x1, uint8_t y1, uint8_t x2, uint8_t y2 );
 
+    /// If this flag is set, the draw logic will be inverted.
+    /// That means set is black pixel, clear is lit pixel.
     bool inverted = false;
+
+    /// X-coordinate of the cursor.
     uint8_t cursorX = 0;
+
+    /// Y-coordinate of the cursor.
     uint8_t cursorY = 0;
 
 
 private:
 
+    /// Pixel buffer.
     uint8_t buffer[ SSD1306_WIDTH * SSD1306_HEIGHT / 8 ] = { 0 };
+
+    /// Write data to the display.
+    /// @param data Pointer to a byte array, that will be sent as data.
+    /// @param dataSize Size of the byte array.
     void writeData( uint8_t* data, uint16_t dataSize );
+
+    /// Write command to the display.
+    /// @param c Command byte
     void writeCommand( uint8_t c );
+
+    /// Address of the display.
     uint8_t address = 0;
   
 };

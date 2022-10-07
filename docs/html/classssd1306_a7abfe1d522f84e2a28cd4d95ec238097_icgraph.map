@@ -1,8 +1,8 @@
 <map id="ssd1306::clearPixel" name="ssd1306::clearPixel">
-<area shape="rect" id="node1" title=" " alt="" coords="520,55,656,80"/>
-<area shape="rect" id="node2" href="$classssd1306.html#a75d041fc00d6eecb3fe10839e7cbea78" title=" " alt="" coords="323,5,458,31"/>
-<area shape="rect" id="node3" href="$classssd1306.html#a547de6f6b0943b64628d0bb93403698a" title=" " alt="" coords="341,55,440,80"/>
-<area shape="rect" id="node4" href="$classssd1306.html#a24d76957efada045c99ca3bb71f19ec3" title=" " alt="" coords="309,104,472,129"/>
-<area shape="rect" id="node5" href="$classssd1306.html#aeb32316ce71950e7ab27838cf56be8c6" title=" " alt="" coords="157,104,261,129"/>
-<area shape="rect" id="node6" href="$classssd1306.html#a23f7f1cc9c309b2ddc5c691e4c47d590" title=" " alt="" coords="5,104,109,129"/>
+<area shape="rect" id="node1" title="Clear a pixel by location." alt="" coords="520,55,656,80"/>
+<area shape="rect" id="node2" href="$classssd1306.html#a75d041fc00d6eecb3fe10839e7cbea78" title="Create a cleared rectangle." alt="" coords="323,5,458,31"/>
+<area shape="rect" id="node3" href="$classssd1306.html#a547de6f6b0943b64628d0bb93403698a" title="Print line to the display." alt="" coords="341,55,440,80"/>
+<area shape="rect" id="node4" href="$classssd1306.html#a24d76957efada045c99ca3bb71f19ec3" title="Write a character to the display." alt="" coords="309,104,472,129"/>
+<area shape="rect" id="node5" href="$classssd1306.html#aeb32316ce71950e7ab27838cf56be8c6" title="Print a c&#45;string tho the display." alt="" coords="157,104,261,129"/>
+<area shape="rect" id="node6" href="$classssd1306.html#a23f7f1cc9c309b2ddc5c691e4c47d590" title="Print number to the display." alt="" coords="5,104,109,129"/>
 </map>

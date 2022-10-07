@@ -1,4 +1,4 @@
 <map id="ssd1306::displayOn" name="ssd1306::displayOn">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,143,31"/>
-<area shape="rect" id="node2" href="$classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" title=" " alt="" coords="191,5,356,31"/>
+<area shape="rect" id="node1" title="Turn on the oled panel." alt="" coords="5,5,143,31"/>
+<area shape="rect" id="node2" href="$classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" title="Write command to the display." alt="" coords="191,5,356,31"/>
 </map>

@@ -18,7 +18,7 @@ var searchData=
   ['lightcontrol_2ehpp_15',['lightControl.hpp',['../light_control_8hpp.html',1,'']]],
   ['lightinit_16',['lightInit',['../light_control_8hpp.html#a37bc85e65dd8a10e2bc2c2df2c1ca05f',1,'lightInit():&#160;lightControl.cpp'],['../light_control_8cpp.html#a37bc85e65dd8a10e2bc2c2df2c1ca05f',1,'lightInit():&#160;lightControl.cpp']]],
   ['lightmenuitem_17',['lightMenuItem',['../menu_8hpp.html#a1e5c2abc1c3243b59fef84516f50a157',1,'lightMenuItem():&#160;menu.hpp'],['../menu_8cpp.html#a7adce8af16098f97ac832550e4108789',1,'lightMenuItem():&#160;menu.cpp']]],
-  ['lightmode_18',['lightMode',['../menu_8cpp.html#a3603109fde2e852b743883c2a02a9afa',1,'lightMode():&#160;menu.cpp'],['../menu_8hpp.html#a3603109fde2e852b743883c2a02a9afa',1,'lightMode():&#160;menu.cpp']]],
+  ['lightmode_18',['lightMode',['../menu_8hpp.html#a3603109fde2e852b743883c2a02a9afa',1,'lightMode():&#160;menu.cpp'],['../menu_8cpp.html#a3603109fde2e852b743883c2a02a9afa',1,'lightMode():&#160;menu.cpp']]],
   ['lightmode_5ft_19',['lightMode_t',['../menu_8hpp.html#ab288695df30ac43bde4d4f317b783a88',1,'menu.hpp']]],
   ['lightmodecandleupdate_20',['lightModeCandleUpdate',['../light_control_8hpp.html#a936cbab2212d6c6efe113fcd4362d2af',1,'lightModeCandleUpdate():&#160;lightControl.cpp'],['../light_control_8cpp.html#a936cbab2212d6c6efe113fcd4362d2af',1,'lightModeCandleUpdate():&#160;lightControl.cpp']]],
   ['lightmodecolorupdate_21',['lightModeColorUpdate',['../light_control_8hpp.html#ac5e502533fb7bf671c8f22b73e935ad7',1,'lightModeColorUpdate():&#160;lightControl.cpp'],['../light_control_8cpp.html#ac5e502533fb7bf671c8f22b73e935ad7',1,'lightModeColorUpdate():&#160;lightControl.cpp']]],
@@ -35,6 +35,5 @@ var searchData=
   ['lightupdate_32',['lightUpdate',['../light_control_8hpp.html#a47fe68420dcb96e582ea856ee8df8e78',1,'lightUpdate():&#160;lightControl.cpp'],['../light_control_8cpp.html#a47fe68420dcb96e582ea856ee8df8e78',1,'lightUpdate():&#160;lightControl.cpp']]],
   ['line_33',['line',['../classssd1306.html#a547de6f6b0943b64628d0bb93403698a',1,'ssd1306']]],
   ['loadconfig_34',['loadConfig',['../classconfiguration_manager.html#a629bdf8057c5fd994baf023dbb36d87c',1,'configurationManager']]],
-  ['loop_35',['loop',['../main_8cpp.html#afe461d27b9c48d5921c00d521181f12f',1,'main.cpp']]],
-  ['low_36',['low',['../music_visualizer_8hpp.html#a693c80418bb0ed6685c69d1b4731ee02',1,'musicVisualizer.hpp']]]
+  ['loop_35',['loop',['../main_8cpp.html#afe461d27b9c48d5921c00d521181f12f',1,'main.cpp']]]
 ];

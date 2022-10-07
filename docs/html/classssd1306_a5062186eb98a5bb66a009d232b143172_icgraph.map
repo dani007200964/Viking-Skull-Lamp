@@ -1,5 +1,5 @@
 <map id="ssd1306::displayOff" name="ssd1306::displayOff">
-<area shape="rect" id="node1" title=" " alt="" coords="433,31,569,56"/>
+<area shape="rect" id="node1" title="Turn off the oled panel." alt="" coords="433,31,569,56"/>
 <area shape="rect" id="node2" href="$motor_control_8cpp.html#a3edea24b195ca992810885fdec367a5b" title="Close the font." alt="" coords="303,5,385,31"/>
 <area shape="rect" id="node5" href="$motor_control_8cpp.html#a978983329d511d8ab27545d8badfbd89" title="Initialize the motor." alt="" coords="145,55,217,80"/>
 <area shape="rect" id="node3" href="$main_8cpp.html#a098f004d14a561a6007a87e9a2959eb9" title="This function handles the button press detection." alt="" coords="108,5,255,31"/>

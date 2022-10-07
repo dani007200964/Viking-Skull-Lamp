@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Clear the display.">
 <polygon fill="#999999" stroke="#666666" points="276,-19 196,-19 196,0 276,0 276,-19"/>
 <text text-anchor="middle" x="236" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::clear</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classssd1306.html#a5f79efa39d47eebc8a0e17cc2a30e4fb" target="_top" xlink:title="Init function for the display.">
 <polygon fill="white" stroke="#666666" points="160,-19 77,-19 77,0 160,0 160,-19"/>
 <text text-anchor="middle" x="118.5" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::begin</text>
 </a>

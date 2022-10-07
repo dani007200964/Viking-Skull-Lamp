@@ -11,7 +11,7 @@
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
-<g id="a_node1"><a xlink:title=" ">
+<g id="a_node1"><a xlink:title="Update the content of the panel.">
 <polygon fill="#999999" stroke="#666666" points="89,-37 0,-37 0,-18 89,-18 89,-37"/>
 <text text-anchor="middle" x="44.5" y="-25" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::update</text>
 </a>
@@ -20,7 +20,7 @@
 <!-- Node2 -->
 <g id="node2" class="node">
 <title>Node2</title>
-<g id="a_node2"><a xlink:href="classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" target="_top" xlink:title=" ">
+<g id="a_node2"><a xlink:href="classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" target="_top" xlink:title="Write command to the display.">
 <polygon fill="white" stroke="#666666" points="249,-56 125,-56 125,-37 249,-37 249,-56"/>
 <text text-anchor="middle" x="187" y="-44" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::writeCommand</text>
 </a>
@@ -35,7 +35,7 @@
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
-<g id="a_node3"><a xlink:href="classssd1306.html#a2e5b436dbf766c8e46b9b6c937988b39" target="_top" xlink:title=" ">
+<g id="a_node3"><a xlink:href="classssd1306.html#a2e5b436dbf766c8e46b9b6c937988b39" target="_top" xlink:title="Write data to the display.">
 <polygon fill="white" stroke="#666666" points="237,-19 137,-19 137,0 237,0 237,-19"/>
 <text text-anchor="middle" x="187" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">ssd1306::writeData</text>
 </a>

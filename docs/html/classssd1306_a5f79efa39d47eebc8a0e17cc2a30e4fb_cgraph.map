@@ -1,6 +1,6 @@
 <map id="ssd1306::begin" name="ssd1306::begin">
-<area shape="rect" id="node1" title=" " alt="" coords="5,55,116,80"/>
-<area shape="rect" id="node2" href="$classssd1306.html#ac35fc8ed03a40242a1762ef4139746f5" title=" " alt="" coords="179,5,286,31"/>
-<area shape="rect" id="node3" href="$classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" title=" " alt="" coords="164,55,301,80"/>
-<area shape="rect" id="node4" href="$classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" title=" " alt="" coords="349,80,515,105"/>
+<area shape="rect" id="node1" title="Init function for the display." alt="" coords="5,55,116,80"/>
+<area shape="rect" id="node2" href="$classssd1306.html#ac35fc8ed03a40242a1762ef4139746f5" title="Clear the display." alt="" coords="179,5,286,31"/>
+<area shape="rect" id="node3" href="$classssd1306.html#a8ef7011e9d60ce7307650365e48e285d" title="Turn on the oled panel." alt="" coords="164,55,301,80"/>
+<area shape="rect" id="node4" href="$classssd1306.html#aefa5eaf22de34a236f038ee2f1528d18" title="Write command to the display." alt="" coords="349,80,515,105"/>
 </map>

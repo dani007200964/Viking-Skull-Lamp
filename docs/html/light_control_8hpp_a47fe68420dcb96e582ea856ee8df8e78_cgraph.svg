@@ -140,7 +140,7 @@
 <!-- Node13 -->
 <g id="node13" class="node">
 <title>Node13</title>
-<g id="a_node13"><a xlink:href="classmusic_channel.html#a15ae593419dfa3a15077ce490d75de3e" target="_top" xlink:title=" ">
+<g id="a_node13"><a xlink:href="classmusic_channel.html#a15ae593419dfa3a15077ce490d75de3e" target="_top" xlink:title="Update function.">
 <polygon fill="white" stroke="#666666" points="220.5,-19 107.5,-19 107.5,0 220.5,0 220.5,-19"/>
 <text text-anchor="middle" x="164" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">musicChannel::update</text>
 </a>
