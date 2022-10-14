@@ -84,15 +84,9 @@ to slide freely.
 
 \htmlonly
 
-<iframe
-    width="640"
-    height="480"
-    src="asm_stp006_demonstration.mp4"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+<video controls autoplay loop muted>
+  <source src="asm_stp006_demonstration.mp4">
+</video>
 
 \endhtmlonly
 
@@ -200,15 +194,9 @@ Tighten the two screws, but __not so hard__, the motor mount has to slide back a
 
 \htmlonly
 
-<iframe
-    width="640"
-    height="480"
-    src="asm_stp017_demonstration.mp4"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+<video controls autoplay loop muted>
+  <source src="asm_stp017_demonstration.mp4">
+</video>
 
 \endhtmlonly
 
@@ -409,15 +397,9 @@ rotate freely.
 
 \htmlonly
 
-<iframe
-    width="640"
-    height="480"
-    src="asm_stp035_demonstration.mp4"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+<video controls autoplay loop muted>
+  <source src="asm_stp035_demonstration.mp4">
+</video>
 
 \endhtmlonly
 
@@ -461,15 +443,9 @@ The magnet on the front panel, should __push up__ the magnet inside the display 
 
 \htmlonly
 
-<iframe
-    width="640"
-    height="480"
-    src="asm_stp038_demonstration.mp4"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+<video controls autoplay loop muted>
+  <source src="asm_stp038_demonstration.mp4">
+</video>
 
 \endhtmlonly
 
@@ -543,15 +519,9 @@ Gently push the motor mount to the front. We have to find absolute front positio
 
 \htmlonly
 
-<iframe
-    width="640"
-    height="480"
-    src="asm_stp046_demonstration.mp4"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+<video controls autoplay loop muted>
+  <source src="asm_stp046_demonstration.mp4">
+</video>
 
 \endhtmlonly
 
@@ -566,15 +536,9 @@ and crank up the voltage slowly, you should see that the mechanism opens and clo
 
 \htmlonly
 
-<iframe
-    width="640"
-    height="480"
-    src="asm_stp047_test.mp4"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+<video controls autoplay loop muted>
+  <source src="asm_stp047_test.mp4">
+</video>
 
 \endhtmlonly
 
@@ -784,15 +748,9 @@ some fog \emoji :ghost:
 
 \htmlonly
 
-<iframe
-    width="640"
-    height="480"
-    src="asm_stp062_humidifier_test_video.mp4"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
+<video controls autoplay loop muted>
+  <source src="asm_stp062_humidifier_test_video.mp4">
+</video>
 
 \endhtmlonly
 

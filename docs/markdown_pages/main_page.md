@@ -51,7 +51,7 @@ This journey consists of five stages. You have to start from the first and progr
 2. \ref print_guide "3D Printing Parts:" Next, you have to print all the necessary parts. There are some tricky ones
 so read the \ref print_guide "print guide" section carefully.
 
-3. \ref pcb_assembly "PCB Assembly:" I have designed a custom PCB for this project. It expands the functionality of
+3. \ref pcb_assembly "PCB And Cable Assembly:" I have designed a custom PCB for this project. It expands the functionality of
 the Arduino UNO platform. It controls all the peripherals in the system. The custom PCB was necessary to make the project
 fit this size.
 

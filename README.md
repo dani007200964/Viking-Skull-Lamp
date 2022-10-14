@@ -28,7 +28,7 @@ meanwhile. Here you can see what can this thing do.
 
 ## Documentation
 
-The full documentation with detailed assembly instructions can be found [here]( --MISSING-- ).
+The full documentation with detailed assembly instructions can be found [here](https://github.com/dani007200964/Viking-Skull-Lamp/html/index.html).
 
 ## Donation
 

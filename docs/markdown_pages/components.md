@@ -17,7 +17,7 @@ one incident with a cheap display module in the years, but you get the idea.
 __Techno Viking PCB Parts__
 
 This is a special topic. Because the PCB has a relatively high amount of components, I think
-it's better to handle that separately. Because the PCB designer software that I used can create
+it's better to handle that separately. Luckily the PCB designer software that I used can create
 an interactive HTML-based component list, I included that in the
 @ref how_to_get_the_right_components "How To Get PCB Components" section. It can be used for
 PCB assembly as well.

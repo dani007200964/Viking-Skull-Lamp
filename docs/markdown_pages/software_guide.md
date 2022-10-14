@@ -47,7 +47,7 @@ power chord.
 
 ![Classes And Files](classes_files_section.png)
 
-Of course, it is an open-source project, you can modify it as you like. The software
+This is an open-source project, you can modify it as you like. The software
 is no exception. I tried to comment it as much as possible to make it Doxygen compatible.
 To understand the structure and the logic behind the source code, please check out
 the __Classes__ and __Files__ section at the bottom left.
