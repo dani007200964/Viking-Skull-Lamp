@@ -1,5 +1,7 @@
 @page software_guide Software Guide
 
+![Build Status](https://github.com/dani007200964/Viking-Skull-Lamp/blob/main/.github/workflows/compile_test.yml/badge.svg?branch=main)
+
 @section environment Environment
 
 In this project, I used [Visual Studio Code](https://code.visualstudio.com/). It is an
