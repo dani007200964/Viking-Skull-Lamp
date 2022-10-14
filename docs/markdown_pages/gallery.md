@@ -25,17 +25,10 @@
 
 \htmlonly
 
-<p style="text-align: center;">
-<iframe
-    width="640"
-    height="480"
-    src="clap_pattern.mp4"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
-    display:bloc
->
-</iframe>
-</p>
+<video controls>
+  <source src="clap_pattern.mp4">
+</video>
 
 \endhtmlonly
+
+@note This clap pattern is supported by the software. It sometimes works \emoji :grimacing:
