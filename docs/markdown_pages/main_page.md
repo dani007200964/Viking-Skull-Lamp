@@ -87,7 +87,7 @@ __Used Resources:__
 * [Interactive HTML BOM](https://github.com/openscopeproject/InteractiveHtmlBom)
 * [Inkscape](https://inkscape.org/)
 * [OpenShot](https://www.openshot.org/)
-* [<model-viewer>](https://modelviewer.dev/)
+* [model-viewer](https://modelviewer.dev/)
 
 __License & Copyright__
 

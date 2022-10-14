@@ -57,7 +57,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 * [Interactive HTML BOM](https://github.com/openscopeproject/InteractiveHtmlBom)
 * [Inkscape](https://inkscape.org/)
 * [OpenShot](https://www.openshot.org/)
-* [<model-viewer>](https://modelviewer.dev/)
+* [model-viewer](https://modelviewer.dev/)
 
 ## License & Copyright
 
