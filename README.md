@@ -28,7 +28,7 @@ meanwhile. Here you can see what can this thing do.
 
 ## Documentation
 
-The full documentation with detailed assembly instructions can be found [here](https://github.com/dani007200964/Viking-Skull-Lamp/html/index.html).
+The full documentation with detailed assembly instructions can be found [here](https://dani007200964.github.io/Viking-Skull-Lamp/html/index.html).
 
 ## Donation
 
