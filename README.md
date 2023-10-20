@@ -34,7 +34,7 @@ The full documentation with detailed assembly instructions can be found [here](h
 
 If you like my work, and if it was useful for you, please consider buying me a coffee or tipping. :coffee: :coffee: :coffee:
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=YFGZD78H6K2CS)
+<a href='https://ko-fi.com/danielhajnal' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 ## Contributing
 
